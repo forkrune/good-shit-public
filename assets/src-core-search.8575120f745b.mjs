@@ -2,6 +2,7 @@ import { normalizeText, tokenize, unique } from './src-core-normalization.af19f5
 import { geometryBbox, geometryCentroid } from './src-core-geo.a34d5b20ddb0.mjs';
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { customCardSignals, isPublicCustomField } from './src-core-custom-metadata.8ebf9987f71d.mjs';
+import { foodCardHighlight, foodSearchValues } from './src-core-food.f1a7b089063a.mjs';
 
 const FIELD_WEIGHTS = Object.freeze({
   canonicalName: 12,
@@ -11,6 +12,7 @@ const FIELD_WEIGHTS = Object.freeze({
   categories: 7,
   subcategories: 6,
   tags: 6,
+  food: 8,
   geography: 5,
   custom: 5,
   whyWorthwhile: 3,
@@ -69,6 +71,7 @@ export function weightedEntityTokens(entity, customConfig) {
   addWeightedTokens(tokens, entity.categories ?? [], FIELD_WEIGHTS.categories);
   addWeightedTokens(tokens, entity.subcategories ?? [], FIELD_WEIGHTS.subcategories);
   addWeightedTokens(tokens, entity.tags ?? [], FIELD_WEIGHTS.tags);
+  addWeightedTokens(tokens, foodSearchValues(entity), FIELD_WEIGHTS.food);
   addWeightedTokens(tokens, [
     entity.location.country,
     entity.location.countryCode,
@@ -87,6 +90,7 @@ export function buildSearchDocument(entity, customConfig, imageManifest = null) 
   const latestRating = latestExternalRating(entity);
   const bbox = geometryBbox(entity.geometry);
   const centroid = geometryCentroid(entity.geometry);
+  const foodHighlight = foodCardHighlight(entity);
   return {
     id: entity.id,
     slug: entity.slug,
@@ -109,6 +113,7 @@ export function buildSearchDocument(entity, customConfig, imageManifest = null) 
     customNamespace: entity.custom.namespace,
     customFacets: customFacetValues(entity, customConfig),
     cardSignals: customCardSignals(entity, customConfig),
+    ...(foodHighlight ? { foodHighlight } : {}),
     latestExternalRating: latestRating ? {
       provider: latestRating.provider,
       rating: latestRating.rating,

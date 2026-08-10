@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/food-content.schema.json",
+  "title": "Good Shit native food content",
+  "description": "Optional rich food-domain content for entityType food. Menus are curated snapshots, not POS data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "highlights": {
+      "type": "array",
+      "maxItems": 24,
+      "items": { "$ref": "#/$defs/highlight" }
+    },
+    "menu": { "$ref": "#/$defs/menu" },
+    "images": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/imageRelationship" }
+    }
+  },
+  "$defs": {
+    "stableId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "price": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount": { "type": "number", "minimum": 0 },
+        "min": { "type": "number", "minimum": 0 },
+        "max": { "type": "number", "minimum": 0 },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "state": { "enum": ["market-price", "variable", "unknown"] },
+        "note": { "type": "string", "minLength": 1, "maxLength": 300 }
+      },
+      "oneOf": [
+        {
+          "required": ["amount", "currency"],
+          "not": { "anyOf": [{ "required": ["min"] }, { "required": ["max"] }, { "required": ["state"] }] }
+        },
+        {
+          "required": ["min", "max", "currency"],
+          "not": { "anyOf": [{ "required": ["amount"] }, { "required": ["state"] }] }
+        },
+        {
+          "required": ["state"],
+          "not": { "anyOf": [{ "required": ["amount"] }, { "required": ["min"] }, { "required": ["max"] }] }
+        }
+      ]
+    },
+    "highlight": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/stableId" },
+        "kind": { "enum": ["dish", "drink", "pastry", "ingredient", "product", "set", "market-combination", "producer-speciality", "experience", "other"] },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "localName": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 1200 },
+        "whyRecommended": { "type": "string", "minLength": 1, "maxLength": 1200 },
+        "price": { "$ref": "#/$defs/price" },
+        "dietaryNotes": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 240 }, "uniqueItems": true },
+        "availability": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "menuItemId": { "$ref": "#/$defs/stableId" }
+      }
+    },
+    "menuItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/stableId" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "localName": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "description": { "type": "string", "minLength": 1, "maxLength": 1000 },
+        "price": { "$ref": "#/$defs/price" },
+        "availability": { "type": "string", "minLength": 1, "maxLength": 500 },
+        "tags": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 240 }, "uniqueItems": true },
+        "dietaryNotes": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 240 }, "uniqueItems": true },
+        "recommended": { "type": "boolean" }
+      }
+    },
+    "menuSection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "items"],
+      "properties": {
+        "id": { "$ref": "#/$defs/stableId" },
+        "name": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "localName": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/menuItem" } }
+      }
+    },
+    "menu": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["completeness", "checkedAt", "sections"],
+      "properties": {
+        "completeness": { "enum": ["partial", "complete"] },
+        "checkedAt": { "type": "string", "format": "date-time" },
+        "sourceRefs": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "note": { "type": "string", "minLength": 1, "maxLength": 1000 },
+        "sections": { "type": "array", "minItems": 1, "maxItems": 24, "items": { "$ref": "#/$defs/menuSection" } }
+      }
+    },
+    "imageRelationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assetId", "targetType", "targetId", "alt"],
+      "properties": {
+        "assetId": { "$ref": "#/$defs/stableId" },
+        "targetType": { "enum": ["highlight", "menu-item"] },
+        "targetId": { "$ref": "#/$defs/stableId" },
+        "alt": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "caption": { "type": "string", "minLength": 1, "maxLength": 500 }
+      }
+    }
+  }
+}

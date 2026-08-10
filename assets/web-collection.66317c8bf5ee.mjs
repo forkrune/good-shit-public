@@ -1,4 +1,4 @@
-import { renderEntityGrid, renderOrphanRecord } from './web-client-render.957cac04da6b.mjs';
+import { renderEntityGrid, renderOrphanRecord } from './web-client-render.f381cd842ce0.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
 import { hydratePersonalState, showToast } from './web-app.7a0516e99293.mjs';
 import { normalizeText } from './src-core-normalization.af19f5c7bc33.mjs';

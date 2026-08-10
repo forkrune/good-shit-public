@@ -49,6 +49,7 @@ export function renderEntityCard(document, options = {}) {
   const mapHref = joinUrl(basePath, `map/?entity=${encodeURIComponent(document.id)}`);
   const tags = (document.tags ?? []).filter((tag) => tag !== 'demo').slice(0, 3).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
   const rating = document.latestExternalRating;
+  const foodSignal = document.foodHighlight ? `<span class="tag">Order: ${escapeHtml(document.foodHighlight)}</span>` : '';
   const selected = options.selectedId === document.id ? ' is-selected' : '';
   const coverHtml = renderCoverImage(document);
   return `<article class="entity-card tier-${escapeHtml(String(document.tier).toLowerCase())}${selected}" data-entity-id="${escapeHtml(document.id)}" data-entity-snapshot="${escapeHtml(safeJson(snapshot(document)))}">
@@ -62,7 +63,7 @@ export function renderEntityCard(document, options = {}) {
       ${document.localName ? `<p class="local-name">${escapeHtml(document.localName)}</p>` : ''}
       <p>${escapeHtml(document.summary)}</p>
       <div class="card-location"><span aria-hidden="true">⌖</span>${escapeHtml(locationLabel(document))}</div>
-      <div class="tag-row">${cardSignalTags(document)}${tags}</div>
+      <div class="tag-row">${foodSignal}${cardSignalTags(document)}${tags}</div>
       ${rating ? `<div class="external-rating" aria-label="Latest observed ${escapeHtml(rating.provider)} rating"><strong>${escapeHtml(Number(rating.rating).toFixed(1))}</strong> / ${escapeHtml(rating.scale)} · ${escapeHtml(Number(rating.reviewCount).toLocaleString())} reviews <span>observed ${escapeHtml(String(rating.observedAt).slice(0, 10))}</span></div>` : ''}
     </a>
     <div class="card-actions" aria-label="Personal actions for ${escapeHtml(document.name)}">

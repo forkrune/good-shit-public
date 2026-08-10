@@ -747,3 +747,131 @@
   .rating-chart-value { fill: var(--md-sys-color-on-surface); font: 800 12px var(--font-body); }
   .rating-delta { font-weight: 850; font-variant-numeric: tabular-nums; }
 }
+@layer components {
+  .food-highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-5);
+  }
+
+  .food-highlight-card {
+    overflow: hidden;
+    display: grid;
+    align-content: start;
+    background: var(--md-sys-color-surface-container-low);
+    border: 1px solid var(--md-sys-color-outline-variant);
+    border-radius: var(--shape-lg);
+  }
+
+  .food-highlight-copy {
+    display: grid;
+    gap: var(--space-3);
+    padding: var(--space-5);
+  }
+
+  .food-highlight-copy h3 { font-size: var(--text-title-large); }
+
+  .food-item-images {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    overflow: hidden;
+  }
+
+  .food-item-images figure { min-width: 0; }
+  .food-item-images figcaption {
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--text-label);
+    color: var(--md-sys-color-on-surface-variant);
+  }
+
+  .food-item-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .food-order-reason {
+    padding: var(--space-3) var(--space-4);
+    background: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-on-tertiary-container);
+    border-radius: var(--shape-sm);
+  }
+
+  .food-order-reason strong,
+  .food-facts strong { font-size: var(--text-label); text-transform: uppercase; letter-spacing: 0.04em; }
+  .food-order-reason p { margin-top: var(--space-1); }
+
+  .food-facts {
+    display: grid;
+    gap: var(--space-2);
+    color: var(--md-sys-color-on-surface-variant);
+    font-size: 0.9rem;
+  }
+
+  .food-facts span { display: grid; gap: 0.1rem; }
+
+  .food-menu-sections { display: grid; gap: var(--space-3); }
+  .food-menu-section {
+    overflow: hidden;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    border-radius: var(--shape-md);
+    background: var(--md-sys-color-surface-container-lowest);
+  }
+
+  .food-menu-section > summary {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    font-weight: 700;
+  }
+
+  .food-menu-section > summary span:first-child { display: grid; gap: 0.1rem; min-width: 0; }
+  .food-menu-section > summary small,
+  .food-menu-item dt small,
+  .food-menu-item dd > small {
+    font-weight: 400;
+    color: var(--md-sys-color-on-surface-variant);
+    overflow-wrap: anywhere;
+  }
+
+  .food-menu-list { display: grid; }
+  .food-menu-item {
+    display: grid;
+    grid-template-columns: minmax(10rem, 0.8fr) minmax(0, 1.8fr);
+    gap: var(--space-5);
+    padding: var(--space-4) var(--space-5);
+    border-top: 1px solid var(--md-sys-color-outline-variant);
+  }
+
+  .food-menu-item dt { display: grid; align-content: start; gap: 0.15rem; font-weight: 700; min-width: 0; overflow-wrap: anywhere; }
+  .food-menu-item dd { display: grid; gap: var(--space-2); min-width: 0; }
+  .food-menu-item-line { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); }
+  .food-menu-item-line span { min-width: 0; overflow-wrap: anywhere; }
+  .food-menu-item-line strong { white-space: nowrap; }
+  .food-menu-item .food-item-images { max-width: 360px; border-radius: var(--shape-sm); }
+
+  .food-recommended {
+    justify-self: start;
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--shape-pill);
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    font-size: var(--text-label);
+    font-weight: 700;
+  }
+}
+
+@layer responsive {
+  @media (max-width: 760px) {
+    .food-highlight-grid { grid-template-columns: 1fr; }
+    .food-menu-item { grid-template-columns: 1fr; gap: var(--space-2); }
+    .food-menu-item-line { align-items: flex-start; }
+    .food-menu-section > summary { padding-inline: var(--space-4); }
+    .food-menu-item { padding-inline: var(--space-4); }
+  }
+}

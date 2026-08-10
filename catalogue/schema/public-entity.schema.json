@@ -81,7 +81,14 @@
       }
     },
     "custom": { "$ref": "entity.schema.json#/$defs/customEnvelope" },
+    "food": { "$ref": "food-content.schema.json" },
     "images": { "type": "array", "items": { "$ref": "entity.schema.json#/$defs/imageReference" } },
     "demo": { "type": "boolean" }
-  }
+  },
+  "allOf": [
+    {
+      "if": { "required": ["food"] },
+      "then": { "properties": { "entityType": { "const": "food" } } }
+    }
+  ]
 }

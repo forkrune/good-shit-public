@@ -31,5 +31,9 @@
   "entity": {
     "maxImages": 8,
     "maxCoverImages": 1
+  },
+  "food": {
+    "maxImages": 12,
+    "maxImagesPerTarget": 3
   }
 }
