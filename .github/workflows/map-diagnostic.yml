@@ -17,6 +17,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Probe MapLibre CDN import
+        shell: bash
+        run: |
+          set -euo pipefail
+          MODULE='https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs'
+          curl --fail --location --max-time 15 --silent --show-error "$MODULE" -o /tmp/maplibre.mjs
+          echo "MapLibre module bytes: $(wc -c < /tmp/maplibre.mjs)"
+          cat > /tmp/import-test.html <<'HTML'
+          <!doctype html><meta charset="utf-8"><div id="status">starting</div>
+          <script type="module">
+            const status = document.querySelector('#status');
+            status.textContent = 'module script started';
+            try {
+              const module = await import('https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs');
+              status.textContent = `imported:${typeof module.Map}`;
+            } catch (error) {
+              status.textContent = `error:${error?.message ?? error}`;
+              console.error(error);
+            }
+          </script>
+          HTML
+          (cd /tmp && python3 -m http.server 8765 >/tmp/http.log 2>&1 & echo $! >/tmp/http.pid)
+          sleep 1
+          google-chrome --headless=new --no-sandbox --disable-dev-shm-usage --virtual-time-budget=12000 --dump-dom http://127.0.0.1:8765/import-test.html > /tmp/import-dom.html 2>/tmp/import-chrome.log || true
+          kill "$(cat /tmp/http.pid)" || true
+          echo '--- isolated import result ---'
+          grep -oE '<div id="status">[^<]*' /tmp/import-dom.html || true
+          grep -Ei 'error|failed|cors|module' /tmp/import-chrome.log | tail -80 || true
+
       - name: Exercise deployed map in Chrome
         shell: bash
         run: |
@@ -51,6 +80,6 @@ jobs:
             /tmp/map.png
             /tmp/map-dom.html
             /tmp/chrome.log
+            /tmp/import-dom.html
+            /tmp/import-chrome.log
           retention-days: 1
-
-# Retest after correcting MapLibre runtime version.
