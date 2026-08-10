@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6750a4">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Viewport-scoped map discovery of curated places and routes.">
+  <meta name="robots" content="noindex">
+  <title>Map · Good Shit</title>
+  <link rel="stylesheet" href="/good-shit-public/assets/styles.c829f2b924ce.css">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.css">
+  
+</head>
+<body class="map-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/good-shit-public/" aria-label="Good Shit home">
+    <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+    <span class="brand-text">Good Shit</span>
+  </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="/good-shit-public/discover/"><span aria-hidden="true">⌕</span><span>Discover</span></a>
+        <a aria-current="page" class="nav-link active" href="/good-shit-public/map/"><span aria-hidden="true">⌖</span><span>Map</span></a>
+        <a class="nav-link" href="/good-shit-public/collection/"><span aria-hidden="true">♥</span><span>My places</span></a>
+        <a class="nav-link" href="/good-shit-public/quality/"><span aria-hidden="true">◆</span><span>Quality bar</span></a>
+      </nav>
+    </div>
+  </header>
+  <aside class="demo-banner" aria-label="Demo data notice"><strong>Synthetic demo catalogue.</strong><span>Every named place in this bootstrap is fictional and exists only to exercise the product.</span></aside>
+  <main id="main-content" class="map-shell">
+    <aside class="map-sidebar" aria-label="Map findings">
+      <form id="map-filter-form" class="map-filter-form">
+        <div class="map-sidebar-head"><div class="card-topline"><h1>Explore this view</h1><strong id="map-result-count">0 results</strong></div><div class="search-field"><span aria-hidden="true">⌕</span><label class="sr-only" for="map-query">Search catalogue in this map view</label><input id="map-query" type="search" autocomplete="off" placeholder="Filter visible findings…"></div><button id="toggle-map-list" class="text-button" type="button" aria-expanded="true">Hide findings</button></div>
+        <div class="map-filter-strip" aria-label="Map filters">
+          <label class="filter-chip"><select name="category" aria-label="Category"><option value="">All categories</option><option value="architecture">Architecture (1)</option><option value="entertainment">Entertainment (1)</option><option value="food-drink">Food Drink (1)</option><option value="nature">Nature (1)</option><option value="outdoors">Outdoors (1)</option><option value="shopping">Shopping (1)</option></select></label>
+          <label class="filter-chip"><select name="entityType" aria-label="Entity type"><option value="">All types</option><option value="architecture">Architecture (1)</option><option value="entertainment">Entertainment (1)</option><option value="food">Food (1)</option><option value="hiking-route">Hiking Route (1)</option><option value="natural-poi">Natural Poi (1)</option><option value="shop">Shop (1)</option></select></label>
+          <label class="filter-chip"><input type="checkbox" name="map-tier" value="S" checked>S</label><label class="filter-chip"><input type="checkbox" name="map-tier" value="A" checked>A</label><label class="filter-chip"><input type="checkbox" name="map-tier" value="B" checked>B</label><label class="filter-chip"><input type="checkbox" name="map-tier" value="C" checked>C</label>
+          <label class="filter-chip"><input type="checkbox" name="favourite">Favourites</label>
+          <label class="filter-chip"><input type="checkbox" name="visited">Visited</label>
+          <label class="filter-chip"><input type="checkbox" name="unvisited">Unvisited</label>
+          <label class="filter-chip">Radius <select name="radius" aria-label="Near-me radius"><option value="2">2 km</option><option value="5">5 km</option><option value="10" selected>10 km</option><option value="25">25 km</option><option value="50">50 km</option></select></label>
+          <label class="filter-chip">My rating <select name="minimumPersonalRating" aria-label="Minimum personal rating"><option value="">Any</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option></select></label>
+        </div>
+      </form>
+      <section id="map-results" class="map-results" aria-live="polite"><div class="empty-state"><span aria-hidden="true">◇</span><h2>Move the map to explore curated places.</h2><p>This does not mean nothing exists here; it means nothing currently published meets or is known to meet the catalogue bar.</p></div></section>
+    </aside>
+    <div class="map-canvas-wrap">
+      <div id="map" role="application" aria-label="Interactive map of curated places"></div>
+      <div id="map-fallback" class="map-fallback"><div><span class="eyebrow">Accessible list fallback</span><h2>Loading the map…</h2><p data-map-error>The map is loaded only on this page. Findings remain available as a synchronized list.</p></div></div>
+      <form id="map-location-form" class="map-overlay top-left map-search-row" role="search"><label class="sr-only" for="map-location-query">Search for a place anywhere</label><input id="map-location-query" class="text-control" type="search" autocomplete="off" placeholder="Go to a city or address"><button class="map-control-button" type="submit">Go</button></form>
+      <div class="map-overlay top-right"><button id="near-me" class="map-control-button" type="button" aria-pressed="false">Near me</button><button id="clear-near-me" class="map-control-button" type="button" hidden>Clear radius</button></div>
+      <div class="map-overlay bottom-center"><div id="map-status" class="map-status" aria-live="polite">Loading geographic index…</div></div>
+    </div>
+  </main>
+  <dialog id="geocoder-dialog"><div class="dialog-content"><div><span class="eyebrow">OpenStreetMap search</span><h2>Choose a location</h2><p class="muted">A request is sent only after you explicitly submit the location search.</p></div><div id="geocoder-results" class="stack"></div><div class="dialog-actions"><button id="close-geocoder" class="text-button" type="button">Close</button></div></div></dialog>
+  <footer class="site-footer">
+    <div><strong>Good Shit</strong> — absence is normal; publication means there is a positive reason to go.</div>
+    <div><a href="/good-shit-public/catalogue/manifest.json">Catalogue manifest</a> · <a href="/good-shit-public/architecture/">Architecture notes</a></div>
+  </footer>
+  <div id="app-status" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script id="page-config" type="application/json">{"basePath":"/good-shit-public/","mapManifestUrl":"/good-shit-public/data/map/manifest.578a6e5d4468.json","searchManifestUrl":"/good-shit-public/data/search/manifest.55a6f0b8b2c8.json","map":{"libraryModuleUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.mjs","libraryCssUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.css","styleUrl":"https://tiles.openfreemap.org/styles/liberty","spatialShardZoom":5,"detailZoomThreshold":4,"maxViewportShards":64},"geocoding":{"provider":"nominatim","endpoint":"https://nominatim.openstreetmap.org/search"}}</script>
+  <script type="module" src="/good-shit-public/assets/web-app.7a0516e99293.mjs"></script>
+<script type="module" src="/good-shit-public/assets/web-map.ac3aecb057ad.mjs"></script>
+</body>
+</html>

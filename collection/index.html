@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6750a4">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Private favourites, visits, ratings and notes.">
+  <meta name="robots" content="noindex">
+  <title>My places · Good Shit</title>
+  <link rel="stylesheet" href="/good-shit-public/assets/styles.c829f2b924ce.css">
+  
+  
+</head>
+<body class="">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/good-shit-public/" aria-label="Good Shit home">
+    <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+    <span class="brand-text">Good Shit</span>
+  </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="/good-shit-public/discover/"><span aria-hidden="true">⌕</span><span>Discover</span></a>
+        <a class="nav-link" href="/good-shit-public/map/"><span aria-hidden="true">⌖</span><span>Map</span></a>
+        <a aria-current="page" class="nav-link active" href="/good-shit-public/collection/"><span aria-hidden="true">♥</span><span>My places</span></a>
+        <a class="nav-link" href="/good-shit-public/quality/"><span aria-hidden="true">◆</span><span>Quality bar</span></a>
+      </nav>
+    </div>
+  </header>
+  <aside class="demo-banner" aria-label="Demo data notice"><strong>Synthetic demo catalogue.</strong><span>Every named place in this bootstrap is fictional and exists only to exercise the product.</span></aside>
+  <main id="main-content" class="collection-shell">
+    <header class="page-intro"><span class="eyebrow">Private and local</span><h1>My places</h1><p>Visited state, favourites, ratings and long-form notes live in IndexedDB, outside the replaceable catalogue. Export them before clearing browser data or changing devices.</p></header>
+    <section class="collection-summary" aria-label="Personal collection summary">
+      <div class="summary-card"><strong data-summary="favourites">0</strong><span>favourites</span></div><div class="summary-card"><strong data-summary="visited">0</strong><span>visited</span></div><div class="summary-card"><strong data-summary="rated">0</strong><span>rated</span></div><div class="summary-card"><strong data-summary="notes">0</strong><span>with notes</span></div>
+    </section>
+    <section class="collection-toolbar">
+      <div class="stack"><div class="collection-tabs" role="group" aria-label="Personal collection view"><button class="filter-chip" type="button" data-collection-view="favourites" aria-pressed="false">Favourites</button><button class="filter-chip" type="button" data-collection-view="visited" aria-pressed="false">Visited</button><button class="filter-chip" type="button" data-collection-view="unvisited" aria-pressed="false">Unvisited</button><button class="filter-chip" type="button" data-collection-view="rated" aria-pressed="false">Rated</button><button class="filter-chip" type="button" data-collection-view="notes" aria-pressed="false">With notes</button><button class="filter-chip" type="button" data-collection-view="all-personal" aria-pressed="false">Any personal state</button></div><div class="field"><label for="collection-search">Filter this collection</label><input id="collection-search" type="search" placeholder="Name, place, tag or note…"></div></div>
+      <div class="button-row"><button id="export-state" class="filled-button" type="button">Export backup</button><button id="import-state" class="tonal-button" type="button">Import and merge</button><button id="open-clear-state" class="danger-button" type="button">Clear browser state</button><input id="import-state-file" type="file" accept="application/json,.json" hidden></div>
+      <p id="import-result" class="import-result" aria-live="polite"></p>
+    </section>
+    <div class="results-toolbar"><strong id="collection-count">0 places</strong><span><span data-summary="orphaned">0</span> unavailable IDs retained</span></div>
+    <section id="collection-results" aria-live="polite"></section>
+    <section id="orphan-results" class="stack-lg"></section>
+  </main>
+  <dialog id="clear-state-dialog"><div class="dialog-content"><div><span class="eyebrow">Destructive local action</span><h2>Clear all personal state?</h2></div><p>This removes visited dates, favourites, ratings, notes and orphaned records from this browser. Export first if they matter.</p><div class="dialog-actions"><button id="cancel-clear-state" class="text-button" type="button">Cancel</button><button id="confirm-clear-state" class="danger-button" type="button">Clear everything</button></div></div></dialog>
+  <footer class="site-footer">
+    <div><strong>Good Shit</strong> — absence is normal; publication means there is a positive reason to go.</div>
+    <div><a href="/good-shit-public/catalogue/manifest.json">Catalogue manifest</a> · <a href="/good-shit-public/architecture/">Architecture notes</a></div>
+  </footer>
+  <div id="app-status" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script id="page-config" type="application/json">{"basePath":"/good-shit-public/","entityReferenceUrl":"/good-shit-public/data/state/entity-references.2070f3879168.json"}</script>
+  <script type="module" src="/good-shit-public/assets/web-app.7a0516e99293.mjs"></script>
+<script type="module" src="/good-shit-public/assets/web-collection.de01a96c198c.mjs"></script>
+</body>
+</html>

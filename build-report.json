@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-10T08:51:17.162Z",
+  "basePath": "/good-shit-public/",
+  "catalogue": {
+    "total": 10,
+    "public": 6,
+    "statuses": {
+      "published": 6,
+      "rejected": 1,
+      "candidate": 1,
+      "closed": 1,
+      "needs-review": 1
+    },
+    "tiers": {
+      "S": 2,
+      "A": 2,
+      "B": 3,
+      "C": 1,
+      "D": 1,
+      "unranked": 1
+    },
+    "geometryVertices": 14
+  },
+  "warnings": [],
+  "build": {
+    "pageCount": 31,
+    "assetModuleCount": 11,
+    "mapShardCount": 4,
+    "searchShardCount": 5
+  },
+  "payloads": {
+    "initialHome": {
+      "bytes": 80006,
+      "gzipBytes": 15507
+    },
+    "initialDiscover": {
+      "bytes": 97552,
+      "gzipBytes": 19841
+    },
+    "initialMapShellExcludingExternalMapLibrary": {
+      "bytes": 91344,
+      "gzipBytes": 20866
+    },
+    "totalFingerprintJs": {
+      "bytes": 101187,
+      "gzipBytes": 29185
+    },
+    "css": {
+      "bytes": 50583,
+      "gzipBytes": 9283
+    },
+    "globalSearchIndex": {
+      "bytes": 9277,
+      "gzipBytes": 2943
+    },
+    "largestCountrySearchShard": {
+      "key": "at",
+      "bytes": 2159,
+      "gzipBytes": 1000
+    },
+    "mapOverview": {
+      "bytes": 8895,
+      "gzipBytes": 2704
+    },
+    "largestMapShard": {
+      "key": "5/17/10",
+      "bytes": 3548,
+      "gzipBytes": 1361
+    },
+    "entityReference": {
+      "bytes": 6833,
+      "gzipBytes": 2506
+    }
+  },
+  "catalogueManifest": {
+    "schemaVersion": 1,
+    "contentVersion": "2026.08-demo.1",
+    "generatedAt": "2026-08-10T08:51:17.162Z",
+    "publicationPolicy": {
+      "statuses": [
+        "published"
+      ],
+      "tiers": [
+        "S",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "counts": {
+      "total": 10,
+      "public": 6,
+      "statuses": {
+        "published": 6,
+        "rejected": 1,
+        "candidate": 1,
+        "closed": 1,
+        "needs-review": 1
+      },
+      "tiers": {
+        "S": 2,
+        "A": 2,
+        "B": 3,
+        "C": 1,
+        "D": 1,
+        "unranked": 1
+      },
+      "geometryVertices": 14
+    },
+    "packages": {
+      "entities": [
+        {
+          "url": "/good-shit-public/catalogue/packages/entities-at.5be6f38b0deb.json",
+          "bytes": 4963,
+          "gzipBytes": 1825,
+          "sha256": "5be6f38b0debf9d98c6e17721f21eae78f31a22b704c3c5b7556007e12a4cf9c",
+          "countryCode": "AT",
+          "entityCount": 2
+        },
+        {
+          "url": "/good-shit-public/catalogue/packages/entities-cz.0f34771399dd.json",
+          "bytes": 3452,
+          "gzipBytes": 1487,
+          "sha256": "0f34771399dd07aed5e0ba0f3925393e5dad2bc0b91209526476930372462882",
+          "countryCode": "CZ",
+          "entityCount": 1
+        },
+        {
+          "url": "/good-shit-public/catalogue/packages/entities-dk.f57b51a42976.json",
+          "bytes": 2469,
+          "gzipBytes": 1173,
+          "sha256": "f57b51a42976c9bce61c0d676473fa7981353a84eb2afc15afc3bb570705bfb1",
+          "countryCode": "DK",
+          "entityCount": 1
+        },
+        {
+          "url": "/good-shit-public/catalogue/packages/entities-jp.5a6a76bff191.json",
+          "bytes": 2446,
+          "gzipBytes": 1232,
+          "sha256": "5a6a76bff19116971fabbbaffc774b744e3da199056e35d2a04c1ef766bf8f23",
+          "countryCode": "JP",
+          "entityCount": 1
+        },
+        {
+          "url": "/good-shit-public/catalogue/packages/entities-pt.256478b04caa.json",
+          "bytes": 2420,
+          "gzipBytes": 1191,
+          "sha256": "256478b04caa1625868b8f7832d0b8ce7d749e1ef3f7b1a9bfdb98d2d4344c0b",
+          "countryCode": "PT",
+          "entityCount": 1
+        }
+      ],
+      "search": {
+        "url": "/good-shit-public/data/search/manifest.55a6f0b8b2c8.json",
+        "bytes": 4601,
+        "gzipBytes": 1345,
+        "sha256": "55a6f0b8b2c82c88c13ba9f011d7a88b14f906fe7afd470b70ed7e1800aa3bf2",
+        "documentCount": 6
+      },
+      "map": {
+        "url": "/good-shit-public/data/map/manifest.578a6e5d4468.json",
+        "bytes": 2776,
+        "gzipBytes": 1105,
+        "sha256": "578a6e5d446884e6ef1f6ce2b28584957c7f906afd58619b9f2b4e1b7e426efb",
+        "shardCount": 4
+      },
+      "redirects": {
+        "url": "/good-shit-public/catalogue/redirects.json"
+      },
+      "customMetadata": {
+        "url": "/good-shit-public/catalogue/custom-metadata.json"
+      },
+      "images": {
+        "registry": "/good-shit-public/catalogue/images.json",
+        "manifest": "/good-shit-public/assets/images/manifest.json",
+        "policy": "/good-shit-public/catalogue/image-policy.json"
+      },
+      "schemas": {
+        "entity": "/good-shit-public/catalogue/schema/entity.schema.json",
+        "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json",
+        "researchBatch": "/good-shit-public/catalogue/schema/research-batch.schema.json"
+      }
+    },
+    "updateStrategy": "full-refresh",
+    "personalStateContract": "independent-and-not-part-of-catalogue-packages"
+  }
+}

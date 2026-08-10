@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "maxBytes": 8388608,
+    "allowedExtensions": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".webp"
+    ],
+    "maxPixels": 24000000
+  },
+  "output": {
+    "format": "webp",
+    "quality": 78,
+    "variants": [
+      {
+        "width": 480,
+        "maxBytes": 92160
+      },
+      {
+        "width": 960,
+        "maxBytes": 184320
+      },
+      {
+        "width": 1440,
+        "maxBytes": 307200
+      }
+    ]
+  },
+  "entity": {
+    "maxImages": 8,
+    "maxCoverImages": 1
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "namespaces": {
+    "food": {
+      "label": "Food & drink",
+      "fields": {
+        "cuisines": { "type": "string-array", "required": true, "minItems": 1, "searchable": true, "facet": true, "label": "Cuisine" },
+        "speciality": { "type": "string", "searchable": true, "label": "Speciality" },
+        "notableDishes": { "type": "string-array", "searchable": true, "label": "Notable dishes" },
+        "mealTypes": { "type": "enum-array", "values": ["breakfast", "lunch", "dinner", "snack", "drinks"], "facet": true, "label": "Meal type" },
+        "priceLevel": { "type": "enum", "values": ["low", "moderate", "high", "premium"], "facet": true, "label": "Price level" },
+        "value": { "type": "enum", "values": ["exceptional", "strong", "fair", "poor"], "facet": true, "label": "Value" },
+        "dietarySuitability": { "type": "string-array", "searchable": true, "facet": true, "label": "Dietary suitability" },
+        "reservations": { "type": "enum", "values": ["not-needed", "recommended", "required", "unavailable"], "facet": true, "label": "Reservations" },
+        "takeaway": { "type": "boolean", "facet": true, "label": "Takeaway" },
+        "orderingNotes": { "type": "string", "searchable": true, "label": "Ordering notes" }
+      }
+    },
+    "hiking": {
+      "label": "Hiking route",
+      "fields": {
+        "distanceKm": { "type": "number", "required": true, "min": 0.1, "max": 1000, "label": "Distance (km)" },
+        "ascentM": { "type": "integer", "required": true, "min": 0, "max": 20000, "label": "Ascent (m)" },
+        "descentM": { "type": "integer", "required": true, "min": 0, "max": 20000, "label": "Descent (m)" },
+        "durationMinutes": { "type": "integer", "required": true, "min": 1, "max": 100000, "label": "Duration" },
+        "difficulty": { "type": "enum", "required": true, "values": ["easy", "moderate", "hard", "expert"], "facet": true, "label": "Difficulty" },
+        "surface": { "type": "string-array", "searchable": true, "facet": true, "label": "Surface" },
+        "routeType": { "type": "enum", "required": true, "values": ["loop", "out-and-back", "point-to-point", "network"], "facet": true, "label": "Route type" },
+        "seasonality": { "type": "enum-array", "values": ["spring", "summer", "autumn", "winter", "year-round"], "facet": true, "label": "Seasonality" },
+        "waymarking": { "type": "enum", "values": ["clear", "partial", "unmarked"], "facet": true, "label": "Waymarking" }
+      }
+    },
+    "entertainment": {
+      "label": "Entertainment",
+      "fields": {
+        "format": { "type": "enum", "required": true, "values": ["cinema", "live-music", "theatre", "museum", "games", "other"], "facet": true, "label": "Format" },
+        "genres": { "type": "string-array", "searchable": true, "facet": true, "label": "Genres" },
+        "indoor": { "type": "boolean", "facet": true, "label": "Indoor" },
+        "typicalDurationMinutes": { "type": "integer", "min": 1, "max": 10000, "label": "Typical duration" },
+        "bookingAdvice": { "type": "string", "searchable": true, "label": "Booking advice" },
+        "accessibilityNotes": { "type": "string", "searchable": true, "label": "Accessibility" }
+      }
+    },
+    "natural": {
+      "label": "Natural place",
+      "fields": {
+        "features": { "type": "string-array", "required": true, "minItems": 1, "searchable": true, "facet": true, "label": "Natural features" },
+        "access": { "type": "enum", "values": ["easy", "moderate", "demanding", "restricted"], "facet": true, "label": "Access" },
+        "seasonality": { "type": "enum-array", "values": ["spring", "summer", "autumn", "winter", "year-round"], "facet": true, "label": "Seasonality" },
+        "typicalDurationMinutes": { "type": "integer", "min": 1, "max": 10000, "label": "Typical duration" },
+        "swimming": { "type": "boolean", "facet": true, "label": "Swimming" }
+      }
+    },
+    "architecture": {
+      "label": "Architecture",
+      "fields": {
+        "periods": { "type": "string-array", "searchable": true, "facet": true, "label": "Periods" },
+        "styles": { "type": "string-array", "searchable": true, "facet": true, "label": "Styles" },
+        "access": { "type": "enum", "values": ["exterior", "interior", "guided-only", "restricted"], "facet": true, "label": "Access" },
+        "typicalDurationMinutes": { "type": "integer", "min": 1, "max": 10000, "label": "Typical duration" }
+      }
+    },
+    "retail": {
+      "label": "Shop",
+      "fields": {
+        "specialities": { "type": "string-array", "required": true, "minItems": 1, "searchable": true, "facet": true, "label": "Specialities" },
+        "priceLevel": { "type": "enum", "values": ["low", "moderate", "high", "premium"], "facet": true, "label": "Price level" },
+        "appointmentRecommended": { "type": "boolean", "facet": true, "label": "Appointment recommended" }
+      }
+    },
+    "experience": {
+      "label": "Experience",
+      "fields": {
+        "experienceKinds": { "type": "string-array", "required": true, "minItems": 1, "searchable": true, "facet": true, "label": "Experience type" },
+        "booking": { "type": "enum", "values": ["not-needed", "recommended", "required"], "facet": true, "label": "Booking" },
+        "typicalDurationMinutes": { "type": "integer", "min": 1, "max": 10000, "label": "Typical duration" },
+        "indoor": { "type": "boolean", "facet": true, "label": "Indoor" }
+      }
+    }
+  }
+}

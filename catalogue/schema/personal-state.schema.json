@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/personal-state.schema.json",
+  "title": "Good Shit portable personal state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "schemaVersion",
+    "exportedAt",
+    "records",
+    "orphanedEntityState"
+  ],
+  "properties": {
+    "format": {
+      "const": "good-shit-personal-state"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "exportedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "orphanedEntityState": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "importConflicts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "$defs": {
+    "timestampedBoolean": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "updatedAt"
+      ],
+      "properties": {
+        "value": {
+          "type": "boolean"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion",
+        "entityId",
+        "snapshot",
+        "favourite",
+        "visited",
+        "personalRating",
+        "notes",
+        "conflicts",
+        "updatedAt"
+      ],
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "entityId": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "snapshot": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "updatedAt"
+          ],
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "slug": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "countryCode": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tier": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "updatedAt": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "favourite": {
+          "$ref": "#/$defs/timestampedBoolean"
+        },
+        "visited": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "dates",
+            "updatedAt"
+          ],
+          "properties": {
+            "value": {
+              "type": "boolean"
+            },
+            "dates": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "date"
+              },
+              "uniqueItems": true
+            },
+            "updatedAt": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "personalRating": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "scale",
+            "updatedAt"
+          ],
+          "properties": {
+            "value": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 5
+            },
+            "scale": {
+              "const": 5
+            },
+            "updatedAt": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "notes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "updatedAt"
+          ],
+          "properties": {
+            "value": {
+              "type": "string",
+              "maxLength": 50000
+            },
+            "updatedAt": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "conflicts": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

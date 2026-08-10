@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "redirects": [
+    {
+      "fromId": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "disposition": "merged",
+      "toId": "11111111-1111-4111-8111-111111111111",
+      "effectiveAt": "2026-08-01T00:00:00.000Z",
+      "reason": "Synthetic example of an immutable-ID duplicate merge."
+    }
+  ],
+  "tombstones": [
+    {
+      "id": "99999999-9999-4999-8999-999999999999",
+      "status": "closed",
+      "effectiveAt": "2026-07-01T00:00:00.000Z",
+      "replacementId": null,
+      "reason": "Synthetic example retained so personal state can remain intelligible after removal."
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6750a4">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Search and filter the curated catalogue.">
+  <meta name="robots" content="noindex">
+  <title>Discover · Good Shit</title>
+  <link rel="stylesheet" href="/good-shit-public/assets/styles.c829f2b924ce.css">
+  
+  
+</head>
+<body class="">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/good-shit-public/" aria-label="Good Shit home">
+    <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+    <span class="brand-text">Good Shit</span>
+  </a>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a aria-current="page" class="nav-link active" href="/good-shit-public/discover/"><span aria-hidden="true">⌕</span><span>Discover</span></a>
+        <a class="nav-link" href="/good-shit-public/map/"><span aria-hidden="true">⌖</span><span>Map</span></a>
+        <a class="nav-link" href="/good-shit-public/collection/"><span aria-hidden="true">♥</span><span>My places</span></a>
+        <a class="nav-link" href="/good-shit-public/quality/"><span aria-hidden="true">◆</span><span>Quality bar</span></a>
+      </nav>
+    </div>
+  </header>
+  <aside class="demo-banner" aria-label="Demo data notice"><strong>Synthetic demo catalogue.</strong><span>Every named place in this bootstrap is fictional and exists only to exercise the product.</span></aside>
+  <main id="main-content" class="page-shell">
+    <header class="page-intro"><span class="eyebrow">Global catalogue search</span><h1>Find something worth going to.</h1><p>Names, aliases, local names, descriptions, geography, cuisine, dishes, tags and configured custom metadata are indexed at build time.</p></header>
+    <form id="discover-form" class="search-panel" role="search">
+      <div class="search-row">
+        <div class="search-field"><span aria-hidden="true">⌕</span><label class="sr-only" for="global-search">Search the catalogue</label><input id="global-search" name="q" type="search" autocomplete="off" placeholder="Try ramen, cedar, cinema, Vienna…"><button id="clear-search" class="icon-button clear-search" type="button" title="Clear search" hidden><span aria-hidden="true">×</span><span class="sr-only">Clear search</span></button></div>
+        <button class="tonal-button" type="submit"><span aria-hidden="true">⌕</span><span class="button-label">Search</span></button>
+      </div>
+      <div id="discover-loading" class="loading-line" aria-hidden="true"></div>
+      <div class="filters">
+        <div class="field"><label for="country-filter">Country</label><select id="country-filter" name="country"><option value="">Every country</option><option value="CZ">Czechia (1)</option><option value="AT">Austria (2)</option><option value="JP">Japan (1)</option><option value="PT">Portugal (1)</option><option value="DK">Denmark (1)</option></select></div>
+        <div class="field"><label for="type-filter">Entity type</label><select id="type-filter" name="entityType"><option value="">Every type</option><option value="architecture">Architecture (1)</option><option value="entertainment">Entertainment (1)</option><option value="food">Food (1)</option><option value="hiking-route">Hiking Route (1)</option><option value="natural-poi">Natural Poi (1)</option><option value="shop">Shop (1)</option></select></div>
+        <div class="field"><label for="category-filter">Category</label><select id="category-filter" name="category"><option value="">Every category</option><option value="architecture">Architecture (1)</option><option value="entertainment">Entertainment (1)</option><option value="food-drink">Food Drink (1)</option><option value="nature">Nature (1)</option><option value="outdoors">Outdoors (1)</option><option value="shopping">Shopping (1)</option></select></div>
+        <div class="field"><label for="sort-filter">Sort</label><select id="sort-filter" name="sort"><option value="editorial">Editorial tier</option><option value="name">Name</option><option value="external-rating">Latest external rating</option><option value="personal-rating">My rating</option></select></div>
+      </div>
+      <div class="filter-chip-row" aria-label="Editorial tiers"><label class="filter-chip"><input type="checkbox" name="tier" value="S" checked><span>S · Exceptional</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="A" checked><span>A · Excellent</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="B" checked><span>B · Very good</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="C" checked><span>C · Good</span></label></div>
+      <details class="advanced-filters"><summary>Personal and domain filters</summary><div class="filters">
+        <div class="field"><label for="facet-food.cuisines">Cuisine</label><select id="facet-food.cuisines" data-facet-key="food.cuisines"><option value="">Any</option><option value="Japanese">Japanese (1)</option></select></div><div class="field"><label for="facet-food.mealTypes">Meal type</label><select id="facet-food.mealTypes" data-facet-key="food.mealTypes"><option value="">Any</option><option value="dinner">Dinner (1)</option><option value="lunch">Lunch (1)</option></select></div><div class="field"><label for="facet-food.priceLevel">Price level</label><select id="facet-food.priceLevel" data-facet-key="food.priceLevel"><option value="">Any</option><option value="moderate">Moderate (1)</option></select></div><div class="field"><label for="facet-food.value">Value</label><select id="facet-food.value" data-facet-key="food.value"><option value="">Any</option><option value="exceptional">Exceptional (1)</option></select></div><div class="field"><label for="facet-food.dietarySuitability">Dietary suitability</label><select id="facet-food.dietarySuitability" data-facet-key="food.dietarySuitability"><option value="">Any</option><option value="vegetarian-options">Vegetarian Options (1)</option></select></div><div class="field"><label for="facet-food.reservations">Reservations</label><select id="facet-food.reservations" data-facet-key="food.reservations"><option value="">Any</option><option value="not-needed">Not Needed (1)</option></select></div><div class="field"><label for="facet-food.takeaway">Takeaway</label><select id="facet-food.takeaway" data-facet-key="food.takeaway"><option value="">Any</option><option value="true">True (1)</option></select></div><div class="field"><label for="facet-hiking.difficulty">Difficulty</label><select id="facet-hiking.difficulty" data-facet-key="hiking.difficulty"><option value="">Any</option><option value="moderate">Moderate (1)</option></select></div><div class="field"><label for="facet-hiking.surface">Surface</label><select id="facet-hiking.surface" data-facet-key="hiking.surface"><option value="">Any</option><option value="forest path">Forest Path (1)</option><option value="rocky trail">Rocky Trail (1)</option></select></div><div class="field"><label for="facet-hiking.routeType">Route type</label><select id="facet-hiking.routeType" data-facet-key="hiking.routeType"><option value="">Any</option><option value="loop">Loop (1)</option></select></div><div class="field"><label for="facet-hiking.seasonality">Seasonality</label><select id="facet-hiking.seasonality" data-facet-key="hiking.seasonality"><option value="">Any</option><option value="autumn">Autumn (1)</option><option value="summer">Summer (1)</option></select></div><div class="field"><label for="facet-hiking.waymarking">Waymarking</label><select id="facet-hiking.waymarking" data-facet-key="hiking.waymarking"><option value="">Any</option><option value="clear">Clear (1)</option></select></div><div class="field"><label for="facet-entertainment.format">Format</label><select id="facet-entertainment.format" data-facet-key="entertainment.format"><option value="">Any</option><option value="cinema">Cinema (1)</option></select></div><div class="field"><label for="facet-entertainment.genres">Genres</label><select id="facet-entertainment.genres" data-facet-key="entertainment.genres"><option value="">Any</option><option value="experimental-film">Experimental Film (1)</option><option value="restorations">Restorations (1)</option></select></div><div class="field"><label for="facet-entertainment.indoor">Indoor</label><select id="facet-entertainment.indoor" data-facet-key="entertainment.indoor"><option value="">Any</option><option value="true">True (1)</option></select></div><div class="field"><label for="facet-natural.features">Natural features</label><select id="facet-natural.features" data-facet-key="natural.features"><option value="">Any</option><option value="cedar forest">Cedar Forest (1)</option><option value="morning mist">Morning Mist (1)</option><option value="valley viewpoint">Valley Viewpoint (1)</option></select></div><div class="field"><label for="facet-natural.access">Access</label><select id="facet-natural.access" data-facet-key="natural.access"><option value="">Any</option><option value="easy">Easy (1)</option></select></div><div class="field"><label for="facet-natural.seasonality">Seasonality</label><select id="facet-natural.seasonality" data-facet-key="natural.seasonality"><option value="">Any</option><option value="autumn">Autumn (1)</option><option value="spring">Spring (1)</option></select></div><div class="field"><label for="facet-natural.swimming">Swimming</label><select id="facet-natural.swimming" data-facet-key="natural.swimming"><option value="">Any</option><option value="false">False (1)</option></select></div><div class="field"><label for="facet-architecture.periods">Periods</label><select id="facet-architecture.periods" data-facet-key="architecture.periods"><option value="">Any</option><option value="contemporary reuse">Contemporary Reuse (1)</option><option value="late nineteenth century">Late Nineteenth Century (1)</option></select></div><div class="field"><label for="facet-architecture.styles">Styles</label><select id="facet-architecture.styles" data-facet-key="architecture.styles"><option value="">Any</option><option value="azulejo">Azulejo (1)</option><option value="industrial">Industrial (1)</option></select></div><div class="field"><label for="facet-architecture.access">Access</label><select id="facet-architecture.access" data-facet-key="architecture.access"><option value="">Any</option><option value="interior">Interior (1)</option></select></div><div class="field"><label for="facet-retail.specialities">Specialities</label><select id="facet-retail.specialities" data-facet-key="retail.specialities"><option value="">Any</option><option value="bookbinding tools">Bookbinding Tools (1)</option><option value="fountain-pen paper">Fountain Pen Paper (1)</option><option value="Japanese paper">Japanese Paper (1)</option></select></div><div class="field"><label for="facet-retail.priceLevel">Price level</label><select id="facet-retail.priceLevel" data-facet-key="retail.priceLevel"><option value="">Any</option><option value="moderate">Moderate (1)</option></select></div><div class="field"><label for="facet-retail.appointmentRecommended">Appointment recommended</label><select id="facet-retail.appointmentRecommended" data-facet-key="retail.appointmentRecommended"><option value="">Any</option><option value="false">False (1)</option></select></div>
+        <div class="field"><label for="minimum-personal-rating">Minimum personal rating</label><select id="minimum-personal-rating" name="minimumPersonalRating"><option value="">Any</option><option value="1">1 / 5</option><option value="2">2 / 5</option><option value="3">3 / 5</option><option value="4">4 / 5</option><option value="5">5 / 5</option></select></div>
+      </div><div class="filter-chip-row"><label class="filter-chip"><input type="checkbox" name="favourite">Favourites</label><label class="filter-chip"><input type="checkbox" name="visited">Visited</label><label class="filter-chip"><input type="checkbox" name="unvisited">Unvisited</label><label class="filter-chip"><input type="checkbox" name="rated">Personally rated</label><label class="filter-chip"><input type="checkbox" name="withNotes">With notes</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div></details>
+    </form>
+    <div class="results-toolbar"><div id="discover-count"><strong>6</strong> curated results</div><span>Public set: S / A / B / C only</span></div>
+    <section id="discover-results" aria-live="polite"><div class="entity-grid"><article class="entity-card tier-s" data-entity-id="11111111-1111-4111-8111-111111111111" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Lantern Noodle Counter&quot;,&quot;slug&quot;:&quot;demo-lantern-noodle-counter&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;S&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-lantern-noodle-counter/">
+      <div class="card-media"><img class="card-image" src="/good-shit-public/assets/images/demo-cover.fd9acb7277b2.1440.webp" srcset="/good-shit-public/assets/images/demo-cover.fd9acb7277b2.480.webp 480w, /good-shit-public/assets/images/demo-cover.fd9acb7277b2.960.webp 480w, /good-shit-public/assets/images/demo-cover.fd9acb7277b2.1440.webp 480w" sizes="(max-width: 760px) 100vw, 320px" width="480" height="300" alt="Synthetic gradient used to verify responsive image processing" loading="lazy" decoding="async"></div>
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">◉</span>food</span>
+        <span class="tier-chip tier-s" aria-label="Tier S: Exceptional"><strong>S</strong> Exceptional</span>
+      </div>
+      <h3>Demo — Lantern Noodle Counter</h3>
+      <p class="local-name">Demo — Lucernový nudlový pult</p>
+      <p>Synthetic Prague food record showing a destination-worthy, specialist counter.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Prague 1 · Prague · Czechia</div>
+      <div class="tag-row"><span class="tag">specialist</span><span class="tag">casual</span></div>
+      <div class="external-rating" aria-label="Latest observed Google Maps rating"><strong>4.8</strong> / 5 · 510 reviews <span>observed 2026-08-01</span></div>
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Lantern Noodle Counter">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=11111111-1111-4111-8111-111111111111" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="44444444-4444-4444-8444-444444444444" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Alpine Window Loop&quot;,&quot;slug&quot;:&quot;demo-alpine-window-loop&quot;,&quot;countryCode&quot;:&quot;AT&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-alpine-window-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Demo — Alpine Window Loop</h3>
+      <p class="local-name">Demo — Alpenfenster-Runde</p>
+      <p>Synthetic Salzburg hiking route demonstrating a first-class line geometry and route facts.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Salzburg · Austria</div>
+      <div class="tag-row"><span class="tag">loop</span><span class="tag">mountain-view</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Alpine Window Loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=44444444-4444-4444-8444-444444444444" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="22222222-2222-4222-8222-222222222222" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Prism Microcinema&quot;,&quot;slug&quot;:&quot;demo-prism-cinema&quot;,&quot;countryCode&quot;:&quot;AT&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-prism-cinema/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">▶</span>entertainment</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Demo — Prism Microcinema</h3>
+      <p class="local-name">Demo — Prisma Mikrokino</p>
+      <p>Synthetic Vienna microcinema record with specialist programming and intimate screenings.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Innere Stadt · Vienna · Austria</div>
+      <div class="tag-row"><span class="tag">independent</span><span class="tag">film</span></div>
+      <div class="external-rating" aria-label="Latest observed Google Maps rating"><strong>4.7</strong> / 5 · 148 reviews <span>observed 2026-08-02</span></div>
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Prism Microcinema">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=22222222-2222-4222-8222-222222222222" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-b" data-entity-id="33333333-3333-4333-8333-333333333333" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Cedar Mist Overlook&quot;,&quot;slug&quot;:&quot;demo-cedar-mist-overlook&quot;,&quot;countryCode&quot;:&quot;JP&quot;,&quot;tier&quot;:&quot;B&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-cedar-mist-overlook/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">⌁</span>natural poi</span>
+        <span class="tier-chip tier-b" aria-label="Tier B: Very good"><strong>B</strong> Very good</span>
+      </div>
+      <h3>Demo — Cedar Mist Overlook</h3>
+      <p class="local-name">デモ・杉霧展望台</p>
+      <p>Synthetic Kyoto natural viewpoint demonstrating multilingual names and seasonal metadata.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Kyoto · Kyoto Prefecture · Japan</div>
+      <div class="tag-row"><span class="tag">forest</span><span class="tag">view</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Cedar Mist Overlook">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=33333333-3333-4333-8333-333333333333" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-b" data-entity-id="66666666-6666-4666-8666-666666666666" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Tide Arcade Courtyard&quot;,&quot;slug&quot;:&quot;demo-tide-arcade-courtyard&quot;,&quot;countryCode&quot;:&quot;PT&quot;,&quot;tier&quot;:&quot;B&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-tide-arcade-courtyard/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">◇</span>architecture</span>
+        <span class="tier-chip tier-b" aria-label="Tier B: Very good"><strong>B</strong> Very good</span>
+      </div>
+      <h3>Demo — Tide Arcade Courtyard</h3>
+      <p class="local-name">Demo — Pátio da Arcada da Maré</p>
+      <p>Synthetic Lisbon architectural area demonstrating polygon geometry and design-period facets.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Lisbon · Lisbon District · Portugal</div>
+      <div class="tag-row"><span class="tag">tiles</span><span class="tag">adaptive-reuse</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Tide Arcade Courtyard">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=66666666-6666-4666-8666-666666666666" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-c" data-entity-id="55555555-5555-4555-8555-555555555555" data-entity-snapshot="{&quot;name&quot;:&quot;Demo — Northlight Paper Shop&quot;,&quot;slug&quot;:&quot;demo-northlight-paper-shop&quot;,&quot;countryCode&quot;:&quot;DK&quot;,&quot;tier&quot;:&quot;C&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/demo-northlight-paper-shop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">▣</span>shop</span>
+        <span class="tier-chip tier-c" aria-label="Tier C: Good"><strong>C</strong> Good</span>
+      </div>
+      <h3>Demo — Northlight Paper Shop</h3>
+      <p class="local-name">Demo — Nordlys Papirhandel</p>
+      <p>Synthetic Copenhagen specialist shop showing retail metadata and a minimum C-tier pass.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Copenhagen · Capital Region · Denmark</div>
+      <div class="tag-row"><span class="tag">paper</span><span class="tag">craft</span></div>
+      <div class="external-rating" aria-label="Latest observed Google Maps rating"><strong>4.5</strong> / 5 · 74 reviews <span>observed 2026-08-03</span></div>
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Demo — Northlight Paper Shop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=55555555-5555-4555-8555-555555555555" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article></div></section>
+  </main>
+  <footer class="site-footer">
+    <div><strong>Good Shit</strong> — absence is normal; publication means there is a positive reason to go.</div>
+    <div><a href="/good-shit-public/catalogue/manifest.json">Catalogue manifest</a> · <a href="/good-shit-public/architecture/">Architecture notes</a></div>
+  </footer>
+  <div id="app-status" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script id="page-config" type="application/json">{"basePath":"/good-shit-public/","searchManifestUrl":"/good-shit-public/data/search/manifest.55a6f0b8b2c8.json"}</script>
+  <script type="module" src="/good-shit-public/assets/web-app.7a0516e99293.mjs"></script>
+<script type="module" src="/good-shit-public/assets/web-discover.a21d9b28b97e.mjs"></script>
+</body>
+</html>
