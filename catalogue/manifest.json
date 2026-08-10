@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-japan-food.1",
-  "generatedAt": "2026-08-10T14:21:35.622Z",
+  "generatedAt": "2026-08-10T15:08:47.688Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -30,26 +30,26 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.6bab9c07d966.json",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.14b2faac7370.json",
         "bytes": 415354,
         "gzipBytes": 69070,
-        "sha256": "6bab9c07d966e69dbe8060cbed7e11ca87d243f45ba7b6808e77aaa7bed32e14",
+        "sha256": "14b2faac7370138627a6a0755a4e5aa8630292e815870cf60398ac8374c2f05f",
         "countryCode": "JP",
         "entityCount": 82
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.5c30290b936d.json",
+      "url": "/good-shit-public/data/search/manifest.228a8fcff144.json",
       "bytes": 3879,
-      "gzipBytes": 1242,
-      "sha256": "5c30290b936de6be8f3c4b50068ae211d1383f73aadb279b5a0e181a64cbf521",
+      "gzipBytes": 1241,
+      "sha256": "228a8fcff144660ee54883cb05e7529f087dd2dd1846d76c279157b423f01159",
       "documentCount": 82
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.00f172fcea8f.json",
+      "url": "/good-shit-public/data/map/manifest.b12585330806.json",
       "bytes": 20191,
-      "gzipBytes": 6255,
-      "sha256": "00f172fcea8fd07b95a3d9522261165f39c8b0d41faf9ed3419aef2c7457154f",
+      "gzipBytes": 6257,
+      "sha256": "b12585330806bc9879783615729bb01b6ea5738d25dd14169c0c93d9038cdca4",
       "shardCount": 4
     },
     "redirects": {
