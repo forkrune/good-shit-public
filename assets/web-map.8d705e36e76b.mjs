@@ -19,6 +19,10 @@ const locationInput = document.querySelector('#map-location-query');
 const geocoderDialog = document.querySelector('#geocoder-dialog');
 const geocoderResults = document.querySelector('#geocoder-results');
 const sidebar = document.querySelector('.map-sidebar');
+const mapShell = document.querySelector('.map-shell');
+const sidebarHead = document.querySelector('.map-sidebar-head');
+const filterStrip = document.querySelector('.map-filter-strip');
+const toggleMapListButton = document.querySelector('#toggle-map-list');
 
 let map = null;
 let maplibregl = null;
@@ -44,6 +48,98 @@ function fetchJson(url, options = {}) {
     if (!response.ok) throw new Error(`Could not load ${url} (${response.status}).`);
     return response.json();
   });
+}
+
+function withTimeout(promise, milliseconds, label) {
+  let timeoutId;
+  const timeout = new Promise((_, reject) => {
+    timeoutId = setTimeout(() => reject(new Error(`${label} did not load within ${Math.round(milliseconds / 1000)} seconds.`)), milliseconds);
+  });
+  return Promise.race([promise, timeout]).finally(() => clearTimeout(timeoutId));
+}
+
+function supportsWebGl2() {
+  try {
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('webgl2', { failIfMajorPerformanceCaveat: false });
+    if (!context) return false;
+    context.getExtension('WEBGL_lose_context')?.loseContext();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function fitOverviewDocuments(documents) {
+  if (!map || !documents?.length) return;
+  const boxes = documents.map((document) => document.bbox).filter((bbox) => Array.isArray(bbox) && bbox.length === 4);
+  if (!boxes.length) return;
+  const west = Math.min(...boxes.map((bbox) => bbox[0]));
+  const south = Math.min(...boxes.map((bbox) => bbox[1]));
+  const east = Math.max(...boxes.map((bbox) => bbox[2]));
+  const north = Math.max(...boxes.map((bbox) => bbox[3]));
+  if (![west, south, east, north].every(Number.isFinite)) return;
+  if (east - west > 300) {
+    map.jumpTo({ center: [0, 20], zoom: 1.5 });
+    return;
+  }
+  map.fitBounds([[west, south], [east, north]], {
+    padding: { top: 80, right: 80, bottom: 80, left: 80 },
+    maxZoom: 4,
+    duration: 0
+  });
+}
+
+function applyResponsiveMapLayout() {
+  const desktop = matchMedia('(min-width: 721px)').matches;
+  const collapsed = sidebar?.classList.contains('is-collapsed') ?? false;
+  const headDetails = sidebarHead ? [...sidebarHead.children].filter((element) => element !== toggleMapListButton) : [];
+  const collapsible = [...headDetails, filterStrip, resultsElement].filter(Boolean);
+
+  if (!desktop) {
+    if (mapShell) mapShell.style.gridTemplateColumns = '';
+    for (const element of collapsible) element.hidden = false;
+    if (sidebarHead) {
+      sidebarHead.style.display = '';
+      sidebarHead.style.padding = '';
+      sidebarHead.style.justifyItems = '';
+    }
+    if (toggleMapListButton) {
+      toggleMapListButton.style.writingMode = '';
+      toggleMapListButton.style.transform = '';
+      toggleMapListButton.style.width = '';
+      toggleMapListButton.style.padding = '';
+    }
+    if (filterStrip) {
+      filterStrip.style.flexWrap = '';
+      filterStrip.style.overflowX = '';
+      filterStrip.style.overflowY = '';
+      filterStrip.style.maxHeight = '';
+    }
+    requestAnimationFrame(() => map?.resize());
+    return;
+  }
+
+  if (mapShell) mapShell.style.gridTemplateColumns = collapsed ? '64px minmax(0, 1fr)' : '';
+  for (const element of collapsible) element.hidden = collapsed;
+  if (sidebarHead) {
+    sidebarHead.style.display = collapsed ? 'grid' : '';
+    sidebarHead.style.padding = collapsed ? '8px' : '';
+    sidebarHead.style.justifyItems = collapsed ? 'center' : '';
+  }
+  if (toggleMapListButton) {
+    toggleMapListButton.style.writingMode = collapsed ? 'vertical-rl' : '';
+    toggleMapListButton.style.transform = collapsed ? 'rotate(180deg)' : '';
+    toggleMapListButton.style.width = collapsed ? '48px' : '';
+    toggleMapListButton.style.padding = collapsed ? '10px 4px' : '';
+  }
+  if (filterStrip && !collapsed) {
+    filterStrip.style.flexWrap = 'wrap';
+    filterStrip.style.overflowX = 'hidden';
+    filterStrip.style.overflowY = 'auto';
+    filterStrip.style.maxHeight = '132px';
+  }
+  requestAnimationFrame(() => map?.resize());
 }
 
 function loadMapManifest() {
@@ -390,52 +486,86 @@ function scheduleViewportRefresh(delay = 180) {
   moveTimer = setTimeout(() => void refreshViewport(), delay);
 }
 
+async function showMapFallback(error) {
+  console.error(error);
+  try {
+    map?.remove();
+  } catch (removeError) {
+    console.warn('Could not dispose failed map instance:', removeError);
+  }
+  map = null;
+  mapReady = false;
+  fallbackElement.hidden = false;
+  fallbackElement.querySelector('[data-map-error]').textContent = error?.message ?? 'The interactive map could not be loaded.';
+  const overview = await loadOverview().catch(() => ({ documents: [], featureCollection: featureCollection() }));
+  currentDocuments = overview.documents ?? [];
+  currentFeatureById = new Map((overview.featureCollection?.features ?? []).map((feature) => [feature.properties.id, feature]));
+  renderList();
+  applyResponsiveMapLayout();
+  setStatus('Interactive map unavailable; showing the accessible catalogue list.');
+}
+
 async function initialiseMap() {
   try {
-    const [libraryModule, manifest] = await Promise.all([
-      import(config.map.libraryModuleUrl),
-      loadMapManifest()
+    if (!supportsWebGl2()) {
+      throw new Error('This browser cannot provide WebGL 2, which the interactive map requires.');
+    }
+    setStatus('Loading map renderer…');
+    const [libraryModule, manifest, overview] = await Promise.all([
+      withTimeout(import(config.map.libraryModuleUrl), 10_000, 'Map renderer'),
+      withTimeout(loadMapManifest(), 10_000, 'Geographic index'),
+      withTimeout(loadOverview(), 10_000, 'Catalogue overview')
     ]);
+    currentDocuments = overview.documents ?? [];
+    currentFeatureById = new Map((overview.featureCollection?.features ?? []).map((feature) => [feature.properties.id, feature]));
+    renderList();
+    applyResponsiveMapLayout();
+
     maplibregl = libraryModule.default ?? libraryModule;
     map = new maplibregl.Map({
       container: mapElement,
       style: config.map.styleUrl,
-      center: [12, 48],
-      zoom: 3.2,
-      minZoom: 1.5,
+      center: [0, 20],
+      zoom: 1.5,
+      minZoom: 1.25,
       maxZoom: 18,
-      cooperativeGestures: true,
+      cooperativeGestures: false,
       attributionControl: true
     });
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
-    map.on('load', async () => {
-      installSourcesAndLayers();
-      fallbackElement.hidden = true;
-      if (selectedId && manifest.entityIndex[selectedId]) {
-        const target = manifest.entityIndex[selectedId];
-        const [west, south, east, north] = target.bbox;
-        if (target.geometryType === 'Point') map.jumpTo({ center: target.centroid, zoom: 13 });
-        else map.fitBounds([[west, south], [east, north]], { padding: 80, maxZoom: 13, duration: 0 });
-      }
-      await refreshViewport();
-      if (selectedId) selectEntity(selectedId);
-    });
     map.on('moveend', () => scheduleViewportRefresh());
     map.on('error', (event) => {
       if (event?.error) console.warn('MapLibre:', event.error.message);
     });
+
+    await withTimeout(new Promise((resolve, reject) => {
+      map.once('load', async () => {
+        try {
+          installSourcesAndLayers();
+          if (selectedId && manifest.entityIndex[selectedId]) {
+            const target = manifest.entityIndex[selectedId];
+            const [west, south, east, north] = target.bbox;
+            if (target.geometryType === 'Point') map.jumpTo({ center: target.centroid, zoom: 13 });
+            else map.fitBounds([[west, south], [east, north]], { padding: 80, maxZoom: 13, duration: 0 });
+          } else {
+            fitOverviewDocuments(overview.documents ?? []);
+          }
+          await refreshViewport();
+          if (selectedId) selectEntity(selectedId);
+          fallbackElement.hidden = true;
+          map.resize();
+          resolve();
+        } catch (error) {
+          reject(error);
+        }
+      });
+    }), 15_000, 'Interactive map');
   } catch (error) {
-    console.error(error);
-    fallbackElement.hidden = false;
-    fallbackElement.querySelector('[data-map-error]').textContent = error.message ?? 'The map library could not be loaded.';
-    const overview = await loadOverview().catch(() => ({ documents: [] }));
-    currentDocuments = overview.documents ?? [];
-    currentFeatureById = new Map((overview.featureCollection?.features ?? []).map((feature) => [feature.properties.id, feature]));
-    renderList();
-    setStatus('Map unavailable; showing the accessible list alternative.');
+    await showMapFallback(error);
   }
 }
+
 
 async function locateUser() {
   if (!navigator.geolocation) {
@@ -522,11 +652,13 @@ document.querySelector('#clear-near-me')?.addEventListener('click', () => {
   document.querySelector('#clear-near-me').hidden = true;
   void refreshViewport();
 });
-document.querySelector('#toggle-map-list')?.addEventListener('click', (event) => {
+toggleMapListButton?.addEventListener('click', (event) => {
   const collapsed = sidebar.classList.toggle('is-collapsed');
   event.currentTarget.setAttribute('aria-expanded', String(!collapsed));
   event.currentTarget.textContent = collapsed ? 'Show findings' : 'Hide findings';
+  applyResponsiveMapLayout();
 });
+window.addEventListener('resize', applyResponsiveMapLayout, { passive: true });
 
 filterForm.addEventListener('change', () => {
   if (nearMe) nearMe.radiusKm = Number(filterForm.elements.radius?.value || 10);
