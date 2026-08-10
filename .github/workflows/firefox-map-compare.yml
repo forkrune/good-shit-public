@@ -26,16 +26,15 @@ jobs:
       - name: Compare v6 and v5 in Firefox
         shell: bash
         run: |
-          cat > /tmp/compare.mjs <<'JS'
+          cat > ./compare.mjs <<'JS'
           import { firefox } from 'playwright';
-          import fs from 'node:fs';
           import http from 'node:http';
 
           const html = (version) => version === 'v6' ? `<!doctype html><meta charset="utf-8"><style>html,body,#map{margin:0;width:100%;height:100%;background:#ff00ff}#status{position:fixed;z-index:2;top:0;left:0;background:white;color:black;padding:8px}</style><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.css"><div id="map"></div><div id="status">starting</div><script type="module">import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs'; const status=document.querySelector('#status'); try { const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[14.42,50.08],zoom:10}); map.on('load',()=>{map.addSource('probe',{type:'geojson',data:{type:'Feature',geometry:{type:'Point',coordinates:[14.42,50.08]},properties:{}}});map.addLayer({id:'probe',type:'circle',source:'probe',paint:{'circle-color':'#ff0000','circle-radius':18,'circle-stroke-color':'#ffffff','circle-stroke-width':4}}); status.textContent='loaded';}); map.on('error',e=>console.error('MAPERR',e.error?.message||e)); } catch(e){status.textContent='error:'+e.message;console.error(e)}</script>` : `<!doctype html><meta charset="utf-8"><style>html,body,#map{margin:0;width:100%;height:100%;background:#ff00ff}#status{position:fixed;z-index:2;top:0;left:0;background:white;color:black;padding:8px}</style><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css"><div id="map"></div><div id="status">starting</div><script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script><script>const status=document.querySelector('#status'); try { const map=new maplibregl.Map({container:'map',style:'https://tiles.openfreemap.org/styles/liberty',center:[14.42,50.08],zoom:10}); map.on('load',()=>{map.addSource('probe',{type:'geojson',data:{type:'Feature',geometry:{type:'Point',coordinates:[14.42,50.08]},properties:{}}});map.addLayer({id:'probe',type:'circle',source:'probe',paint:{'circle-color':'#ff0000','circle-radius':18,'circle-stroke-color':'#ffffff','circle-stroke-width':4}}); status.textContent='loaded';}); map.on('error',e=>console.error('MAPERR',e.error?.message||e)); } catch(e){status.textContent='error:'+e.message;console.error(e)}</script>`;
 
           const server=http.createServer((req,res)=>{const version=req.url?.includes('v5')?'v5':'v6';res.writeHead(200,{'content-type':'text/html'});res.end(html(version));});
           await new Promise(r=>server.listen(8765,'127.0.0.1',r));
-          const browser=await firefox.launch({headless:true});
+          const browser=await firefox.launch({headless:true, firefoxUserPrefs:{'webgl.disabled':false,'webgl.force-enabled':true}});
           for (const version of ['v6','v5']) {
             const page=await browser.newPage({viewport:{width:1280,height:800}});
             const logs=[]; page.on('console',m=>logs.push(`${m.type()}: ${m.text()}`)); page.on('pageerror',e=>logs.push(`pageerror: ${e.message}`));
@@ -49,10 +48,12 @@ jobs:
           }
           await browser.close(); server.close();
           JS
-          node /tmp/compare.mjs | tee /tmp/firefox-compare.log
+          node ./compare.mjs | tee /tmp/firefox-compare.log
+          rm -f ./compare.mjs
           sudo apt-get update -qq && sudo apt-get install -y imagemagick >/dev/null
           for f in /tmp/v6.png /tmp/v5.png; do echo "--- $f ---"; identify "$f"; convert "$f" -resize 1x1\! txt:- | tail -1; done
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: firefox-map-compare
           path: |
