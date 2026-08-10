@@ -26,6 +26,7 @@ const toggleMapListButton = document.querySelector('#toggle-map-list');
 
 let map = null;
 let maplibregl = null;
+let mapResizeObserver = null;
 let popup = null;
 let userMarker = null;
 let mapReady = false;
@@ -58,40 +59,46 @@ function withTimeout(promise, milliseconds, label) {
   return Promise.race([promise, timeout]).finally(() => clearTimeout(timeoutId));
 }
 
-function loadMapLibrary() {
-  if (globalThis.maplibregl?.Map) return Promise.resolve(globalThis.maplibregl);
-  return withTimeout(new Promise((resolve, reject) => {
-    const existing = document.querySelector('script[data-maplibre-runtime]');
-    if (existing) {
-      existing.addEventListener('load', () => globalThis.maplibregl?.Map
-        ? resolve(globalThis.maplibregl)
-        : reject(new Error('Map renderer loaded without exposing MapLibre.')), { once: true });
-      existing.addEventListener('error', () => reject(new Error('Map renderer script failed to load.')), { once: true });
-      return;
-    }
-    const script = document.createElement('script');
-    script.src = config.map.libraryModuleUrl;
-    script.async = true;
-    script.dataset.maplibreRuntime = 'true';
-    script.addEventListener('load', () => globalThis.maplibregl?.Map
-      ? resolve(globalThis.maplibregl)
-      : reject(new Error('Map renderer loaded without exposing MapLibre.')), { once: true });
-    script.addEventListener('error', () => reject(new Error('Map renderer script failed to load.')), { once: true });
-    document.head.append(script);
-  }), 10_000, 'Map renderer');
+async function loadMapLibrary() {
+  return withTimeout(import(config.map.libraryModuleUrl), 10_000, 'MapLibre renderer');
 }
 
-function supportsWebGl() {
+function supportsWebGl2() {
   try {
     const canvas = document.createElement('canvas');
-    const context = canvas.getContext('webgl', { failIfMajorPerformanceCaveat: false })
-      ?? canvas.getContext('experimental-webgl', { failIfMajorPerformanceCaveat: false });
+    const context = canvas.getContext('webgl2', { failIfMajorPerformanceCaveat: false });
     if (!context) return false;
     context.getExtension('WEBGL_lose_context')?.loseContext();
     return true;
   } catch {
     return false;
   }
+}
+
+function hasUsableMapSize() {
+  const rect = mapElement.getBoundingClientRect();
+  return rect.width >= 32 && rect.height >= 32;
+}
+
+function waitForUsableMapSize(timeoutMs = 5000) {
+  if (hasUsableMapSize()) return Promise.resolve();
+  return withTimeout(new Promise((resolve) => {
+    const observer = new ResizeObserver(() => {
+      if (!hasUsableMapSize()) return;
+      observer.disconnect();
+      resolve();
+    });
+    observer.observe(mapElement);
+  }), timeoutMs, 'Map container layout');
+}
+
+function observeMapSize() {
+  mapResizeObserver?.disconnect();
+  mapResizeObserver = new ResizeObserver(() => {
+    if (!hasUsableMapSize() || !map) return;
+    requestAnimationFrame(() => map?.resize());
+  });
+  mapResizeObserver.observe(mapElement);
 }
 
 function fitOverviewDocuments(documents) {
@@ -531,10 +538,8 @@ async function showMapFallback(error) {
 
 async function initialiseMap() {
   try {
-    if (!supportsWebGl()) {
-      throw new Error('This browser cannot provide WebGL, which the interactive map requires.');
-    }
-    setStatus('Loading map renderer…');
+    if (!supportsWebGl2()) throw new Error('This browser cannot provide WebGL 2, which MapLibre 6 requires.');
+    setStatus('Preparing map layout…');
     const [libraryModule, manifest, overview] = await Promise.all([
       loadMapLibrary(),
       withTimeout(loadMapManifest(), 10_000, 'Geographic index'),
@@ -544,8 +549,9 @@ async function initialiseMap() {
     currentFeatureById = new Map((overview.featureCollection?.features ?? []).map((feature) => [feature.properties.id, feature]));
     renderList();
     applyResponsiveMapLayout();
+    await waitForUsableMapSize();
 
-    maplibregl = libraryModule;
+    maplibregl = libraryModule.default ?? libraryModule;
     map = new maplibregl.Map({
       container: mapElement,
       style: config.map.styleUrl,
@@ -554,12 +560,9 @@ async function initialiseMap() {
       minZoom: 1.25,
       maxZoom: 18,
       cooperativeGestures: false,
-      attributionControl: true,
-      canvasContextAttributes: {
-        contextType: 'webgl',
-        failIfMajorPerformanceCaveat: false
-      }
+      attributionControl: true
     });
+    observeMapSize();
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
     map.on('moveend', () => scheduleViewportRefresh());
@@ -593,7 +596,6 @@ async function initialiseMap() {
     await showMapFallback(error);
   }
 }
-
 
 async function locateUser() {
   if (!navigator.geolocation) {
