@@ -38,18 +38,18 @@
       </div>
       <div id="discover-loading" class="loading-line" aria-hidden="true"></div>
       <div class="filters">
-        <div class="field"><label for="country-filter">Country</label><select id="country-filter" name="country"><option value="">Every country</option><option value="JP">Japan (82)</option></select></div>
-        <div class="field"><label for="type-filter">Entity type</label><select id="type-filter" name="entityType"><option value="">Every type</option><option value="food">Food (82)</option></select></div>
-        <div class="field"><label for="category-filter">Category</label><select id="category-filter" name="category"><option value="">Every category</option><option value="food-drink">Food Drink (82)</option><option value="regional-cuisine">Regional Cuisine (11)</option><option value="traditional-japanese-restaurant">Traditional Japanese Restaurant (11)</option><option value="noodles">Noodles (9)</option><option value="fermentation-seasoning">Fermentation Seasoning (7)</option><option value="street-takeaway-food">Street Takeaway Food (5)</option><option value="wagashi-traditional-sweets">Wagashi Traditional Sweets (5)</option><option value="casual-everyday-japanese-food">Casual Everyday Japanese Food (4)</option><option value="food-experience-workshop">Food Experience Workshop (4)</option><option value="food-museum-cultural-institution">Food Museum Cultural Institution (4)</option><option value="sake-alcohol-production">Sake Alcohol Production (4)</option><option value="fine-dining">Fine Dining (3)</option><option value="food-craft-manufacturing">Food Craft Manufacturing (3)</option><option value="meat-grill">Meat Grill (3)</option><option value="seafood-fishing-port-food">Seafood Fishing Port Food (3)</option><option value="market-food-district">Market Food District (2)</option><option value="sushi-raw-seafood">Sushi Raw Seafood (2)</option><option value="izakaya-drinking-food">Izakaya Drinking Food (1)</option><option value="tea">Tea (1)</option></select></div>
+        <div class="field"><label for="country-filter">Country</label><select id="country-filter" name="country"><option value="">Every country</option><option value="JP">Japan (82)</option><option value="CZ">Czechia (10)</option></select></div>
+        <div class="field"><label for="type-filter">Entity type</label><select id="type-filter" name="entityType"><option value="">Every type</option><option value="food">Food (82)</option><option value="hiking-route">Hiking Route (10)</option></select></div>
+        <div class="field"><label for="category-filter">Category</label><select id="category-filter" name="category"><option value="">Every category</option><option value="food-drink">Food Drink (82)</option><option value="regional-cuisine">Regional Cuisine (11)</option><option value="traditional-japanese-restaurant">Traditional Japanese Restaurant (11)</option><option value="hiking">Hiking (10)</option><option value="noodles">Noodles (9)</option><option value="nature">Nature (8)</option><option value="fermentation-seasoning">Fermentation Seasoning (7)</option><option value="street-takeaway-food">Street Takeaway Food (5)</option><option value="wagashi-traditional-sweets">Wagashi Traditional Sweets (5)</option><option value="casual-everyday-japanese-food">Casual Everyday Japanese Food (4)</option><option value="food-experience-workshop">Food Experience Workshop (4)</option><option value="food-museum-cultural-institution">Food Museum Cultural Institution (4)</option><option value="sake-alcohol-production">Sake Alcohol Production (4)</option><option value="fine-dining">Fine Dining (3)</option><option value="food-craft-manufacturing">Food Craft Manufacturing (3)</option><option value="geology">Geology (3)</option><option value="historical-landscape">Historical Landscape (3)</option><option value="meat-grill">Meat Grill (3)</option><option value="seafood-fishing-port-food">Seafood Fishing Port Food (3)</option><option value="market-food-district">Market Food District (2)</option><option value="river">River (2)</option><option value="sushi-raw-seafood">Sushi Raw Seafood (2)</option><option value="borderland">Borderland (1)</option><option value="botany">Botany (1)</option><option value="cliffs">Cliffs (1)</option><option value="forest">Forest (1)</option><option value="gorge">Gorge (1)</option><option value="izakaya-drinking-food">Izakaya Drinking Food (1)</option><option value="meadow">Meadow (1)</option><option value="ruins">Ruins (1)</option><option value="sandstone">Sandstone (1)</option><option value="seasonal">Seasonal (1)</option><option value="tea">Tea (1)</option></select></div>
         <div class="field"><label for="sort-filter">Sort</label><select id="sort-filter" name="sort"><option value="editorial">Editorial tier</option><option value="name">Name</option><option value="external-rating">Latest external rating</option><option value="personal-rating">My rating</option></select></div>
       </div>
       <div class="filter-chip-row" aria-label="Editorial tiers"><label class="filter-chip"><input type="checkbox" name="tier" value="S" checked><span>S · Exceptional</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="A" checked><span>A · Excellent</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="B" checked><span>B · Very good</span></label><label class="filter-chip"><input type="checkbox" name="tier" value="C" checked><span>C · Good</span></label></div>
       <details class="advanced-filters"><summary>Personal and domain filters</summary><div class="filters">
-        <div class="field"><label for="facet-food.primaryCategory">Food category</label><select id="facet-food.primaryCategory" data-facet-key="food.primaryCategory"><option value="">Any</option><option value="Regional Cuisine">Regional Cuisine (11)</option><option value="Traditional Japanese Restaurant">Traditional Japanese Restaurant (11)</option><option value="Noodles">Noodles (9)</option><option value="Fermentation &amp; Seasoning">Fermentation &amp; Seasoning (7)</option><option value="Street / Takeaway Food">Street / Takeaway Food (5)</option><option value="Wagashi &amp; Traditional Sweets">Wagashi &amp; Traditional Sweets (5)</option><option value="Casual / Everyday Japanese Food">Casual / Everyday Japanese Food (4)</option><option value="Food Experience / Workshop">Food Experience / Workshop (4)</option><option value="Food Museum / Cultural Institution">Food Museum / Cultural Institution (4)</option><option value="Sake &amp; Alcohol Production">Sake &amp; Alcohol Production (4)</option><option value="Fine Dining">Fine Dining (3)</option><option value="Food Craft &amp; Manufacturing">Food Craft &amp; Manufacturing (3)</option><option value="Meat &amp; Grill">Meat &amp; Grill (3)</option><option value="Seafood &amp; Fishing-Port Food">Seafood &amp; Fishing Port Food (3)</option><option value="Market &amp; Food District">Market &amp; Food District (2)</option><option value="Sushi &amp; Raw Seafood">Sushi &amp; Raw Seafood (2)</option><option value="Izakaya &amp; Drinking Food">Izakaya &amp; Drinking Food (1)</option><option value="Tea">Tea (1)</option></select></div><div class="field"><label for="facet-food.japanRegion">Japan region</label><select id="facet-food.japanRegion" data-facet-key="food.japanRegion"><option value="">Any</option><option value="Chubu">Chubu (17)</option><option value="Kyushu">Kyushu (14)</option><option value="Tohoku">Tohoku (11)</option><option value="Kanto">Kanto (10)</option><option value="Kansai">Kansai (9)</option><option value="Chugoku">Chugoku (6)</option><option value="Shikoku">Shikoku (6)</option><option value="Okinawa">Okinawa (4)</option><option value="Hokkaido">Hokkaido (2)</option><option value="Kanto Islands">Kanto Islands (2)</option><option value="Kyushu Islands">Kyushu Islands (1)</option></select></div><div class="field"><label for="facet-food.value">Value</label><select id="facet-food.value" data-facet-key="food.value"><option value="">Any</option><option value="good">Good (35)</option><option value="fair">Fair (23)</option><option value="expensive-but-defensible">Expensive But Defensible (12)</option><option value="exceptional">Exceptional (10)</option><option value="unknown">Unknown (2)</option></select></div><div class="field"><label for="facet-food.reservationClass">Reservation class</label><select id="facet-food.reservationClass" data-facet-key="food.reservationClass"><option value="">Any</option><option value="walk-in">Walk In (39)</option><option value="recommended">Recommended (21)</option><option value="required">Required (20)</option><option value="difficult">Difficult (2)</option></select></div><div class="field"><label for="facet-food.englishAccess">English accessibility</label><select id="facet-food.englishAccess" data-facet-key="food.englishAccess"><option value="">Any</option><option value="B">B (43)</option><option value="C">C (24)</option><option value="A">A (13)</option><option value="D">D (2)</option></select></div><div class="field"><label for="facet-food.localRecognition">Local recognition</label><select id="facet-food.localRecognition" data-facet-key="food.localRecognition"><option value="">Any</option><option value="High">High (73)</option><option value="Medium">Medium (9)</option></select></div><div class="field"><label for="facet-food.japaneseSpecialistRecognition">Japanese specialist recognition</label><select id="facet-food.japaneseSpecialistRecognition" data-facet-key="food.japaneseSpecialistRecognition"><option value="">Any</option><option value="High">High (41)</option><option value="Medium">Medium (32)</option><option value="Low to medium">Low To Medium (9)</option></select></div><div class="field"><label for="facet-food.internationalRecognition">International recognition</label><select id="facet-food.internationalRecognition" data-facet-key="food.internationalRecognition"><option value="">Any</option><option value="Low">Low (62)</option><option value="Medium">Medium (19)</option><option value="High">High (1)</option></select></div>
+        <div class="field"><label for="facet-food.primaryCategory">Food category</label><select id="facet-food.primaryCategory" data-facet-key="food.primaryCategory"><option value="">Any</option><option value="Regional Cuisine">Regional Cuisine (11)</option><option value="Traditional Japanese Restaurant">Traditional Japanese Restaurant (11)</option><option value="Noodles">Noodles (9)</option><option value="Fermentation &amp; Seasoning">Fermentation &amp; Seasoning (7)</option><option value="Street / Takeaway Food">Street / Takeaway Food (5)</option><option value="Wagashi &amp; Traditional Sweets">Wagashi &amp; Traditional Sweets (5)</option><option value="Casual / Everyday Japanese Food">Casual / Everyday Japanese Food (4)</option><option value="Food Experience / Workshop">Food Experience / Workshop (4)</option><option value="Food Museum / Cultural Institution">Food Museum / Cultural Institution (4)</option><option value="Sake &amp; Alcohol Production">Sake &amp; Alcohol Production (4)</option><option value="Fine Dining">Fine Dining (3)</option><option value="Food Craft &amp; Manufacturing">Food Craft &amp; Manufacturing (3)</option><option value="Meat &amp; Grill">Meat &amp; Grill (3)</option><option value="Seafood &amp; Fishing-Port Food">Seafood &amp; Fishing Port Food (3)</option><option value="Market &amp; Food District">Market &amp; Food District (2)</option><option value="Sushi &amp; Raw Seafood">Sushi &amp; Raw Seafood (2)</option><option value="Izakaya &amp; Drinking Food">Izakaya &amp; Drinking Food (1)</option><option value="Tea">Tea (1)</option></select></div><div class="field"><label for="facet-food.japanRegion">Japan region</label><select id="facet-food.japanRegion" data-facet-key="food.japanRegion"><option value="">Any</option><option value="Chubu">Chubu (17)</option><option value="Kyushu">Kyushu (14)</option><option value="Tohoku">Tohoku (11)</option><option value="Kanto">Kanto (10)</option><option value="Kansai">Kansai (9)</option><option value="Chugoku">Chugoku (6)</option><option value="Shikoku">Shikoku (6)</option><option value="Okinawa">Okinawa (4)</option><option value="Hokkaido">Hokkaido (2)</option><option value="Kanto Islands">Kanto Islands (2)</option><option value="Kyushu Islands">Kyushu Islands (1)</option></select></div><div class="field"><label for="facet-food.value">Value</label><select id="facet-food.value" data-facet-key="food.value"><option value="">Any</option><option value="good">Good (35)</option><option value="fair">Fair (23)</option><option value="expensive-but-defensible">Expensive But Defensible (12)</option><option value="exceptional">Exceptional (10)</option><option value="unknown">Unknown (2)</option></select></div><div class="field"><label for="facet-food.reservationClass">Reservation class</label><select id="facet-food.reservationClass" data-facet-key="food.reservationClass"><option value="">Any</option><option value="walk-in">Walk In (39)</option><option value="recommended">Recommended (21)</option><option value="required">Required (20)</option><option value="difficult">Difficult (2)</option></select></div><div class="field"><label for="facet-food.englishAccess">English accessibility</label><select id="facet-food.englishAccess" data-facet-key="food.englishAccess"><option value="">Any</option><option value="B">B (43)</option><option value="C">C (24)</option><option value="A">A (13)</option><option value="D">D (2)</option></select></div><div class="field"><label for="facet-food.localRecognition">Local recognition</label><select id="facet-food.localRecognition" data-facet-key="food.localRecognition"><option value="">Any</option><option value="High">High (73)</option><option value="Medium">Medium (9)</option></select></div><div class="field"><label for="facet-food.japaneseSpecialistRecognition">Japanese specialist recognition</label><select id="facet-food.japaneseSpecialistRecognition" data-facet-key="food.japaneseSpecialistRecognition"><option value="">Any</option><option value="High">High (41)</option><option value="Medium">Medium (32)</option><option value="Low to medium">Low To Medium (9)</option></select></div><div class="field"><label for="facet-food.internationalRecognition">International recognition</label><select id="facet-food.internationalRecognition" data-facet-key="food.internationalRecognition"><option value="">Any</option><option value="Low">Low (62)</option><option value="Medium">Medium (19)</option><option value="High">High (1)</option></select></div><div class="field"><label for="facet-hiking.difficulty">Difficulty</label><select id="facet-hiking.difficulty" data-facet-key="hiking.difficulty"><option value="">Any</option><option value="moderate">Moderate (7)</option><option value="easy">Easy (2)</option><option value="hard">Hard (1)</option></select></div><div class="field"><label for="facet-hiking.surface">Surface</label><select id="facet-hiking.surface" data-facet-key="hiking.surface"><option value="">Any</option><option value="forest trail">Forest Trail (9)</option><option value="rock">Rock (5)</option><option value="field road">Field Road (2)</option><option value="meadow path">Meadow Path (2)</option><option value="roads">Roads (2)</option><option value="steps">Steps (2)</option><option value="basalt">Basalt (1)</option><option value="boulders">Boulders (1)</option><option value="forest road">Forest Road (1)</option><option value="mountain path">Mountain Path (1)</option><option value="natural steps">Natural Steps (1)</option><option value="river-valley path">River Valley Path (1)</option><option value="riverside trail">Riverside Trail (1)</option><option value="road">Road (1)</option><option value="rock steps">Rock Steps (1)</option><option value="roots">Roots (1)</option><option value="sandstone">Sandstone (1)</option><option value="sandstone trail">Sandstone Trail (1)</option><option value="trail">Trail (1)</option></select></div><div class="field"><label for="facet-hiking.routeType">Route type</label><select id="facet-hiking.routeType" data-facet-key="hiking.routeType"><option value="">Any</option><option value="loop">Loop (9)</option><option value="point-to-point">Point To Point (1)</option></select></div><div class="field"><label for="facet-hiking.seasonality">Seasonality</label><select id="facet-hiking.seasonality" data-facet-key="hiking.seasonality"><option value="">Any</option><option value="autumn">Autumn (7)</option><option value="spring">Spring (7)</option><option value="summer">Summer (7)</option><option value="year-round">Year Round (3)</option></select></div><div class="field"><label for="facet-hiking.waymarking">Waymarking</label><select id="facet-hiking.waymarking" data-facet-key="hiking.waymarking"><option value="">Any</option><option value="clear">Clear (10)</option></select></div>
         <div class="field"><label for="minimum-personal-rating">Minimum personal rating</label><select id="minimum-personal-rating" name="minimumPersonalRating"><option value="">Any</option><option value="1">1 / 5</option><option value="2">2 / 5</option><option value="3">3 / 5</option><option value="4">4 / 5</option><option value="5">5 / 5</option></select></div>
       </div><div class="filter-chip-row"><label class="filter-chip"><input type="checkbox" name="favourite">Favourites</label><label class="filter-chip"><input type="checkbox" name="visited">Visited</label><label class="filter-chip"><input type="checkbox" name="unvisited">Unvisited</label><label class="filter-chip"><input type="checkbox" name="rated">Personally rated</label><label class="filter-chip"><input type="checkbox" name="withNotes">With notes</label><button id="reset-filters" class="text-button" type="button">Reset filters</button></div></details>
     </form>
-    <div class="results-toolbar"><div id="discover-count"><strong>82</strong> curated results</div><span>Public set: S / A / B / C only</span></div>
+    <div class="results-toolbar"><div id="discover-count"><strong>92</strong> curated results</div><span>Public set: S / A / B / C only</span></div>
     <section id="discover-results" aria-live="polite"><div class="entity-grid"><article class="entity-card tier-s" data-entity-id="42bbf65a-e0a2-5bbf-9e47-a8bc1624c1c4" data-entity-snapshot="{&quot;name&quot;:&quot;Al-ché-cciano&quot;,&quot;slug&quot;:&quot;al-che-cciano&quot;,&quot;countryCode&quot;:&quot;JP&quot;,&quot;tier&quot;:&quot;S&quot;,&quot;status&quot;:&quot;published&quot;}">
     <a class="card-main" href="/good-shit-public/places/al-che-cciano/">
       
@@ -296,6 +296,158 @@
       <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
       <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
       <a class="icon-button" href="/good-shit-public/map/?entity=a837d886-0bc8-57ca-958f-41796b198562" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="599371af-aaf0-51f3-8c1a-004dbdacf8f1" data-entity-snapshot="{&quot;name&quot;:&quot;Bořeň volcanic rock loop&quot;,&quot;slug&quot;:&quot;boren-volcanic-rock-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/boren-volcanic-rock-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Bořeň volcanic rock loop</h3>
+      <p class="local-name">Bořeň</p>
+      <p>A short volcanic-rock hike with towers, walls and steep natural steps that feels disproportionately mountainous for a 539 m hill close to Prague.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Bílina · Ústecký kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Bořeň</span><span class="tag">České středohoří</span><span class="tag">volcanic rock</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Bořeň volcanic rock loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=599371af-aaf0-51f3-8c1a-004dbdacf8f1" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="221954f0-91d9-5eba-b837-5f53f5793a8b" data-entity-snapshot="{&quot;name&quot;:&quot;Čertoryje orchid meadow loop&quot;,&quot;slug&quot;:&quot;certoryje-orchid-meadow-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/certoryje-orchid-meadow-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Čertoryje orchid meadow loop</h3>
+      <p class="local-name">Čertoryje – Orchidejová naučná stezka</p>
+      <p>A White Carpathian meadow loop that becomes a national-level destination during the late-spring orchid and flower peak, when species-rich grassland and solitary trees align.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Tvarožná Lhota · Jihomoravský kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Bílé Karpaty</span><span class="tag">Čertoryje</span><span class="tag">orchids</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Čertoryje orchid meadow loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=221954f0-91d9-5eba-b837-5f53f5793a8b" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="3f76956b-7904-5c27-8157-a3523e952648" data-entity-snapshot="{&quot;name&quot;:&quot;Drbákov–Albertovy skály cliff loop&quot;,&quot;slug&quot;:&quot;drbakov-albertovy-skaly-cliff-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/drbakov-albertovy-skaly-cliff-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Drbákov–Albertovy skály cliff loop</h3>
+      <p class="local-name">Drbákov–Albertovy skály</p>
+      <p>A compact but rugged Vltava cliff traverse whose chains, rocky forest trail and six viewpoints deliver substantially more hiking intensity than its short distance suggests.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Nalžovice · Středočeský kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Vltava</span><span class="tag">Slapy</span><span class="tag">rocky trail</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Drbákov–Albertovy skály cliff loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=3f76956b-7904-5c27-8157-a3523e952648" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="a292023a-c76a-5835-a275-791a24197ce2" data-entity-snapshot="{&quot;name&quot;:&quot;Grafenried/Lučina vanished-village loop&quot;,&quot;slug&quot;:&quot;grafenried-lucina-vanished-village-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/grafenried-lucina-vanished-village-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Grafenried/Lučina vanished-village loop</h3>
+      <p class="local-name">Grafenried / Lučina</p>
+      <p>A Český les borderland walk where a substantial vanished village remains physically legible through exposed foundations, cemetery traces and the surrounding depopulated landscape.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Nemanice · Plzeňský kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Grafenried</span><span class="tag">Lučina</span><span class="tag">Český les</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Grafenried/Lučina vanished-village loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=a292023a-c76a-5835-a275-791a24197ce2" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="a8b9067c-7081-5040-934e-ffcae8a3ffe0" data-entity-snapshot="{&quot;name&quot;:&quot;Klokočské skály–Kozákov–Rotštejn loop&quot;,&quot;slug&quot;:&quot;klokocske-skaly-kozakov-rotstejn-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/klokocske-skaly-kozakov-rotstejn-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Klokočské skály–Kozákov–Rotštejn loop</h3>
+      <p class="local-name">Klokočské skály – Kozákov – Rotštejn</p>
+      <p>A 24 km Český ráj circuit that turns familiar sandstone geology into a serious hiking day by linking Klokočské průchody, Kozákov and Rotštejn.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Turnov · Liberecký kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Český ráj</span><span class="tag">Klokočské skály</span><span class="tag">Kozákov</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Klokočské skály–Kozákov–Rotštejn loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=a8b9067c-7081-5040-934e-ffcae8a3ffe0" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="db9df125-7a0b-56bd-855d-267214ac6edf" data-entity-snapshot="{&quot;name&quot;:&quot;Ralsko and Vranovské skály loop&quot;,&quot;slug&quot;:&quot;ralsko-vranovske-skaly-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/ralsko-vranovske-skaly-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Ralsko and Vranovské skály loop</h3>
+      <p class="local-name">Ralsko a Vranovské skály</p>
+      <p>A wild-feeling loop from Mimoň that shifts from sandstone formations to basalt summit terrain and castle ruins inside the former Ralsko military landscape.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Mimoň · Liberecký kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Ralsko</span><span class="tag">Vranovské skály</span><span class="tag">sandstone</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Ralsko and Vranovské skály loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=db9df125-7a0b-56bd-855d-267214ac6edf" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="131aba42-8acf-530d-b02b-b5d98669f390" data-entity-snapshot="{&quot;name&quot;:&quot;Rýchory–Dvorský les–Sklenářovice traverse&quot;,&quot;slug&quot;:&quot;rychory-dvorsky-les-sklenarovice-traverse&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/rychory-dvorsky-les-sklenarovice-traverse/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Rýchory–Dvorský les–Sklenářovice traverse</h3>
+      <p class="local-name">Rýchory – Dvorský les – Sklenářovické údolí</p>
+      <p>A quieter eastern-Krkonoše traverse through old beech woodland, mountain meadows, wetlands, mining traces and the vanished settlement landscape of Sklenářovice.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Svoboda nad Úpou · Královéhradecký kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Rýchory</span><span class="tag">Dvorský les</span><span class="tag">Sklenářovice</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Rýchory–Dvorský les–Sklenářovice traverse">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=131aba42-8acf-530d-b02b-b5d98669f390" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-a" data-entity-id="3c983519-9065-552a-8a4b-1075eb5ff041" data-entity-snapshot="{&quot;name&quot;:&quot;Údolí Doubravy gorge loop&quot;,&quot;slug&quot;:&quot;udoli-doubravy-gorge-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/udoli-doubravy-gorge-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-a" aria-label="Tier A: Excellent"><strong>A</strong> Excellent</span>
+      </div>
+      <h3>Údolí Doubravy gorge loop</h3>
+      <p class="local-name">Údolí Doubravy</p>
+      <p>A proper river-gorge hike with boulders, rapids, cascades and rough riverside trail, paired with a higher return route instead of a simple waterfall out-and-back.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Chotěboř · Kraj Vysočina · Czechia</div>
+      <div class="tag-row"><span class="tag">Doubrava</span><span class="tag">Vysočina</span><span class="tag">river gorge</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Údolí Doubravy gorge loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=3c983519-9065-552a-8a4b-1075eb5ff041" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
     </div>
   </article><article class="entity-card tier-a" data-entity-id="19416db7-08d2-5a60-809d-cd0d90a98c6f" data-entity-snapshot="{&quot;name&quot;:&quot;Anagomeshi Ueno Miyajimaguchi Honten&quot;,&quot;slug&quot;:&quot;anagomeshi-ueno-miyajimaguchi-honten&quot;,&quot;countryCode&quot;:&quot;JP&quot;,&quot;tier&quot;:&quot;A&quot;,&quot;status&quot;:&quot;published&quot;}">
     <a class="card-main" href="/good-shit-public/places/anagomeshi-ueno-miyajimaguchi-honten/">
@@ -828,6 +980,44 @@
       <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
       <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
       <a class="icon-button" href="/good-shit-public/map/?entity=4b01c975-30e6-5109-ab9c-430515806451" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-b" data-entity-id="b7e2dc9e-4267-596a-90b3-ab390f6c905d" data-entity-snapshot="{&quot;name&quot;:&quot;Boreč ventarole winter loop&quot;,&quot;slug&quot;:&quot;borec-ventarole-winter-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;B&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/borec-ventarole-winter-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-b" aria-label="Tier B: Very good"><strong>B</strong> Very good</span>
+      </div>
+      <h3>Boreč ventarole winter loop</h3>
+      <p class="local-name">Boreč</p>
+      <p>A tiny volcanic hill whose fissure-ventilation phenomenon turns an otherwise modest walk into a disproportionately interesting winter geological excursion during hard frost.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Režný Újezd · Ústecký kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Boreč</span><span class="tag">České středohoří</span><span class="tag">ventarole</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Boreč ventarole winter loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=b7e2dc9e-4267-596a-90b3-ab390f6c905d" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
+    </div>
+  </article><article class="entity-card tier-b" data-entity-id="8ca556ac-cb8a-5f5d-b1f5-8a0567d37483" data-entity-snapshot="{&quot;name&quot;:&quot;Rabštejn nad Střelou historical-landscape loop&quot;,&quot;slug&quot;:&quot;rabstejn-nad-strelou-historical-landscape-loop&quot;,&quot;countryCode&quot;:&quot;CZ&quot;,&quot;tier&quot;:&quot;B&quot;,&quot;status&quot;:&quot;published&quot;}">
+    <a class="card-main" href="/good-shit-public/places/rabstejn-nad-strelou-historical-landscape-loop/">
+      
+      <div class="card-topline">
+        <span class="type-chip"><span aria-hidden="true">↟</span>hiking route</span>
+        <span class="tier-chip tier-b" aria-label="Tier B: Very good"><strong>B</strong> Very good</span>
+      </div>
+      <h3>Rabštejn nad Střelou historical-landscape loop</h3>
+      <p class="local-name">Naučná stezka Rabštejn</p>
+      <p>A dense small-town and river-valley loop combining Rabštejn’s historic fabric with ruins, Střela scenery, old slate workings, mills and fortification traces.</p>
+      <div class="card-location"><span aria-hidden="true">⌖</span>Rabštejn nad Střelou · Plzeňský kraj · Czechia</div>
+      <div class="tag-row"><span class="tag">Rabštejn nad Střelou</span><span class="tag">Střela</span><span class="tag">slate quarry</span></div>
+      
+    </a>
+    <div class="card-actions" aria-label="Personal actions for Rabštejn nad Střelou historical-landscape loop">
+      <button type="button" class="icon-button" data-personal-action="favourite" aria-pressed="false" title="Favourite"><span aria-hidden="true">♡</span><span class="sr-only">Favourite</span></button>
+      <button type="button" class="icon-button" data-personal-action="visited" aria-pressed="false" title="Visited"><span aria-hidden="true">✓</span><span class="sr-only">Visited</span></button>
+      <a class="icon-button" href="/good-shit-public/map/?entity=8ca556ac-cb8a-5f5d-b1f5-8a0567d37483" title="Show on map"><span aria-hidden="true">⌖</span><span class="sr-only">Show on map</span></a>
     </div>
   </article><article class="entity-card tier-b" data-entity-id="ced15eba-cc8a-5042-9789-94b1f7922560" data-entity-snapshot="{&quot;name&quot;:&quot;Banya, Hota Fishing Cooperative&quot;,&quot;slug&quot;:&quot;banya-hota-fishing-cooperative&quot;,&quot;countryCode&quot;:&quot;JP&quot;,&quot;tier&quot;:&quot;B&quot;,&quot;status&quot;:&quot;published&quot;}">
     <a class="card-main" href="/good-shit-public/places/banya-hota-fishing-cooperative/">
@@ -1615,7 +1805,7 @@
     <div><a href="/good-shit-public/catalogue/manifest.json">Catalogue manifest</a> · <a href="/good-shit-public/architecture/">Architecture notes</a></div>
   </footer>
   <div id="app-status" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-  <script id="page-config" type="application/json">{"basePath":"/good-shit-public/","searchManifestUrl":"/good-shit-public/data/search/manifest.623f4db89560.json"}</script>
+  <script id="page-config" type="application/json">{"basePath":"/good-shit-public/","searchManifestUrl":"/good-shit-public/data/search/manifest.9444461ba6b9.json"}</script>
   <script type="module" src="/good-shit-public/assets/web-app.7a0516e99293.mjs"></script>
 <script type="module" src="/good-shit-public/assets/web-discover.dabb4a3463e4.mjs"></script>
 </body>

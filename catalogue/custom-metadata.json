@@ -525,6 +525,184 @@
           "label": "Indoor"
         }
       }
+    },
+    "japan-discovery": {
+      "label": "Japan destination discovery",
+      "fields": {
+        "researchId": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Research ID",
+          "section": "Identity & classification"
+        },
+        "primaryCategory": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "facet": true,
+          "label": "Primary category",
+          "section": "Identity & classification",
+          "cardSignal": {
+            "order": 10
+          }
+        },
+        "japanRegion": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "facet": true,
+          "label": "Japan region",
+          "section": "Identity & classification"
+        },
+        "englishAccess": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "facet": true,
+          "label": "English accessibility",
+          "section": "Practical accessibility",
+          "cardSignal": {
+            "order": 20,
+            "prefix": "English "
+          }
+        },
+        "recognitionEstimate": {
+          "type": "string",
+          "searchable": true,
+          "label": "Recognition estimate",
+          "section": "Recognition"
+        },
+        "locationConfidence": {
+          "type": "string",
+          "searchable": true,
+          "label": "Location confidence",
+          "section": "Research notes"
+        },
+        "bestVisitorExperience": {
+          "type": "string",
+          "searchable": true,
+          "label": "What to actually do",
+          "section": "Visitor experience"
+        },
+        "typicalTimeRequired": {
+          "type": "string",
+          "searchable": true,
+          "label": "Typical time required",
+          "section": "Visit planning"
+        },
+        "accessMethod": {
+          "type": "string",
+          "searchable": true,
+          "label": "Access method",
+          "section": "Getting there"
+        },
+        "walkingHikingRequirements": {
+          "type": "string",
+          "searchable": true,
+          "label": "Walking / hiking requirements",
+          "section": "Getting there"
+        },
+        "carUsefulness": {
+          "type": "string",
+          "searchable": true,
+          "label": "Car usefulness",
+          "section": "Getting there"
+        },
+        "publicTransportPracticality": {
+          "type": "string",
+          "searchable": true,
+          "label": "Public transport practicality",
+          "section": "Getting there"
+        },
+        "reservationRequirements": {
+          "type": "string",
+          "searchable": true,
+          "label": "Reservation requirements",
+          "section": "Visit planning"
+        },
+        "openingSeasonalityConsiderations": {
+          "type": "string",
+          "searchable": true,
+          "label": "Opening / seasonality",
+          "section": "Visit planning"
+        },
+        "approximateAdmissionCost": {
+          "type": "string",
+          "searchable": true,
+          "label": "Approximate admission cost",
+          "section": "Visit planning"
+        },
+        "englishLanguageSupport": {
+          "type": "string",
+          "searchable": true,
+          "label": "English-language support",
+          "section": "Practical accessibility"
+        },
+        "languageRelatedComplications": {
+          "type": "string",
+          "searchable": true,
+          "label": "Language complications",
+          "section": "Practical accessibility"
+        },
+        "importantRestrictionsWarnings": {
+          "type": "string",
+          "searchable": true,
+          "label": "Restrictions / warnings",
+          "section": "Practical accessibility"
+        },
+        "bestSeasonTime": {
+          "type": "string",
+          "searchable": true,
+          "label": "Best season / time",
+          "section": "Visit planning"
+        },
+        "nearbyRelationships": {
+          "type": "string",
+          "searchable": true,
+          "label": "Nearby catalogue relationships",
+          "section": "Research notes"
+        },
+        "discoverySource": {
+          "type": "string",
+          "searchable": true,
+          "label": "Discovery evidence",
+          "section": "Research notes"
+        },
+        "verificationSources": {
+          "type": "string",
+          "searchable": true,
+          "label": "Verification evidence",
+          "section": "Research notes"
+        },
+        "firstHandExperientialEvidence": {
+          "type": "string",
+          "searchable": true,
+          "label": "First-hand / experiential evidence",
+          "section": "Research notes"
+        },
+        "sourceVerificationDate": {
+          "type": "string",
+          "label": "Source verification date",
+          "section": "Research notes"
+        },
+        "confidenceLevel": {
+          "type": "string",
+          "label": "Research confidence",
+          "section": "Research notes"
+        },
+        "unresolvedQuestions": {
+          "type": "string",
+          "searchable": true,
+          "label": "Unresolved questions",
+          "section": "Research notes"
+        }
+      }
     }
   }
 }

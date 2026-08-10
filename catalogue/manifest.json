@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-japan-food.1",
-  "generatedAt": "2026-08-10T16:30:56.000Z",
+  "generatedAt": "2026-08-10T17:11:46.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -14,15 +14,15 @@
     ]
   },
   "counts": {
-    "total": 82,
-    "public": 82,
+    "total": 92,
+    "public": 92,
     "statuses": {
-      "published": 82
+      "published": 92
     },
     "tiers": {
       "S": 13,
-      "A": 28,
-      "B": 32,
+      "A": 36,
+      "B": 34,
       "C": 9
     },
     "geometryVertices": 0
@@ -30,27 +30,35 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.24d4892b34e7.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.025a9af4a4f5.json",
+        "bytes": 32887,
+        "gzipBytes": 7948,
+        "sha256": "025a9af4a4f57ee80709052e75dd53f03e99faa603ee2fa96c4792d32570aaea",
+        "countryCode": "CZ",
+        "entityCount": 10
+      },
+      {
+        "url": "/good-shit-public/catalogue/packages/entities-jp.c6dc2639291f.json",
         "bytes": 389624,
         "gzipBytes": 67896,
-        "sha256": "24d4892b34e7fffef3a87faef58d5d13255c8f42e43a5be4cbfd9df0b912014e",
+        "sha256": "c6dc2639291f378454f6da951a61c21f446e36d26937eac1f6459569ac9e216f",
         "countryCode": "JP",
         "entityCount": 82
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.623f4db89560.json",
-      "bytes": 3879,
-      "gzipBytes": 1242,
-      "sha256": "623f4db89560c61b5d7cefbd86a8e8ec27a98d8ce1c248b33fbe2c1c568e2a03",
-      "documentCount": 82
+      "url": "/good-shit-public/data/search/manifest.9444461ba6b9.json",
+      "bytes": 5769,
+      "gzipBytes": 1689,
+      "sha256": "9444461ba6b9d714b02b06bb716cad24feceaaadea3391da975d252569f52057",
+      "documentCount": 92
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.28d3e135e4fc.json",
-      "bytes": 20191,
-      "gzipBytes": 6252,
-      "sha256": "28d3e135e4fcef900c679323bc6ed49f4c45d38b9bc6c2b90940c26d28bca920",
-      "shardCount": 4
+      "url": "/good-shit-public/data/map/manifest.398571e7f8bc.json",
+      "bytes": 23218,
+      "gzipBytes": 7294,
+      "sha256": "398571e7f8bc2285d4101fba21b22b38f76a34c58fa9b92044ee71b8a1e5ffd4",
+      "shardCount": 6
     },
     "redirects": {
       "url": "/good-shit-public/catalogue/redirects.json"
