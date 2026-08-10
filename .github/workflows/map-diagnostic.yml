@@ -26,23 +26,22 @@ jobs:
             --headless=new \
             --no-sandbox \
             --disable-dev-shm-usage \
+            --enable-unsafe-swiftshader \
             --window-size=1440,900 \
-            --virtual-time-budget=12000 \
+            --virtual-time-budget=15000 \
             --enable-logging=stderr \
             --screenshot=/tmp/map.png \
             --dump-dom \
             "$URL" > /tmp/map-dom.html 2> /tmp/chrome.log || true
 
           echo '--- map status ---'
-          grep -oE '<div id="map-status"[^>]*>[^<]*' /tmp/map-dom.html || true
+          grep -oE '<div id="map-status"[^>]*>[^<]*' /tmp/map-dom.html | tail -1 || true
           echo '--- result count ---'
-          grep -oE '<strong id="map-result-count"[^>]*>[^<]*' /tmp/map-dom.html || true
+          grep -oE '<strong id="map-result-count"[^>]*>[^<]*' /tmp/map-dom.html | tail -1 || true
           echo '--- fallback ---'
-          grep -oE '<div id="map-fallback"[^>]*>|data-map-error[^>]*>[^<]*' /tmp/map-dom.html || true
+          grep -oE '<div id="map-fallback"[^>]*>|data-map-error[^>]*>[^<]*' /tmp/map-dom.html | tail -4 || true
           echo '--- browser errors/warnings ---'
-          grep -Ei 'error|failed|cors|webgl|maplibre|worker|style|tile' /tmp/chrome.log | tail -120 || true
-          echo '--- downloaded map assets visible in DOM ---'
-          grep -oE '/good-shit-public/(data|assets)/[^" ]+' /tmp/map-dom.html | sort -u | head -80 || true
+          grep -Ei 'error|failed|cors|webgl|maplibre|worker|style|tile' /tmp/chrome.log | tail -160 || true
 
       - name: Upload diagnostic snapshot
         uses: actions/upload-artifact@v4
