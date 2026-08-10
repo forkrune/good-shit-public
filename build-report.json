@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T12:23:46.637Z",
+  "generatedAt": "2026-08-10T12:28:46.497Z",
   "basePath": "/good-shit-public/",
   "catalogue": {
     "total": 10,
@@ -39,7 +39,7 @@
     },
     "initialMapShellExcludingExternalMapLibrary": {
       "bytes": 97727,
-      "gzipBytes": 22405
+      "gzipBytes": 22406
     },
     "totalFingerprintJs": {
       "bytes": 107568,
@@ -56,7 +56,7 @@
     "largestCountrySearchShard": {
       "key": "at",
       "bytes": 2159,
-      "gzipBytes": 1000
+      "gzipBytes": 999
     },
     "mapOverview": {
       "bytes": 8895,
@@ -65,17 +65,17 @@
     "largestMapShard": {
       "key": "5/17/10",
       "bytes": 3548,
-      "gzipBytes": 1361
+      "gzipBytes": 1362
     },
     "entityReference": {
       "bytes": 6833,
-      "gzipBytes": 2506
+      "gzipBytes": 2508
     }
   },
   "catalogueManifest": {
     "schemaVersion": 1,
     "contentVersion": "2026.08-demo.1",
-    "generatedAt": "2026-08-10T12:23:46.637Z",
+    "generatedAt": "2026-08-10T12:28:46.497Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -110,58 +110,58 @@
     "packages": {
       "entities": [
         {
-          "url": "/good-shit-public/catalogue/packages/entities-at.1cdc1f6d6234.json",
+          "url": "/good-shit-public/catalogue/packages/entities-at.20a3e85f301a.json",
           "bytes": 4963,
-          "gzipBytes": 1825,
-          "sha256": "1cdc1f6d62346e04901bc7473878a08d9a99234d41547eca3d4fac9ffca5e820",
+          "gzipBytes": 1826,
+          "sha256": "20a3e85f301a4a9e3867db09cd4005a18a74a38bcab76e629a7f37c0f6ca31de",
           "countryCode": "AT",
           "entityCount": 2
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-cz.5796ed8ce615.json",
+          "url": "/good-shit-public/catalogue/packages/entities-cz.cb6717a7d831.json",
           "bytes": 3452,
           "gzipBytes": 1490,
-          "sha256": "5796ed8ce615a0b2969149541b943766e2b842a21fd9bd18ac8af0a262308c78",
+          "sha256": "cb6717a7d8313a605d7613e87516d08ba510cfa2d2d49a12ce1219da296e0027",
           "countryCode": "CZ",
           "entityCount": 1
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-dk.84eb254dc003.json",
+          "url": "/good-shit-public/catalogue/packages/entities-dk.9b4f77216adb.json",
           "bytes": 2469,
-          "gzipBytes": 1175,
-          "sha256": "84eb254dc00348453938f617ee00bf39c60a49cd0ae764dbb57264444e2154b6",
+          "gzipBytes": 1176,
+          "sha256": "9b4f77216adb2dd4957249bb6d56ed1b354fbf134ca2846a4d4230eb7d3a91c8",
           "countryCode": "DK",
           "entityCount": 1
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-jp.47adc736f184.json",
+          "url": "/good-shit-public/catalogue/packages/entities-jp.2053ffbf47d1.json",
           "bytes": 2446,
-          "gzipBytes": 1234,
-          "sha256": "47adc736f1849ae531f8aaa68a882255b47813fc858079a0e4302a34263f7470",
+          "gzipBytes": 1233,
+          "sha256": "2053ffbf47d14767efb8f5fe14354edbeffe6e479d8f4552be136bfce775d4b1",
           "countryCode": "JP",
           "entityCount": 1
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-pt.96782353e446.json",
+          "url": "/good-shit-public/catalogue/packages/entities-pt.2938d068ae3f.json",
           "bytes": 2420,
           "gzipBytes": 1191,
-          "sha256": "96782353e446fcf576f1f1555e3fb3b93ecdec108f8843db1b8eb9d4b7482122",
+          "sha256": "2938d068ae3f2204c04c8868e8eadf7f8bea4b834f609c1f69aba926bc6e42f5",
           "countryCode": "PT",
           "entityCount": 1
         }
       ],
       "search": {
-        "url": "/good-shit-public/data/search/manifest.39b6a8f80a1e.json",
-        "bytes": 4601,
-        "gzipBytes": 1346,
-        "sha256": "39b6a8f80a1e876180d6635cbb102299fd23b5540915b9f7cb0f87f7069f53e2",
+        "url": "/good-shit-public/data/search/manifest.f6f3c98c52f1.json",
+        "bytes": 4600,
+        "gzipBytes": 1344,
+        "sha256": "f6f3c98c52f164ee36cb6081c0e9ee243c553b431a9cb9eebe45d0d1eb8ceca9",
         "documentCount": 6
       },
       "map": {
-        "url": "/good-shit-public/data/map/manifest.d700d1de9c14.json",
+        "url": "/good-shit-public/data/map/manifest.35f020c04b96.json",
         "bytes": 2776,
-        "gzipBytes": 1102,
-        "sha256": "d700d1de9c147693f55e77c21ba88e24096d5232af3b3ad0ac66ae97ff58bc60",
+        "gzipBytes": 1101,
+        "sha256": "35f020c04b9635c649dd4daad33d78650f1445c63ff2643886955167397a8470",
         "shardCount": 4
       },
       "redirects": {
