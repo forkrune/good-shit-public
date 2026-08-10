@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-japan-food.1",
-  "generatedAt": "2026-08-10T17:24:44.000Z",
+  "generatedAt": "2026-08-10T17:33:47.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -30,34 +30,34 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-cz.7e0bab4571fc.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.21a081f63e29.json",
         "bytes": 32887,
         "gzipBytes": 7948,
-        "sha256": "7e0bab4571fc45a857ec78f1efddd9da5ef58682d184e11f3710105eee6ccfa7",
+        "sha256": "21a081f63e29b820541de4de555002ea877e37f9ce094d0ccdc669b7cf3d9dab",
         "countryCode": "CZ",
         "entityCount": 10
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.d8c659143036.json",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.f966d33564a9.json",
         "bytes": 389624,
         "gzipBytes": 67972,
-        "sha256": "d8c659143036559452ac244cc9346fd59debbf308dd2d8fb892c054a4c1d00f1",
+        "sha256": "f966d33564a9e21538fcbe510859484432259203eb8a605f5378f999e3c48cb9",
         "countryCode": "JP",
         "entityCount": 82
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.d3da5740c886.json",
+      "url": "/good-shit-public/data/search/manifest.e366c9e716e1.json",
       "bytes": 5769,
-      "gzipBytes": 1690,
-      "sha256": "d3da5740c886c74bdbfd1c471996b74328bf8aa06622b814a30cdaed5d29adf7",
+      "gzipBytes": 1692,
+      "sha256": "e366c9e716e1b8e213335ade839d905a31c83a73829127fad50bf01e9730a115",
       "documentCount": 92
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.0fdd1255380b.json",
+      "url": "/good-shit-public/data/map/manifest.74b1bf0cfb29.json",
       "bytes": 23218,
-      "gzipBytes": 7300,
-      "sha256": "0fdd1255380ba8d222c343e648a2bc688d0ce3af698832a056402234bddf9930",
+      "gzipBytes": 7294,
+      "sha256": "74b1bf0cfb2933a6ef08d7193e5d49381f380ebf45770973fe12c8d26616c9f9",
       "shardCount": 6
     },
     "redirects": {
@@ -74,8 +74,7 @@
     "schemas": {
       "entity": "/good-shit-public/catalogue/schema/public-entity.schema.json",
       "foodContent": "/good-shit-public/catalogue/schema/food-content.schema.json",
-      "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json",
-      "researchBatch": "/good-shit-public/catalogue/schema/research-batch.schema.json"
+      "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json"
     }
   },
   "updateStrategy": "full-refresh",
