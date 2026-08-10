@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-demo.1",
-  "generatedAt": "2026-08-10T11:33:25.186Z",
+  "generatedAt": "2026-08-10T11:34:19.186Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -36,58 +36,58 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-at.d77e5a55ff44.json",
+        "url": "/good-shit-public/catalogue/packages/entities-at.bb9b75082e9c.json",
         "bytes": 4963,
         "gzipBytes": 1825,
-        "sha256": "d77e5a55ff44eed2c9e98907f7abaa4bd54b994d80818328080c5357d1571f8c",
+        "sha256": "bb9b75082e9ca9f07435dbaf10500f37984866921de03595de130932a425db64",
         "countryCode": "AT",
         "entityCount": 2
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-cz.2e39b303af52.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.cc5b9f41e55d.json",
         "bytes": 3452,
-        "gzipBytes": 1489,
-        "sha256": "2e39b303af52469ce20e7a285c4f640fd2a8a9ff885b3f27c19977377fec4a6d",
+        "gzipBytes": 1488,
+        "sha256": "cc5b9f41e55d2ac0d41dad0c5b7a21838825ae1f7ace5715440542fa20ab036b",
         "countryCode": "CZ",
         "entityCount": 1
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-dk.b87ae39558df.json",
+        "url": "/good-shit-public/catalogue/packages/entities-dk.999c7b00af27.json",
         "bytes": 2469,
-        "gzipBytes": 1174,
-        "sha256": "b87ae39558df7055aeaacf67592f23cb57ba600a9924829696ab842d3df86dd9",
+        "gzipBytes": 1175,
+        "sha256": "999c7b00af27841be1088f33b6e94b715a174f490d453935a9ee3d6fbe81b04d",
         "countryCode": "DK",
         "entityCount": 1
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.a079c17363a2.json",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.9159d3da3d54.json",
         "bytes": 2446,
-        "gzipBytes": 1233,
-        "sha256": "a079c17363a23d3e0cae0cecfd91d9333d0cf65541c021076af3f271f8f7937d",
+        "gzipBytes": 1234,
+        "sha256": "9159d3da3d543b2756ed786d3611c8cfdf8a306dad50e26722ce3a90473d42e4",
         "countryCode": "JP",
         "entityCount": 1
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-pt.37bfe8eba32a.json",
+        "url": "/good-shit-public/catalogue/packages/entities-pt.3f7ad9f29bc2.json",
         "bytes": 2420,
         "gzipBytes": 1191,
-        "sha256": "37bfe8eba32a81c7f727b8cd67092ddf8c7820f0a1da9a0c690e14f56ead4893",
+        "sha256": "3f7ad9f29bc266164d4732d66a7170058bb253e67c764c772c530d1c7474916d",
         "countryCode": "PT",
         "entityCount": 1
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.5fcdf6101a4c.json",
-      "bytes": 4601,
+      "url": "/good-shit-public/data/search/manifest.3c7769ba2a16.json",
+      "bytes": 4600,
       "gzipBytes": 1345,
-      "sha256": "5fcdf6101a4c463b5fde93b7c9831af286429a450628e9a63f6b5c9a440dd16e",
+      "sha256": "3c7769ba2a1626521d7e9009d73923dee7c0d5217908cda3f89c938a7215bfbc",
       "documentCount": 6
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.577ec9264121.json",
+      "url": "/good-shit-public/data/map/manifest.0ef25d699fcc.json",
       "bytes": 2776,
-      "gzipBytes": 1104,
-      "sha256": "577ec9264121a9c75f0f7b5c358edb68e874787a2069ad883e8643b8e9645361",
+      "gzipBytes": 1103,
+      "sha256": "0ef25d699fccb24a97648790eeb4b0f2a12f269f976100882433e5846b1c22ca",
       "shardCount": 4
     },
     "redirects": {

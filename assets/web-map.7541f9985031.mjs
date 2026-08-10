@@ -58,10 +58,34 @@ function withTimeout(promise, milliseconds, label) {
   return Promise.race([promise, timeout]).finally(() => clearTimeout(timeoutId));
 }
 
-function supportsWebGl2() {
+function loadMapLibrary() {
+  if (globalThis.maplibregl?.Map) return Promise.resolve(globalThis.maplibregl);
+  return withTimeout(new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-maplibre-runtime]');
+    if (existing) {
+      existing.addEventListener('load', () => globalThis.maplibregl?.Map
+        ? resolve(globalThis.maplibregl)
+        : reject(new Error('Map renderer loaded without exposing MapLibre.')), { once: true });
+      existing.addEventListener('error', () => reject(new Error('Map renderer script failed to load.')), { once: true });
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = config.map.libraryModuleUrl;
+    script.async = true;
+    script.dataset.maplibreRuntime = 'true';
+    script.addEventListener('load', () => globalThis.maplibregl?.Map
+      ? resolve(globalThis.maplibregl)
+      : reject(new Error('Map renderer loaded without exposing MapLibre.')), { once: true });
+    script.addEventListener('error', () => reject(new Error('Map renderer script failed to load.')), { once: true });
+    document.head.append(script);
+  }), 10_000, 'Map renderer');
+}
+
+function supportsWebGl() {
   try {
     const canvas = document.createElement('canvas');
-    const context = canvas.getContext('webgl2', { failIfMajorPerformanceCaveat: false });
+    const context = canvas.getContext('webgl', { failIfMajorPerformanceCaveat: false })
+      ?? canvas.getContext('experimental-webgl', { failIfMajorPerformanceCaveat: false });
     if (!context) return false;
     context.getExtension('WEBGL_lose_context')?.loseContext();
     return true;
@@ -507,12 +531,12 @@ async function showMapFallback(error) {
 
 async function initialiseMap() {
   try {
-    if (!supportsWebGl2()) {
-      throw new Error('This browser cannot provide WebGL 2, which the interactive map requires.');
+    if (!supportsWebGl()) {
+      throw new Error('This browser cannot provide WebGL, which the interactive map requires.');
     }
     setStatus('Loading map renderer…');
     const [libraryModule, manifest, overview] = await Promise.all([
-      withTimeout(import(config.map.libraryModuleUrl), 10_000, 'Map renderer'),
+      loadMapLibrary(),
       withTimeout(loadMapManifest(), 10_000, 'Geographic index'),
       withTimeout(loadOverview(), 10_000, 'Catalogue overview')
     ]);
@@ -521,7 +545,7 @@ async function initialiseMap() {
     renderList();
     applyResponsiveMapLayout();
 
-    maplibregl = libraryModule.default ?? libraryModule;
+    maplibregl = libraryModule;
     map = new maplibregl.Map({
       container: mapElement,
       style: config.map.styleUrl,
@@ -530,7 +554,11 @@ async function initialiseMap() {
       minZoom: 1.25,
       maxZoom: 18,
       cooperativeGestures: false,
-      attributionControl: true
+      attributionControl: true,
+      canvasContextAttributes: {
+        contextType: 'webgl',
+        failIfMajorPerformanceCaveat: false
+      }
     });
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), 'top-right');
     map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-right');
