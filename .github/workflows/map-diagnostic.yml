@@ -52,3 +52,5 @@ jobs:
             /tmp/map-dom.html
             /tmp/chrome.log
           retention-days: 1
+
+# Retest after correcting MapLibre runtime version.
