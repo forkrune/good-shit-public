@@ -797,6 +797,97 @@
           "section": "Research notes"
         }
       }
+    },
+    "destination": {
+      "label": "Destination discovery",
+      "fields": {
+        "researchId": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Research ID",
+          "section": "Discovery signal"
+        },
+        "discoveryMethods": {
+          "type": "string-array",
+          "required": true,
+          "minItems": 1,
+          "searchable": true,
+          "facet": true,
+          "label": "Discovery methods",
+          "section": "Discovery signal"
+        },
+        "worthTheTrip": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "destination-worthy",
+            "major-detour",
+            "strong-regional",
+            "specialist"
+          ],
+          "facet": true,
+          "label": "Worth the trip",
+          "section": "Travel value",
+          "cardSignal": {
+            "order": 5
+          }
+        },
+        "visitorExperience": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "What you actually experience",
+          "section": "Travel value"
+        },
+        "effortRequired": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Effort required",
+          "section": "Access & effort"
+        },
+        "bestConditions": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Best conditions",
+          "section": "Access & effort"
+        },
+        "recognitionPattern": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Recognition pattern",
+          "section": "Discovery signal"
+        },
+        "limitations": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Limitations",
+          "section": "Challenge evidence"
+        },
+        "negativeEvidence": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Evidence against visiting",
+          "section": "Challenge evidence"
+        },
+        "operationalNotes": {
+          "type": "string",
+          "searchable": true,
+          "label": "Current operational notes",
+          "section": "Access & effort"
+        },
+        "mapGeometryNote": {
+          "type": "string",
+          "searchable": true,
+          "label": "Map geometry note",
+          "section": "Access & effort"
+        }
+      }
     }
   }
 }

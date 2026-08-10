@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-08-10T17:54:31.000Z",
+  "generatedAt": "2026-08-10T18:06:33.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -14,15 +14,15 @@
     ]
   },
   "counts": {
-    "total": 181,
-    "public": 181,
+    "total": 188,
+    "public": 188,
     "statuses": {
-      "published": 181
+      "published": 188
     },
     "tiers": {
       "S": 26,
-      "A": 80,
-      "B": 63,
+      "A": 84,
+      "B": 66,
       "C": 12
     },
     "geometryVertices": 0
@@ -30,34 +30,34 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-cz.88cec9210271.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.e50e941aae7e.json",
         "bytes": 211505,
-        "gzipBytes": 36901,
-        "sha256": "88cec92102711ddfd49ae59d1f92f4ebb1f1f0057e483caca6e7c98ec3aca9c6",
+        "gzipBytes": 36902,
+        "sha256": "e50e941aae7eba597587f56602a5561976b94f98b7f68e4361036c87a36ec049",
         "countryCode": "CZ",
         "entityCount": 45
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.be2f96f0ec17.json",
-        "bytes": 656786,
-        "gzipBytes": 132779,
-        "sha256": "be2f96f0ec17aaf91db8f21911d558f3e3685e1a5c974f6dcf5d56e20d6557a0",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.abc72f48ff8b.json",
+        "bytes": 683242,
+        "gzipBytes": 141023,
+        "sha256": "abc72f48ff8bda496effd7df220866edbf5422cf7d0e7fbf2be655b5bcb3f513",
         "countryCode": "JP",
-        "entityCount": 136
+        "entityCount": 143
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.8ad9d665a25b.json",
-      "bytes": 12335,
-      "gzipBytes": 3173,
-      "sha256": "8ad9d665a25be1bbd9ca4371eadb650d0468784e41eeea329468f4d2411050ff",
-      "documentCount": 181
+      "url": "/good-shit-public/data/search/manifest.88e48eb4385e.json",
+      "bytes": 13786,
+      "gzipBytes": 3540,
+      "sha256": "88e48eb4385e32e728dad8ca3f6e198811d8f9057aba8e4b6522c5e811e13495",
+      "documentCount": 188
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.56dfcfc2fadc.json",
-      "bytes": 43950,
-      "gzipBytes": 13549,
-      "sha256": "56dfcfc2fadcfa53ede6da81a66804130305e1c43a055937fac363ad8ac915e0",
+      "url": "/good-shit-public/data/map/manifest.f743ffa7b013.json",
+      "bytes": 45547,
+      "gzipBytes": 14034,
+      "sha256": "f743ffa7b013650929de56fddb439676e6924d2f24aaefbadb72205c45035e83",
       "shardCount": 6
     },
     "redirects": {

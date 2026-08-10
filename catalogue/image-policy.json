@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "maxBytes": 8388608,
+    "maxBytes": 16777216,
     "allowedExtensions": [
       ".jpg",
       ".jpeg",
@@ -9,32 +9,18 @@
       ".webp",
       ".svg"
     ],
-    "maxPixels": 24000000
+    "maxPixels": 30000000
   },
   "output": {
     "format": "webp",
     "quality": 78,
     "variants": [
-      {
-        "width": 480,
-        "maxBytes": 92160
-      },
-      {
-        "width": 960,
-        "maxBytes": 184320
-      },
-      {
-        "width": 1440,
-        "maxBytes": 307200
-      }
-    ]
+      {"width":480,"maxBytes":92160},
+      {"width":960,"maxBytes":184320},
+      {"width":1440,"maxBytes":307200}
+    ],
+    "minQuality": 48
   },
-  "entity": {
-    "maxImages": 8,
-    "maxCoverImages": 1
-  },
-  "food": {
-    "maxImages": 12,
-    "maxImagesPerTarget": 3
-  }
+  "entity": {"maxImages":8,"maxCoverImages":1},
+  "food": {"maxImages":12,"maxImagesPerTarget":3}
 }
