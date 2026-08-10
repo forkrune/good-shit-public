@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-japan-food.1",
-  "generatedAt": "2026-08-10T17:11:46.000Z",
+  "generatedAt": "2026-08-10T17:24:44.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -30,34 +30,34 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-cz.025a9af4a4f5.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.7e0bab4571fc.json",
         "bytes": 32887,
         "gzipBytes": 7948,
-        "sha256": "025a9af4a4f57ee80709052e75dd53f03e99faa603ee2fa96c4792d32570aaea",
+        "sha256": "7e0bab4571fc45a857ec78f1efddd9da5ef58682d184e11f3710105eee6ccfa7",
         "countryCode": "CZ",
         "entityCount": 10
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.c6dc2639291f.json",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.d8c659143036.json",
         "bytes": 389624,
-        "gzipBytes": 67896,
-        "sha256": "c6dc2639291f378454f6da951a61c21f446e36d26937eac1f6459569ac9e216f",
+        "gzipBytes": 67972,
+        "sha256": "d8c659143036559452ac244cc9346fd59debbf308dd2d8fb892c054a4c1d00f1",
         "countryCode": "JP",
         "entityCount": 82
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.9444461ba6b9.json",
+      "url": "/good-shit-public/data/search/manifest.d3da5740c886.json",
       "bytes": 5769,
-      "gzipBytes": 1689,
-      "sha256": "9444461ba6b9d714b02b06bb716cad24feceaaadea3391da975d252569f52057",
+      "gzipBytes": 1690,
+      "sha256": "d3da5740c886c74bdbfd1c471996b74328bf8aa06622b814a30cdaed5d29adf7",
       "documentCount": 92
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.398571e7f8bc.json",
+      "url": "/good-shit-public/data/map/manifest.0fdd1255380b.json",
       "bytes": 23218,
-      "gzipBytes": 7294,
-      "sha256": "398571e7f8bc2285d4101fba21b22b38f76a34c58fa9b92044ee71b8a1e5ffd4",
+      "gzipBytes": 7300,
+      "sha256": "0fdd1255380ba8d222c343e648a2bc688d0ce3af698832a056402234bddf9930",
       "shardCount": 6
     },
     "redirects": {

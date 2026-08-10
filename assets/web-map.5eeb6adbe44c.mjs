@@ -250,8 +250,28 @@ function layerColorExpression() {
   ];
 }
 
-function installSourcesAndLayers() {
+function iconImageExpression() {
+  const iconTypes = Object.keys(config.mapIcons ?? {}).filter((type) => type !== 'default').sort();
+  return ['match', ['get', 'entityType'],
+    ...iconTypes.flatMap((type) => [type, `map-icon-${type}`]),
+    'map-icon-default'
+  ];
+}
+
+async function loadMapIcons() {
+  const entries = Object.entries(config.mapIcons ?? {});
+  if (!entries.length || !entries.some(([type]) => type === 'default')) throw new Error('Map icon configuration is incomplete.');
+  await Promise.all(entries.map(async ([type, url]) => {
+    const id = `map-icon-${type}`;
+    if (map.hasImage(id)) return;
+    const image = await map.loadImage(url);
+    map.addImage(id, image.data, { pixelRatio: 2 });
+  }));
+}
+
+async function installSourcesAndLayers() {
   if (!map || map.getSource('curated-points')) return;
+  await loadMapIcons();
   map.addSource('curated-points', {
     type: 'geojson',
     data: featureCollection(),
@@ -298,11 +318,24 @@ function installSourcesAndLayers() {
     source: 'curated-points',
     filter: ['==', ['get', 'id'], '__none__'],
     paint: {
-      'circle-color': '#ffffff',
+      'circle-color': layerColorExpression(),
       'circle-radius': 15,
       'circle-stroke-color': '#5b32a3',
       'circle-stroke-width': 5
     }
+  });
+  map.addLayer({
+    id: 'curated-point-icons',
+    type: 'symbol',
+    source: 'curated-points',
+    filter: ['!', ['has', 'point_count']],
+    layout: {
+      'icon-image': iconImageExpression(),
+      'icon-size': ['interpolate', ['linear'], ['zoom'], 3, 0.32, 10, 0.5, 16, 0.68],
+      'icon-allow-overlap': true,
+      'icon-ignore-placement': true
+    },
+    paint: { 'icon-opacity': 0.98 }
   });
 
   map.addSource('curated-routes', { type: 'geojson', data: featureCollection() });
@@ -573,7 +606,7 @@ async function initialiseMap() {
     await withTimeout(new Promise((resolve, reject) => {
       map.once('load', async () => {
         try {
-          installSourcesAndLayers();
+          await installSourcesAndLayers();
           if (selectedId && manifest.entityIndex[selectedId]) {
             const target = manifest.entityIndex[selectedId];
             const [west, south, east, north] = target.bbox;
