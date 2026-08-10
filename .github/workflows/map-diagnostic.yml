@@ -1,0 +1,55 @@
+name: Map runtime diagnostic
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/map-diagnostic.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Exercise deployed map in Chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://forkrune.github.io/good-shit-public/map/'
+          google-chrome \
+            --headless=new \
+            --no-sandbox \
+            --disable-dev-shm-usage \
+            --window-size=1440,900 \
+            --virtual-time-budget=12000 \
+            --enable-logging=stderr \
+            --screenshot=/tmp/map.png \
+            --dump-dom \
+            "$URL" > /tmp/map-dom.html 2> /tmp/chrome.log || true
+
+          echo '--- map status ---'
+          grep -oE '<div id="map-status"[^>]*>[^<]*' /tmp/map-dom.html || true
+          echo '--- result count ---'
+          grep -oE '<strong id="map-result-count"[^>]*>[^<]*' /tmp/map-dom.html || true
+          echo '--- fallback ---'
+          grep -oE '<div id="map-fallback"[^>]*>|data-map-error[^>]*>[^<]*' /tmp/map-dom.html || true
+          echo '--- browser errors/warnings ---'
+          grep -Ei 'error|failed|cors|webgl|maplibre|worker|style|tile' /tmp/chrome.log | tail -120 || true
+          echo '--- downloaded map assets visible in DOM ---'
+          grep -oE '/good-shit-public/(data|assets)/[^" ]+' /tmp/map-dom.html | sort -u | head -80 || true
+
+      - name: Upload diagnostic snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: map-runtime-diagnostic
+          path: |
+            /tmp/map.png
+            /tmp/map-dom.html
+            /tmp/chrome.log
+          retention-days: 1
