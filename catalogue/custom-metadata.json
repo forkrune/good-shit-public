@@ -24,10 +24,17 @@
         },
         "japanRegion": {
           "type": "string",
-          "required": true,
+          "required": false,
           "searchable": true,
           "facet": true,
           "label": "Japan region",
+          "section": "Identity & foodway"
+        },
+        "foodRegion": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Region",
           "section": "Identity & foodway"
         },
         "foodway": {
@@ -60,6 +67,93 @@
           "searchable": true,
           "label": "Approx. price per person",
           "section": "Visit planning"
+        },
+        "pricePerPerson": {
+          "type": "string",
+          "searchable": true,
+          "label": "Approx. price per person",
+          "section": "Visit planning"
+        },
+        "operationalStatus": {
+          "type": "enum",
+          "values": [
+            "confirmed-open",
+            "probably-open",
+            "seasonal-active",
+            "temporary-closure",
+            "uncertain"
+          ],
+          "facet": true,
+          "label": "Operational status",
+          "section": "Visit planning",
+          "cardSignal": {
+            "order": 15,
+            "prefix": "Status: "
+          }
+        },
+        "operationalConfidence": {
+          "type": "enum",
+          "values": [
+            "high",
+            "medium-high",
+            "medium",
+            "low-medium",
+            "low"
+          ],
+          "facet": true,
+          "label": "Operational confidence",
+          "section": "Visit planning"
+        },
+        "lastOperationalVerification": {
+          "type": "string",
+          "searchable": true,
+          "label": "Last operational verification",
+          "section": "Visit planning"
+        },
+        "openingHoursConfidence": {
+          "type": "string",
+          "searchable": true,
+          "label": "Opening-hours confidence",
+          "section": "Visit planning"
+        },
+        "availabilityConditions": {
+          "type": "string",
+          "searchable": true,
+          "label": "Availability conditions",
+          "section": "Visit planning"
+        },
+        "menuStatus": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Menu status",
+          "section": "What to eat"
+        },
+        "currentPriceEvidence": {
+          "type": "string",
+          "searchable": true,
+          "label": "Current / recent price evidence",
+          "section": "Visit planning"
+        },
+        "foodConfidence": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Food confidence",
+          "section": "Research notes"
+        },
+        "destinationWorthiness": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Destination worthiness",
+          "section": "Research notes"
+        },
+        "coordinatePrecision": {
+          "type": "string",
+          "searchable": true,
+          "label": "Coordinate precision",
+          "section": "Research notes"
         },
         "value": {
           "type": "enum",

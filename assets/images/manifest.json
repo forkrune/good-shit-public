@@ -289,6 +289,522 @@
           "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.1440.webp"
         }
       ]
+    },
+    "pfd-cz-0001-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2293,
+          "url": "/good-shit-public/assets/images/pfd-cz-0001-hero.73b78ba448b3.svg"
+        }
+      ]
+    },
+    "pfd-cz-0001-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2350,
+          "url": "/good-shit-public/assets/images/pfd-cz-0001-ordering.8a69b5946fe9.svg"
+        }
+      ]
+    },
+    "pfd-cz-0002-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2199,
+          "url": "/good-shit-public/assets/images/pfd-cz-0002-hero.dd8253c9a3ad.svg"
+        }
+      ]
+    },
+    "pfd-cz-0003-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2157,
+          "url": "/good-shit-public/assets/images/pfd-cz-0003-hero.e4a26125f356.svg"
+        }
+      ]
+    },
+    "pfd-cz-0004-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2234,
+          "url": "/good-shit-public/assets/images/pfd-cz-0004-hero.62e818a57195.svg"
+        }
+      ]
+    },
+    "pfd-cz-0005-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2149,
+          "url": "/good-shit-public/assets/images/pfd-cz-0005-hero.204a26f3d94a.svg"
+        }
+      ]
+    },
+    "pfd-cz-0006-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2203,
+          "url": "/good-shit-public/assets/images/pfd-cz-0006-hero.f09f6f02367d.svg"
+        }
+      ]
+    },
+    "pfd-cz-0007-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2212,
+          "url": "/good-shit-public/assets/images/pfd-cz-0007-hero.6d72f7187928.svg"
+        }
+      ]
+    },
+    "pfd-cz-0008-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2157,
+          "url": "/good-shit-public/assets/images/pfd-cz-0008-hero.5acba9c77754.svg"
+        }
+      ]
+    },
+    "pfd-cz-0008-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2296,
+          "url": "/good-shit-public/assets/images/pfd-cz-0008-ordering.7ba4960e3ee4.svg"
+        }
+      ]
+    },
+    "pfd-cz-0009-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2296,
+          "url": "/good-shit-public/assets/images/pfd-cz-0009-hero.ed7700d62073.svg"
+        }
+      ]
+    },
+    "pfd-cz-0010-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2249,
+          "url": "/good-shit-public/assets/images/pfd-cz-0010-hero.712186b3e69c.svg"
+        }
+      ]
+    },
+    "pfd-cz-0010-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2344,
+          "url": "/good-shit-public/assets/images/pfd-cz-0010-ordering.e4f624b2437c.svg"
+        }
+      ]
+    },
+    "pfd-cz-0011-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2219,
+          "url": "/good-shit-public/assets/images/pfd-cz-0011-hero.37c0aca5a3d1.svg"
+        }
+      ]
+    },
+    "pfd-cz-0011-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2433,
+          "url": "/good-shit-public/assets/images/pfd-cz-0011-ordering.d8ecb3c0a4b2.svg"
+        }
+      ]
+    },
+    "pfd-cz-0012-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2267,
+          "url": "/good-shit-public/assets/images/pfd-cz-0012-hero.6ca6eefd7766.svg"
+        }
+      ]
+    },
+    "pfd-cz-0013-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2079,
+          "url": "/good-shit-public/assets/images/pfd-cz-0013-hero.ddc24acdb01f.svg"
+        }
+      ]
+    },
+    "pfd-cz-0014-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2364,
+          "url": "/good-shit-public/assets/images/pfd-cz-0014-hero.431f1141f567.svg"
+        }
+      ]
+    },
+    "pfd-cz-0015-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2207,
+          "url": "/good-shit-public/assets/images/pfd-cz-0015-hero.84b403c85448.svg"
+        }
+      ]
+    },
+    "pfd-cz-0015-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2239,
+          "url": "/good-shit-public/assets/images/pfd-cz-0015-ordering.86d46cf26e96.svg"
+        }
+      ]
+    },
+    "pfd-cz-0016-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2328,
+          "url": "/good-shit-public/assets/images/pfd-cz-0016-hero.531d687d2ce4.svg"
+        }
+      ]
+    },
+    "pfd-cz-0017-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2373,
+          "url": "/good-shit-public/assets/images/pfd-cz-0017-hero.5b324b12f10d.svg"
+        }
+      ]
+    },
+    "pfd-cz-0018-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2282,
+          "url": "/good-shit-public/assets/images/pfd-cz-0018-hero.381fd7396a96.svg"
+        }
+      ]
+    },
+    "pfd-cz-0019-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2319,
+          "url": "/good-shit-public/assets/images/pfd-cz-0019-hero.0baeced231d5.svg"
+        }
+      ]
+    },
+    "pfd-cz-0020-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2325,
+          "url": "/good-shit-public/assets/images/pfd-cz-0020-hero.379f34885123.svg"
+        }
+      ]
+    },
+    "pfd-cz-0021-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2049,
+          "url": "/good-shit-public/assets/images/pfd-cz-0021-hero.a94464de30a3.svg"
+        }
+      ]
+    },
+    "pfd-cz-0022-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2207,
+          "url": "/good-shit-public/assets/images/pfd-cz-0022-hero.a6a58dfb2ce9.svg"
+        }
+      ]
+    },
+    "pfd-cz-0023-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2168,
+          "url": "/good-shit-public/assets/images/pfd-cz-0023-hero.42c6f1cb3799.svg"
+        }
+      ]
+    },
+    "pfd-cz-0024-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2202,
+          "url": "/good-shit-public/assets/images/pfd-cz-0024-hero.0f40a0b794b9.svg"
+        }
+      ]
+    },
+    "pfd-cz-0024-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2357,
+          "url": "/good-shit-public/assets/images/pfd-cz-0024-ordering.7851b8f850ab.svg"
+        }
+      ]
+    },
+    "pfd-cz-0025-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2119,
+          "url": "/good-shit-public/assets/images/pfd-cz-0025-hero.0997f961c5d4.svg"
+        }
+      ]
+    },
+    "pfd-cz-0026-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2277,
+          "url": "/good-shit-public/assets/images/pfd-cz-0026-hero.882cd6603f93.svg"
+        }
+      ]
+    },
+    "pfd-cz-0026-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2367,
+          "url": "/good-shit-public/assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
+        }
+      ]
+    },
+    "pfd-cz-0027-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2219,
+          "url": "/good-shit-public/assets/images/pfd-cz-0027-hero.45ca96554e3b.svg"
+        }
+      ]
+    },
+    "pfd-cz-0027-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2369,
+          "url": "/good-shit-public/assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
+        }
+      ]
+    },
+    "pfd-cz-0028-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2118,
+          "url": "/good-shit-public/assets/images/pfd-cz-0028-hero.c2ca80717b1a.svg"
+        }
+      ]
+    },
+    "pfd-cz-0029-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2114,
+          "url": "/good-shit-public/assets/images/pfd-cz-0029-hero.63c99546d2cf.svg"
+        }
+      ]
+    },
+    "pfd-cz-0030-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2144,
+          "url": "/good-shit-public/assets/images/pfd-cz-0030-hero.adb8194dd375.svg"
+        }
+      ]
+    },
+    "pfd-cz-0031-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2160,
+          "url": "/good-shit-public/assets/images/pfd-cz-0031-hero.5a2eda837a28.svg"
+        }
+      ]
+    },
+    "pfd-cz-0032-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2082,
+          "url": "/good-shit-public/assets/images/pfd-cz-0032-hero.d4ca52e3e834.svg"
+        }
+      ]
+    },
+    "pfd-cz-0033-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2066,
+          "url": "/good-shit-public/assets/images/pfd-cz-0033-hero.16134a602545.svg"
+        }
+      ]
+    },
+    "pfd-cz-0034-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2158,
+          "url": "/good-shit-public/assets/images/pfd-cz-0034-hero.34bab46171de.svg"
+        }
+      ]
+    },
+    "pfd-cz-0035-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2105,
+          "url": "/good-shit-public/assets/images/pfd-cz-0035-hero.28295457a227.svg"
+        }
+      ]
     }
   }
 }
