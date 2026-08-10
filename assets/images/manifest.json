@@ -1,30 +1,5 @@
 {
   "schemaVersion": 1,
   "format": "webp",
-  "assets": {
-    "demo-cover": {
-      "credit": "Synthetic build test",
-      "sourceUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 340,
-          "url": "/good-shit-public/assets/images/demo-cover.fd9acb7277b2.480.webp"
-        },
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 340,
-          "url": "/good-shit-public/assets/images/demo-cover.fd9acb7277b2.960.webp"
-        },
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 340,
-          "url": "/good-shit-public/assets/images/demo-cover.fd9acb7277b2.1440.webp"
-        }
-      ]
-    }
-  }
+  "assets": {}
 }

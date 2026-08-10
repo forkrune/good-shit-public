@@ -1,11 +1,4 @@
 {
   "schemaVersion": 1,
-  "assets": [
-    {
-      "id": "demo-cover",
-      "source": "catalogue/assets/source/demo-cover.jpg",
-      "credit": "Synthetic build test",
-      "sourceUrl": null
-    }
-  ]
+  "assets": []
 }
