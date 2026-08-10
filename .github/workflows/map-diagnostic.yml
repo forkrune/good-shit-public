@@ -17,60 +17,99 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Probe MapLibre CDN import
-        shell: bash
-        run: |
-          set -euo pipefail
-          MODULE='https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs'
-          curl --fail --location --max-time 15 --silent --show-error "$MODULE" -o /tmp/maplibre.mjs
-          echo "MapLibre module bytes: $(wc -c < /tmp/maplibre.mjs)"
-          cat > /tmp/import-test.html <<'HTML'
-          <!doctype html><meta charset="utf-8"><div id="status">starting</div>
-          <script type="module">
-            const status = document.querySelector('#status');
-            status.textContent = 'module script started';
-            try {
-              const module = await import('https://unpkg.com/maplibre-gl@6.0.0/dist/maplibre-gl.mjs');
-              status.textContent = `imported:${typeof module.Map}`;
-            } catch (error) {
-              status.textContent = `error:${error?.message ?? error}`;
-              console.error(error);
-            }
-          </script>
-          HTML
-          (cd /tmp && python3 -m http.server 8765 >/tmp/http.log 2>&1 & echo $! >/tmp/http.pid)
-          sleep 1
-          google-chrome --headless=new --no-sandbox --disable-dev-shm-usage --virtual-time-budget=12000 --dump-dom http://127.0.0.1:8765/import-test.html > /tmp/import-dom.html 2>/tmp/import-chrome.log || true
-          kill "$(cat /tmp/http.pid)" || true
-          echo '--- isolated import result ---'
-          grep -oE '<div id="status">[^<]*' /tmp/import-dom.html || true
-          grep -Ei 'error|failed|cors|module' /tmp/import-chrome.log | tail -80 || true
-
-      - name: Exercise deployed map in Chrome
+      - name: Exercise deployed map with DevTools diagnostics
         shell: bash
         run: |
           set -euo pipefail
           URL='https://forkrune.github.io/good-shit-public/map/'
+          cd /tmp
+          npm install ws@8 --no-save --no-package-lock --silent
+          cat > /tmp/cdp.mjs <<'JS'
+          import { createRequire } from 'node:module';
+          const require = createRequire(import.meta.url);
+          const WebSocket = require('ws');
+
+          const url = process.argv[2];
+          const targets = await fetch('http://127.0.0.1:9222/json/list').then((response) => response.json());
+          const target = targets.find((item) => item.type === 'page');
+          if (!target) throw new Error('No Chrome page target found.');
+          const socket = new WebSocket(target.webSocketDebuggerUrl);
+          await new Promise((resolve, reject) => {
+            socket.once('open', resolve);
+            socket.once('error', reject);
+          });
+
+          let nextId = 1;
+          const pending = new Map();
+          const requests = new Map();
+          function send(method, params = {}) {
+            const id = nextId++;
+            socket.send(JSON.stringify({ id, method, params }));
+            return new Promise((resolve, reject) => pending.set(id, { resolve, reject, method }));
+          }
+          socket.on('message', (data) => {
+            const message = JSON.parse(String(data));
+            if (message.id) {
+              const waiter = pending.get(message.id);
+              if (!waiter) return;
+              pending.delete(message.id);
+              if (message.error) waiter.reject(new Error(`${waiter.method}: ${message.error.message}`));
+              else waiter.resolve(message.result);
+              return;
+            }
+            const { method, params = {} } = message;
+            if (method === 'Network.requestWillBeSent') requests.set(params.requestId, params.request?.url);
+            if (method === 'Network.loadingFailed') {
+              console.log('NETWORK_FAILED', requests.get(params.requestId) ?? params.requestId, params.errorText, params.blockedReason ?? '');
+            }
+            if (method === 'Network.responseReceived' && params.response?.status >= 400) {
+              console.log('HTTP_ERROR', params.response.status, params.response.url);
+            }
+            if (method === 'Runtime.exceptionThrown') {
+              const details = params.exceptionDetails ?? {};
+              console.log('EXCEPTION', details.text, details.exception?.description ?? details.exception?.value ?? '');
+            }
+            if (method === 'Runtime.consoleAPICalled') {
+              const values = (params.args ?? []).map((arg) => arg.value ?? arg.description ?? arg.type);
+              console.log('CONSOLE', params.type, ...values);
+            }
+            if (method === 'Log.entryAdded') console.log('LOG', params.entry?.level, params.entry?.text, params.entry?.url ?? '');
+          });
+
+          await Promise.all([
+            send('Page.enable'),
+            send('Runtime.enable'),
+            send('Log.enable'),
+            send('Network.enable')
+          ]);
+          await send('Page.navigate', { url });
+          await new Promise((resolve) => setTimeout(resolve, 15000));
+          const evaluated = await send('Runtime.evaluate', {
+            expression: `JSON.stringify({readyState:document.readyState,status:document.querySelector('#map-status')?.textContent,count:document.querySelector('#map-result-count')?.textContent,fallbackHidden:document.querySelector('#map-fallback')?.hidden,canvasCount:document.querySelectorAll('#map canvas').length,mapLibreControls:document.querySelectorAll('.maplibregl-ctrl').length})`,
+            returnByValue: true
+          });
+          console.log('STATE', evaluated.result?.value);
+          await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false }).then((result) => require('node:fs').writeFileSync('/tmp/map.png', Buffer.from(result.data, 'base64')));
+          socket.close();
+          JS
+
           google-chrome \
             --headless=new \
             --no-sandbox \
             --disable-dev-shm-usage \
             --enable-unsafe-swiftshader \
             --window-size=1440,900 \
-            --virtual-time-budget=15000 \
-            --enable-logging=stderr \
-            --screenshot=/tmp/map.png \
-            --dump-dom \
-            "$URL" > /tmp/map-dom.html 2> /tmp/chrome.log || true
-
-          echo '--- map status ---'
-          grep -oE '<div id="map-status"[^>]*>[^<]*' /tmp/map-dom.html | tail -1 || true
-          echo '--- result count ---'
-          grep -oE '<strong id="map-result-count"[^>]*>[^<]*' /tmp/map-dom.html | tail -1 || true
-          echo '--- fallback ---'
-          grep -oE '<div id="map-fallback"[^>]*>|data-map-error[^>]*>[^<]*' /tmp/map-dom.html | tail -4 || true
-          echo '--- browser errors/warnings ---'
-          grep -Ei 'error|failed|cors|webgl|maplibre|worker|style|tile' /tmp/chrome.log | tail -160 || true
+            --remote-debugging-port=9222 \
+            about:blank > /tmp/chrome.log 2>&1 &
+          CHROME_PID=$!
+          trap 'kill "$CHROME_PID" 2>/dev/null || true' EXIT
+          for attempt in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:9222/json/version >/dev/null; then break; fi
+            sleep 0.25
+          done
+          node /tmp/cdp.mjs "$URL" | tee /tmp/cdp.log
+          kill "$CHROME_PID" 2>/dev/null || true
+          trap - EXIT
 
       - name: Upload diagnostic snapshot
         uses: actions/upload-artifact@v4
@@ -78,8 +117,6 @@ jobs:
           name: map-runtime-diagnostic
           path: |
             /tmp/map.png
-            /tmp/map-dom.html
+            /tmp/cdp.log
             /tmp/chrome.log
-            /tmp/import-dom.html
-            /tmp/import-chrome.log
           retention-days: 1
