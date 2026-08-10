@@ -1,6 +1,7 @@
 import { normalizeText, tokenize, unique } from './src-core-normalization.af19f5c7bc33.mjs';
 import { geometryBbox, geometryCentroid } from './src-core-geo.a34d5b20ddb0.mjs';
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
+import { customCardSignals, isPublicCustomField } from './src-core-custom-metadata.8ebf9987f71d.mjs';
 
 const FIELD_WEIGHTS = Object.freeze({
   canonicalName: 12,
@@ -29,7 +30,7 @@ export function customSearchValues(entity, customConfig) {
   const values = entity.custom.values ?? {};
   const output = [];
   for (const [fieldName, field] of Object.entries(config.fields)) {
-    if (!field.searchable) continue;
+    if (!isPublicCustomField(field) || !field.searchable) continue;
     const value = values[fieldName];
     if (Array.isArray(value)) output.push(...value.map(String));
     else if (value !== undefined && value !== null) output.push(String(value));
@@ -43,7 +44,7 @@ export function customFacetValues(entity, customConfig) {
   if (!config) return {};
   const result = {};
   for (const [fieldName, field] of Object.entries(config.fields)) {
-    if (!field.facet) continue;
+    if (!isPublicCustomField(field) || !field.facet) continue;
     const value = entity.custom.values?.[fieldName];
     if (value !== undefined && value !== null) result[`${namespace}.${fieldName}`] = value;
   }
@@ -107,6 +108,7 @@ export function buildSearchDocument(entity, customConfig, imageManifest = null) 
     bbox,
     customNamespace: entity.custom.namespace,
     customFacets: customFacetValues(entity, customConfig),
+    cardSignals: customCardSignals(entity, customConfig),
     latestExternalRating: latestRating ? {
       provider: latestRating.provider,
       rating: latestRating.rating,
@@ -257,7 +259,7 @@ export function collectFacets(documents, customConfig) {
   const facetDefinitions = [];
   for (const [namespace, namespaceConfig] of Object.entries(customConfig.namespaces)) {
     for (const [fieldName, field] of Object.entries(namespaceConfig.fields)) {
-      if (!field.facet) continue;
+      if (!isPublicCustomField(field) || !field.facet) continue;
       const key = `${namespace}.${fieldName}`;
       const values = [...custom.entries()]
         .filter(([fullKey]) => fullKey.startsWith(`${key}::`))

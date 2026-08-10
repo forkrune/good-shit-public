@@ -1,7 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://good-shit.local/schema/entity.schema.json",
-  "title": "Good Shit catalogue entity",
+  "title": "Good Shit canonical catalogue entity",
+  "description": "Stable canonical entity envelope. Namespace-specific custom.values are validated against catalogue/config/custom-metadata.json by the semantic validator.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -26,1028 +27,206 @@
     "custom"
   ],
   "properties": {
-    "schemaVersion": {
-      "const": 1
-    },
-    "contentVersion": {
-      "type": "integer",
-      "minimum": 1
-    },
-    "id": {
-      "type": "string",
-      "format": "uuid"
-    },
-    "slug": {
-      "type": "string",
-      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-    },
-    "entityType": {
-      "type": "string",
-      "pattern": "^[a-z][a-z0-9-]*$"
-    },
-    "names": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "canonical"
-      ],
-      "properties": {
-        "canonical": {
-          "type": "string",
-          "minLength": 1
-        },
-        "local": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "aliases": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          },
-          "uniqueItems": true
-        },
-        "transliterations": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          },
-          "uniqueItems": true
-        }
-      }
-    },
-    "summary": {
-      "type": "string",
-      "minLength": 1
-    },
-    "description": {
-      "type": "string",
-      "minLength": 1
-    },
-    "whyWorthwhile": {
-      "type": "string",
-      "minLength": 1
-    },
-    "location": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "countryCode",
-        "country"
-      ],
-      "properties": {
-        "countryCode": {
-          "type": "string",
-          "pattern": "^[A-Z]{2}$"
-        },
-        "country": {
-          "type": "string",
-          "minLength": 1
-        },
-        "region": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "locality": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "address": {
-          "type": [
-            "string",
-            "null"
-          ]
-        }
-      }
-    },
+    "schemaVersion": { "const": 1 },
+    "contentVersion": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "format": "uuid" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "entityType": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "names": { "$ref": "#/$defs/names" },
+    "summary": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "whyWorthwhile": { "type": "string", "minLength": 1 },
+    "location": { "$ref": "#/$defs/location" },
     "categories": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9-]+$"
-      },
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
       "uniqueItems": true
     },
     "subcategories": {
       "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9-]+$"
-      },
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
       "uniqueItems": true
     },
     "tags": {
       "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1
-      },
+      "items": { "type": "string", "minLength": 1 },
       "uniqueItems": true
     },
-    "tier": {
-      "enum": [
-        "S",
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "unranked"
-      ]
-    },
+    "tier": { "enum": ["S", "A", "B", "C", "D", "E", "F", "unranked"] },
     "editorial": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "status",
-        "recommendation",
-        "qualityRationale",
-        "lastReviewedAt"
-      ],
+      "required": ["status", "recommendation", "qualityRationale", "lastReviewedAt"],
       "properties": {
-        "status": {
-          "enum": [
-            "candidate",
-            "published",
-            "needs-review",
-            "rejected",
-            "deprecated",
-            "closed"
-          ]
-        },
-        "recommendation": {
-          "enum": [
-            "publish",
-            "review",
-            "reject",
-            "unpublish"
-          ]
-        },
-        "qualityRationale": {
-          "type": "string",
-          "minLength": 1
-        },
-        "publishedAt": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
-        },
-        "lastReviewedAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "replacedById": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "uuid"
-        }
+        "status": { "enum": ["candidate", "published", "needs-review", "rejected", "deprecated", "closed"] },
+        "recommendation": { "enum": ["publish", "review", "reject", "unpublish"] },
+        "qualityRationale": { "type": "string", "minLength": 1 },
+        "publishedAt": { "type": ["string", "null"], "format": "date-time" },
+        "lastReviewedAt": { "type": "string", "format": "date-time" },
+        "replacedById": { "type": ["string", "null"], "format": "uuid" }
       }
+    },
+    "geometry": { "$ref": "#/$defs/geometry" },
+    "links": { "type": "array", "items": { "$ref": "#/$defs/link" } },
+    "externalRatings": { "type": "array", "items": { "$ref": "#/$defs/externalRating" } },
+    "research": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["firstResearchedAt", "lastVerifiedAt", "confidence", "sources"],
+      "properties": {
+        "firstResearchedAt": { "type": "string", "format": "date-time" },
+        "lastVerifiedAt": { "type": "string", "format": "date-time" },
+        "confidence": { "enum": ["low", "medium", "high"] },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/researchSource" } },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "custom": { "$ref": "#/$defs/customEnvelope" },
+    "images": { "type": "array", "items": { "$ref": "#/$defs/imageReference" } },
+    "demo": { "type": "boolean" }
+  },
+  "$defs": {
+    "names": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["canonical"],
+      "properties": {
+        "canonical": { "type": "string", "minLength": 1 },
+        "local": { "type": ["string", "null"] },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "transliterations": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true }
+      }
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["countryCode", "country"],
+      "properties": {
+        "countryCode": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "country": { "type": "string", "minLength": 1 },
+        "region": { "type": ["string", "null"] },
+        "locality": { "type": ["string", "null"] },
+        "address": { "type": ["string", "null"] }
+      }
+    },
+    "position": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "minimum": -180, "maximum": 180 },
+        { "type": "number", "minimum": -90, "maximum": 90 }
+      ],
+      "items": false,
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "ring": {
+      "type": "array",
+      "minItems": 4,
+      "items": { "$ref": "#/$defs/position" }
     },
     "geometry": {
       "oneOf": [
         {
           "type": "object",
           "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
+          "required": ["type", "coordinates"],
+          "properties": { "type": { "const": "Point" }, "coordinates": { "$ref": "#/$defs/position" } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": { "type": { "const": "MultiPoint" }, "coordinates": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/position" } } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": { "type": { "const": "LineString" }, "coordinates": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/position" } } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
           "properties": {
-            "type": {
-              "const": "Point"
-            },
-            "coordinates": {
-              "$ref": "#/$defs/position"
-            }
+            "type": { "const": "MultiLineString" },
+            "coordinates": { "type": "array", "minItems": 1, "items": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/position" } } }
           }
         },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
-          "properties": {
-            "type": {
-              "const": "MultiPoint"
-            },
-            "coordinates": {
-              "type": "array",
-              "minItems": 1,
-              "items": {
-                "$ref": "#/$defs/position"
-              }
-            }
-          }
+          "required": ["type", "coordinates"],
+          "properties": { "type": { "const": "Polygon" }, "coordinates": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ring" } } }
         },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
+          "required": ["type", "coordinates"],
           "properties": {
-            "type": {
-              "const": "LineString"
-            },
-            "coordinates": {
-              "type": "array",
-              "minItems": 2,
-              "items": {
-                "$ref": "#/$defs/position"
-              }
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
-          "properties": {
-            "type": {
-              "const": "MultiLineString"
-            },
-            "coordinates": {
-              "type": "array",
-              "minItems": 1,
-              "items": {
-                "type": "array",
-                "minItems": 2,
-                "items": {
-                  "$ref": "#/$defs/position"
-                }
-              }
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
-          "properties": {
-            "type": {
-              "const": "Polygon"
-            },
-            "coordinates": {
-              "type": "array",
-              "minItems": 1,
-              "items": {
-                "$ref": "#/$defs/ring"
-              }
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "type",
-            "coordinates"
-          ],
-          "properties": {
-            "type": {
-              "const": "MultiPolygon"
-            },
-            "coordinates": {
-              "type": "array",
-              "minItems": 1,
-              "items": {
-                "type": "array",
-                "minItems": 1,
-                "items": {
-                  "$ref": "#/$defs/ring"
-                }
-              }
-            }
+            "type": { "const": "MultiPolygon" },
+            "coordinates": { "type": "array", "minItems": 1, "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ring" } } }
           }
         }
       ]
     },
-    "links": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "kind",
-          "url",
-          "label"
-        ],
-        "properties": {
-          "kind": {
-            "enum": [
-              "official",
-              "google-maps",
-              "openstreetmap",
-              "reservation",
-              "trail-source",
-              "research",
-              "other"
-            ]
-          },
-          "url": {
-            "type": "string",
-            "format": "uri"
-          },
-          "label": {
-            "type": "string",
-            "minLength": 1
-          },
-          "providerId": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
-        }
-      }
-    },
-    "externalRatings": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "provider",
-          "rating",
-          "scale",
-          "reviewCount",
-          "observedAt",
-          "sourceUrl"
-        ],
-        "properties": {
-          "provider": {
-            "type": "string",
-            "minLength": 1
-          },
-          "rating": {
-            "type": "number",
-            "minimum": 0
-          },
-          "scale": {
-            "type": "number",
-            "exclusiveMinimum": 0
-          },
-          "reviewCount": {
-            "type": "integer",
-            "minimum": 0
-          },
-          "observedAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "sourceUrl": {
-            "type": "string",
-            "format": "uri"
-          },
-          "providerReference": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
-        }
-      }
-    },
-    "research": {
+    "link": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "firstResearchedAt",
-        "lastVerifiedAt",
-        "confidence",
-        "sources"
-      ],
+      "required": ["kind", "url", "label"],
       "properties": {
-        "firstResearchedAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "lastVerifiedAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "confidence": {
-          "enum": [
-            "low",
-            "medium",
-            "high"
-          ]
-        },
-        "sources": {
-          "type": "array",
-          "minItems": 1,
-          "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-              "title",
-              "url",
-              "accessedAt"
-            ],
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1
-              },
-              "url": {
-                "type": "string",
-                "minLength": 1
-              },
-              "accessedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "note": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              }
-            }
-          }
-        },
-        "notes": {
-          "type": [
-            "string",
-            "null"
-          ]
-        }
+        "kind": { "enum": ["official", "google-maps", "openstreetmap", "reservation", "trail-source", "research", "other"] },
+        "url": { "type": "string", "format": "uri" },
+        "label": { "type": "string", "minLength": 1 },
+        "providerId": { "type": ["string", "null"] }
       }
     },
-    "custom": {
-      "oneOf": [
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "food"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "cuisines": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true,
-                  "minItems": 1
-                },
-                "speciality": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "notableDishes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "mealTypes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "enum": [
-                      "breakfast",
-                      "lunch",
-                      "dinner",
-                      "snack",
-                      "drinks"
-                    ]
-                  },
-                  "uniqueItems": true
-                },
-                "priceLevel": {
-                  "type": "string",
-                  "enum": [
-                    "low",
-                    "moderate",
-                    "high",
-                    "premium"
-                  ]
-                },
-                "value": {
-                  "type": "string",
-                  "enum": [
-                    "exceptional",
-                    "strong",
-                    "fair",
-                    "poor"
-                  ]
-                },
-                "dietarySuitability": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "reservations": {
-                  "type": "string",
-                  "enum": [
-                    "not-needed",
-                    "recommended",
-                    "required",
-                    "unavailable"
-                  ]
-                },
-                "takeaway": {
-                  "type": "boolean"
-                },
-                "orderingNotes": {
-                  "type": "string",
-                  "minLength": 1
-                }
-              },
-              "required": [
-                "cuisines"
-              ]
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "hiking"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "distanceKm": {
-                  "type": "number",
-                  "minimum": 0.1,
-                  "maximum": 1000
-                },
-                "ascentM": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 20000
-                },
-                "descentM": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 20000
-                },
-                "durationMinutes": {
-                  "type": "integer",
-                  "minimum": 1,
-                  "maximum": 100000
-                },
-                "difficulty": {
-                  "type": "string",
-                  "enum": [
-                    "easy",
-                    "moderate",
-                    "hard",
-                    "expert"
-                  ]
-                },
-                "surface": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "routeType": {
-                  "type": "string",
-                  "enum": [
-                    "loop",
-                    "out-and-back",
-                    "point-to-point",
-                    "network"
-                  ]
-                },
-                "seasonality": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "enum": [
-                      "spring",
-                      "summer",
-                      "autumn",
-                      "winter",
-                      "year-round"
-                    ]
-                  },
-                  "uniqueItems": true
-                },
-                "waymarking": {
-                  "type": "string",
-                  "enum": [
-                    "clear",
-                    "partial",
-                    "unmarked"
-                  ]
-                }
-              },
-              "required": [
-                "distanceKm",
-                "ascentM",
-                "descentM",
-                "durationMinutes",
-                "difficulty",
-                "routeType"
-              ]
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "entertainment"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "format": {
-                  "type": "string",
-                  "enum": [
-                    "cinema",
-                    "live-music",
-                    "theatre",
-                    "museum",
-                    "games",
-                    "other"
-                  ]
-                },
-                "genres": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "indoor": {
-                  "type": "boolean"
-                },
-                "typicalDurationMinutes": {
-                  "type": "integer",
-                  "minimum": 1,
-                  "maximum": 10000
-                },
-                "bookingAdvice": {
-                  "type": "string",
-                  "minLength": 1
-                },
-                "accessibilityNotes": {
-                  "type": "string",
-                  "minLength": 1
-                }
-              },
-              "required": [
-                "format"
-              ]
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "natural"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "features": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true,
-                  "minItems": 1
-                },
-                "access": {
-                  "type": "string",
-                  "enum": [
-                    "easy",
-                    "moderate",
-                    "demanding",
-                    "restricted"
-                  ]
-                },
-                "seasonality": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "enum": [
-                      "spring",
-                      "summer",
-                      "autumn",
-                      "winter",
-                      "year-round"
-                    ]
-                  },
-                  "uniqueItems": true
-                },
-                "typicalDurationMinutes": {
-                  "type": "integer",
-                  "minimum": 1,
-                  "maximum": 10000
-                },
-                "swimming": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "features"
-              ]
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "architecture"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "periods": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "styles": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true
-                },
-                "access": {
-                  "type": "string",
-                  "enum": [
-                    "exterior",
-                    "interior",
-                    "guided-only",
-                    "restricted"
-                  ]
-                },
-                "typicalDurationMinutes": {
-                  "type": "integer",
-                  "minimum": 1,
-                  "maximum": 10000
-                }
-              }
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "retail"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "specialities": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true,
-                  "minItems": 1
-                },
-                "priceLevel": {
-                  "type": "string",
-                  "enum": [
-                    "low",
-                    "moderate",
-                    "high",
-                    "premium"
-                  ]
-                },
-                "appointmentRecommended": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "specialities"
-              ]
-            }
-          }
-        },
-        {
-          "type": "object",
-          "additionalProperties": false,
-          "required": [
-            "namespace",
-            "schemaVersion",
-            "values"
-          ],
-          "properties": {
-            "namespace": {
-              "const": "experience"
-            },
-            "schemaVersion": {
-              "const": 1
-            },
-            "values": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "experienceKinds": {
-                  "type": "array",
-                  "items": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "uniqueItems": true,
-                  "minItems": 1
-                },
-                "booking": {
-                  "type": "string",
-                  "enum": [
-                    "not-needed",
-                    "recommended",
-                    "required"
-                  ]
-                },
-                "typicalDurationMinutes": {
-                  "type": "integer",
-                  "minimum": 1,
-                  "maximum": 10000
-                },
-                "indoor": {
-                  "type": "boolean"
-                }
-              },
-              "required": [
-                "experienceKinds"
-              ]
-            }
-          }
-        }
-      ]
-    },
-    "demo": {
-      "type": "boolean"
-    },
-    "images": {
-      "type": "array",
-      "maxItems": 8,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "assetId",
-          "role",
-          "alt"
-        ],
-        "properties": {
-          "assetId": {
-            "type": "string",
-            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-          },
-          "role": {
-            "enum": [
-              "cover",
-              "gallery"
-            ]
-          },
-          "alt": {
-            "type": "string",
-            "minLength": 1,
-            "maxLength": 300
-          },
-          "caption": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "maxLength": 500
-          }
-        }
-      }
-    }
-  },
-  "$defs": {
-    "position": {
-      "type": "array",
-      "minItems": 2,
-      "maxItems": 3,
-      "prefixItems": [
-        {
-          "type": "number",
-          "minimum": -180,
-          "maximum": 180
-        },
-        {
-          "type": "number",
-          "minimum": -90,
-          "maximum": 90
-        }
-      ],
-      "items": {
-        "type": "number"
+    "externalRating": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "rating", "scale", "reviewCount", "observedAt", "sourceUrl"],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1 },
+        "rating": { "type": "number", "minimum": 0 },
+        "scale": { "type": "number", "exclusiveMinimum": 0 },
+        "reviewCount": { "type": "integer", "minimum": 0 },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "providerReference": { "type": ["string", "null"] }
       }
     },
-    "ring": {
-      "type": "array",
-      "minItems": 4,
-      "items": {
-        "$ref": "#/$defs/position"
+    "researchSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "accessedAt"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "accessedAt": { "type": "string", "format": "date-time" },
+        "note": { "type": ["string", "null"] }
+      }
+    },
+    "customEnvelope": {
+      "description": "Namespace-specific fields in values are validated by custom-metadata.json and the semantic validator.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["namespace", "schemaVersion", "values"],
+      "properties": {
+        "namespace": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "schemaVersion": { "type": "integer", "minimum": 1 },
+        "values": { "type": "object" }
+      }
+    },
+    "imageReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assetId", "role", "alt"],
+      "properties": {
+        "assetId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "role": { "enum": ["cover", "gallery"] },
+        "alt": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "caption": { "type": ["string", "null"], "maxLength": 500 }
       }
     }
   }

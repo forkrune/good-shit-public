@@ -4,44 +4,527 @@
     "food": {
       "label": "Food & drink",
       "fields": {
-        "researchId": {"type":"string","required":true,"searchable":true,"label":"Research ID","section":"Identity & foodway"},
-        "primaryCategory": {"type":"string","required":true,"searchable":true,"facet":true,"label":"Food category","section":"Identity & foodway"},
-        "japanRegion": {"type":"string","required":true,"searchable":true,"facet":true,"label":"Japan region","section":"Identity & foodway"},
-        "foodway": {"type":"string","required":true,"searchable":true,"label":"Foodway / tradition","section":"Identity & foodway"},
-        "signatureItems": {"type":"string-array","searchable":true,"label":"Signature dishes / products","section":"What to eat"},
-        "recommendedExperience": {"type":"string","searchable":true,"label":"Recommended order / experience","section":"What to eat"},
-        "culturalBackground": {"type":"string","searchable":true,"label":"Food / cultural background","section":"Why it matters"},
-        "pricePerPersonJpy": {"type":"string","searchable":true,"label":"Approx. price per person","section":"Visit planning"},
-        "value": {"type":"enum","values":["exceptional","good","fair","expensive-but-defensible","poor","unknown"],"facet":true,"label":"Value","section":"Visit planning"},
-        "visitDuration": {"type":"string","label":"Typical visit duration","section":"Visit planning"},
-        "reservationClass": {"type":"enum","values":["walk-in","recommended","required","difficult","unclear"],"facet":true,"label":"Reservation class","section":"Visit planning"},
-        "reservationRequirement": {"type":"string","searchable":true,"label":"Reservation requirement","section":"Visit planning"},
-        "reservationMethod": {"type":"string","searchable":true,"label":"Reservation method","section":"Visit planning"},
-        "queueExpectations": {"type":"string","searchable":true,"label":"Queue expectations","section":"Visit planning"},
-        "openingSeasonalConsiderations": {"type":"string","searchable":true,"label":"Opening / seasonal considerations","section":"Visit planning"},
-        "bestTimingSeason": {"type":"string","searchable":true,"label":"Best timing / season","section":"Visit planning"},
-        "englishAccess": {"type":"enum","values":["A","B","C","D"],"facet":true,"label":"English accessibility","section":"Practical accessibility"},
-        "englishMenuAvailability": {"type":"string","searchable":true,"label":"English menu","section":"Practical accessibility"},
-        "orderingDifficulty": {"type":"string","searchable":true,"label":"Ordering difficulty","section":"Practical accessibility"},
-        "paymentLimitations": {"type":"string","searchable":true,"label":"Payment limitations","section":"Practical accessibility"},
-        "importantRules": {"type":"string","searchable":true,"label":"Important rules","section":"Practical accessibility"},
-        "dietaryNotes": {"type":"string","searchable":true,"label":"Dietary / allergen notes","section":"Practical accessibility"},
-        "carUsefulness": {"type":"string","searchable":true,"label":"Car usefulness","section":"Getting there"},
-        "publicTransportPracticality": {"type":"string","searchable":true,"label":"Public transport","section":"Getting there"},
-        "localRecognition": {"type":"enum","values":["High","Medium","Low","Unknown"],"facet":true,"label":"Local recognition","section":"Recognition"},
-        "japaneseSpecialistRecognition": {"type":"enum","values":["High","Medium","Low to medium","Low","Unknown"],"facet":true,"label":"Japanese specialist recognition","section":"Recognition"},
-        "internationalRecognition": {"type":"enum","values":["High","Medium","Low","Unknown"],"facet":true,"label":"International recognition","section":"Recognition"},
-        "locationConfidence": {"type":"enum","values":["High","Medium","Low"],"label":"Location confidence","section":"Research notes"},
-        "nearbyRelationships": {"type":"string","searchable":true,"label":"Nearby catalogue relationships","section":"Research notes"},
-        "disconfirmingEvidence": {"type":"string","searchable":true,"label":"Disconfirming evidence","section":"Research notes"},
-        "unresolvedQuestions": {"type":"string","searchable":true,"label":"Unresolved questions / notes","section":"Research notes"}
+        "researchId": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Research ID",
+          "section": "Identity & foodway"
+        },
+        "primaryCategory": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "facet": true,
+          "label": "Food category",
+          "section": "Identity & foodway",
+          "cardSignal": {
+            "order": 10
+          }
+        },
+        "japanRegion": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "facet": true,
+          "label": "Japan region",
+          "section": "Identity & foodway"
+        },
+        "foodway": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Foodway / tradition",
+          "section": "Identity & foodway"
+        },
+        "signatureItems": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Signature dishes / products",
+          "section": "What to eat"
+        },
+        "recommendedExperience": {
+          "type": "string",
+          "searchable": true,
+          "label": "Recommended order / experience",
+          "section": "What to eat"
+        },
+        "culturalBackground": {
+          "type": "string",
+          "searchable": true,
+          "label": "Food / cultural background",
+          "section": "Why it matters"
+        },
+        "pricePerPersonJpy": {
+          "type": "string",
+          "searchable": true,
+          "label": "Approx. price per person",
+          "section": "Visit planning"
+        },
+        "value": {
+          "type": "enum",
+          "values": [
+            "exceptional",
+            "good",
+            "fair",
+            "expensive-but-defensible",
+            "poor",
+            "unknown"
+          ],
+          "facet": true,
+          "label": "Value",
+          "section": "Visit planning"
+        },
+        "visitDuration": {
+          "type": "string",
+          "label": "Typical visit duration",
+          "section": "Visit planning"
+        },
+        "reservationClass": {
+          "type": "enum",
+          "values": [
+            "walk-in",
+            "recommended",
+            "required",
+            "difficult",
+            "unclear"
+          ],
+          "facet": true,
+          "label": "Reservation class",
+          "section": "Visit planning",
+          "cardSignal": {
+            "order": 30,
+            "prefix": "Reservation: "
+          }
+        },
+        "reservationRequirement": {
+          "type": "string",
+          "searchable": true,
+          "label": "Reservation requirement",
+          "section": "Visit planning"
+        },
+        "reservationMethod": {
+          "type": "string",
+          "searchable": true,
+          "label": "Reservation method",
+          "section": "Visit planning"
+        },
+        "queueExpectations": {
+          "type": "string",
+          "searchable": true,
+          "label": "Queue expectations",
+          "section": "Visit planning"
+        },
+        "openingSeasonalConsiderations": {
+          "type": "string",
+          "searchable": true,
+          "label": "Opening / seasonal considerations",
+          "section": "Visit planning"
+        },
+        "bestTimingSeason": {
+          "type": "string",
+          "searchable": true,
+          "label": "Best timing / season",
+          "section": "Visit planning"
+        },
+        "englishAccess": {
+          "type": "enum",
+          "values": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "facet": true,
+          "label": "English accessibility",
+          "section": "Practical accessibility",
+          "cardSignal": {
+            "order": 20,
+            "prefix": "English "
+          }
+        },
+        "englishMenuAvailability": {
+          "type": "string",
+          "searchable": true,
+          "label": "English menu",
+          "section": "Practical accessibility"
+        },
+        "orderingDifficulty": {
+          "type": "string",
+          "searchable": true,
+          "label": "Ordering difficulty",
+          "section": "Practical accessibility"
+        },
+        "paymentLimitations": {
+          "type": "string",
+          "searchable": true,
+          "label": "Payment limitations",
+          "section": "Practical accessibility"
+        },
+        "importantRules": {
+          "type": "string",
+          "searchable": true,
+          "label": "Important rules",
+          "section": "Practical accessibility"
+        },
+        "dietaryNotes": {
+          "type": "string",
+          "searchable": true,
+          "label": "Dietary / allergen notes",
+          "section": "Practical accessibility"
+        },
+        "carUsefulness": {
+          "type": "string",
+          "searchable": true,
+          "label": "Car usefulness",
+          "section": "Getting there"
+        },
+        "publicTransportPracticality": {
+          "type": "string",
+          "searchable": true,
+          "label": "Public transport",
+          "section": "Getting there"
+        },
+        "localRecognition": {
+          "type": "enum",
+          "values": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ],
+          "facet": true,
+          "label": "Local recognition",
+          "section": "Recognition"
+        },
+        "japaneseSpecialistRecognition": {
+          "type": "enum",
+          "values": [
+            "High",
+            "Medium",
+            "Low to medium",
+            "Low",
+            "Unknown"
+          ],
+          "facet": true,
+          "label": "Japanese specialist recognition",
+          "section": "Recognition"
+        },
+        "internationalRecognition": {
+          "type": "enum",
+          "values": [
+            "High",
+            "Medium",
+            "Low",
+            "Unknown"
+          ],
+          "facet": true,
+          "label": "International recognition",
+          "section": "Recognition"
+        },
+        "locationConfidence": {
+          "type": "enum",
+          "values": [
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "label": "Location confidence",
+          "section": "Research notes"
+        },
+        "nearbyRelationships": {
+          "type": "string",
+          "searchable": true,
+          "label": "Nearby catalogue relationships",
+          "section": "Research notes"
+        },
+        "disconfirmingEvidence": {
+          "type": "string",
+          "searchable": true,
+          "label": "Disconfirming evidence",
+          "section": "Research notes"
+        },
+        "unresolvedQuestions": {
+          "type": "string",
+          "searchable": true,
+          "label": "Unresolved questions / notes",
+          "section": "Research notes"
+        }
       }
     },
-    "hiking": {"label":"Hiking route","fields":{"distanceKm":{"type":"number","required":true,"min":0.1,"max":1000,"label":"Distance (km)"},"ascentM":{"type":"integer","required":true,"min":0,"max":20000,"label":"Ascent (m)"},"descentM":{"type":"integer","required":true,"min":0,"max":20000,"label":"Descent (m)"},"durationMinutes":{"type":"integer","required":true,"min":1,"max":100000,"label":"Duration"},"difficulty":{"type":"enum","required":true,"values":["easy","moderate","hard","expert"],"facet":true,"label":"Difficulty"},"surface":{"type":"string-array","searchable":true,"facet":true,"label":"Surface"},"routeType":{"type":"enum","required":true,"values":["loop","out-and-back","point-to-point","network"],"facet":true,"label":"Route type"},"seasonality":{"type":"enum-array","values":["spring","summer","autumn","winter","year-round"],"facet":true,"label":"Seasonality"},"waymarking":{"type":"enum","values":["clear","partial","unmarked"],"facet":true,"label":"Waymarking"}}},
-    "entertainment": {"label":"Entertainment","fields":{"format":{"type":"enum","required":true,"values":["cinema","live-music","theatre","museum","games","other"],"facet":true,"label":"Format"},"genres":{"type":"string-array","searchable":true,"facet":true,"label":"Genres"},"indoor":{"type":"boolean","facet":true,"label":"Indoor"},"typicalDurationMinutes":{"type":"integer","min":1,"max":10000,"label":"Typical duration"},"bookingAdvice":{"type":"string","searchable":true,"label":"Booking advice"},"accessibilityNotes":{"type":"string","searchable":true,"label":"Accessibility"}}},
-    "natural": {"label":"Natural place","fields":{"features":{"type":"string-array","required":true,"minItems":1,"searchable":true,"facet":true,"label":"Natural features"},"access":{"type":"enum","values":["easy","moderate","demanding","restricted"],"facet":true,"label":"Access"},"seasonality":{"type":"enum-array","values":["spring","summer","autumn","winter","year-round"],"facet":true,"label":"Seasonality"},"typicalDurationMinutes":{"type":"integer","min":1,"max":10000,"label":"Typical duration"},"swimming":{"type":"boolean","facet":true,"label":"Swimming"}}},
-    "architecture": {"label":"Architecture","fields":{"periods":{"type":"string-array","searchable":true,"facet":true,"label":"Periods"},"styles":{"type":"string-array","searchable":true,"facet":true,"label":"Styles"},"access":{"type":"enum","values":["exterior","interior","guided-only","restricted"],"facet":true,"label":"Access"},"typicalDurationMinutes":{"type":"integer","min":1,"max":10000,"label":"Typical duration"}}},
-    "retail": {"label":"Shop","fields":{"specialities":{"type":"string-array","required":true,"minItems":1,"searchable":true,"facet":true,"label":"Specialities"},"priceLevel":{"type":"enum","values":["low","moderate","high","premium"],"facet":true,"label":"Price level"},"appointmentRecommended":{"type":"boolean","facet":true,"label":"Appointment recommended"}}},
-    "experience": {"label":"Experience","fields":{"experienceKinds":{"type":"string-array","required":true,"minItems":1,"searchable":true,"facet":true,"label":"Experience type"},"booking":{"type":"enum","values":["not-needed","recommended","required"],"facet":true,"label":"Booking"},"typicalDurationMinutes":{"type":"integer","min":1,"max":10000,"label":"Typical duration"},"indoor":{"type":"boolean","facet":true,"label":"Indoor"}}}
+    "hiking": {
+      "label": "Hiking route",
+      "fields": {
+        "distanceKm": {
+          "type": "number",
+          "required": true,
+          "min": 0.1,
+          "max": 1000,
+          "label": "Distance (km)"
+        },
+        "ascentM": {
+          "type": "integer",
+          "required": true,
+          "min": 0,
+          "max": 20000,
+          "label": "Ascent (m)"
+        },
+        "descentM": {
+          "type": "integer",
+          "required": true,
+          "min": 0,
+          "max": 20000,
+          "label": "Descent (m)"
+        },
+        "durationMinutes": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 100000,
+          "label": "Duration"
+        },
+        "difficulty": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "easy",
+            "moderate",
+            "hard",
+            "expert"
+          ],
+          "facet": true,
+          "label": "Difficulty"
+        },
+        "surface": {
+          "type": "string-array",
+          "searchable": true,
+          "facet": true,
+          "label": "Surface"
+        },
+        "routeType": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "loop",
+            "out-and-back",
+            "point-to-point",
+            "network"
+          ],
+          "facet": true,
+          "label": "Route type"
+        },
+        "seasonality": {
+          "type": "enum-array",
+          "values": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter",
+            "year-round"
+          ],
+          "facet": true,
+          "label": "Seasonality"
+        },
+        "waymarking": {
+          "type": "enum",
+          "values": [
+            "clear",
+            "partial",
+            "unmarked"
+          ],
+          "facet": true,
+          "label": "Waymarking"
+        }
+      }
+    },
+    "entertainment": {
+      "label": "Entertainment",
+      "fields": {
+        "format": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "cinema",
+            "live-music",
+            "theatre",
+            "museum",
+            "games",
+            "other"
+          ],
+          "facet": true,
+          "label": "Format"
+        },
+        "genres": {
+          "type": "string-array",
+          "searchable": true,
+          "facet": true,
+          "label": "Genres"
+        },
+        "indoor": {
+          "type": "boolean",
+          "facet": true,
+          "label": "Indoor"
+        },
+        "typicalDurationMinutes": {
+          "type": "integer",
+          "min": 1,
+          "max": 10000,
+          "label": "Typical duration"
+        },
+        "bookingAdvice": {
+          "type": "string",
+          "searchable": true,
+          "label": "Booking advice"
+        },
+        "accessibilityNotes": {
+          "type": "string",
+          "searchable": true,
+          "label": "Accessibility"
+        }
+      }
+    },
+    "natural": {
+      "label": "Natural place",
+      "fields": {
+        "features": {
+          "type": "string-array",
+          "required": true,
+          "minItems": 1,
+          "searchable": true,
+          "facet": true,
+          "label": "Natural features"
+        },
+        "access": {
+          "type": "enum",
+          "values": [
+            "easy",
+            "moderate",
+            "demanding",
+            "restricted"
+          ],
+          "facet": true,
+          "label": "Access"
+        },
+        "seasonality": {
+          "type": "enum-array",
+          "values": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter",
+            "year-round"
+          ],
+          "facet": true,
+          "label": "Seasonality"
+        },
+        "typicalDurationMinutes": {
+          "type": "integer",
+          "min": 1,
+          "max": 10000,
+          "label": "Typical duration"
+        },
+        "swimming": {
+          "type": "boolean",
+          "facet": true,
+          "label": "Swimming"
+        }
+      }
+    },
+    "architecture": {
+      "label": "Architecture",
+      "fields": {
+        "periods": {
+          "type": "string-array",
+          "searchable": true,
+          "facet": true,
+          "label": "Periods"
+        },
+        "styles": {
+          "type": "string-array",
+          "searchable": true,
+          "facet": true,
+          "label": "Styles"
+        },
+        "access": {
+          "type": "enum",
+          "values": [
+            "exterior",
+            "interior",
+            "guided-only",
+            "restricted"
+          ],
+          "facet": true,
+          "label": "Access"
+        },
+        "typicalDurationMinutes": {
+          "type": "integer",
+          "min": 1,
+          "max": 10000,
+          "label": "Typical duration"
+        }
+      }
+    },
+    "retail": {
+      "label": "Shop",
+      "fields": {
+        "specialities": {
+          "type": "string-array",
+          "required": true,
+          "minItems": 1,
+          "searchable": true,
+          "facet": true,
+          "label": "Specialities"
+        },
+        "priceLevel": {
+          "type": "enum",
+          "values": [
+            "low",
+            "moderate",
+            "high",
+            "premium"
+          ],
+          "facet": true,
+          "label": "Price level"
+        },
+        "appointmentRecommended": {
+          "type": "boolean",
+          "facet": true,
+          "label": "Appointment recommended"
+        }
+      }
+    },
+    "experience": {
+      "label": "Experience",
+      "fields": {
+        "experienceKinds": {
+          "type": "string-array",
+          "required": true,
+          "minItems": 1,
+          "searchable": true,
+          "label": "Experience type"
+        },
+        "booking": {
+          "type": "enum",
+          "values": [
+            "not-needed",
+            "recommended",
+            "required"
+          ],
+          "facet": true,
+          "label": "Booking"
+        },
+        "typicalDurationMinutes": {
+          "type": "integer",
+          "min": 1,
+          "max": 10000,
+          "label": "Typical duration"
+        },
+        "indoor": {
+          "type": "boolean",
+          "facet": true,
+          "label": "Indoor"
+        }
+      }
+    }
   }
 }

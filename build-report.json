@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T15:08:47.688Z",
+  "generatedAt": "2026-08-10T15:24:55.000Z",
   "basePath": "/good-shit-public/",
   "catalogue": {
     "total": 82,
@@ -8,36 +8,35 @@
       "published": 82
     },
     "tiers": {
-      "A": 28,
       "S": 13,
+      "A": 28,
       "B": 32,
       "C": 9
     },
-    "geometryVertices": 82
+    "geometryVertices": 0
   },
-  "warnings": [],
   "build": {
     "pageCount": 116,
-    "assetModuleCount": 11,
+    "assetModuleCount": 12,
     "mapShardCount": 4,
     "searchShardCount": 1
   },
   "payloads": {
     "initialHome": {
-      "bytes": 83858,
-      "gzipBytes": 16237
+      "bytes": 83643,
+      "gzipBytes": 16121
     },
     "initialDiscover": {
-      "bytes": 249819,
-      "gzipBytes": 37600
+      "bytes": 249610,
+      "gzipBytes": 37505
     },
     "initialMapShellExcludingExternalMapLibrary": {
-      "bytes": 99611,
-      "gzipBytes": 22970
+      "bytes": 99402,
+      "gzipBytes": 22882
     },
     "totalFingerprintJs": {
-      "bytes": 107625,
-      "gzipBytes": 30830
+      "bytes": 110206,
+      "gzipBytes": 31678
     },
     "css": {
       "bytes": 52117,
@@ -49,27 +48,27 @@
     },
     "largestCountrySearchShard": {
       "key": "jp",
-      "bytes": 106398,
-      "gzipBytes": 23950
+      "bytes": 112732,
+      "gzipBytes": 24538
     },
     "mapOverview": {
-      "bytes": 132106,
-      "gzipBytes": 29121
+      "bytes": 138440,
+      "gzipBytes": 29732
     },
     "largestMapShard": {
       "key": "5/28/12",
-      "bytes": 77861,
-      "gzipBytes": 17274
+      "bytes": 81574,
+      "gzipBytes": 17655
     },
     "entityReference": {
-      "bytes": 106379,
-      "gzipBytes": 23947
+      "bytes": 112713,
+      "gzipBytes": 24535
     }
   },
   "catalogueManifest": {
     "schemaVersion": 1,
     "contentVersion": "2026.08-japan-food.1",
-    "generatedAt": "2026-08-10T15:08:47.688Z",
+    "generatedAt": "2026-08-10T15:24:55.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -88,36 +87,36 @@
         "published": 82
       },
       "tiers": {
-        "A": 28,
         "S": 13,
+        "A": 28,
         "B": 32,
         "C": 9
       },
-      "geometryVertices": 82
+      "geometryVertices": 0
     },
     "packages": {
       "entities": [
         {
-          "url": "/good-shit-public/catalogue/packages/entities-jp.14b2faac7370.json",
-          "bytes": 415354,
-          "gzipBytes": 69070,
-          "sha256": "14b2faac7370138627a6a0755a4e5aa8630292e815870cf60398ac8374c2f05f",
+          "url": "/good-shit-public/catalogue/packages/entities-jp.17d587185233.json",
+          "bytes": 389624,
+          "gzipBytes": 67896,
+          "sha256": "17d587185233347e308e028da2176b752f86edc2ca41ac014a2899c510a67e37",
           "countryCode": "JP",
           "entityCount": 82
         }
       ],
       "search": {
-        "url": "/good-shit-public/data/search/manifest.228a8fcff144.json",
+        "url": "/good-shit-public/data/search/manifest.122f70afcf45.json",
         "bytes": 3879,
         "gzipBytes": 1241,
-        "sha256": "228a8fcff144660ee54883cb05e7529f087dd2dd1846d76c279157b423f01159",
+        "sha256": "122f70afcf45cadb51791ff0aee08643ec66a8f8be96e25eed5424ddcdde5cd2",
         "documentCount": 82
       },
       "map": {
-        "url": "/good-shit-public/data/map/manifest.b12585330806.json",
+        "url": "/good-shit-public/data/map/manifest.44f079598bd7.json",
         "bytes": 20191,
         "gzipBytes": 6257,
-        "sha256": "b12585330806bc9879783615729bb01b6ea5738d25dd14169c0c93d9038cdca4",
+        "sha256": "44f079598bd74ad51b0558591923bbbfc3f612f7a6e7518f59eeb52b213d4bdf",
         "shardCount": 4
       },
       "redirects": {
@@ -132,7 +131,7 @@
         "policy": "/good-shit-public/catalogue/image-policy.json"
       },
       "schemas": {
-        "entity": "/good-shit-public/catalogue/schema/entity.schema.json",
+        "entity": "/good-shit-public/catalogue/schema/public-entity.schema.json",
         "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json",
         "researchBatch": "/good-shit-public/catalogue/schema/research-batch.schema.json"
       }

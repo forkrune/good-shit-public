@@ -39,15 +39,8 @@ function renderCoverImage(document) {
   return `<div class="card-media"><img class="card-image" src="${escapeHtml(fallback.url)}" srcset="${escapeHtml(srcset)}" sizes="(max-width: 760px) 100vw, 320px" width="${fallback.width}" height="${fallback.height}" alt="${escapeHtml(cover.alt)}" loading="lazy" decoding="async"></div>`;
 }
 
-function foodSignalTags(document) {
-  if (document.customNamespace !== 'food') return '';
-  const facets = document.customFacets ?? {};
-  const signals = [
-    facets['food.primaryCategory'],
-    facets['food.englishAccess'] ? `English ${facets['food.englishAccess']}` : null,
-    facets['food.reservationClass'] ? `Reservation: ${String(facets['food.reservationClass']).replaceAll('-', ' ')}` : null
-  ].filter(Boolean);
-  return signals.map((value) => `<span class="tag">${escapeHtml(value)}</span>`).join('');
+function cardSignalTags(document) {
+  return (document.cardSignals ?? []).map((value) => `<span class="tag">${escapeHtml(value)}</span>`).join('');
 }
 
 export function renderEntityCard(document, options = {}) {
@@ -69,7 +62,7 @@ export function renderEntityCard(document, options = {}) {
       ${document.localName ? `<p class="local-name">${escapeHtml(document.localName)}</p>` : ''}
       <p>${escapeHtml(document.summary)}</p>
       <div class="card-location"><span aria-hidden="true">⌖</span>${escapeHtml(locationLabel(document))}</div>
-      <div class="tag-row">${foodSignalTags(document)}${tags}</div>
+      <div class="tag-row">${cardSignalTags(document)}${tags}</div>
       ${rating ? `<div class="external-rating" aria-label="Latest observed ${escapeHtml(rating.provider)} rating"><strong>${escapeHtml(Number(rating.rating).toFixed(1))}</strong> / ${escapeHtml(rating.scale)} · ${escapeHtml(Number(rating.reviewCount).toLocaleString())} reviews <span>observed ${escapeHtml(String(rating.observedAt).slice(0, 10))}</span></div>` : ''}
     </a>
     <div class="card-actions" aria-label="Personal actions for ${escapeHtml(document.name)}">
