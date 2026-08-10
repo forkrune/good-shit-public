@@ -1,4 +1,53 @@
 {
   "schemaVersion": 1,
-  "assets": []
+  "assets": [
+    {
+      "id": "jp-mount-tenjo-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-kuniga-coast-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-todo-akamizu-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-uryunuma-wetland-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-kunisaki-minemichi-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-ikeshima-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-koshikishima-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-kitayamazaki-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-miune-ridge-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-kaneda-shiratake-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-chiburijima-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    },
+    {
+      "id": "jp-tadami-megumi-no-mori-hero",
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief"
+    }
+  ]
 }

@@ -6,7 +6,8 @@
       ".jpg",
       ".jpeg",
       ".png",
-      ".webp"
+      ".webp",
+      ".svg"
     ],
     "maxPixels": 24000000
   },

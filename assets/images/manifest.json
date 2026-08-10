@@ -1,5 +1,294 @@
 {
   "schemaVersion": 1,
   "format": "webp",
-  "assets": {}
+  "assets": {
+    "jp-mount-tenjo-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 3630,
+          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 7694,
+          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 12472,
+          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.1440.webp"
+        }
+      ]
+    },
+    "jp-kuniga-coast-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 1806,
+          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 4154,
+          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 6780,
+          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.1440.webp"
+        }
+      ]
+    },
+    "jp-todo-akamizu-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 4424,
+          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 9048,
+          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 14214,
+          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.1440.webp"
+        }
+      ]
+    },
+    "jp-uryunuma-wetland-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 3086,
+          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 6592,
+          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 10532,
+          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.1440.webp"
+        }
+      ]
+    },
+    "jp-kunisaki-minemichi-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 2228,
+          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 4762,
+          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 8138,
+          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.1440.webp"
+        }
+      ]
+    },
+    "jp-ikeshima-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 1642,
+          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 3466,
+          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 5878,
+          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.1440.webp"
+        }
+      ]
+    },
+    "jp-koshikishima-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 2710,
+          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 6102,
+          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 10362,
+          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.1440.webp"
+        }
+      ]
+    },
+    "jp-kitayamazaki-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 2278,
+          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 4972,
+          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 8182,
+          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.1440.webp"
+        }
+      ]
+    },
+    "jp-miune-ridge-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 2600,
+          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 5832,
+          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 9498,
+          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.1440.webp"
+        }
+      ]
+    },
+    "jp-kaneda-shiratake-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 1996,
+          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 4552,
+          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 7670,
+          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.1440.webp"
+        }
+      ]
+    },
+    "jp-chiburijima-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 2004,
+          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 4446,
+          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 7382,
+          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.1440.webp"
+        }
+      ]
+    },
+    "jp-tadami-megumi-no-mori-hero": {
+      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
+      "sourceUrl": null,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 3556,
+          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 7524,
+          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 12018,
+          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.1440.webp"
+        }
+      ]
+    }
+  }
 }
