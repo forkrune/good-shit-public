@@ -4,7 +4,7 @@ import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { escapeHtml, renderEntityGrid } from './web-client-render.557e22e4f657.mjs';
 import { splitMapPresentationFeatures } from './web-map-features.40dcd1075caf.mjs';
 import { ensureMapPopupStyles, renderMapPopup } from './web-map-popup.38be3b252437.mjs';
-import { MAP_ICON_PIXEL_RATIO, SELECTED_POINT_RADIUS_PX, pointCircleRadiusExpression, pointIconSizeExpression } from './web-map-marker-style.25956cb32495.mjs';
+import { MAP_ICON_PIXEL_RATIO, SELECTED_POINT_RADIUS_PX, pointCircleRadiusExpression, pointIconSizeExpression } from './web-map-marker-style.3421369562de.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
 import { hydratePersonalState, showToast } from './web-app.cad986d21761.mjs';
 

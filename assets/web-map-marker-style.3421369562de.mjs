@@ -20,11 +20,16 @@ export function pointCircleRadiusExpression() {
 }
 
 export function pointIconSizeExpression(selectedId) {
-  return ['case',
-    ['==', ['get', 'id'], selectedId ?? '__none__'],
-    iconSizeForRadius(SELECTED_POINT_RADIUS_PX),
-    ['interpolate', ['linear'], ['zoom'],
-      ...POINT_RADIUS_STOPS.flatMap(([zoom, radiusPx]) => [zoom, iconSizeForRadius(radiusPx)])
-    ]
+  const selectionExpression = ['==', ['get', 'id'], selectedId ?? '__none__'];
+  const selectedSize = iconSizeForRadius(SELECTED_POINT_RADIUS_PX);
+
+  // MapLibre requires zoom to feed the outer interpolate/step expression.
+  // Keep the per-feature selection branch inside each zoom stop so the
+  // composite layout expression remains valid and the symbol layer renders.
+  return ['interpolate', ['linear'], ['zoom'],
+    ...POINT_RADIUS_STOPS.flatMap(([zoom, radiusPx]) => [
+      zoom,
+      ['case', selectionExpression, selectedSize, iconSizeForRadius(radiusPx)]
+    ])
   ];
 }
