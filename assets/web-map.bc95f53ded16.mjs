@@ -2,6 +2,7 @@ import { bboxIntersects, distanceToGeometryKm, geometryIntersectsBbox, tilesForB
 import { documentMatchesFilters, querySearchIndex } from './src-core-search.267caf86a4a0.mjs';
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { escapeHtml, renderEntityGrid } from './web-client-render.557e22e4f657.mjs';
+import { splitMapPresentationFeatures } from './web-map-features.40dcd1075caf.mjs';
 import { ensureMapPopupStyles, renderMapPopup } from './web-map-popup.38be3b252437.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
 import { hydratePersonalState, showToast } from './web-app.cad986d21761.mjs';
@@ -399,16 +400,9 @@ async function installSourcesAndLayers() {
   mapReady = true;
 }
 
-function setMapData(features) {
+function setMapData(features, documents) {
   if (!mapReady) return;
-  const points = [];
-  const routes = [];
-  const areas = [];
-  for (const feature of features) {
-    if (feature.geometry.type === 'Point' || feature.properties?.overview) points.push(feature);
-    else if (feature.geometry.type === 'LineString' || feature.geometry.type === 'MultiLineString') routes.push(feature);
-    else areas.push(feature);
-  }
+  const { points, routes, areas } = splitMapPresentationFeatures(features, documents);
   map.getSource('curated-points')?.setData(featureCollection(points));
   map.getSource('curated-routes')?.setData(featureCollection(routes));
   map.getSource('curated-areas')?.setData(featureCollection(areas));
@@ -477,7 +471,7 @@ async function refreshViewport() {
 
     const visibleIds = new Set(documents.map((document) => document.id));
     const features = [...featureById.values()].filter((feature) => visibleIds.has(feature.properties.id));
-    setMapData(features);
+    setMapData(features, documents);
     renderList();
     const densityNote = overview ? 'overview data' : `${requested} geographic shard${requested === 1 ? '' : 's'}`;
     setStatus(`${documents.length} curated result${documents.length === 1 ? '' : 's'} in view · ${densityNote}`);
