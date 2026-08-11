@@ -10,14 +10,14 @@
   <title>Map · Good Shit</title>
   <link rel="stylesheet" href="/good-shit-public/assets/styles.c6e662113c2b.css">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.css">
-  <style id="map-sidebar-styles">/* Keep the map's dense discovery controls visually separate from the general catalogue cards. */
+  <style id="map-sidebar-styles">/* Map-page-only usability layer. The base controls remain usable if enhancement JS does not run. */
 .map-page .map-sidebar {
   background: var(--md-sys-color-surface);
   box-shadow: 6px 0 24px color-mix(in srgb, var(--md-sys-color-scrim) 13%, transparent);
 }
 
 .map-page .map-sidebar-head {
-  gap: 0.65rem;
+  gap: 0.7rem;
   padding: 0.9rem;
   background: color-mix(in srgb, var(--md-sys-color-surface-container-low) 58%, var(--md-sys-color-surface));
 }
@@ -34,8 +34,8 @@
 .map-page #map-result-count {
   display: inline-flex;
   align-items: center;
-  min-height: 30px;
-  padding: 0.2rem 0.7rem;
+  min-height: 32px;
+  padding: 0.25rem 0.72rem;
   border-radius: var(--shape-pill);
   background: var(--md-sys-color-secondary-container);
   color: var(--md-sys-color-on-secondary-container);
@@ -49,7 +49,6 @@
   min-width: 0;
 }
 
-/* ui-icon became an SVG sprite; keep it overlaid in the field instead of taking a row of its own. */
 .map-page .map-sidebar-head .search-field > .ui-icon {
   position: absolute;
   z-index: 1;
@@ -63,92 +62,474 @@
 }
 
 .map-page #map-query {
-  min-height: 48px;
-  padding-inline: 2.75rem 1rem;
+  min-height: 50px;
+  padding-inline: 2.75rem 2.9rem;
   border: 1px solid color-mix(in srgb, var(--md-sys-color-outline-variant) 72%, transparent);
-  border-radius: 20px 26px 20px 26px;
+  border-radius: 20px 27px 20px 27px;
   background: var(--md-sys-color-surface-container-high);
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+}
+
+.map-page #map-query:hover {
+  background: var(--md-sys-color-surface-container-highest);
 }
 
 .map-page #map-query:focus {
+  border-color: var(--md-sys-color-primary);
   background: var(--md-sys-color-surface-container-lowest);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--md-sys-color-primary) 15%, transparent);
+}
+
+.map-page .map-query-clear {
+  position: absolute;
+  z-index: 2;
+  right: 0.3rem;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  translate: 0 -50%;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.map-page .map-query-clear:hover {
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-on-surface);
 }
 
 .map-page #toggle-map-list {
   min-height: 44px;
-  padding-inline: 0.85rem;
+  padding-inline: 0.8rem;
   border-radius: var(--shape-pill);
+  background: var(--md-sys-color-surface-container);
+  color: var(--md-sys-color-on-surface-variant);
   white-space: nowrap;
 }
 
+.map-page #toggle-map-list:hover {
+  background: var(--md-sys-color-surface-container-highest);
+  color: var(--md-sys-color-primary);
+}
+
+/* Filter container */
 .map-page .map-filter-strip {
-  gap: 0.4rem;
+  display: grid !important;
+  gap: 0.7rem;
+  align-content: start;
+  max-height: min(43dvh, 340px) !important;
+  padding: 0.65rem 0.72rem 0.75rem;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  border-bottom: 1px solid var(--md-sys-color-outline-variant);
   background: var(--md-sys-color-surface-container-low);
   scrollbar-width: thin;
   scrollbar-gutter: stable;
 }
 
-.map-page .map-filter-strip .filter-chip {
+.map-page .map-filter-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.map-page .map-filter-heading-copy {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
   min-width: 0;
-  min-height: 34px;
-  padding: 0.18rem 0.62rem;
-  border-color: color-mix(in srgb, var(--md-sys-color-outline-variant) 88%, transparent);
-  border-radius: 15px 19px 15px 19px;
-  background: var(--md-sys-color-surface-container-lowest);
+}
+
+.map-page #map-filter-heading {
+  color: var(--md-sys-color-on-surface);
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 850;
+}
+
+.map-page #map-active-filter-summary {
+  overflow: hidden;
+  color: var(--md-sys-color-on-surface-variant);
   font-size: 0.7rem;
-  line-height: 1.05;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.map-page .map-filter-strip .filter-chip:has(select) {
-  justify-content: flex-start;
-  gap: 0.25rem;
+.map-page .map-filter-reset {
+  min-height: 40px;
+  padding: 0 0.75rem;
+  border: 0;
+  border-radius: var(--shape-pill);
+  background: transparent;
+  color: var(--md-sys-color-primary);
+  font-size: 0.72rem;
+  font-weight: 850;
 }
 
-.map-page .map-filter-strip .filter-chip select {
+.map-page .map-filter-reset:hover {
+  background: color-mix(in srgb, var(--md-sys-color-primary) 10%, transparent);
+}
+
+.map-page .map-filter-group {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.map-page .map-filter-group > legend {
+  margin-bottom: 0.35rem;
+  padding: 0;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 0.64rem;
+  font-weight: 850;
+  letter-spacing: 0.055em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.map-page .map-find-group {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.map-page .map-find-group > legend {
+  grid-column: 1 / -1;
+}
+
+.map-page .map-select-filter {
+  display: grid;
+  align-content: center;
+  gap: 0.08rem;
   width: 100%;
   min-width: 0;
-  min-height: 28px;
-  padding: 0;
+  min-height: 54px;
+  padding: 0.4rem 0.65rem 0.42rem;
+  border: 1px solid color-mix(in srgb, var(--md-sys-color-outline-variant) 86%, transparent);
+  border-radius: 17px 22px 17px 22px;
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface);
+  cursor: pointer;
+}
+
+.map-page .map-select-filter:hover {
+  background: var(--md-sys-color-surface-container);
+}
+
+.map-page .map-filter-label {
+  overflow: hidden;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 0.61rem;
+  font-weight: 750;
+  line-height: 1.1;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-page .map-select-filter select {
+  width: 100%;
+  min-width: 0;
+  min-height: 24px;
+  padding: 0 1.25rem 0 0;
+  overflow: hidden;
   border: 0;
   outline: 0;
   background: transparent;
-  color: inherit;
-  font-size: inherit;
+  color: var(--md-sys-color-on-surface);
+  font-size: 0.76rem;
   font-weight: 800;
+  line-height: 1.2;
+  text-overflow: ellipsis;
 }
 
-.map-page .map-filter-strip .filter-chip:has(input:focus-visible),
-.map-page .map-filter-strip .filter-chip:has(select:focus-visible) {
+.map-page .map-select-filter:has(select:focus-visible),
+.map-page .map-toggle-filter:has(input:focus-visible),
+.map-page .map-tier-filter:has(input:focus-visible) {
   outline: 3px solid var(--md-sys-color-primary);
   outline-offset: 2px;
 }
 
-.map-page .map-filter-strip .filter-chip:has(input[name="map-tier"][value="S"]:checked) {
+/* Editorial quality: explicit “Any tier” default, then four independently selectable tiers. */
+.map-page .map-quality-group {
+  position: relative;
+  padding-top: 0.05rem;
+}
+
+.map-page .map-quality-group > legend {
+  padding-right: 6rem;
+}
+
+.map-page .map-all-tiers {
+  position: absolute;
+  top: -0.2rem;
+  right: 0;
+  min-height: 32px;
+  padding: 0 0.65rem;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: var(--shape-pill);
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 0.66rem;
+  font-weight: 800;
+}
+
+.map-page .map-all-tiers[aria-pressed="true"] {
   border-color: transparent;
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.map-page .map-tier-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+}
+
+.map-page .map-tier-filter {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 0.32rem 0.3rem;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 17px 22px 17px 22px;
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+}
+
+.map-page .map-tier-copy {
+  display: grid;
+  place-items: center;
+  gap: 0.08rem;
+  min-width: 0;
+  text-align: center;
+}
+
+.map-page .map-tier-letter {
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  line-height: 1;
+}
+
+.map-page .map-tier-name {
+  overflow: hidden;
+  width: 100%;
+  font-size: 0.56rem;
+  font-weight: 750;
+  line-height: 1.05;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-page .map-tier-filter:has(input:checked)::after {
+  content: "✓";
+  position: absolute;
+  top: 0.18rem;
+  right: 0.32rem;
+  font-size: 0.62rem;
+  font-weight: 900;
+}
+
+.map-page .map-tier-filter:has(input[name="map-tier"][value="S"]:checked) {
+  border-color: color-mix(in srgb, var(--tier-s) 42%, transparent);
   background: var(--tier-s-container);
   color: var(--tier-s);
 }
 
-.map-page .map-filter-strip .filter-chip:has(input[name="map-tier"][value="A"]:checked) {
-  border-color: transparent;
+.map-page .map-tier-filter:has(input[name="map-tier"][value="A"]:checked) {
+  border-color: color-mix(in srgb, var(--tier-a) 42%, transparent);
   background: var(--tier-a-container);
   color: var(--tier-a);
 }
 
-.map-page .map-filter-strip .filter-chip:has(input[name="map-tier"][value="B"]:checked) {
-  border-color: transparent;
+.map-page .map-tier-filter:has(input[name="map-tier"][value="B"]:checked) {
+  border-color: color-mix(in srgb, var(--tier-b) 42%, transparent);
   background: var(--tier-b-container);
   color: var(--tier-b);
 }
 
-.map-page .map-filter-strip .filter-chip:has(input[name="map-tier"][value="C"]:checked) {
-  border-color: transparent;
+.map-page .map-tier-filter:has(input[name="map-tier"][value="C"]:checked) {
+  border-color: color-mix(in srgb, var(--tier-c) 42%, transparent);
   background: var(--tier-c-container);
   color: var(--tier-c);
 }
 
+/* Less common controls live behind a native details/summary disclosure. */
+.map-page .map-more-filters {
+  padding-top: 0.05rem;
+  border-top: 1px solid color-mix(in srgb, var(--md-sys-color-outline-variant) 72%, transparent);
+}
+
+.map-page .map-more-filters > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 42px;
+  padding: 0.2rem 0.15rem;
+  color: var(--md-sys-color-on-surface);
+  font-size: 0.73rem;
+  font-weight: 820;
+  cursor: pointer;
+  list-style: none;
+}
+
+.map-page .map-more-filters > summary::-webkit-details-marker {
+  display: none;
+}
+
+.map-page .map-more-filters > summary::after {
+  content: "⌄";
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 1rem;
+  line-height: 1;
+  transition: transform var(--duration-short) var(--motion-standard);
+}
+
+.map-page .map-more-filters[open] > summary::after {
+  transform: rotate(180deg);
+}
+
+.map-page .map-more-filters > summary:focus-visible {
+  outline: 3px solid var(--md-sys-color-primary);
+  outline-offset: 2px;
+  border-radius: var(--shape-sm);
+}
+
+.map-page .map-more-count {
+  margin-left: auto;
+  padding: 0.14rem 0.46rem;
+  border-radius: var(--shape-pill);
+  background: var(--md-sys-color-primary-container);
+  color: var(--md-sys-color-on-primary-container);
+  font-size: 0.61rem;
+  font-weight: 800;
+}
+
+.map-page .map-more-content {
+  display: grid;
+  gap: 0.75rem;
+  padding: 0.35rem 0 0.15rem;
+}
+
+.map-page .map-personal-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: 0.45rem;
+}
+
+.map-page .map-toggle-filter {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 54px;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--md-sys-color-outline-variant);
+  border-radius: 17px 22px 17px 22px;
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: pointer;
+}
+
+.map-page .map-toggle-filter:hover {
+  background: var(--md-sys-color-surface-container);
+}
+
+.map-page .map-toggle-filter:has(input:checked) {
+  border-color: transparent;
+  background: var(--md-sys-color-secondary-container);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+.map-page .map-toggle-filter:has(input:checked)::before {
+  content: "✓";
+  margin-right: 0.28rem;
+  font-weight: 900;
+}
+
+.map-page .map-toggle-label {
+  overflow: hidden;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-page .map-visit-choices {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.3rem;
+  padding: 0.22rem;
+  border-radius: 20px;
+  background: var(--md-sys-color-surface-container);
+}
+
+.map-page .map-any-visit,
+.map-page .map-visit-choices .map-toggle-filter {
+  min-height: 42px;
+  border: 0;
+  border-radius: 16px;
+  background: transparent;
+}
+
+.map-page .map-any-visit {
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.map-page .map-any-visit[aria-pressed="true"],
+.map-page .map-visit-choices .map-toggle-filter:has(input:checked) {
+  background: var(--md-sys-color-surface-container-lowest);
+  color: var(--md-sys-color-on-surface);
+  box-shadow: var(--elevation-1);
+}
+
+.map-page .map-nearby-group .map-select-filter {
+  min-height: 52px;
+}
+
+.map-page .map-select-filter.is-disabled {
+  background: color-mix(in srgb, var(--md-sys-color-surface-container) 76%, transparent);
+  color: var(--md-sys-color-on-surface-variant);
+  cursor: not-allowed;
+  opacity: 0.68;
+}
+
+.map-page .map-filter-hint {
+  display: block;
+  margin-top: 0.28rem;
+  color: var(--md-sys-color-on-surface-variant);
+  font-size: 0.64rem;
+  line-height: 1.3;
+}
+
+/* Fallback presentation before/without enhancement. */
+.map-page .map-filter-strip > .filter-chip {
+  min-height: 38px;
+  border-color: var(--md-sys-color-outline-variant);
+  background: var(--md-sys-color-surface-container-lowest);
+}
+
+/* Compact list cards: scan quickly without removing useful context. */
 .map-page .map-results {
+  min-height: 0;
   padding: 0.65rem;
   background: var(--md-sys-color-surface-container-low);
   scrollbar-gutter: stable;
@@ -176,9 +557,14 @@
   box-shadow: var(--elevation-1);
 }
 
+.map-page .map-results .entity-card:focus-within {
+  outline: 2px solid color-mix(in srgb, var(--md-sys-color-primary) 55%, transparent);
+  outline-offset: 2px;
+}
+
 .map-page .map-results .entity-card.is-selected {
   transform: none;
-  outline-width: 2px;
+  outline-width: 3px;
   outline-offset: 2px;
 }
 
@@ -247,26 +633,25 @@
 
 .map-page .map-results .card-actions {
   gap: 0;
-  padding: 0.2rem 0.45rem;
+  padding: 0.18rem 0.4rem;
 }
 
 .map-page .map-results .card-actions .icon-button {
-  flex-basis: 40px;
-  width: 40px;
-  height: 40px;
+  flex-basis: 44px;
+  width: 44px;
+  height: 44px;
 }
 
-/* When hero coverage lands, keep map-list imagery useful without turning every result into a poster. */
 .map-page .map-results .card-main:has(.card-media) {
-  grid-template-columns: 90px minmax(0, 1fr);
-  column-gap: 0.7rem;
+  grid-template-columns: 88px minmax(0, 1fr);
+  column-gap: 0.72rem;
 }
 
 .map-page .map-results .card-main:has(.card-media) > .card-media {
   grid-column: 1;
   grid-row: 1 / span 3;
-  width: 90px;
-  height: 90px;
+  width: 88px;
+  height: 88px;
   margin: 0;
   overflow: hidden;
   border-radius: 18px 24px 18px 24px;
@@ -288,7 +673,7 @@
 
 @media (min-width: 721px) {
   .map-page .map-shell {
-    grid-template-columns: clamp(340px, 30vw, 420px) minmax(0, 1fr);
+    grid-template-columns: clamp(350px, 31vw, 440px) minmax(0, 1fr);
   }
 
   .map-page .map-sidebar-head {
@@ -311,61 +696,6 @@
     grid-row: 2;
   }
 
-  .map-page .map-filter-strip {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    grid-auto-rows: minmax(34px, auto);
-    align-content: start;
-    padding: 0.5rem 0.7rem;
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    max-height: 178px !important;
-  }
-
-  .map-page .map-filter-strip > .filter-chip {
-    width: 100%;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(select[name="category"]) {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(select[name="entityType"]) {
-    grid-column: 3 / span 2;
-    grid-row: 1;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(input[name="map-tier"][value="S"]) { grid-column: 1; grid-row: 2; }
-  .map-page .map-filter-strip > .filter-chip:has(input[name="map-tier"][value="A"]) { grid-column: 2; grid-row: 2; }
-  .map-page .map-filter-strip > .filter-chip:has(input[name="map-tier"][value="B"]) { grid-column: 3; grid-row: 2; }
-  .map-page .map-filter-strip > .filter-chip:has(input[name="map-tier"][value="C"]) { grid-column: 4; grid-row: 2; }
-
-  .map-page .map-filter-strip > .filter-chip:has(select[name="radius"]) {
-    grid-column: 1 / span 2;
-    grid-row: 3;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(select[name="minimumPersonalRating"]) {
-    grid-column: 3 / span 2;
-    grid-row: 3;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(input[name="favourite"]) {
-    grid-column: 1 / span 2;
-    grid-row: 4;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(input[name="visited"]) {
-    grid-column: 3;
-    grid-row: 4;
-  }
-
-  .map-page .map-filter-strip > .filter-chip:has(input[name="unvisited"]) {
-    grid-column: 4;
-    grid-row: 4;
-  }
-
   .map-page .map-sidebar.is-collapsed .map-sidebar-head {
     grid-template-columns: 1fr;
     align-content: start;
@@ -374,6 +704,21 @@
   .map-page .map-sidebar.is-collapsed #toggle-map-list {
     grid-column: 1;
     grid-row: 1;
+    width: 48px !important;
+    height: 48px;
+    padding: 0 !important;
+    writing-mode: horizontal-tb !important;
+    transform: none !important;
+  }
+
+  .map-page .map-sidebar.is-collapsed #toggle-map-list [data-button-label] {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
   }
 }
 
@@ -408,17 +753,45 @@
   }
 
   .map-page .map-filter-strip {
-    padding: 0.45rem 0.6rem;
-    scroll-snap-type: x proximity;
+    max-height: min(37dvh, 310px) !important;
+    padding: 0.55rem 0.62rem 0.65rem;
   }
 
-  .map-page .map-filter-strip > .filter-chip {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
+  .map-page .map-sidebar.is-collapsed .map-filter-strip {
+    max-height: 0 !important;
+    padding-block: 0 !important;
+    overflow: hidden !important;
+    border: 0;
   }
 
   .map-page .map-results {
     padding: 0.5rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .map-page .map-sidebar-head {
+    padding: 0.72rem;
+  }
+
+  .map-page .map-find-group {
+    gap: 0.35rem;
+  }
+
+  .map-page .map-select-filter {
+    padding-inline: 0.55rem;
+  }
+
+  .map-page .map-tier-grid {
+    gap: 0.3rem;
+  }
+
+  .map-page .map-tier-name {
+    font-size: 0.53rem;
+  }
+
+  .map-page .map-personal-grid {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   }
 }
 
@@ -427,25 +800,40 @@
   .map-page .map-results .entity-card:focus-within {
     transform: none;
   }
+
+  .map-page .map-more-filters > summary::after {
+    transition: none;
+  }
 }
 
 @media (prefers-contrast: more) {
   .map-page .map-sidebar,
-  .map-page .map-filter-strip .filter-chip,
+  .map-page .map-select-filter,
+  .map-page .map-toggle-filter,
+  .map-page .map-tier-filter,
   .map-page .map-results .entity-card {
     border-width: 2px;
   }
 
-  .map-page #map-result-count {
+  .map-page #map-result-count,
+  .map-page .map-all-tiers[aria-pressed="true"] {
     outline: 1px solid currentColor;
   }
 }
 
 @media (forced-colors: active) {
-  .map-page .map-filter-strip .filter-chip:has(input[name="map-tier"]:checked) {
+  .map-page .map-tier-filter:has(input:checked),
+  .map-page .map-toggle-filter:has(input:checked),
+  .map-page .map-all-tiers[aria-pressed="true"],
+  .map-page .map-any-visit[aria-pressed="true"] {
     border-color: Highlight;
     background: Highlight;
     color: HighlightText;
+  }
+
+  .map-page .map-select-filter.is-disabled {
+    color: GrayText;
+    opacity: 1;
   }
 }</style>
   
@@ -499,7 +887,318 @@
     <div><a href="/good-shit-public/catalogue/manifest.json">Catalogue manifest</a> · <a href="/good-shit-public/architecture/">Architecture notes</a></div>
   </footer>
   <div id="app-status" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
-  <script id="page-config" type="application/json">{"uiIconSpriteUrl":"/good-shit-public/assets/ui-icons.f1402eb09dff.svg","basePath":"/good-shit-public/","mapManifestUrl":"/good-shit-public/data/map/manifest.02f1da3b27e1.json","searchManifestUrl":"/good-shit-public/data/search/manifest.81ea75c58629.json","map":{"mapLibreVersion":"6.2.0","styleUrl":"https://tiles.openfreemap.org/styles/liberty","spatialShardZoom":5,"detailZoomThreshold":4,"maxViewportShards":64,"libraryModuleUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.mjs","libraryCssUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.css"},"mapIcons":{"accommodation":"/good-shit-public/assets/map-icon-accommodation.4bf7f9c7ca12.png","amusement-park":"/good-shit-public/assets/map-icon-amusement-park.9dacadc9d5d0.png","aquarium":"/good-shit-public/assets/map-icon-aquarium.21fa871ab805.png","archaeological-site":"/good-shit-public/assets/map-icon-archaeological-site.db70b642dc1b.png","architecture":"/good-shit-public/assets/map-icon-architecture.839a914c27ee.png","art-culture":"/good-shit-public/assets/map-icon-art-culture.8eef1ddb08b8.png","beach":"/good-shit-public/assets/map-icon-beach.7878a159dd51.png","brewery-winery":"/good-shit-public/assets/map-icon-brewery-winery.a973d06bf38a.png","bridge":"/good-shit-public/assets/map-icon-bridge.97be93a1ad00.png","cafe":"/good-shit-public/assets/map-icon-cafe.6ca692b7e58e.png","cable-car":"/good-shit-public/assets/map-icon-cable-car.8c4b5f925a3e.png","camping":"/good-shit-public/assets/map-icon-camping.019a7b09f302.png","castle":"/good-shit-public/assets/map-icon-castle.7df8820166a9.png","cave":"/good-shit-public/assets/map-icon-cave.796a01f14215.png","church":"/good-shit-public/assets/map-icon-church.0429db3480a0.png","cinema":"/good-shit-public/assets/map-icon-cinema.b2eeecf5980e.png","coast":"/good-shit-public/assets/map-icon-coast.db8541cd8558.png","cuisine-american":"/good-shit-public/assets/map-icon-cuisine-american.108ed154e9e2.png","cuisine-balkan":"/good-shit-public/assets/map-icon-cuisine-balkan.1c2229f49956.png","cuisine-central-asian":"/good-shit-public/assets/map-icon-cuisine-central-asian.a8caf8f398c7.png","cuisine-chinese":"/good-shit-public/assets/map-icon-cuisine-chinese.01634106af89.png","cuisine-czech":"/good-shit-public/assets/map-icon-cuisine-czech.05fa6a30d508.png","cuisine-eastern-european":"/good-shit-public/assets/map-icon-cuisine-eastern-european.bf872a6699b4.png","cuisine-ethiopian":"/good-shit-public/assets/map-icon-cuisine-ethiopian.89921598cd15.png","cuisine-filipino":"/good-shit-public/assets/map-icon-cuisine-filipino.12b4673a9163.png","cuisine-french":"/good-shit-public/assets/map-icon-cuisine-french.6f2264f2a249.png","cuisine-georgian":"/good-shit-public/assets/map-icon-cuisine-georgian.bd045a00b6ed.png","cuisine-greek":"/good-shit-public/assets/map-icon-cuisine-greek.87fc907907d7.png","cuisine-indian":"/good-shit-public/assets/map-icon-cuisine-indian.1d29006915b7.png","cuisine-italian":"/good-shit-public/assets/map-icon-cuisine-italian.bbaa4d8a2c29.png","cuisine-japanese":"/good-shit-public/assets/map-icon-cuisine-japanese.5220cd0f2b9c.png","cuisine-korean":"/good-shit-public/assets/map-icon-cuisine-korean.02976b904ec4.png","cuisine-levantine":"/good-shit-public/assets/map-icon-cuisine-levantine.747c4d2d22e2.png","cuisine-mexican-latin":"/good-shit-public/assets/map-icon-cuisine-mexican-latin.b74e5b4f0f4b.png","cuisine-nepalese-tibetan":"/good-shit-public/assets/map-icon-cuisine-nepalese-tibetan.1b6f7d463110.png","cuisine-north-african":"/good-shit-public/assets/map-icon-cuisine-north-african.536be4a52f4d.png","cuisine-pakistani":"/good-shit-public/assets/map-icon-cuisine-pakistani.b1b06dd45203.png","cuisine-spanish-portuguese":"/good-shit-public/assets/map-icon-cuisine-spanish-portuguese.950e1aceba8c.png","cuisine-thai":"/good-shit-public/assets/map-icon-cuisine-thai.0beda9bdb355.png","cuisine-turkish":"/good-shit-public/assets/map-icon-cuisine-turkish.ecb05f0631d6.png","cuisine-vietnamese":"/good-shit-public/assets/map-icon-cuisine-vietnamese.f20a72f7928a.png","cycling-route":"/good-shit-public/assets/map-icon-cycling-route.8be87826afc3.png","dam":"/good-shit-public/assets/map-icon-dam.b148ae0a1b76.png","default":"/good-shit-public/assets/map-icon-default.b4d8f24df1a0.png","entertainment":"/good-shit-public/assets/map-icon-entertainment.6e92ecf323de.png","experience":"/good-shit-public/assets/map-icon-experience.8de8657fd005.png","farm":"/good-shit-public/assets/map-icon-farm.f6d5c2425afe.png","ferry":"/good-shit-public/assets/map-icon-ferry.82668eaa8567.png","festival":"/good-shit-public/assets/map-icon-festival.b30a86ed2a3a.png","food":"/good-shit-public/assets/map-icon-food.af389095f809.png","food-bakery":"/good-shit-public/assets/map-icon-food-bakery.1c99b9d9ba4f.png","food-bbq":"/good-shit-public/assets/map-icon-food-bbq.7cdea8948c14.png","food-fermentation":"/good-shit-public/assets/map-icon-food-fermentation.5a8787f58751.png","food-fine-dining":"/good-shit-public/assets/map-icon-food-fine-dining.617c697abc31.png","food-noodles":"/good-shit-public/assets/map-icon-food-noodles.57f731d21ec5.png","food-production":"/good-shit-public/assets/map-icon-food-production.69c89d574425.png","food-seafood":"/good-shit-public/assets/map-icon-food-seafood.f7beb74d0f91.png","food-street":"/good-shit-public/assets/map-icon-food-street.fecadb8f568c.png","food-sushi":"/good-shit-public/assets/map-icon-food-sushi.cd8574e3042e.png","food-sweets":"/good-shit-public/assets/map-icon-food-sweets.d43fbe3d6f6b.png","food-tea":"/good-shit-public/assets/map-icon-food-tea.680419b4c71b.png","forest":"/good-shit-public/assets/map-icon-forest.d9bc4ffbcbf2.png","fortress":"/good-shit-public/assets/map-icon-fortress.2c33f4ea7ee0.png","games-arcade":"/good-shit-public/assets/map-icon-games-arcade.b2ce01a9f80f.png","garden":"/good-shit-public/assets/map-icon-garden.5e595be9a5a3.png","gorge":"/good-shit-public/assets/map-icon-gorge.89afc0361bd5.png","hiking-route":"/good-shit-public/assets/map-icon-hiking-route.2ce34245bab3.png","historic-streetscape":"/good-shit-public/assets/map-icon-historic-streetscape.678784025fc2.png","industrial":"/good-shit-public/assets/map-icon-industrial.2c6160c8cadf.png","island":"/good-shit-public/assets/map-icon-island.b98d333c1e97.png","lake":"/good-shit-public/assets/map-icon-lake.19ee719c9d46.png","lighthouse":"/good-shit-public/assets/map-icon-lighthouse.d506ca8e5d37.png","live-music":"/good-shit-public/assets/map-icon-live-music.0b1e69b847fa.png","market":"/good-shit-public/assets/map-icon-market.6e4aa9c95539.png","memorial":"/good-shit-public/assets/map-icon-memorial.037a62fcbff1.png","modern-architecture":"/good-shit-public/assets/map-icon-modern-architecture.7db340e0f824.png","monastery":"/good-shit-public/assets/map-icon-monastery.faaff8137585.png","mountain":"/good-shit-public/assets/map-icon-mountain.b66b5c8772dd.png","mountain-hut":"/good-shit-public/assets/map-icon-mountain-hut.7688de2c52f3.png","museum":"/good-shit-public/assets/map-icon-museum.4f581f3f5113.png","natural-poi":"/good-shit-public/assets/map-icon-natural-poi.1656d003f7d6.png","onsen":"/good-shit-public/assets/map-icon-onsen.77a1ede732a6.png","palace":"/good-shit-public/assets/map-icon-palace.daef642a1be9.png","park":"/good-shit-public/assets/map-icon-park.8591eecc4d6b.png","railway":"/good-shit-public/assets/map-icon-railway.52346503cb5d.png","river":"/good-shit-public/assets/map-icon-river.a91d3c91d00c.png","rock-formation":"/good-shit-public/assets/map-icon-rock-formation.1ff20540d522.png","ruins":"/good-shit-public/assets/map-icon-ruins.ff9b2758ff63.png","science-technology":"/good-shit-public/assets/map-icon-science-technology.a99ad05795ec.png","shop":"/good-shit-public/assets/map-icon-shop.b170c98ca5e9.png","shrine":"/good-shit-public/assets/map-icon-shrine.559ce92de21a.png","skiing":"/good-shit-public/assets/map-icon-skiing.2defb5d13c58.png","spa":"/good-shit-public/assets/map-icon-spa.f37157be5ccd.png","sports":"/good-shit-public/assets/map-icon-sports.503e0c0707c4.png","temple":"/good-shit-public/assets/map-icon-temple.11e4c7710ae7.png","theatre":"/good-shit-public/assets/map-icon-theatre.7b885eb9aaf1.png","tower":"/good-shit-public/assets/map-icon-tower.8fea27e76416.png","traditional-settlement":"/good-shit-public/assets/map-icon-traditional-settlement.441e8679d56c.png","viewpoint":"/good-shit-public/assets/map-icon-viewpoint.16ff701cc3b6.png","volcano":"/good-shit-public/assets/map-icon-volcano.6680893c4ead.png","water":"/good-shit-public/assets/map-icon-water.9c33470be990.png","waterfall":"/good-shit-public/assets/map-icon-waterfall.97e1683138db.png","wetland":"/good-shit-public/assets/map-icon-wetland.571f6df437c7.png","wildlife":"/good-shit-public/assets/map-icon-wildlife.b96e2b67302e.png","zoo":"/good-shit-public/assets/map-icon-zoo.c4daa370cf80.png"},"geocoding":{"provider":"nominatim","endpoint":"https://nominatim.openstreetmap.org/search"}}</script>
+  <script id="page-config" type="application/json">{"uiIconSpriteUrl":"/good-shit-public/assets/ui-icons.f1402eb09dff.svg","basePath":"/good-shit-public/","mapManifestUrl":"/good-shit-public/data/map/manifest.037fa9d21fbe.json","searchManifestUrl":"/good-shit-public/data/search/manifest.e1b5b4f0a2ee.json","map":{"mapLibreVersion":"6.2.0","styleUrl":"https://tiles.openfreemap.org/styles/liberty","spatialShardZoom":5,"detailZoomThreshold":4,"maxViewportShards":64,"libraryModuleUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.mjs","libraryCssUrl":"https://unpkg.com/maplibre-gl@6.2.0/dist/maplibre-gl.css"},"mapIcons":{"accommodation":"/good-shit-public/assets/map-icon-accommodation.4bf7f9c7ca12.png","amusement-park":"/good-shit-public/assets/map-icon-amusement-park.9dacadc9d5d0.png","aquarium":"/good-shit-public/assets/map-icon-aquarium.21fa871ab805.png","archaeological-site":"/good-shit-public/assets/map-icon-archaeological-site.db70b642dc1b.png","architecture":"/good-shit-public/assets/map-icon-architecture.839a914c27ee.png","art-culture":"/good-shit-public/assets/map-icon-art-culture.8eef1ddb08b8.png","beach":"/good-shit-public/assets/map-icon-beach.7878a159dd51.png","brewery-winery":"/good-shit-public/assets/map-icon-brewery-winery.a973d06bf38a.png","bridge":"/good-shit-public/assets/map-icon-bridge.97be93a1ad00.png","cafe":"/good-shit-public/assets/map-icon-cafe.6ca692b7e58e.png","cable-car":"/good-shit-public/assets/map-icon-cable-car.8c4b5f925a3e.png","camping":"/good-shit-public/assets/map-icon-camping.019a7b09f302.png","castle":"/good-shit-public/assets/map-icon-castle.7df8820166a9.png","cave":"/good-shit-public/assets/map-icon-cave.796a01f14215.png","church":"/good-shit-public/assets/map-icon-church.0429db3480a0.png","cinema":"/good-shit-public/assets/map-icon-cinema.b2eeecf5980e.png","coast":"/good-shit-public/assets/map-icon-coast.db8541cd8558.png","cuisine-american":"/good-shit-public/assets/map-icon-cuisine-american.108ed154e9e2.png","cuisine-balkan":"/good-shit-public/assets/map-icon-cuisine-balkan.1c2229f49956.png","cuisine-central-asian":"/good-shit-public/assets/map-icon-cuisine-central-asian.a8caf8f398c7.png","cuisine-chinese":"/good-shit-public/assets/map-icon-cuisine-chinese.01634106af89.png","cuisine-czech":"/good-shit-public/assets/map-icon-cuisine-czech.05fa6a30d508.png","cuisine-eastern-european":"/good-shit-public/assets/map-icon-cuisine-eastern-european.bf872a6699b4.png","cuisine-ethiopian":"/good-shit-public/assets/map-icon-cuisine-ethiopian.89921598cd15.png","cuisine-filipino":"/good-shit-public/assets/map-icon-cuisine-filipino.12b4673a9163.png","cuisine-french":"/good-shit-public/assets/map-icon-cuisine-french.6f2264f2a249.png","cuisine-georgian":"/good-shit-public/assets/map-icon-cuisine-georgian.bd045a00b6ed.png","cuisine-greek":"/good-shit-public/assets/map-icon-cuisine-greek.87fc907907d7.png","cuisine-indian":"/good-shit-public/assets/map-icon-cuisine-indian.1d29006915b7.png","cuisine-italian":"/good-shit-public/assets/map-icon-cuisine-italian.bbaa4d8a2c29.png","cuisine-japanese":"/good-shit-public/assets/map-icon-cuisine-japanese.5220cd0f2b9c.png","cuisine-korean":"/good-shit-public/assets/map-icon-cuisine-korean.02976b904ec4.png","cuisine-levantine":"/good-shit-public/assets/map-icon-cuisine-levantine.747c4d2d22e2.png","cuisine-mexican-latin":"/good-shit-public/assets/map-icon-cuisine-mexican-latin.b74e5b4f0f4b.png","cuisine-nepalese-tibetan":"/good-shit-public/assets/map-icon-cuisine-nepalese-tibetan.1b6f7d463110.png","cuisine-north-african":"/good-shit-public/assets/map-icon-cuisine-north-african.536be4a52f4d.png","cuisine-pakistani":"/good-shit-public/assets/map-icon-cuisine-pakistani.b1b06dd45203.png","cuisine-spanish-portuguese":"/good-shit-public/assets/map-icon-cuisine-spanish-portuguese.950e1aceba8c.png","cuisine-thai":"/good-shit-public/assets/map-icon-cuisine-thai.0beda9bdb355.png","cuisine-turkish":"/good-shit-public/assets/map-icon-cuisine-turkish.ecb05f0631d6.png","cuisine-vietnamese":"/good-shit-public/assets/map-icon-cuisine-vietnamese.f20a72f7928a.png","cycling-route":"/good-shit-public/assets/map-icon-cycling-route.8be87826afc3.png","dam":"/good-shit-public/assets/map-icon-dam.b148ae0a1b76.png","default":"/good-shit-public/assets/map-icon-default.b4d8f24df1a0.png","entertainment":"/good-shit-public/assets/map-icon-entertainment.6e92ecf323de.png","experience":"/good-shit-public/assets/map-icon-experience.8de8657fd005.png","farm":"/good-shit-public/assets/map-icon-farm.f6d5c2425afe.png","ferry":"/good-shit-public/assets/map-icon-ferry.82668eaa8567.png","festival":"/good-shit-public/assets/map-icon-festival.b30a86ed2a3a.png","food":"/good-shit-public/assets/map-icon-food.af389095f809.png","food-bakery":"/good-shit-public/assets/map-icon-food-bakery.1c99b9d9ba4f.png","food-bbq":"/good-shit-public/assets/map-icon-food-bbq.7cdea8948c14.png","food-fermentation":"/good-shit-public/assets/map-icon-food-fermentation.5a8787f58751.png","food-fine-dining":"/good-shit-public/assets/map-icon-food-fine-dining.617c697abc31.png","food-noodles":"/good-shit-public/assets/map-icon-food-noodles.57f731d21ec5.png","food-production":"/good-shit-public/assets/map-icon-food-production.69c89d574425.png","food-seafood":"/good-shit-public/assets/map-icon-food-seafood.f7beb74d0f91.png","food-street":"/good-shit-public/assets/map-icon-food-street.fecadb8f568c.png","food-sushi":"/good-shit-public/assets/map-icon-food-sushi.cd8574e3042e.png","food-sweets":"/good-shit-public/assets/map-icon-food-sweets.d43fbe3d6f6b.png","food-tea":"/good-shit-public/assets/map-icon-food-tea.680419b4c71b.png","forest":"/good-shit-public/assets/map-icon-forest.d9bc4ffbcbf2.png","fortress":"/good-shit-public/assets/map-icon-fortress.2c33f4ea7ee0.png","games-arcade":"/good-shit-public/assets/map-icon-games-arcade.b2ce01a9f80f.png","garden":"/good-shit-public/assets/map-icon-garden.5e595be9a5a3.png","gorge":"/good-shit-public/assets/map-icon-gorge.89afc0361bd5.png","hiking-route":"/good-shit-public/assets/map-icon-hiking-route.2ce34245bab3.png","historic-streetscape":"/good-shit-public/assets/map-icon-historic-streetscape.678784025fc2.png","industrial":"/good-shit-public/assets/map-icon-industrial.2c6160c8cadf.png","island":"/good-shit-public/assets/map-icon-island.b98d333c1e97.png","lake":"/good-shit-public/assets/map-icon-lake.19ee719c9d46.png","lighthouse":"/good-shit-public/assets/map-icon-lighthouse.d506ca8e5d37.png","live-music":"/good-shit-public/assets/map-icon-live-music.0b1e69b847fa.png","market":"/good-shit-public/assets/map-icon-market.6e4aa9c95539.png","memorial":"/good-shit-public/assets/map-icon-memorial.037a62fcbff1.png","modern-architecture":"/good-shit-public/assets/map-icon-modern-architecture.7db340e0f824.png","monastery":"/good-shit-public/assets/map-icon-monastery.faaff8137585.png","mountain":"/good-shit-public/assets/map-icon-mountain.b66b5c8772dd.png","mountain-hut":"/good-shit-public/assets/map-icon-mountain-hut.7688de2c52f3.png","museum":"/good-shit-public/assets/map-icon-museum.4f581f3f5113.png","natural-poi":"/good-shit-public/assets/map-icon-natural-poi.1656d003f7d6.png","onsen":"/good-shit-public/assets/map-icon-onsen.77a1ede732a6.png","palace":"/good-shit-public/assets/map-icon-palace.daef642a1be9.png","park":"/good-shit-public/assets/map-icon-park.8591eecc4d6b.png","railway":"/good-shit-public/assets/map-icon-railway.52346503cb5d.png","river":"/good-shit-public/assets/map-icon-river.a91d3c91d00c.png","rock-formation":"/good-shit-public/assets/map-icon-rock-formation.1ff20540d522.png","ruins":"/good-shit-public/assets/map-icon-ruins.ff9b2758ff63.png","science-technology":"/good-shit-public/assets/map-icon-science-technology.a99ad05795ec.png","shop":"/good-shit-public/assets/map-icon-shop.b170c98ca5e9.png","shrine":"/good-shit-public/assets/map-icon-shrine.559ce92de21a.png","skiing":"/good-shit-public/assets/map-icon-skiing.2defb5d13c58.png","spa":"/good-shit-public/assets/map-icon-spa.f37157be5ccd.png","sports":"/good-shit-public/assets/map-icon-sports.503e0c0707c4.png","temple":"/good-shit-public/assets/map-icon-temple.11e4c7710ae7.png","theatre":"/good-shit-public/assets/map-icon-theatre.7b885eb9aaf1.png","tower":"/good-shit-public/assets/map-icon-tower.8fea27e76416.png","traditional-settlement":"/good-shit-public/assets/map-icon-traditional-settlement.441e8679d56c.png","viewpoint":"/good-shit-public/assets/map-icon-viewpoint.16ff701cc3b6.png","volcano":"/good-shit-public/assets/map-icon-volcano.6680893c4ead.png","water":"/good-shit-public/assets/map-icon-water.9c33470be990.png","waterfall":"/good-shit-public/assets/map-icon-waterfall.97e1683138db.png","wetland":"/good-shit-public/assets/map-icon-wetland.571f6df437c7.png","wildlife":"/good-shit-public/assets/map-icon-wildlife.b96e2b67302e.png","zoo":"/good-shit-public/assets/map-icon-zoo.c4daa370cf80.png"},"geocoding":{"provider":"nominatim","endpoint":"https://nominatim.openstreetmap.org/search"}}</script>
+  <script type="module" id="map-sidebar-ux">const form = document.querySelector('#map-filter-form');
+const strip = document.querySelector('.map-filter-strip');
+const queryInput = document.querySelector('#map-query');
+const count = document.querySelector('#map-result-count');
+const nearMeButton = document.querySelector('#near-me');
+const clearNearMeButton = document.querySelector('#clear-near-me');
+const toggleListButton = document.querySelector('#toggle-map-list');
+const tierLabels = {"S":"Exceptional","A":"Excellent","B":"Very good","C":"Good"};
+
+if (form && strip && !strip.dataset.usabilityEnhanced) {
+  strip.dataset.usabilityEnhanced = 'true';
+  form.setAttribute('aria-label', 'Filter map findings');
+  strip.setAttribute('aria-labelledby', 'map-filter-heading');
+
+  if (count) {
+    count.setAttribute('role', 'status');
+    count.setAttribute('aria-live', 'polite');
+    count.setAttribute('aria-atomic', 'true');
+  }
+
+  function removeTextNodes(element) {
+    for (const node of [...element.childNodes]) {
+      if (node.nodeType === Node.TEXT_NODE) node.remove();
+    }
+  }
+
+  function enhanceSelect(name, labelText, emptyText) {
+    const select = form.elements[name];
+    const wrapper = select?.closest('.filter-chip');
+    if (!select || !wrapper) return null;
+    removeTextNodes(wrapper);
+    wrapper.classList.add('map-select-filter');
+    const label = document.createElement('span');
+    label.className = 'map-filter-label';
+    label.textContent = labelText;
+    wrapper.insertBefore(label, select);
+    select.setAttribute('aria-label', labelText);
+    if (emptyText && select.options[0] && !select.options[0].value) select.options[0].textContent = emptyText;
+    return wrapper;
+  }
+
+  function enhanceToggle(name, labelText, extraClass = '') {
+    const input = form.elements[name];
+    const wrapper = input?.closest('.filter-chip');
+    if (!input || !wrapper) return null;
+    removeTextNodes(wrapper);
+    wrapper.classList.add('map-toggle-filter');
+    if (extraClass) wrapper.classList.add(extraClass);
+    input.setAttribute('aria-label', labelText);
+    const label = document.createElement('span');
+    label.className = 'map-toggle-label';
+    label.textContent = labelText;
+    wrapper.append(label);
+    return wrapper;
+  }
+
+  const category = enhanceSelect('category', 'Category', 'All categories');
+  const entityType = enhanceSelect('entityType', 'Type', 'All types');
+  const rating = enhanceSelect('minimumPersonalRating', 'My rating', 'Any rating');
+  const radius = enhanceSelect('radius', 'Near me radius');
+  const favourite = enhanceToggle('favourite', 'Favourites', 'map-favourite-filter');
+  const visited = enhanceToggle('visited', 'Visited', 'map-visit-filter');
+  const unvisited = enhanceToggle('unvisited', 'Unvisited', 'map-visit-filter');
+
+  const tierInputs = [...form.querySelectorAll('input[name="map-tier"]')];
+  const tierControls = tierInputs.map((input) => {
+    const wrapper = input.closest('.filter-chip');
+    if (!wrapper) return null;
+    removeTextNodes(wrapper);
+    wrapper.classList.add('map-tier-filter');
+    const tier = input.value;
+    const copy = document.createElement('span');
+    copy.className = 'map-tier-copy';
+    const letter = document.createElement('strong');
+    letter.className = 'map-tier-letter';
+    letter.textContent = tier;
+    const name = document.createElement('span');
+    name.className = 'map-tier-name';
+    name.textContent = tierLabels[tier] || tier;
+    copy.append(letter, name);
+    wrapper.append(copy);
+    input.setAttribute('aria-label', 'Include tier ' + tier + ' — ' + (tierLabels[tier] || tier));
+    wrapper.title = tier + ' — ' + (tierLabels[tier] || tier);
+    return wrapper;
+  }).filter(Boolean);
+
+  // The old presentation represented the unfiltered default as four selected tier chips.
+  // In the filter model an empty tier set already means “all”, which is clearer to users.
+  if (tierInputs.length && tierInputs.every((input) => input.checked)) {
+    for (const input of tierInputs) input.checked = false;
+  }
+
+  const toolbar = document.createElement('div');
+  toolbar.className = 'map-filter-toolbar';
+  const headingCopy = document.createElement('div');
+  headingCopy.className = 'map-filter-heading-copy';
+  const heading = document.createElement('strong');
+  heading.id = 'map-filter-heading';
+  heading.textContent = 'Filters';
+  const activeSummary = document.createElement('span');
+  activeSummary.id = 'map-active-filter-summary';
+  activeSummary.textContent = 'All findings';
+  headingCopy.append(heading, activeSummary);
+  const resetButton = document.createElement('button');
+  resetButton.id = 'reset-map-filters';
+  resetButton.className = 'map-filter-reset';
+  resetButton.type = 'button';
+  resetButton.textContent = 'Reset';
+  resetButton.hidden = true;
+  resetButton.setAttribute('aria-label', 'Reset map filters');
+  toolbar.append(headingCopy, resetButton);
+
+  function group(legendText, controls, className = '') {
+    const fieldset = document.createElement('fieldset');
+    fieldset.className = 'map-filter-group' + (className ? ' ' + className : '');
+    const legend = document.createElement('legend');
+    legend.textContent = legendText;
+    fieldset.append(legend, ...controls.filter(Boolean));
+    return fieldset;
+  }
+
+  const findGroup = group('Find', [category, entityType], 'map-find-group');
+
+  const allTiersButton = document.createElement('button');
+  allTiersButton.type = 'button';
+  allTiersButton.className = 'map-all-tiers';
+  allTiersButton.textContent = 'Any tier';
+  allTiersButton.setAttribute('aria-pressed', 'true');
+  const tierGrid = document.createElement('div');
+  tierGrid.className = 'map-tier-grid';
+  tierGrid.append(...tierControls);
+  const qualityGroup = group('Editorial quality', [allTiersButton, tierGrid], 'map-quality-group');
+
+  const anyVisitButton = document.createElement('button');
+  anyVisitButton.type = 'button';
+  anyVisitButton.className = 'map-any-visit';
+  anyVisitButton.textContent = 'Any';
+  anyVisitButton.setAttribute('aria-pressed', 'true');
+  const visitChoices = document.createElement('div');
+  visitChoices.className = 'map-visit-choices';
+  visitChoices.setAttribute('role', 'group');
+  visitChoices.setAttribute('aria-label', 'Visit status');
+  visitChoices.append(anyVisitButton, visited, unvisited);
+
+  const personalGrid = document.createElement('div');
+  personalGrid.className = 'map-personal-grid';
+  personalGrid.append(favourite, rating, visitChoices);
+  const personalGroup = group('My places', [personalGrid], 'map-personal-group');
+
+  const nearbyHint = document.createElement('span');
+  nearbyHint.className = 'map-filter-hint';
+  nearbyHint.id = 'map-radius-help';
+  nearbyHint.textContent = 'Turn on “Near me” on the map to use a distance radius.';
+  const nearbyGroup = group('Nearby', [radius, nearbyHint], 'map-nearby-group');
+  form.elements.radius?.setAttribute('aria-describedby', nearbyHint.id);
+
+  const more = document.createElement('details');
+  more.className = 'map-more-filters';
+  const moreSummary = document.createElement('summary');
+  const moreLabel = document.createElement('span');
+  moreLabel.textContent = 'Personal & nearby';
+  const moreCount = document.createElement('span');
+  moreCount.className = 'map-more-count';
+  moreCount.hidden = true;
+  moreSummary.append(moreLabel, moreCount);
+  const moreContent = document.createElement('div');
+  moreContent.className = 'map-more-content';
+  moreContent.append(personalGroup, nearbyGroup);
+  more.append(moreSummary, moreContent);
+
+  strip.replaceChildren(toolbar, findGroup, qualityGroup, more);
+
+  if (queryInput) {
+    const searchHelp = document.createElement('span');
+    searchHelp.id = 'map-search-help';
+    searchHelp.className = 'sr-only';
+    searchHelp.textContent = 'Search only the catalogue findings currently visible in the map view.';
+    queryInput.setAttribute('aria-describedby', searchHelp.id);
+    queryInput.parentElement?.append(searchHelp);
+
+    const clearSearch = document.createElement('button');
+    clearSearch.id = 'clear-map-query';
+    clearSearch.className = 'map-query-clear';
+    clearSearch.type = 'button';
+    clearSearch.setAttribute('aria-label', 'Clear findings search');
+    clearSearch.innerHTML = '<span aria-hidden="true">×</span>';
+    clearSearch.hidden = !queryInput.value;
+    queryInput.parentElement?.append(clearSearch);
+    clearSearch.addEventListener('click', () => {
+      queryInput.value = '';
+      clearSearch.hidden = true;
+      queryInput.dispatchEvent(new Event('input', { bubbles: true }));
+      queryInput.focus();
+    });
+    queryInput.addEventListener('input', () => {
+      clearSearch.hidden = !queryInput.value;
+    });
+  }
+
+  function activePrimaryCount() {
+    let total = 0;
+    if (form.elements.category?.value) total += 1;
+    if (form.elements.entityType?.value) total += 1;
+    if (tierInputs.some((input) => input.checked)) total += 1;
+    return total;
+  }
+
+  function activeSecondaryCount() {
+    let total = 0;
+    if (form.elements.favourite?.checked) total += 1;
+    if (form.elements.visited?.checked || form.elements.unvisited?.checked) total += 1;
+    if (form.elements.minimumPersonalRating?.value) total += 1;
+    if (nearMeButton?.getAttribute('aria-pressed') === 'true') total += 1;
+    return total;
+  }
+
+  function syncVisitState(changed = null) {
+    const visitedInput = form.elements.visited;
+    const unvisitedInput = form.elements.unvisited;
+    if (changed === visitedInput && visitedInput?.checked && unvisitedInput) unvisitedInput.checked = false;
+    if (changed === unvisitedInput && unvisitedInput?.checked && visitedInput) visitedInput.checked = false;
+    const any = !visitedInput?.checked && !unvisitedInput?.checked;
+    anyVisitButton.setAttribute('aria-pressed', String(any));
+  }
+
+  function syncTierState() {
+    if (tierInputs.length && tierInputs.every((input) => input.checked)) {
+      for (const input of tierInputs) input.checked = false;
+    }
+    const any = !tierInputs.some((input) => input.checked);
+    allTiersButton.setAttribute('aria-pressed', String(any));
+  }
+
+  function syncRadiusState() {
+    const radiusSelect = form.elements.radius;
+    const active = nearMeButton?.getAttribute('aria-pressed') === 'true';
+    if (radiusSelect) radiusSelect.disabled = !active;
+    radius?.classList.toggle('is-disabled', !active);
+    radius?.setAttribute('aria-disabled', String(!active));
+    nearbyHint.textContent = active
+      ? 'Only findings within this distance from your location are shown.'
+      : 'Turn on “Near me” on the map to use a distance radius.';
+    if (active) more.open = true;
+  }
+
+  function syncSummary() {
+    const primary = activePrimaryCount();
+    const secondary = activeSecondaryCount();
+    const total = primary + secondary;
+    activeSummary.textContent = total ? String(total) + ' active' : 'All findings';
+    resetButton.hidden = total === 0;
+    moreCount.hidden = secondary === 0;
+    moreCount.textContent = secondary ? String(secondary) + ' active' : '';
+  }
+
+  function syncAll(changed = null) {
+    syncVisitState(changed);
+    syncTierState();
+    syncRadiusState();
+    syncSummary();
+  }
+
+  allTiersButton.addEventListener('click', () => {
+    for (const input of tierInputs) input.checked = false;
+    syncAll();
+    tierInputs[0]?.dispatchEvent(new Event('change', { bubbles: true }));
+  });
+
+  anyVisitButton.addEventListener('click', () => {
+    if (form.elements.visited) form.elements.visited.checked = false;
+    if (form.elements.unvisited) form.elements.unvisited.checked = false;
+    syncAll();
+    (form.elements.visited || form.elements.unvisited)?.dispatchEvent(new Event('change', { bubbles: true }));
+  });
+
+  resetButton.addEventListener('click', () => {
+    if (form.elements.category) form.elements.category.value = '';
+    if (form.elements.entityType) form.elements.entityType.value = '';
+    if (form.elements.minimumPersonalRating) form.elements.minimumPersonalRating.value = '';
+    if (form.elements.favourite) form.elements.favourite.checked = false;
+    if (form.elements.visited) form.elements.visited.checked = false;
+    if (form.elements.unvisited) form.elements.unvisited.checked = false;
+    for (const input of tierInputs) input.checked = false;
+    if (nearMeButton?.getAttribute('aria-pressed') === 'true') clearNearMeButton?.click();
+    syncAll();
+    (form.elements.category || tierInputs[0])?.dispatchEvent(new Event('change', { bubbles: true }));
+  });
+
+  form.addEventListener('change', (event) => {
+    syncAll(event.target);
+  });
+
+  if (nearMeButton) {
+    new MutationObserver(() => syncAll()).observe(nearMeButton, { attributes: true, attributeFilter: ['aria-pressed'] });
+  }
+
+  function syncListToggle() {
+    if (!toggleListButton) return;
+    const expanded = toggleListButton.getAttribute('aria-expanded') !== 'false';
+    const label = toggleListButton.querySelector('[data-button-label]');
+    if (label) label.textContent = expanded ? 'Hide list' : 'Show list';
+    toggleListButton.setAttribute('aria-label', expanded ? 'Hide findings list' : 'Show findings list');
+  }
+
+  if (toggleListButton) {
+    syncListToggle();
+    new MutationObserver(syncListToggle).observe(toggleListButton, { attributes: true, attributeFilter: ['aria-expanded'] });
+  }
+
+  syncAll();
+}</script>
   <script type="module" src="/good-shit-public/assets/web-app.cad986d21761.mjs"></script>
 <script type="module" src="/good-shit-public/assets/web-map.05f12b2e8087.mjs"></script>
 </body>

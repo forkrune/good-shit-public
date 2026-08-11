@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:44:13.000Z",
+  "generatedAt": "2026-08-11T12:01:00.000Z",
   "basePath": "/good-shit-public/",
   "catalogue": {
     "total": 228,
@@ -24,16 +24,16 @@
   },
   "payloads": {
     "initialHome": {
-      "bytes": 115946,
-      "gzipBytes": 18500
+      "bytes": 115949,
+      "gzipBytes": 18502
     },
     "initialDiscover": {
-      "bytes": 761402,
-      "gzipBytes": 89037
+      "bytes": 761405,
+      "gzipBytes": 89038
     },
     "initialMapShellExcludingExternalMapLibrary": {
-      "bytes": 130501,
-      "gzipBytes": 29483
+      "bytes": 152651,
+      "gzipBytes": 33877
     },
     "totalFingerprintJs": {
       "bytes": 237250,
@@ -50,11 +50,11 @@
     "largestCountrySearchShard": {
       "key": "jp",
       "bytes": 289646,
-      "gzipBytes": 59895
+      "gzipBytes": 59894
     },
     "mapOverview": {
       "bytes": 459569,
-      "gzipBytes": 98517
+      "gzipBytes": 98516
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -63,15 +63,15 @@
     },
     "entityReference": {
       "bytes": 381445,
-      "gzipBytes": 82166
+      "gzipBytes": 82165
     },
     "initialTierListShell": {
-      "bytes": 72501,
-      "gzipBytes": 14486
+      "bytes": 72504,
+      "gzipBytes": 14489
     },
     "tierListManifest": {
       "bytes": 6780,
-      "gzipBytes": 1966
+      "gzipBytes": 1957
     },
     "largestTierListShard": {
       "key": "country:JP",
@@ -82,7 +82,7 @@
   "catalogueManifest": {
     "schemaVersion": 1,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-08-11T11:44:13.000Z",
+    "generatedAt": "2026-08-11T12:01:00.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -111,34 +111,34 @@
     "packages": {
       "entities": [
         {
-          "url": "/good-shit-public/catalogue/packages/entities-cz.99da0f7c2433.json",
+          "url": "/good-shit-public/catalogue/packages/entities-cz.e2794b924d1e.json",
           "bytes": 239028,
-          "gzipBytes": 44826,
-          "sha256": "99da0f7c2433b56917544ef45401848f586618c930a0c6953b1fc640f79951ad",
+          "gzipBytes": 44823,
+          "sha256": "e2794b924d1e55bbd0879d413f247c9f2f86bed09eb33cfcbcabeaaf93ae3889",
           "countryCode": "CZ",
           "entityCount": 51
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-jp.f414f5cd3fff.json",
+          "url": "/good-shit-public/catalogue/packages/entities-jp.43c6fa0300e4.json",
           "bytes": 843349,
-          "gzipBytes": 173893,
-          "sha256": "f414f5cd3fff5d04d4c04535bc63ec5b11357af972f76bebff60dd20e40cd14c",
+          "gzipBytes": 173888,
+          "sha256": "43c6fa0300e485f7b6658eff3d82f0c75376fc247be279c2b6282c3c5424fbe1",
           "countryCode": "JP",
           "entityCount": 177
         }
       ],
       "search": {
-        "url": "/good-shit-public/data/search/manifest.81ea75c58629.json",
+        "url": "/good-shit-public/data/search/manifest.e1b5b4f0a2ee.json",
         "bytes": 22497,
-        "gzipBytes": 5393,
-        "sha256": "81ea75c586291ec90cbd244487832145c10a429660917ada4ba24e721d412d4f",
+        "gzipBytes": 5395,
+        "sha256": "e1b5b4f0a2ee2bd4f73b2997c1974a32f3f721e329124c8be2eff52eea62f2b9",
         "documentCount": 228
       },
       "map": {
-        "url": "/good-shit-public/data/map/manifest.02f1da3b27e1.json",
+        "url": "/good-shit-public/data/map/manifest.037fa9d21fbe.json",
         "bytes": 54525,
-        "gzipBytes": 16812,
-        "sha256": "02f1da3b27e16b14aa9124a9dc8af26ed9c1a8fe3d6fe1ffb7847284050514d3",
+        "gzipBytes": 16810,
+        "sha256": "037fa9d21fbef64d1c7d84a2e4ecc60fa86c7112a2d4a13095f00efec8068378",
         "shardCount": 6
       },
       "redirects": {
@@ -158,10 +158,10 @@
         "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json"
       },
       "tierList": {
-        "url": "/good-shit-public/data/tier-list/manifest.d46d6d88cc50.json",
+        "url": "/good-shit-public/data/tier-list/manifest.4472e9f6f367.json",
         "bytes": 6780,
-        "gzipBytes": 1966,
-        "sha256": "d46d6d88cc50ac2ee92650065e477d4eca0a4925075931a8807c154cd3e381d3",
+        "gzipBytes": 1957,
+        "sha256": "4472e9f6f3671bc3ca0baab12024948d8ab4617c1f1bb58f9e9f7195d30f4166",
         "documentCount": 228,
         "countryShardCount": 2,
         "typeShardCount": 5
