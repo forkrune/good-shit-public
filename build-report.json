@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T12:01:00.000Z",
+  "generatedAt": "2026-08-11T14:28:51.000Z",
   "basePath": "/good-shit-public/",
   "catalogue": {
     "total": 228,
@@ -29,15 +29,15 @@
     },
     "initialDiscover": {
       "bytes": 761405,
-      "gzipBytes": 89038
+      "gzipBytes": 89040
     },
     "initialMapShellExcludingExternalMapLibrary": {
       "bytes": 152651,
-      "gzipBytes": 33877
+      "gzipBytes": 33882
     },
     "totalFingerprintJs": {
-      "bytes": 237250,
-      "gzipBytes": 67628
+      "bytes": 238009,
+      "gzipBytes": 67734
     },
     "css": {
       "bytes": 57466,
@@ -50,11 +50,11 @@
     "largestCountrySearchShard": {
       "key": "jp",
       "bytes": 289646,
-      "gzipBytes": 59894
+      "gzipBytes": 59895
     },
     "mapOverview": {
-      "bytes": 459569,
-      "gzipBytes": 98516
+      "bytes": 459573,
+      "gzipBytes": 98519
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,16 +62,16 @@
       "gzipBytes": 41682
     },
     "entityReference": {
-      "bytes": 381445,
-      "gzipBytes": 82165
+      "bytes": 381449,
+      "gzipBytes": 82168
     },
     "initialTierListShell": {
       "bytes": 72504,
-      "gzipBytes": 14489
+      "gzipBytes": 14490
     },
     "tierListManifest": {
       "bytes": 6780,
-      "gzipBytes": 1957
+      "gzipBytes": 1962
     },
     "largestTierListShard": {
       "key": "country:JP",
@@ -82,7 +82,7 @@
   "catalogueManifest": {
     "schemaVersion": 1,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-08-11T12:01:00.000Z",
+    "generatedAt": "2026-08-11T14:28:51.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -111,34 +111,34 @@
     "packages": {
       "entities": [
         {
-          "url": "/good-shit-public/catalogue/packages/entities-cz.e2794b924d1e.json",
-          "bytes": 239028,
-          "gzipBytes": 44823,
-          "sha256": "e2794b924d1e55bbd0879d413f247c9f2f86bed09eb33cfcbcabeaaf93ae3889",
+          "url": "/good-shit-public/catalogue/packages/entities-cz.c8296c8538f3.json",
+          "bytes": 249361,
+          "gzipBytes": 47506,
+          "sha256": "c8296c8538f3a9057a035d437df32b05db19f5164388d7e349e07d4e235d68e4",
           "countryCode": "CZ",
           "entityCount": 51
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-jp.43c6fa0300e4.json",
+          "url": "/good-shit-public/catalogue/packages/entities-jp.bcb5ed1dd472.json",
           "bytes": 843349,
-          "gzipBytes": 173888,
-          "sha256": "43c6fa0300e485f7b6658eff3d82f0c75376fc247be279c2b6282c3c5424fbe1",
+          "gzipBytes": 173893,
+          "sha256": "bcb5ed1dd472041ce53647e8355a06021194aa332f48eb4a7b5ae4000dd43c32",
           "countryCode": "JP",
           "entityCount": 177
         }
       ],
       "search": {
-        "url": "/good-shit-public/data/search/manifest.e1b5b4f0a2ee.json",
+        "url": "/good-shit-public/data/search/manifest.e5a498629674.json",
         "bytes": 22497,
-        "gzipBytes": 5395,
-        "sha256": "e1b5b4f0a2ee2bd4f73b2997c1974a32f3f721e329124c8be2eff52eea62f2b9",
+        "gzipBytes": 5392,
+        "sha256": "e5a498629674e74d173e3037d59c4bd2ee21edb7375afcb2e8cdbf4d0e99817b",
         "documentCount": 228
       },
       "map": {
-        "url": "/good-shit-public/data/map/manifest.037fa9d21fbe.json",
-        "bytes": 54525,
-        "gzipBytes": 16810,
-        "sha256": "037fa9d21fbef64d1c7d84a2e4ecc60fa86c7112a2d4a13095f00efec8068378",
+        "url": "/good-shit-public/data/map/manifest.91df782e15cc.json",
+        "bytes": 54529,
+        "gzipBytes": 16812,
+        "sha256": "91df782e15cc00f5ac040685599ce3ca6a7e1ea595e615f3137708ffb7fee0d6",
         "shardCount": 6
       },
       "redirects": {
@@ -158,10 +158,10 @@
         "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json"
       },
       "tierList": {
-        "url": "/good-shit-public/data/tier-list/manifest.4472e9f6f367.json",
+        "url": "/good-shit-public/data/tier-list/manifest.72393ff715b3.json",
         "bytes": 6780,
-        "gzipBytes": 1957,
-        "sha256": "4472e9f6f3671bc3ca0baab12024948d8ab4617c1f1bb58f9e9f7195d30f4166",
+        "gzipBytes": 1962,
+        "sha256": "72393ff715b3aafaf42ecc13744498884f0d933494c629477c5c7edb171960ad",
         "documentCount": 228,
         "countryShardCount": 2,
         "typeShardCount": 5

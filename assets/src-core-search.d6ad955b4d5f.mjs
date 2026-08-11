@@ -4,7 +4,7 @@ import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { customCardSignals, isPublicCustomField } from './src-core-custom-metadata.8ebf9987f71d.mjs';
 import { foodCardHighlight, foodSearchValues } from './src-core-food.f1a7b089063a.mjs';
 import { presentationIconForEntity } from './src-core-presentation-icons.b0ffba967598.mjs';
-import { hikingCardSignals, hikingDocumentMatchesFilters, hikingSearchSummary, hikingSearchValues } from './src-core-hiking-state.ddcbbad088c7.mjs';
+import { hikingCardSignals, hikingDocumentMatchesFilters, hikingSearchSummary, hikingSearchValues } from './src-core-hiking-state.07df5634adf2.mjs';
 
 const FIELD_WEIGHTS = Object.freeze({
   canonicalName: 12,

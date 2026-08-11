@@ -206,6 +206,16 @@ function capSimplifiedLines(lines, options) {
 
 export function simplifyRouteGeometry(geometry, options = DEFAULT_HIKING_CONFIG.displayGeometry) {
   if (!['LineString', 'MultiLineString'].includes(geometry?.type)) throw new TypeError('Route simplification requires LineString or MultiLineString geometry.');
+  const sourceLines = routeLines(geometry);
+  const maximumPerLine = Math.max(8, Number(options.maxVerticesPerLine ?? DEFAULT_HIKING_CONFIG.displayGeometry.maxVerticesPerLine));
+  const maximumTotal = Math.max(16, Number(options.maxVerticesTotal ?? DEFAULT_HIKING_CONFIG.displayGeometry.maxVerticesTotal));
+  const fitsDisplayBudget = sourceLines.every((line) => line.length <= maximumPerLine)
+    && sourceLines.reduce((sum, line) => sum + line.length, 0) <= maximumTotal;
+  if (fitsDisplayBudget) {
+    return geometry.type === 'LineString'
+      ? { type: 'LineString', coordinates: geometry.coordinates.map((point) => [...point]) }
+      : { type: 'MultiLineString', coordinates: geometry.coordinates.map((line) => line.map((point) => [...point])) };
+  }
   if (geometry.type === 'LineString') {
     const [coordinates] = capSimplifiedLines([simplifyLine(geometry.coordinates, options)], options);
     return { type: 'LineString', coordinates };

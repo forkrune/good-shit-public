@@ -1,4 +1,4 @@
-import { DEFAULT_HIKING_CONFIG, HIKING_CONDITION_SEVERITIES, activeVariants, defaultHikingVariant } from './src-core-hiking-geometry.832af140e8b9.mjs';
+import { DEFAULT_HIKING_CONFIG, HIKING_CONDITION_SEVERITIES, activeVariants, defaultHikingVariant } from './src-core-hiking-geometry.5a3a6476c8fd.mjs';
 
 function dateFromBuildEnvironment(environment = process.env) {
   if (environment.SOURCE_DATE_EPOCH && Number.isFinite(Number(environment.SOURCE_DATE_EPOCH))) return new Date(Number(environment.SOURCE_DATE_EPOCH) * 1000);
