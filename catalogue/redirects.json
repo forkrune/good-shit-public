@@ -1,5 +1,12 @@
 {
   "schemaVersion": 1,
   "redirects": [],
-  "tombstones": []
+  "tombstones": [
+    {
+      "id": "e1498c27-5408-5bbe-b774-7febe108dc65",
+      "status": "rejected",
+      "effectiveAt": "2026-08-11T09:30:00.000Z",
+      "reason": "No longer meets the catalogue quality bar after curator reassessment."
+    }
+  ]
 }

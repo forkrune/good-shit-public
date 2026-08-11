@@ -1,10 +1,10 @@
 import { bboxIntersects, distanceToGeometryKm, geometryIntersectsBbox, tilesForBbox } from './src-core-geo.a34d5b20ddb0.mjs';
 import { documentMatchesFilters, querySearchIndex } from './src-core-search.df412ba60555.mjs';
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
-import { escapeHtml, joinUrl, renderEntityGrid } from './web-client-render.76cf2150b55a.mjs';
+import { escapeHtml, renderEntityGrid } from './web-client-render.76cf2150b55a.mjs';
+import { ensureMapPopupStyles, renderMapPopup } from './web-map-popup.3c388db41d59.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
 import { hydratePersonalState, showToast } from './web-app.cad986d21761.mjs';
-import { renderUiIcon } from './src-core-ui-icons.eb64a1f4d6b3.mjs';
 
 const configNode = document.querySelector('#page-config');
 const config = configNode ? JSON.parse(configNode.textContent) : {};
@@ -508,7 +508,7 @@ function renderList() {
 }
 
 function popupHtml(document) {
-  return `<div class="stack-sm"><span class="tier-chip"><strong>${escapeHtml(document.tier)}</strong> curated</span><strong>${escapeHtml(document.name)}</strong><span class="muted">${escapeHtml([document.locality, document.country].filter(Boolean).join(' · '))}</span><a href="${escapeHtml(joinUrl(config.basePath, `places/${document.slug}/`))}">Open details ${renderUiIcon(config.uiIconSpriteUrl, 'arrow-right')}</a></div>`;
+  return renderMapPopup(document, { basePath: config.basePath });
 }
 
 function selectEntity(id, lngLat = null) {
@@ -520,7 +520,7 @@ function selectEntity(id, lngLat = null) {
   if (map && document) {
     popup?.remove();
     const anchor = lngLat ?? { lng: document.centroid[0], lat: document.centroid[1] };
-    popup = new maplibregl.Popup({ offset: 16, closeButton: true, maxWidth: '310px' })
+    popup = new maplibregl.Popup({ offset: 18, closeButton: true, maxWidth: '392px', className: 'good-shit-map-popup' })
       .setLngLat(anchor)
       .setHTML(popupHtml(document))
       .addTo(map);
@@ -572,6 +572,7 @@ async function showMapFallback(error) {
 
 async function initialiseMap() {
   try {
+    ensureMapPopupStyles();
     if (!supportsWebGl2()) throw new Error('This browser cannot provide WebGL 2, which MapLibre 6 requires.');
     setStatus('Preparing map layout…');
     const [libraryModule, manifest, overview] = await Promise.all([
