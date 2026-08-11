@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T14:36:23.000Z",
+  "generatedAt": "2026-08-11T15:12:56.000Z",
   "basePath": "/good-shit-public/",
   "catalogue": {
     "total": 228,
@@ -24,20 +24,20 @@
   },
   "payloads": {
     "initialHome": {
-      "bytes": 115949,
-      "gzipBytes": 18502
+      "bytes": 115952,
+      "gzipBytes": 18504
     },
     "initialDiscover": {
-      "bytes": 761405,
-      "gzipBytes": 89039
+      "bytes": 761408,
+      "gzipBytes": 89042
     },
     "initialMapShellExcludingExternalMapLibrary": {
-      "bytes": 152651,
-      "gzipBytes": 33881
+      "bytes": 153004,
+      "gzipBytes": 33988
     },
     "totalFingerprintJs": {
-      "bytes": 238321,
-      "gzipBytes": 67874
+      "bytes": 238339,
+      "gzipBytes": 67888
     },
     "css": {
       "bytes": 57466,
@@ -66,12 +66,12 @@
       "gzipBytes": 82168
     },
     "initialTierListShell": {
-      "bytes": 72504,
-      "gzipBytes": 14488
+      "bytes": 72507,
+      "gzipBytes": 14490
     },
     "tierListManifest": {
       "bytes": 6780,
-      "gzipBytes": 1961
+      "gzipBytes": 1966
     },
     "largestTierListShard": {
       "key": "country:JP",
@@ -82,7 +82,7 @@
   "catalogueManifest": {
     "schemaVersion": 1,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-08-11T14:36:23.000Z",
+    "generatedAt": "2026-08-11T15:12:56.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -111,34 +111,34 @@
     "packages": {
       "entities": [
         {
-          "url": "/good-shit-public/catalogue/packages/entities-cz.ee58796447cb.json",
+          "url": "/good-shit-public/catalogue/packages/entities-cz.362cb3787451.json",
           "bytes": 249361,
-          "gzipBytes": 47506,
-          "sha256": "ee58796447cb4141aeeb0d2f3bfcdce86c5f8219c00ba9969bd100f220472cb5",
+          "gzipBytes": 47505,
+          "sha256": "362cb378745171233c8af0553e808ccbb4fdac0a07f294ada213a57d0f92cf2c",
           "countryCode": "CZ",
           "entityCount": 51
         },
         {
-          "url": "/good-shit-public/catalogue/packages/entities-jp.b78ff735a082.json",
+          "url": "/good-shit-public/catalogue/packages/entities-jp.752c47a70c8e.json",
           "bytes": 843349,
           "gzipBytes": 173893,
-          "sha256": "b78ff735a082bd2c0ec4cb95116e72fa70833afd17e80a05d81a6e070a06a32b",
+          "sha256": "752c47a70c8ecc17baa4915d3670efeb9ef3f9696252b9c0f8233d903d5648e7",
           "countryCode": "JP",
           "entityCount": 177
         }
       ],
       "search": {
-        "url": "/good-shit-public/data/search/manifest.efaa00cb01e0.json",
+        "url": "/good-shit-public/data/search/manifest.a6a9e6079ccd.json",
         "bytes": 22497,
-        "gzipBytes": 5393,
-        "sha256": "efaa00cb01e0548e53d9b3f87f748d0b4e623ba3f7f9d2ca254da8e80c0e28f3",
+        "gzipBytes": 5392,
+        "sha256": "a6a9e6079ccd7ac39caf7bb709d6ade671501a41955d90171f1ce10f7bf3c9b0",
         "documentCount": 228
       },
       "map": {
-        "url": "/good-shit-public/data/map/manifest.4e1173888131.json",
+        "url": "/good-shit-public/data/map/manifest.54dab9a33c12.json",
         "bytes": 54529,
-        "gzipBytes": 16810,
-        "sha256": "4e1173888131160ffeed5b7d9c0d721629cf132a2aee9661f4eff8d93e5f05ef",
+        "gzipBytes": 16811,
+        "sha256": "54dab9a33c1242a12e3390fc02845c8d64d1f758a4b5d15c4b061dec3ccdafa3",
         "shardCount": 6
       },
       "redirects": {
@@ -158,10 +158,10 @@
         "personalState": "/good-shit-public/catalogue/schema/personal-state.schema.json"
       },
       "tierList": {
-        "url": "/good-shit-public/data/tier-list/manifest.ba8e9f07063d.json",
+        "url": "/good-shit-public/data/tier-list/manifest.9cbb93730391.json",
         "bytes": 6780,
-        "gzipBytes": 1961,
-        "sha256": "ba8e9f07063dbe1330f847a84dd9f2ef434a411f55c1f457a5087f26a8718c3c",
+        "gzipBytes": 1966,
+        "sha256": "9cbb9373039141cf3a54c3e9a594c4be0487c11a2aa20a8c054e9af053090993",
         "documentCount": 228,
         "countryShardCount": 2,
         "typeShardCount": 5

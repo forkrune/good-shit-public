@@ -30,7 +30,7 @@ function coverMarkup(document) {
   const fallback = variants.at(-1);
   const srcset = variants.map((variant) => `${variant.url} ${variant.width}w`).join(', ');
   return `<div class="map-popup-media">
-    <img src="${escapeHtml(fallback.url)}" srcset="${escapeHtml(srcset)}" sizes="(max-width: 520px) calc(100vw - 40px), 392px" width="${escapeHtml(fallback.width)}" height="${escapeHtml(fallback.height)}" alt="${escapeHtml(cover.alt)}" loading="eager" decoding="async">
+    <img src="${escapeHtml(fallback.url)}" srcset="${escapeHtml(srcset)}" sizes="(max-width: 520px) calc(100vw - 40px), 392px" width="${escapeHtml(fallback.width)}" height="${escapeHtml(fallback.height)}" alt="${escapeHtml(cover.alt)}" draggable="false" loading="eager" decoding="async">
     <span class="map-popup-media-scrim" aria-hidden="true"></span>
   </div>`;
 }
