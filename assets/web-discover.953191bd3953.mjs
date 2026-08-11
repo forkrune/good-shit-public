@@ -1,4 +1,4 @@
-import { documentMatchesFilters, querySearchIndex } from './src-core-search.8575120f745b.mjs';
+import { documentMatchesFilters, querySearchIndex } from './src-core-search.26bdd7b8a958.mjs';
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { renderEntityGrid } from './web-client-render.f381cd842ce0.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
@@ -12,6 +12,7 @@ const count = document.querySelector('#discover-count');
 const loading = document.querySelector('#discover-loading');
 const searchInput = document.querySelector('#global-search');
 const clearSearch = document.querySelector('#clear-search');
+const hikingFilterSet = document.querySelector('#hiking-filter-set');
 
 let manifestPromise = null;
 let globalIndexPromise = null;
@@ -50,6 +51,30 @@ function selectedValues(name) {
   return [...form.querySelectorAll(`[name="${name}"]:checked`)].map((input) => input.value);
 }
 
+function optionalNumber(value) {
+  if (value === '' || value === null || value === undefined) return null;
+  const number = Number(value);
+  return Number.isFinite(number) ? number : null;
+}
+
+function hikingFilters() {
+  if (!hikingFilterSet) return {};
+  const values = {};
+  for (const element of hikingFilterSet.querySelectorAll('[data-hiking-filter]')) {
+    const key = element.dataset.hikingFilter;
+    if (!element.value) continue;
+    if (['difficulty', 'routeType', 'seasonality'].includes(key)) values[key] = element.value;
+    else if (key === 'durationMinHours') values.durationMinMinutes = optionalNumber(element.value) * 60;
+    else if (key === 'durationMaxHours') values.durationMaxMinutes = optionalNumber(element.value) * 60;
+    else values[key] = optionalNumber(element.value);
+  }
+  return values;
+}
+
+function hasActiveHikingFilters(filters) {
+  return Object.values(filters.hiking ?? {}).some((value) => value !== null && value !== undefined && value !== '');
+}
+
 function readFilters() {
   const facets = {};
   for (const element of form.querySelectorAll('[data-facet-key]')) {
@@ -62,6 +87,7 @@ function readFilters() {
     category: form.elements.category?.value || null,
     tiers: selectedValues('tier'),
     facets,
+    hiking: hikingFilters(),
     favourite: Boolean(form.elements.favourite?.checked),
     visited: Boolean(form.elements.visited?.checked),
     unvisited: Boolean(form.elements.unvisited?.checked),
@@ -102,6 +128,11 @@ function writeUrl(filters) {
   if (filters.category) parameters.set('category', filters.category);
   if (filters.tiers.length && filters.tiers.length < 4) parameters.set('tiers', filters.tiers.join(','));
   for (const [key, value] of Object.entries(filters.facets)) parameters.set(`facet.${key}`, value);
+  for (const [key, value] of Object.entries(filters.hiking ?? {})) {
+    if (value === '' || value === null || value === undefined) continue;
+    const urlValue = key === 'durationMinMinutes' || key === 'durationMaxMinutes' ? value / 60 : value;
+    parameters.set(`hike.${key}`, String(urlValue));
+  }
   if (filters.favourite) parameters.set('favourite', '1');
   if (filters.visited) parameters.set('visited', '1');
   if (filters.unvisited) parameters.set('unvisited', '1');
@@ -113,6 +144,11 @@ function writeUrl(filters) {
   history.replaceState(null, '', `${location.pathname}${query ? `?${query}` : ''}`);
 }
 
+function setHikingField(key, value) {
+  const element = hikingFilterSet?.querySelector(`[data-hiking-filter="${key}"]`);
+  if (element) element.value = value ?? '';
+}
+
 function applyUrl() {
   const parameters = new URLSearchParams(location.search);
   searchInput.value = parameters.get('q') ?? '';
@@ -122,6 +158,9 @@ function applyUrl() {
   const tiers = new Set((parameters.get('tiers') ?? 'S,A,B,C').split(',').filter(Boolean));
   for (const input of form.querySelectorAll('[name="tier"]')) input.checked = tiers.has(input.value);
   for (const element of form.querySelectorAll('[data-facet-key]')) element.value = parameters.get(`facet.${element.dataset.facetKey}`) ?? '';
+  for (const key of ['difficulty', 'routeType', 'seasonality', 'distanceMinKm', 'distanceMaxKm', 'ascentMinM', 'ascentMaxM']) setHikingField(key, parameters.get(`hike.${key}`) ?? '');
+  setHikingField('durationMinHours', parameters.get('hike.durationMinMinutes') ?? '');
+  setHikingField('durationMaxHours', parameters.get('hike.durationMaxMinutes') ?? '');
   if (form.elements.favourite) form.elements.favourite.checked = parameters.get('favourite') === '1';
   if (form.elements.visited) form.elements.visited.checked = parameters.get('visited') === '1';
   if (form.elements.unvisited) form.elements.unvisited.checked = parameters.get('unvisited') === '1';
@@ -130,6 +169,13 @@ function applyUrl() {
   if (form.elements.minimumPersonalRating) form.elements.minimumPersonalRating.value = parameters.get('rating') ?? '';
   if (form.elements.sort) form.elements.sort.value = parameters.get('sort') ?? 'editorial';
   clearSearch.hidden = !searchInput.value;
+}
+
+function updateHikingFilterVisibility(candidates, filters) {
+  if (!hikingFilterSet) return;
+  const scoped = candidates.filter((candidate) => !filters.entityType || candidate.entityType === filters.entityType);
+  const relevant = filters.entityType === 'hiking-route' || scoped.some((candidate) => candidate.entityType === 'hiking-route') || hasActiveHikingFilters(filters);
+  hikingFilterSet.hidden = !relevant;
 }
 
 async function executeSearch(options = {}) {
@@ -147,6 +193,7 @@ async function executeSearch(options = {}) {
     if (filters.query) candidates = querySearchIndex(index, filters.query, { limit: 1000 });
     else candidates = index.docs.map((document) => ({ ...document, score: 0 }));
     if (filters.countryCode) candidates = candidates.filter((candidate) => candidate.countryCode === filters.countryCode);
+    updateHikingFilterVisibility(candidates, filters);
 
     const shardCodes = [...new Set(candidates.map((candidate) => candidate.shard))];
     const packages = await Promise.all(shardCodes.map((code) => shard(code)));

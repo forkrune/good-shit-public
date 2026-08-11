@@ -3,6 +3,7 @@ import { geometryBbox, geometryCentroid } from './src-core-geo.a34d5b20ddb0.mjs'
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { customCardSignals, isPublicCustomField } from './src-core-custom-metadata.8ebf9987f71d.mjs';
 import { foodCardHighlight, foodSearchValues } from './src-core-food.f1a7b089063a.mjs';
+import { hikingCardSignals, hikingDocumentMatchesFilters, hikingSearchSummary, hikingSearchValues } from './src-core-hiking-state.ddcbbad088c7.mjs';
 
 const FIELD_WEIGHTS = Object.freeze({
   canonicalName: 12,
@@ -13,11 +14,18 @@ const FIELD_WEIGHTS = Object.freeze({
   subcategories: 6,
   tags: 6,
   food: 8,
+  hiking: 8,
   geography: 5,
   custom: 5,
   whyWorthwhile: 3,
   summary: 3,
   description: 1
+});
+
+const HIKING_NUMERIC_RANGES = Object.freeze({
+  'hiking.distanceKm': { label: 'Distance', unit: 'km', step: 0.5 },
+  'hiking.ascentM': { label: 'Ascent', unit: 'm', step: 50 },
+  'hiking.durationMinutes': { label: 'Duration', unit: 'min', step: 30 }
 });
 
 export function latestExternalRating(entity) {
@@ -53,6 +61,28 @@ export function customFacetValues(entity, customConfig) {
   return result;
 }
 
+export function customNumericFacetValues(entity, customConfig) {
+  const namespace = entity.custom?.namespace;
+  const config = customConfig?.namespaces?.[namespace];
+  if (!config) return {};
+  const result = {};
+  for (const [fieldName, field] of Object.entries(config.fields)) {
+    if (!isPublicCustomField(field) || !field.rangeFacet || !['number', 'integer'].includes(field.type)) continue;
+    const value = entity.custom.values?.[fieldName];
+    if (Number.isFinite(value)) result[`${namespace}.${fieldName}`] = value;
+  }
+  return result;
+}
+
+function hikingNumericFacetValues(hiking) {
+  if (!hiking?.variants?.length) return {};
+  return {
+    'hiking.distanceKm': hiking.variants.map((variant) => variant.distanceKm).filter(Number.isFinite),
+    'hiking.ascentM': hiking.variants.map((variant) => variant.ascentM).filter(Number.isFinite),
+    'hiking.durationMinutes': hiking.variants.map((variant) => variant.durationMinutes).filter(Number.isFinite)
+  };
+}
+
 function addWeightedTokens(target, values, weight) {
   for (const value of Array.isArray(values) ? values : [values]) {
     for (const token of tokenize(value)) {
@@ -72,6 +102,7 @@ export function weightedEntityTokens(entity, customConfig) {
   addWeightedTokens(tokens, entity.subcategories ?? [], FIELD_WEIGHTS.subcategories);
   addWeightedTokens(tokens, entity.tags ?? [], FIELD_WEIGHTS.tags);
   addWeightedTokens(tokens, foodSearchValues(entity), FIELD_WEIGHTS.food);
+  addWeightedTokens(tokens, hikingSearchValues(entity), FIELD_WEIGHTS.hiking);
   addWeightedTokens(tokens, [
     entity.location.country,
     entity.location.countryCode,
@@ -91,6 +122,7 @@ export function buildSearchDocument(entity, customConfig, imageManifest = null) 
   const bbox = geometryBbox(entity.geometry);
   const centroid = geometryCentroid(entity.geometry);
   const foodHighlight = foodCardHighlight(entity);
+  const hiking = hikingSearchSummary(entity);
   return {
     id: entity.id,
     slug: entity.slug,
@@ -112,8 +144,10 @@ export function buildSearchDocument(entity, customConfig, imageManifest = null) 
     bbox,
     customNamespace: entity.custom.namespace,
     customFacets: customFacetValues(entity, customConfig),
-    cardSignals: customCardSignals(entity, customConfig),
+    numericFacets: { ...customNumericFacetValues(entity, customConfig), ...hikingNumericFacetValues(hiking) },
+    cardSignals: [...hikingCardSignals(entity), ...customCardSignals(entity, customConfig)],
     ...(foodHighlight ? { foodHighlight } : {}),
+    ...(hiking ? { hiking } : {}),
     latestExternalRating: latestRating ? {
       provider: latestRating.provider,
       rating: latestRating.rating,
@@ -143,7 +177,8 @@ export function buildGlobalSearchIndex(entities, customConfig) {
       entityType: document.entityType,
       categories: document.categories,
       tier: document.tier,
-      customFacets: document.customFacets
+      customFacets: document.customFacets,
+      ...(document.hiking ? { hiking: { variantCount: document.hiking.variantCount, importantCondition: document.hiking.importantCondition } } : {})
     };
   });
   const postings = new Map();
@@ -155,12 +190,7 @@ export function buildGlobalSearchIndex(entities, customConfig) {
     }
   });
   const terms = [...postings.entries()].sort(([a], [b]) => a.localeCompare(b));
-  return {
-    schemaVersion: 1,
-    documentCount: docs.length,
-    docs,
-    terms
-  };
+  return { schemaVersion: 1, documentCount: docs.length, docs, terms };
 }
 
 function lowerBound(terms, target) {
@@ -188,9 +218,7 @@ function postingsForQueryToken(index, token, prefixLimit = 160) {
   }
   const merged = new Map();
   for (const [postings, multiplier] of matches) {
-    for (const [docIndex, weight] of postings) {
-      merged.set(docIndex, Math.max(merged.get(docIndex) ?? 0, weight * multiplier));
-    }
+    for (const [docIndex, weight] of postings) merged.set(docIndex, Math.max(merged.get(docIndex) ?? 0, weight * multiplier));
   }
   return merged;
 }
@@ -198,9 +226,7 @@ function postingsForQueryToken(index, token, prefixLimit = 160) {
 export function querySearchIndex(index, query, options = {}) {
   const tokens = unique(tokenize(query));
   const limit = options.limit ?? 250;
-  if (!tokens.length) {
-    return index.docs.slice(0, limit).map((doc, position) => ({ ...doc, score: 1 / (position + 1) }));
-  }
+  if (!tokens.length) return index.docs.slice(0, limit).map((doc, position) => ({ ...doc, score: 1 / (position + 1) }));
   const perToken = tokens.map((token) => postingsForQueryToken(index, token, options.prefixLimit));
   if (perToken.some((postings) => postings.size === 0)) return [];
   perToken.sort((a, b) => a.size - b.size);
@@ -223,6 +249,14 @@ function includesValue(values, expected) {
   return normalizeText(values) === normalizeText(expected);
 }
 
+function numericRangeMatches(rawValues, range) {
+  const values = (Array.isArray(rawValues) ? rawValues : [rawValues]).filter(Number.isFinite);
+  if (!values.length) return false;
+  const minimum = Number.isFinite(range?.min) ? range.min : null;
+  const maximum = Number.isFinite(range?.max) ? range.max : null;
+  return values.some((value) => (minimum == null || value >= minimum) && (maximum == null || value <= maximum));
+}
+
 export function documentMatchesFilters(document, filters = {}, personalRecord = null) {
   if (filters.countryCode && document.countryCode !== filters.countryCode) return false;
   if (filters.entityType && document.entityType !== filters.entityType) return false;
@@ -232,6 +266,11 @@ export function documentMatchesFilters(document, filters = {}, personalRecord = 
     if (expected === '' || expected === null || expected === undefined) continue;
     if (!includesValue(document.customFacets?.[facetKey], expected)) return false;
   }
+  for (const [facetKey, range] of Object.entries(filters.numericRanges ?? {})) {
+    if (!Number.isFinite(range?.min) && !Number.isFinite(range?.max)) continue;
+    if (!numericRangeMatches(document.numericFacets?.[facetKey], range)) return false;
+  }
+  if (!hikingDocumentMatchesFilters(document, filters)) return false;
   if (filters.favourite === true && personalRecord?.favourite?.value !== true) return false;
   if (filters.visited === true && personalRecord?.visited?.value !== true) return false;
   if (filters.unvisited === true && personalRecord?.visited?.value === true) return false;
@@ -241,12 +280,35 @@ export function documentMatchesFilters(document, filters = {}, personalRecord = 
   return true;
 }
 
+function numericRangeDefinitions(documents, customConfig) {
+  const metadata = new Map(Object.entries(HIKING_NUMERIC_RANGES));
+  for (const [namespace, namespaceConfig] of Object.entries(customConfig.namespaces ?? {})) {
+    for (const [fieldName, field] of Object.entries(namespaceConfig.fields ?? {})) {
+      if (!isPublicCustomField(field) || !field.rangeFacet || !['number', 'integer'].includes(field.type)) continue;
+      metadata.set(`${namespace}.${fieldName}`, { label: field.label ?? fieldName, ...(field.unit ? { unit: field.unit } : {}), step: Number.isFinite(field.step) ? field.step : field.type === 'integer' ? 1 : 0.1 });
+    }
+  }
+  const output = [];
+  for (const [key, definition] of metadata) {
+    const values = documents.flatMap((document) => {
+      const raw = document.numericFacets?.[key];
+      return (Array.isArray(raw) ? raw : [raw]).filter(Number.isFinite);
+    });
+    if (!values.length) continue;
+    output.push({ key, ...definition, min: Math.min(...values), max: Math.max(...values), count: values.length });
+  }
+  return output.sort((a, b) => a.label.localeCompare(b.label) || a.key.localeCompare(b.key));
+}
+
 export function collectFacets(documents, customConfig) {
   const countries = new Map();
   const categories = new Map();
   const entityTypes = new Map();
   const tiers = new Map();
   const custom = new Map();
+  const hikingDifficulties = new Map();
+  const hikingRouteTypes = new Map();
+  const hikingSeasons = new Map();
   const increment = (map, key) => map.set(key, (map.get(key) ?? 0) + 1);
   for (const document of documents) {
     increment(countries, document.countryCode);
@@ -255,10 +317,15 @@ export function collectFacets(documents, customConfig) {
     for (const category of document.categories) increment(categories, category);
     for (const [key, rawValue] of Object.entries(document.customFacets ?? {})) {
       const values = Array.isArray(rawValue) ? rawValue : [rawValue];
-      for (const value of values) {
-        const fullKey = `${key}::${String(value)}`;
-        increment(custom, fullKey);
-      }
+      for (const value of values) increment(custom, `${key}::${String(value)}`);
+    }
+    const seenDifficulty = new Set();
+    const seenRouteType = new Set();
+    const seenSeason = new Set();
+    for (const variant of document.hiking?.variants ?? []) {
+      if (variant.difficulty && !seenDifficulty.has(variant.difficulty)) { increment(hikingDifficulties, variant.difficulty); seenDifficulty.add(variant.difficulty); }
+      if (variant.routeType && !seenRouteType.has(variant.routeType)) { increment(hikingRouteTypes, variant.routeType); seenRouteType.add(variant.routeType); }
+      for (const season of variant.seasonality ?? []) if (!seenSeason.has(season)) { increment(hikingSeasons, season); seenSeason.add(season); }
     }
   }
   const facetDefinitions = [];
@@ -274,11 +341,26 @@ export function collectFacets(documents, customConfig) {
     }
   }
   const mapToArray = (map) => [...map.entries()].map(([value, count]) => ({ value, count })).sort((a, b) => b.count - a.count || a.value.localeCompare(b.value));
+  const numericRanges = numericRangeDefinitions(documents, customConfig);
+  const hikingRange = (key) => numericRanges.find((range) => range.key === key) ?? null;
+  const hikingAvailable = documents.some((document) => document.hiking?.variants?.length);
   return {
     countries: mapToArray(countries),
     categories: mapToArray(categories),
     entityTypes: mapToArray(entityTypes),
     tiers: mapToArray(tiers),
-    custom: facetDefinitions
+    custom: facetDefinitions,
+    numericRanges,
+    hiking: {
+      available: hikingAvailable,
+      difficulties: mapToArray(hikingDifficulties),
+      routeTypes: mapToArray(hikingRouteTypes),
+      seasons: mapToArray(hikingSeasons),
+      ranges: {
+        distanceKm: hikingRange('hiking.distanceKm'),
+        ascentM: hikingRange('hiking.ascentM'),
+        durationMinutes: hikingRange('hiking.durationMinutes')
+      }
+    }
   };
 }
