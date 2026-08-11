@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-08-11T06:17:36.000Z",
+  "generatedAt": "2026-08-11T06:24:33.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -30,34 +30,34 @@
   "packages": {
     "entities": [
       {
-        "url": "/good-shit-public/catalogue/packages/entities-cz.bf7145e62583.json",
+        "url": "/good-shit-public/catalogue/packages/entities-cz.daed2d77d68e.json",
         "bytes": 211505,
         "gzipBytes": 36904,
-        "sha256": "bf7145e62583c1d1d34f45803c142f6e62256692ac876f28be6e5302af2b760f",
+        "sha256": "daed2d77d68e976e0def0aea67c20952139ebb84973ee62a5267495ad971587f",
         "countryCode": "CZ",
         "entityCount": 45
       },
       {
-        "url": "/good-shit-public/catalogue/packages/entities-jp.4c96bf0ee657.json",
+        "url": "/good-shit-public/catalogue/packages/entities-jp.9e34e87bacc4.json",
         "bytes": 683242,
         "gzipBytes": 141026,
-        "sha256": "4c96bf0ee657142e7bd724c60dc516f5b4c4b27e5f1f79bc86cf34e81eec5dc1",
+        "sha256": "9e34e87bacc4e3d4257cf9fdb296aaa73bd00bea9f962744d23d9dd7204d00bb",
         "countryCode": "JP",
         "entityCount": 143
       }
     ],
     "search": {
-      "url": "/good-shit-public/data/search/manifest.8d126ff4892e.json",
+      "url": "/good-shit-public/data/search/manifest.d19ad1c45d05.json",
       "bytes": 13786,
       "gzipBytes": 3538,
-      "sha256": "8d126ff4892e311134006fbddca87dbd9063d7fab7c97179fe5e4dae2b52025c",
+      "sha256": "d19ad1c45d054014de7db813dc913b9a1a5c14ed09370cf0c091ef596bd9c7e4",
       "documentCount": 188
     },
     "map": {
-      "url": "/good-shit-public/data/map/manifest.ab35b3eecabe.json",
+      "url": "/good-shit-public/data/map/manifest.54e990d2ed98.json",
       "bytes": 45547,
       "gzipBytes": 14031,
-      "sha256": "ab35b3eecabec0827f47b1f653efe87ac5a47cd180e234fa29ef8dea7617be7c",
+      "sha256": "54e990d2ed981f002e9bb87c08aaf9efe2394928845c5b0b679c9c28404e1fad",
       "shardCount": 6
     },
     "redirects": {
