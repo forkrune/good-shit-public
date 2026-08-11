@@ -1,3 +1,4 @@
+if (/\/tiers\/?$/.test(window.location.pathname)) void import('./web-tier-list.dd04892c3dbc.mjs');
 import { personalStateEvents, personalStateService, mutatePersonalState } from './web-storage.50d07a5c3bbd.mjs';
 
 let toastTimer = null;

@@ -3,7 +3,7 @@ import { documentMatchesFilters, querySearchIndex } from './src-core-search.8575
 import { tierRank } from './src-core-constants.2abfb1694768.mjs';
 import { escapeHtml, joinUrl, renderEntityGrid } from './web-client-render.f381cd842ce0.mjs';
 import { personalStateService } from './web-storage.50d07a5c3bbd.mjs';
-import { hydratePersonalState, showToast } from './web-app.7a0516e99293.mjs';
+import { hydratePersonalState, showToast } from './web-app.696f50d37a91.mjs';
 
 const configNode = document.querySelector('#page-config');
 const config = configNode ? JSON.parse(configNode.textContent) : {};
