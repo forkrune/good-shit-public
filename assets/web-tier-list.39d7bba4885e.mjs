@@ -65,19 +65,35 @@ export function tierListDownloadName(filters = {}) {
   return `${parts.filter(Boolean).join('-')}.png`;
 }
 
+function shardEntry(kind, key, value) {
+  return value ? { kind, key, ...value } : null;
+}
+
+export function selectTierShardPlan(manifest, filters = {}) {
+  const byCountry = manifest?.shards?.byCountry ?? {};
+  const byType = manifest?.shards?.byType ?? {};
+  const country = filters.country || '';
+  const entityType = filters.entityType || '';
+  if (country && entityType) {
+    return [
+      shardEntry('country', country, byCountry[country]),
+      shardEntry('type', entityType, byType[entityType])
+    ].filter(Boolean).sort((a, b) => (a.count ?? Infinity) - (b.count ?? Infinity) || a.kind.localeCompare(b.kind)).slice(0, 1);
+  }
+  if (country) return [shardEntry('country', country, byCountry[country])].filter(Boolean);
+  if (entityType) return [shardEntry('type', entityType, byType[entityType])].filter(Boolean);
+  return Object.entries(byCountry)
+    .map(([key, value]) => shardEntry('country', key, value))
+    .filter(Boolean)
+    .sort((a, b) => (b.count ?? 0) - (a.count ?? 0) || a.key.localeCompare(b.key));
+}
+
 function getPageConfig() {
   try {
     return JSON.parse(document.querySelector('#page-config')?.textContent ?? '{}');
   } catch {
     return {};
   }
-}
-
-function isTierIndex(basePath) {
-  const normalizedBase = String(basePath || '/').replace(/\/+$/, '/') || '/';
-  const pathname = window.location.pathname;
-  const relative = pathname.startsWith(normalizedBase) ? pathname.slice(normalizedBase.length) : pathname.replace(/^\//, '');
-  return relative.replace(/^\/+|\/+$/g, '') === 'tiers';
 }
 
 function injectStyles() {
@@ -94,31 +110,11 @@ async function fetchJson(url) {
   return response.json();
 }
 
-async function loadTierSource(basePath) {
-  const manifest = await fetchJson(`${basePath}catalogue/manifest.json`);
-  const packages = manifest.packages?.entities ?? [];
-  const payloads = await Promise.all(packages.map((descriptor) => fetchJson(descriptor.url)));
-  const entities = payloads.flatMap((payload) => payload.entities ?? []);
-  let imageManifest = { assets: {} };
-  const imageManifestUrl = manifest.packages?.images?.manifest;
-  if (imageManifestUrl) {
-    try { imageManifest = await fetchJson(imageManifestUrl); }
-    catch (error) { console.warn('Tier list image manifest unavailable; using image fallbacks.', error); }
-  }
-  return { manifest, entities, imageManifest };
-}
-
-function coverReference(entity) {
-  return (entity.images ?? []).find((image) => image.role === 'cover') ?? null;
-}
-
-function bestVariant(entity, imageManifest, targetWidth = 420) {
-  const reference = coverReference(entity);
-  const variants = reference ? imageManifest.assets?.[reference.assetId]?.variants : null;
-  if (!reference || !variants?.length) return null;
+function bestVariant(entity, targetWidth = 420) {
+  const variants = entity.coverImage?.variants;
+  if (!variants?.length) return null;
   const sorted = [...variants].sort((a, b) => a.width - b.width);
-  const variant = sorted.find((candidate) => candidate.width >= targetWidth) ?? sorted.at(-1);
-  return { ...variant, alt: reference.alt ?? entity.names?.canonical ?? '' };
+  return sorted.find((candidate) => candidate.width >= targetWidth) ?? sorted.at(-1);
 }
 
 function locationLabel(entity) {
@@ -126,11 +122,11 @@ function locationLabel(entity) {
   return values.filter((value, index) => index === 0 || value !== values[index - 1]).join(' · ');
 }
 
-function renderPlaceCard(entity, source, basePath) {
-  const image = bestVariant(entity, source.imageManifest);
+function renderPlaceCard(entity, basePath) {
+  const image = bestVariant(entity);
   const fallback = escapeHtml(entity.names?.canonical?.trim()?.[0]?.toLocaleUpperCase() ?? '•');
   const media = image
-    ? `<img src="${escapeHtml(image.url)}" width="${escapeHtml(image.width)}" height="${escapeHtml(image.height)}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async">`
+    ? `<img src="${escapeHtml(image.url)}" width="${escapeHtml(image.width)}" height="${escapeHtml(image.height)}" alt="${escapeHtml(entity.coverImage?.alt ?? entity.names?.canonical ?? '')}" loading="lazy" decoding="async">`
     : `<span class="tier-place-fallback" aria-hidden="true">${fallback}</span>`;
   return `<a class="tier-place-card" href="${escapeHtml(`${basePath}places/${entity.slug}/`)}" data-tier-place="${escapeHtml(entity.id)}">
     <span class="tier-place-media">${media}</span>
@@ -138,7 +134,7 @@ function renderPlaceCard(entity, source, basePath) {
   </a>`;
 }
 
-function renderTierRow(tier, entities, source, basePath) {
+function renderTierRow(tier, entities, basePath) {
   const meta = TIER_META[tier];
   const isPublic = PUBLIC_BOARD_TIERS.includes(tier);
   const items = entities.filter((entity) => entity.tier === tier);
@@ -149,17 +145,13 @@ function renderTierRow(tier, entities, source, basePath) {
     <div class="tier-rank"><strong aria-hidden="true">${tier}</strong><span>${escapeHtml(meta.label)}</span></div>
     <div class="tier-row-content">
       <div class="tier-row-heading"><h2 id="tier-heading-${tier.toLowerCase()}">${tier} · ${escapeHtml(meta.label)}</h2><span>${isPublic ? `${items.length} published` : 'not public'}</span></div>
-      ${items.length ? `<div class="tier-board-items">${items.map((entity) => renderPlaceCard(entity, source, basePath)).join('')}</div>` : `<div class="tier-board-empty">${escapeHtml(empty)}</div>`}
+      ${items.length ? `<div class="tier-board-items">${items.map((entity) => renderPlaceCard(entity, basePath)).join('')}</div>` : `<div class="tier-board-empty">${escapeHtml(empty)}</div>`}
     </div>
   </section>`;
 }
 
-function optionList(values, selected, label = (value) => titleCase(value)) {
-  return values.map((value) => `<option value="${escapeHtml(value)}"${value === selected ? ' selected' : ''}>${escapeHtml(label(value))}</option>`).join('');
-}
-
-function uniqueSorted(values) {
-  return [...new Set(values.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b)));
+function optionList(items, selected) {
+  return (items ?? []).map((item) => `<option value="${escapeHtml(item.value)}"${item.value === selected ? ' selected' : ''}>${escapeHtml(titleCase(item.label))} (${item.count})</option>`).join('');
 }
 
 function filtersFromUrl() {
@@ -183,30 +175,23 @@ function writeFiltersToUrl(filters) {
   history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
 }
 
-function renderShell(main, source, basePath, filters) {
-  const countries = uniqueSorted(source.entities.map((entity) => entity.location?.countryCode));
-  const countryNames = new Map(source.entities.map((entity) => [entity.location?.countryCode, entity.location?.country]));
-  const entityTypes = uniqueSorted(source.entities.map((entity) => entity.entityType));
-  const categories = uniqueSorted(source.entities.flatMap((entity) => entity.categories ?? []));
+function renderShell(main, manifest, basePath, filters) {
   main.className = 'tier-list-shell';
+  main.removeAttribute('aria-busy');
   main.innerHTML = `<header class="tier-list-hero">
-    <div class="tier-list-hero-copy"><span class="eyebrow">Generated from editorial truth</span><h1>The whole catalogue, ranked.</h1><p>Every build turns the current published catalogue into a tier board automatically. The visual follows the familiar S–F tier-list shape, while keeping Good Shit’s publication boundary intact: only S–C records are public.</p></div>
-    <div class="tier-list-hero-stat"><strong>${source.entities.length}</strong><span>published places currently feeding this board</span></div>
+    <div class="tier-list-hero-copy"><span class="eyebrow">Compiled once · streamed by filter</span><h1>The whole catalogue, ranked.</h1><p>The canonical catalogue stays untouched. During publishing, Good Shit compiles a small tier-list projection into country and type shards. Filters choose the smallest relevant shard and the board is generated in the browser as that data arrives.</p></div>
+    <div class="tier-list-hero-stat"><strong>${manifest.entityCount}</strong><span>published places available to the compiled tier-list index</span></div>
   </header>
   <section class="tier-list-controls" aria-label="Tier list filters">
     <label>Find a place<input id="tier-query" type="search" value="${escapeHtml(filters.query)}" placeholder="Name, city, category…" autocomplete="off"></label>
-    <label>Country<select id="tier-country"><option value="">Everywhere</option>${optionList(countries, filters.country, (code) => countryNames.get(code) ?? code)}</select></label>
-    <label>Type<select id="tier-type"><option value="">Every type</option>${optionList(entityTypes, filters.entityType)}</select></label>
-    <label>Category<select id="tier-category"><option value="">Every category</option>${optionList(categories, filters.category)}</select></label>
-    <button id="tier-export" class="filled-button tier-export-button" type="button">Download PNG</button>
+    <label>Country<select id="tier-country"><option value="">Everywhere</option>${optionList(manifest.facets?.countries, filters.country)}</select></label>
+    <label>Type<select id="tier-type"><option value="">Every type</option>${optionList(manifest.facets?.entityTypes, filters.entityType)}</select></label>
+    <label>Category<select id="tier-category"><option value="">Every category</option>${optionList(manifest.facets?.categories, filters.category)}</select></label>
+    <button id="tier-export" class="filled-button tier-export-button" type="button" disabled>Download PNG</button>
   </section>
-  <div class="tier-list-meta"><span id="tier-visible-count" aria-live="polite"></span><span>D / E / F are shown as structural rows only; unpublished records never enter this page.</span></div>
-  <div id="tier-board" class="tier-board"></div>`;
-  const nav = [...document.querySelectorAll('.primary-nav a')].find((link) => new URL(link.href).pathname.replace(/\/+$/, '').endsWith('/tiers'));
-  if (nav) {
-    nav.classList.add('active');
-    nav.setAttribute('aria-current', 'page');
-  }
+  <div class="tier-list-meta"><span id="tier-visible-count" aria-live="polite"></span><span id="tier-stream-status" aria-live="polite">Choosing compiled shards…</span></div>
+  <div id="tier-board" class="tier-board"></div>
+  <p class="muted">D / E / F remain structural rows only. Unpublished records never enter the compiled tier-list projection. <a href="${escapeHtml(`${basePath}tiers/`)}">Static tier pages</a></p>`;
 }
 
 function currentFilters(main) {
@@ -218,14 +203,26 @@ function currentFilters(main) {
   };
 }
 
-function renderBoard(main, source, basePath, filters) {
-  const filtered = filterTierDocuments(source.entities, filters);
+function uniqueDocuments(documents) {
+  const byId = new Map();
+  for (const document of documents) byId.set(document.id, document);
+  return [...byId.values()];
+}
+
+function sortVisible(entities) {
+  const rank = new Map(BOARD_TIERS.map((tier, index) => [tier, index]));
+  return [...entities].sort((a, b) => (rank.get(a.tier) ?? 99) - (rank.get(b.tier) ?? 99) || a.names.canonical.localeCompare(b.names.canonical) || a.id.localeCompare(b.id));
+}
+
+function renderBoard(main, entities, basePath, progress = null) {
+  const filtered = sortVisible(entities);
   const counts = tierCounts(filtered);
   const board = main.querySelector('#tier-board');
-  if (board) board.innerHTML = BOARD_TIERS.map((tier) => renderTierRow(tier, filtered, source, basePath)).join('');
+  if (board) board.innerHTML = BOARD_TIERS.map((tier) => renderTierRow(tier, filtered, basePath)).join('');
   const count = main.querySelector('#tier-visible-count');
   if (count) count.innerHTML = `<strong>${filtered.length}</strong> ${filtered.length === 1 ? 'place' : 'places'} visible · ${PUBLIC_BOARD_TIERS.map((tier) => `${tier} ${counts[tier]}`).join(' · ')}`;
-  writeFiltersToUrl(filters);
+  const status = main.querySelector('#tier-stream-status');
+  if (status && progress) status.textContent = progress;
   return filtered;
 }
 
@@ -291,8 +288,8 @@ async function loadImage(url) {
   });
 }
 
-async function loadExportImages(entities, source) {
-  const queue = entities.map((entity) => [entity.id, bestVariant(entity, source.imageManifest, 360)?.url ?? null]);
+async function loadExportImages(entities) {
+  const queue = entities.map((entity) => [entity.id, bestVariant(entity, 360)?.url ?? null]);
   const images = new Map();
   let cursor = 0;
   async function worker() {
@@ -315,7 +312,7 @@ function exportSubtitle(filters, visibleCount) {
   return `${visibleCount} published place${visibleCount === 1 ? '' : 's'}${parts.length ? ` · ${parts.join(' · ')}` : ' · all public catalogue entries'}`;
 }
 
-async function exportTierPng(source, entities, filters) {
+async function exportTierPng(entities, filters) {
   const width = 1600;
   const margin = 64;
   const top = 172;
@@ -344,7 +341,7 @@ async function exportTierPng(source, entities, filters) {
   canvas.height = height;
   const context = canvas.getContext('2d');
   if (!context) throw new Error('Canvas export is unavailable in this browser.');
-  const images = await loadExportImages(entities, source);
+  const images = await loadExportImages(entities);
 
   context.fillStyle = '#fff9ff';
   context.fillRect(0, 0, width, height);
@@ -355,7 +352,7 @@ async function exportTierPng(source, entities, filters) {
   context.font = '600 24px system-ui, sans-serif';
   context.fillText(exportSubtitle(filters, entities.length), margin, 120);
   context.font = '500 18px system-ui, sans-serif';
-  context.fillText('Generated automatically from published editorial tiers · D–F remain private/unpublished', margin, 151);
+  context.fillText('Generated automatically from compiled published tiers · D–F remain private/unpublished', margin, 151);
 
   for (const layout of layouts) {
     const meta = TIER_META[layout.tier];
@@ -432,32 +429,67 @@ async function exportTierPng(source, entities, filters) {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+const shardCache = new Map();
+
+async function loadShard(descriptor) {
+  if (!descriptor?.url) return [];
+  if (!shardCache.has(descriptor.url)) {
+    shardCache.set(descriptor.url, fetchJson(descriptor.url).then((payload) => payload.documents ?? []).catch((error) => {
+      shardCache.delete(descriptor.url);
+      throw error;
+    }));
+  }
+  return shardCache.get(descriptor.url);
+}
+
 export async function enhanceTierListPage() {
+  const main = document.querySelector('[data-tier-list-root]');
+  if (!main) return false;
+  injectStyles();
   const config = getPageConfig();
   const basePath = String(config.basePath || '/').replace(/\/+$/, '/');
-  if (!isTierIndex(basePath)) return false;
-  injectStyles();
-  const main = document.querySelector('main');
-  if (!main) return false;
-  main.setAttribute('aria-busy', 'true');
+  const manifestUrl = config.tierListManifestUrl;
+  if (!manifestUrl) return false;
   const original = main.innerHTML;
-  main.innerHTML = '<div class="tier-list-loading">Building the tier board from the published catalogue…</div>';
   try {
-    const source = await loadTierSource(basePath);
+    const manifest = await fetchJson(manifestUrl);
     let filters = filtersFromUrl();
-    renderShell(main, source, basePath, filters);
-    let visible = renderBoard(main, source, basePath, filters);
-    main.removeAttribute('aria-busy');
+    renderShell(main, manifest, basePath, filters);
+    let visible = [];
+    let generation = 0;
+    let queryTimer = null;
 
-    const refresh = () => {
+    const refresh = async () => {
+      const request = ++generation;
       filters = currentFilters(main);
-      visible = renderBoard(main, source, basePath, filters);
+      writeFiltersToUrl(filters);
+      const plan = selectTierShardPlan(manifest, filters);
+      const exportButton = main.querySelector('#tier-export');
+      if (exportButton) exportButton.disabled = true;
+      const collected = [];
+      visible = renderBoard(main, [], basePath, plan.length ? `Loading 0 / ${plan.length} compiled shard${plan.length === 1 ? '' : 's'}…` : 'No compiled shard matches this filter.');
+      for (const [index, descriptor] of plan.entries()) {
+        const documents = await loadShard(descriptor);
+        if (request !== generation) return;
+        collected.push(...documents);
+        visible = filterTierDocuments(uniqueDocuments(collected), filters);
+        const source = descriptor.kind === 'country' ? `country ${descriptor.key}` : `type ${titleCase(descriptor.key)}`;
+        renderBoard(main, visible, basePath, `Loaded ${index + 1} / ${plan.length} · ${source}`);
+      }
+      if (request !== generation) return;
+      visible = filterTierDocuments(uniqueDocuments(collected), filters);
+      const selection = plan.length === 1 ? `${plan[0].kind} shard` : `${plan.length} country shards`;
+      renderBoard(main, visible, basePath, plan.length ? `Ready · ${selection} · ${visible.length} matches` : 'Ready · 0 matches');
+      if (exportButton) exportButton.disabled = false;
     };
+
     main.addEventListener('input', (event) => {
-      if (event.target.matches('#tier-query')) refresh();
+      if (!event.target.matches('#tier-query')) return;
+      window.clearTimeout(queryTimer);
+      queryTimer = window.setTimeout(() => void refresh(), 140);
     });
     main.addEventListener('change', (event) => {
-      if (event.target.matches('#tier-country, #tier-type, #tier-category')) refresh();
+      if (event.target.matches('#tier-country, #tier-type, #tier-category')) void refresh();
     });
     main.querySelector('#tier-export')?.addEventListener('click', async (event) => {
       const button = event.currentTarget;
@@ -466,7 +498,7 @@ export async function enhanceTierListPage() {
       button.textContent = 'Rendering PNG…';
       try {
         if (document.fonts?.ready) await document.fonts.ready;
-        await exportTierPng(source, visible, filters);
+        await exportTierPng(visible, filters);
         showToast('Tier list PNG downloaded.');
       } catch (error) {
         console.error(error);
@@ -476,11 +508,13 @@ export async function enhanceTierListPage() {
         button.textContent = previous;
       }
     });
+
+    await refresh();
     return true;
   } catch (error) {
     console.error(error);
     main.className = 'page-shell';
-    main.innerHTML = `${original}<div class="tier-list-error" role="alert">The expressive tier board could not load. The static tier links above are still usable.</div>`;
+    main.innerHTML = `${original}<div class="tier-list-error" role="alert">The generated tier list could not load. The static tier pages remain available.</div>`;
     main.removeAttribute('aria-busy');
     return false;
   }

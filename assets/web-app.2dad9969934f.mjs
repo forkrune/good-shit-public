@@ -1,5 +1,5 @@
 import './web-tier-presentation.439ba8ffa9d4.mjs';
-if (/\/tiers\/?$/.test(window.location.pathname)) void import('./web-tier-list.dd04892c3dbc.mjs');
+if (/\/(?:tiers|tier-list)\/?$/.test(window.location.pathname)) void import('./web-tier-list.39d7bba4885e.mjs');
 import { personalStateEvents, personalStateService, mutatePersonalState } from './web-storage.50d07a5c3bbd.mjs';
 
 let toastTimer = null;
