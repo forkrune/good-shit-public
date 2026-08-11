@@ -888,6 +888,485 @@
           "section": "Access & effort"
         }
       }
+    },
+    "onsen-stay": {
+      "label": "Private onsen stay",
+      "fields": {
+        "operationalStatus": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "confirmed-open",
+            "seasonal",
+            "temporary-closure",
+            "uncertain",
+            "closed"
+          ],
+          "facet": true,
+          "label": "Operational status",
+          "section": "Current status"
+        },
+        "privateOnsenAvailable": {
+          "type": "boolean",
+          "required": true,
+          "facet": true,
+          "label": "Private onsen available",
+          "section": "Private bath"
+        },
+        "privateOnsenType": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "in-room-rotenburo",
+            "detached-villa-private-onsen",
+            "reservable-private-bath",
+            "hybrid",
+            "exclusive-property"
+          ],
+          "facet": true,
+          "label": "Private onsen model",
+          "section": "Private bath"
+        },
+        "naturalOnsenVerified": {
+          "type": "boolean",
+          "required": false,
+          "facet": true,
+          "label": "Natural onsen verified",
+          "section": "Water authenticity"
+        },
+        "naturalOnsenStatus": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "verified-natural",
+            "ordinary-water",
+            "unclear"
+          ],
+          "facet": true,
+          "label": "Private-bath water status",
+          "section": "Water authenticity",
+          "cardSignal": {
+            "order": 10,
+            "prefix": "Water: "
+          }
+        },
+        "naturalOnsenEvidence": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "verified-room-bath",
+            "verified-private-bath",
+            "verified-property-not-room",
+            "unclear"
+          ],
+          "facet": true,
+          "label": "Onsen evidence scope",
+          "section": "Water authenticity"
+        },
+        "sourceWaterTreatment": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "undiluted-kakenagashi",
+            "kakenagashi-water-added-for-temperature",
+            "kakenagashi-with-heating",
+            "source-fed-kakenagashi-treatment-unclear",
+            "source-fed-direct-treatment-unclear",
+            "source-fed-reheated",
+            "source-fed-circulated-filtered-disinfected",
+            "source-fed-combined-flow-circulation-water-added",
+            "natural-onsen-treatment-unclear",
+            "transported-onsen",
+            "ordinary-heated-water",
+            "unclear"
+          ],
+          "facet": true,
+          "label": "Source-water treatment",
+          "section": "Water authenticity"
+        },
+        "kakenagashiStatus": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "verified",
+            "partial",
+            "not-kakenagashi",
+            "unclear"
+          ],
+          "facet": true,
+          "label": "Kakenagashi status",
+          "section": "Water authenticity"
+        },
+        "bathExposure": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "outdoor",
+            "semi-open",
+            "indoor",
+            "mixed"
+          ],
+          "facet": true,
+          "label": "Bath exposure",
+          "section": "Outdoor experience"
+        },
+        "outdoorRotenburoQuality": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "Exceptional",
+            "Strong",
+            "Moderate",
+            "Weak",
+            "Not truly outdoor"
+          ],
+          "facet": true,
+          "label": "Outdoor rotenburo quality",
+          "section": "Outdoor experience",
+          "cardSignal": {
+            "order": 20,
+            "prefix": "Rotenburo: "
+          }
+        },
+        "naturalViewType": {
+          "type": "string-array",
+          "required": true,
+          "minItems": 1,
+          "searchable": true,
+          "facet": true,
+          "label": "Natural view",
+          "section": "Outdoor experience"
+        },
+        "sceneryOpennessRating": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "Exceptional",
+            "Strong",
+            "Moderate",
+            "Weak"
+          ],
+          "facet": true,
+          "label": "Scenery / openness",
+          "section": "Outdoor experience"
+        },
+        "applicableRoomTypes": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Applicable room types",
+          "section": "Room eligibility"
+        },
+        "detachedUnit": {
+          "type": "boolean",
+          "required": true,
+          "facet": true,
+          "label": "Detached unit available",
+          "section": "Room eligibility"
+        },
+        "unitConfiguration": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "fully-detached",
+            "dispersed-detached",
+            "semi-detached",
+            "conventional-adjacent",
+            "one-property-exclusive",
+            "mixed"
+          ],
+          "facet": true,
+          "label": "Unit configuration",
+          "section": "Room eligibility"
+        },
+        "approximateRoomCount": {
+          "type": "string",
+          "required": true,
+          "label": "Approximate room count",
+          "section": "Room eligibility"
+        },
+        "bathForTwoAssessment": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "likely comfortable for two adults",
+            "usable for two but compact",
+            "realistically one-person",
+            "unknown"
+          ],
+          "facet": true,
+          "label": "Bath suitability for two",
+          "section": "Couples privacy"
+        },
+        "visualPrivacyRating": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "Exceptional seclusion",
+            "Highly private",
+            "Mostly private",
+            "Some privacy compromises",
+            "Poor privacy"
+          ],
+          "facet": true,
+          "label": "Visual privacy",
+          "section": "Couples privacy",
+          "cardSignal": {
+            "order": 30,
+            "prefix": "Privacy: "
+          }
+        },
+        "acousticPrivacyEvidence": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Acoustic privacy evidence",
+          "section": "Couples privacy"
+        },
+        "neighboringSightlineRisk": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "low",
+            "medium",
+            "high",
+            "unknown"
+          ],
+          "facet": true,
+          "label": "Neighbouring sightline risk",
+          "section": "Couples privacy"
+        },
+        "couplesPrivacySummary": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Couples privacy summary",
+          "section": "Couples privacy"
+        },
+        "settingRating": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 5,
+          "facet": true,
+          "label": "Setting rating (1–5)",
+          "section": "Editorial ratings"
+        },
+        "architectureRating": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 5,
+          "facet": true,
+          "label": "Architecture rating (1–5)",
+          "section": "Editorial ratings"
+        },
+        "onsenRating": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 5,
+          "facet": true,
+          "label": "Onsen rating (1–5)",
+          "section": "Editorial ratings"
+        },
+        "foodRating": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 5,
+          "facet": true,
+          "label": "Food rating (1–5)",
+          "section": "Editorial ratings"
+        },
+        "valueRating": {
+          "type": "integer",
+          "required": true,
+          "min": 1,
+          "max": 5,
+          "facet": true,
+          "label": "Value rating (1–5)",
+          "section": "Editorial ratings"
+        },
+        "approximatePriceForTwo": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Approximate total price for two",
+          "section": "Price and value",
+          "cardSignal": {
+            "order": 40,
+            "prefix": "Two: "
+          }
+        },
+        "priceMinimumJpy": {
+          "type": "integer",
+          "min": 0,
+          "label": "Observed minimum total JPY",
+          "section": "Price and value"
+        },
+        "priceTypicalJpy": {
+          "type": "integer",
+          "min": 0,
+          "label": "Representative total JPY",
+          "section": "Price and value"
+        },
+        "priceMaximumJpy": {
+          "type": "integer",
+          "min": 0,
+          "label": "Observed maximum total JPY",
+          "section": "Price and value"
+        },
+        "priceBasis": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Price basis",
+          "section": "Price and value"
+        },
+        "affordableTrackEligible": {
+          "type": "boolean",
+          "required": false,
+          "facet": true,
+          "label": "Affordable private-onsen track",
+          "section": "Price & value"
+        },
+        "affordableTrackBand": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "under-50000",
+            "stretch-under-70000",
+            "conditional-under-50000",
+            "conditional-stretch-under-70000",
+            "no",
+            "unknown"
+          ],
+          "facet": true,
+          "label": "Affordable price band",
+          "section": "Price & value"
+        },
+        "bookingAccessibility": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "facet": true,
+          "label": "Booking accessibility",
+          "section": "Practical access"
+        },
+        "accessMode": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "public-transport-practical",
+            "easier-with-car",
+            "car-oriented",
+            "difficult"
+          ],
+          "facet": true,
+          "label": "Access mode",
+          "section": "Practical access"
+        },
+        "accessNotes": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Access notes",
+          "section": "Practical access"
+        },
+        "reservationModel": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Reservation / use model",
+          "section": "Practical access"
+        },
+        "privateBathReservation": {
+          "type": "string",
+          "searchable": true,
+          "label": "Private-bath reservation",
+          "section": "Private bath"
+        },
+        "privateBathExtraCost": {
+          "type": "string",
+          "searchable": true,
+          "label": "Private-bath extra cost",
+          "section": "Private bath"
+        },
+        "privateBathSessionDuration": {
+          "type": "string",
+          "searchable": true,
+          "label": "Private-bath session duration",
+          "section": "Private bath"
+        },
+        "privateBathRepeatability": {
+          "type": "string",
+          "searchable": true,
+          "label": "Private-bath repeatability",
+          "section": "Private bath"
+        },
+        "outdoorBathAccessGuarantee": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "guaranteed-in-room",
+            "guaranteed-exclusive-property",
+            "usually-available-not-guaranteed",
+            "reservation-required",
+            "not-guaranteed"
+          ],
+          "facet": true,
+          "label": "Private-bath access guarantee",
+          "section": "Practical access"
+        },
+        "detourWorthiness": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "local-diversion",
+            "worth-1h",
+            "worth-2h",
+            "worth-4h",
+            "overnight-destination"
+          ],
+          "facet": true,
+          "label": "Detour worthiness",
+          "section": "Editorial decision"
+        },
+        "strongestSeasons": {
+          "type": "enum-array",
+          "required": true,
+          "values": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter",
+            "year-round"
+          ],
+          "facet": true,
+          "label": "Strongest seasons",
+          "section": "Seasonality"
+        },
+        "mealArrangement": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Meal arrangement",
+          "section": "Food"
+        },
+        "importantCaveats": {
+          "type": "string",
+          "required": true,
+          "searchable": true,
+          "label": "Important caveats",
+          "section": "Research notes"
+        }
+      }
     }
   }
 }
