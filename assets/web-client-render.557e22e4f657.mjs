@@ -1,4 +1,5 @@
 import { tierLabel } from './src-core-constants.2abfb1694768.mjs';
+import { tagLabels, uniquePresentationLabels } from './src-core-tags.570aaf416f17.mjs';
 import { renderPlaceIcon, renderUiIcon } from './src-core-ui-icons.eb64a1f4d6b3.mjs';
 
 const pageConfigNode = typeof document === 'undefined' ? null : document.querySelector('#page-config');
@@ -41,16 +42,22 @@ function renderCoverImage(document) {
 }
 
 function cardSignalTags(document) {
-  return (document.cardSignals ?? []).map((value) => `<span class="tag">${escapeHtml(value)}</span>`).join('');
+  const structured = uniquePresentationLabels([
+    ...(document.foodHighlight ? [`Order: ${document.foodHighlight}`] : []),
+    ...(document.cardSignals ?? [])
+  ]);
+  const labels = uniquePresentationLabels([
+    ...structured,
+    ...tagLabels(document.tags ?? [])
+  ]).slice(0, structured.length + 3);
+  return labels.map((value) => `<span class="tag">${escapeHtml(value)}</span>`).join('');
 }
 
 export function renderEntityCard(document, options = {}) {
   const basePath = options.basePath ?? '/';
   const href = joinUrl(basePath, `places/${encodeURIComponent(document.slug)}/`);
   const mapHref = joinUrl(basePath, `map/?entity=${encodeURIComponent(document.id)}`);
-  const tags = (document.tags ?? []).filter((tag) => tag !== 'demo').slice(0, 3).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join('');
   const rating = document.latestExternalRating;
-  const foodSignal = document.foodHighlight ? `<span class="tag">Order: ${escapeHtml(document.foodHighlight)}</span>` : '';
   const selected = options.selectedId === document.id ? ' is-selected' : '';
   const coverHtml = renderCoverImage(document);
   return `<article class="entity-card tier-${escapeHtml(String(document.tier).toLowerCase())}${selected}" data-entity-id="${escapeHtml(document.id)}" data-entity-snapshot="${escapeHtml(safeJson(snapshot(document)))}">
@@ -64,7 +71,7 @@ export function renderEntityCard(document, options = {}) {
       ${document.localName ? `<p class="local-name">${escapeHtml(document.localName)}</p>` : ''}
       <p>${escapeHtml(document.summary)}</p>
       <div class="card-location">${ui('map-pin')}${escapeHtml(locationLabel(document))}</div>
-      <div class="tag-row">${foodSignal}${cardSignalTags(document)}${tags}</div>
+      <div class="tag-row">${cardSignalTags(document)}</div>
       ${rating ? `<div class="external-rating" aria-label="Latest observed ${escapeHtml(rating.provider)} rating"><strong>${escapeHtml(Number(rating.rating).toFixed(1))}</strong> / ${escapeHtml(rating.scale)} · ${escapeHtml(Number(rating.reviewCount).toLocaleString())} reviews <span>observed ${escapeHtml(String(rating.observedAt).slice(0, 10))}</span></div>` : ''}
     </a>
     <div class="card-actions" aria-label="Personal actions for ${escapeHtml(document.name)}">

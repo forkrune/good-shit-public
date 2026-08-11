@@ -1,5 +1,6 @@
 import { tierLabel } from './src-core-constants.2abfb1694768.mjs';
-import { escapeHtml, joinUrl } from './web-client-render.76cf2150b55a.mjs';
+import { tagLabels, uniquePresentationLabels } from './src-core-tags.570aaf416f17.mjs';
+import { escapeHtml, joinUrl } from './web-client-render.557e22e4f657.mjs';
 
 const TYPE_LABELS = Object.freeze({
   accommodation: 'Stay',
@@ -35,12 +36,12 @@ function coverMarkup(document) {
 }
 
 function signalValues(document) {
-  const values = [];
-  if (document.foodHighlight) values.push(`Order · ${document.foodHighlight}`);
-  values.push(...(document.cardSignals ?? []));
-  if (values.length < 4) values.push(...(document.tags ?? []).filter((tag) => tag !== 'demo').map(humanize));
-  if (values.length < 4) values.push(...(document.subcategories ?? []).map(humanize));
-  return [...new Set(values.map((value) => String(value).trim()).filter(Boolean))].slice(0, 4);
+  return uniquePresentationLabels([
+    ...(document.foodHighlight ? [`Order · ${document.foodHighlight}`] : []),
+    ...(document.cardSignals ?? []),
+    ...tagLabels(document.tags ?? []),
+    ...(document.subcategories ?? []).map(humanize)
+  ]).slice(0, 4);
 }
 
 function signalsMarkup(document) {
