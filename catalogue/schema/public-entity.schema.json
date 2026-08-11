@@ -5,90 +5,19 @@
   "description": "Entity contract emitted into public catalogue packages after private editorial/research fields have been projected away.",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "schemaVersion",
-    "contentVersion",
-    "id",
-    "slug",
-    "entityType",
-    "names",
-    "summary",
-    "description",
-    "whyWorthwhile",
-    "location",
-    "categories",
-    "subcategories",
-    "tags",
-    "tier",
-    "editorial",
-    "geometry",
-    "links",
-    "externalRatings",
-    "research",
-    "custom"
-  ],
+  "required": ["schemaVersion","contentVersion","id","slug","entityType","names","summary","description","whyWorthwhile","location","categories","subcategories","tags","tier","editorial","geometry","links","externalRatings","research","custom"],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "contentVersion": { "type": "integer", "minimum": 1 },
-    "id": { "type": "string", "format": "uuid" },
-    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
-    "entityType": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
-    "names": { "$ref": "entity.schema.json#/$defs/names" },
-    "summary": { "type": "string", "minLength": 1 },
-    "description": { "type": "string", "minLength": 1 },
-    "whyWorthwhile": { "type": "string", "minLength": 1 },
-    "location": { "$ref": "entity.schema.json#/$defs/location" },
-    "categories": {
-      "type": "array",
-      "minItems": 1,
-      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-      "uniqueItems": true
-    },
-    "subcategories": {
-      "type": "array",
-      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-      "uniqueItems": true
-    },
-    "tags": {
-      "type": "array",
-      "items": { "type": "string", "minLength": 1 },
-      "uniqueItems": true
-    },
-    "tier": { "enum": ["S", "A", "B", "C"] },
-    "editorial": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["status", "publishedAt", "lastReviewedAt", "replacedById"],
-      "properties": {
-        "status": { "const": "published" },
-        "publishedAt": { "type": "string", "format": "date-time" },
-        "lastReviewedAt": { "type": "string", "format": "date-time" },
-        "replacedById": { "type": ["string", "null"], "format": "uuid" }
-      }
-    },
-    "geometry": { "$ref": "entity.schema.json#/$defs/geometry" },
-    "links": { "type": "array", "items": { "$ref": "entity.schema.json#/$defs/link" } },
-    "externalRatings": { "type": "array", "items": { "$ref": "entity.schema.json#/$defs/externalRating" } },
-    "research": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["firstResearchedAt", "lastVerifiedAt", "confidence", "sources"],
-      "properties": {
-        "firstResearchedAt": { "type": "string", "format": "date-time" },
-        "lastVerifiedAt": { "type": "string", "format": "date-time" },
-        "confidence": { "enum": ["low", "medium", "high"] },
-        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "entity.schema.json#/$defs/researchSource" } }
-      }
-    },
-    "custom": { "$ref": "entity.schema.json#/$defs/customEnvelope" },
-    "food": { "$ref": "food-content.schema.json" },
-    "images": { "type": "array", "items": { "$ref": "entity.schema.json#/$defs/imageReference" } },
-    "demo": { "type": "boolean" }
+    "schemaVersion":{"const":1},"contentVersion":{"type":"integer","minimum":1},"id":{"type":"string","format":"uuid"},"slug":{"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},"entityType":{"type":"string","pattern":"^[a-z][a-z0-9-]*$"},
+    "names":{"$ref":"entity.schema.json#/$defs/names"},"summary":{"type":"string","minLength":1},"description":{"type":"string","minLength":1},"whyWorthwhile":{"type":"string","minLength":1},"location":{"$ref":"entity.schema.json#/$defs/location"},
+    "categories":{"type":"array","minItems":1,"items":{"type":"string","pattern":"^[a-z0-9-]+$"},"uniqueItems":true},"subcategories":{"type":"array","items":{"type":"string","pattern":"^[a-z0-9-]+$"},"uniqueItems":true},"tags":{"type":"array","items":{"type":"string","minLength":1},"uniqueItems":true},
+    "tier":{"enum":["S","A","B","C"]},
+    "editorial":{"type":"object","additionalProperties":false,"required":["status","publishedAt","lastReviewedAt","replacedById"],"properties":{"status":{"const":"published"},"publishedAt":{"type":"string","format":"date-time"},"lastReviewedAt":{"type":"string","format":"date-time"},"replacedById":{"type":["string","null"],"format":"uuid"}}},
+    "geometry":{"$ref":"entity.schema.json#/$defs/geometry"},"links":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/link"}},"externalRatings":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/externalRating"}},
+    "research":{"type":"object","additionalProperties":false,"required":["firstResearchedAt","lastVerifiedAt","confidence","sources"],"properties":{"firstResearchedAt":{"type":"string","format":"date-time"},"lastVerifiedAt":{"type":"string","format":"date-time"},"confidence":{"enum":["low","medium","high"]},"sources":{"type":"array","minItems":1,"items":{"$ref":"entity.schema.json#/$defs/researchSource"}}}},
+    "custom":{"$ref":"entity.schema.json#/$defs/customEnvelope"},"food":{"$ref":"food-content.schema.json"},"hiking":{"$ref":"public-hiking.schema.json"},"images":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/imageReference"}},"demo":{"type":"boolean"}
   },
-  "allOf": [
-    {
-      "if": { "required": ["food"] },
-      "then": { "properties": { "entityType": { "const": "food" } } }
-    }
+  "allOf":[
+    {"if":{"required":["food"]},"then":{"properties":{"entityType":{"const":"food"}}}},
+    {"if":{"required":["hiking"]},"then":{"properties":{"entityType":{"const":"hiking-route"}}}}
   ]
 }

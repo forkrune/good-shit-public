@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/public-hiking.schema.json",
+  "title": "Good Shit public hiking route domain",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "defaultVariantId",
+    "variants",
+    "waypointCount",
+    "conditionCount"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "defaultVariantId": {
+      "type": "string"
+    },
+    "variants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "lifecycle",
+          "routeType",
+          "distanceKm",
+          "ascentM",
+          "descentM",
+          "durationMinutes",
+          "difficulty",
+          "routeAsset"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "lifecycle": {
+            "enum": [
+              "active",
+              "seasonal",
+              "retired"
+            ]
+          },
+          "routeType": {
+            "enum": [
+              "loop",
+              "out-and-back",
+              "point-to-point",
+              "network"
+            ]
+          },
+          "distanceKm": {
+            "type": "number"
+          },
+          "ascentM": {
+            "type": "integer"
+          },
+          "descentM": {
+            "type": "integer"
+          },
+          "durationMinutes": {
+            "type": "integer"
+          },
+          "difficulty": {
+            "enum": [
+              "easy",
+              "moderate",
+              "hard",
+              "expert"
+            ]
+          },
+          "technicalDifficulty": {
+            "enum": [
+              "none",
+              "easy",
+              "moderate",
+              "hard",
+              "expert"
+            ]
+          },
+          "surface": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "terrain": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "seasonality": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "waymarking": {
+            "type": "string"
+          },
+          "trailhead": {
+            "type": "object"
+          },
+          "finish": {
+            "type": "object"
+          },
+          "accessNotes": {
+            "type": "string"
+          },
+          "seasonalLimitations": {
+            "type": "string"
+          },
+          "waterAvailability": {
+            "type": "string"
+          },
+          "suitabilityConstraints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "routeAsset": {
+            "type": "string"
+          },
+          "gpxAsset": {
+            "type": "string"
+          },
+          "exposure": {
+            "enum": [
+              "none",
+              "low",
+              "moderate",
+              "high"
+            ]
+          },
+          "scrambling": {
+            "enum": [
+              "none",
+              "minor",
+              "required"
+            ]
+          }
+        }
+      }
+    },
+    "waypointCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "conditionCount": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}
