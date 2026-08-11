@@ -1,120 +1,19 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "format": "webp",
+  "pathResolution": "relative-to-contract-static-root",
   "assets": {
-    "japan-destinations-chiburijima-hero": {
-      "credit": "Johnny0504",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%9F%A5%E5%A4%AB%E9%87%8C%E5%B3%B6%E8%B5%A4%E5%A3%81.jpg",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bcf-es-0001-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
       "variants": [
         {
-          "width": 480,
-          "height": 360,
-          "bytes": 23326,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-chiburijima-hero.32cd509067ea.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 104488,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-chiburijima-hero.32cd509067ea.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 241124,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-chiburijima-hero.32cd509067ea.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-ikeshima-hero": {
-      "credit": "ブルーノ・プラス",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikeshima_island_of_Nagasaki.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 18880,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 79348,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 179440,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-ikeshima-mine": {
-      "credit": "ブルーノ・プラス",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_the_Ikeshima_Coal_Mine.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 22306,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 66498,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 151128,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-ikeshima-trolley": {
-      "credit": "ブルーノ・プラス",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battery_car_at_Ikeshima_Coal_Mine.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 270,
-          "bytes": 28472,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 541,
-          "bytes": 101090,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 811,
-          "bytes": 204410,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.1440.webp"
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2240,
+          "path": "assets/images/bcf-es-0001-hero.41f738d234f8.svg"
         }
       ]
     },
@@ -128,109 +27,19 @@
           "width": 480,
           "height": 360,
           "bytes": 27672,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-iwami-hero.3e8cdb771613.480.webp"
+          "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 111568,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-iwami-hero.3e8cdb771613.960.webp"
+          "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.960.webp"
         },
         {
           "width": 1024,
           "height": 768,
           "bytes": 135858,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-iwami-hero.3e8cdb771613.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-kaneda-hero": {
-      "credit": "Saigen Jiro",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanata_Castle,_nansei-sekirui.jpg",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 319,
-          "bytes": 45900,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 638,
-          "bytes": 166546,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 957,
-          "bytes": 291384,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-kitayamazaki-hero": {
-      "credit": "くろふね (Jranar)",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%B1%B1%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%B1%95%E6%9C%9B%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%8C%97%E5%B1%B1%E5%B4%8E.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 320,
-          "bytes": 31170,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 640,
-          "bytes": 120656,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 960,
-          "bytes": 278676,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-koshiki-hero": {
-      "credit": "At by At",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamikoshiki_Island_Nagame-no-hama_2013-08B.JPG",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 319,
-          "bytes": 19160,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 638,
-          "bytes": 68052,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 957,
-          "bytes": 136046,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.1440.webp"
+          "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.1440.webp"
         }
       ]
     },
@@ -244,22 +53,19 @@
           "width": 480,
           "height": 360,
           "bytes": 31666,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.480.webp"
+          "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 126422,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.960.webp"
+          "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 279044,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.1440.webp"
+          "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.1440.webp"
         }
       ]
     },
@@ -273,80 +79,19 @@
           "width": 360,
           "height": 480,
           "bytes": 41982,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.480.webp"
+          "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.480.webp"
         },
         {
           "width": 720,
           "height": 960,
           "bytes": 148422,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.960.webp"
+          "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.960.webp"
         },
         {
           "width": 1080,
           "height": 1440,
           "bytes": 296408,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-kunisaki-hero": {
-      "credit": "Hajime NAKANO",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainichi-nyorai_of_Kumano_magaibutsu_(48461033207).jpg",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 51624,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-kunisaki-hero.964f01bbbece.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 175384,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-kunisaki-hero.964f01bbbece.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 291208,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-kunisaki-hero.964f01bbbece.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-miune-hero": {
-      "credit": "As6673",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg",
-      "license": "Public domain (author dedication)",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 19320,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miune-hero.743ad670e23d.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 71494,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miune-hero.743ad670e23d.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 142382,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miune-hero.743ad670e23d.1440.webp"
+          "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.1440.webp"
         }
       ]
     },
@@ -360,22 +105,19 @@
           "width": 480,
           "height": 360,
           "bytes": 13292,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.480.webp"
+          "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 38192,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.960.webp"
+          "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 67168,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.1440.webp"
+          "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.1440.webp"
         }
       ]
     },
@@ -389,22 +131,19 @@
           "width": 480,
           "height": 360,
           "bytes": 18778,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.480.webp"
+          "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 52068,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.960.webp"
+          "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 90530,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.1440.webp"
+          "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.1440.webp"
         }
       ]
     },
@@ -418,22 +157,19 @@
           "width": 480,
           "height": 319,
           "bytes": 31016,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.480.webp"
+          "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.480.webp"
         },
         {
           "width": 960,
           "height": 638,
           "bytes": 109106,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.960.webp"
+          "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.960.webp"
         },
         {
           "width": 1440,
           "height": 956,
           "bytes": 216494,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.1440.webp"
+          "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.1440.webp"
         }
       ]
     },
@@ -447,22 +183,19 @@
           "width": 480,
           "height": 360,
           "bytes": 27170,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.480.webp"
+          "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 89790,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.960.webp"
+          "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 172842,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.1440.webp"
+          "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.1440.webp"
         }
       ]
     },
@@ -476,80 +209,19 @@
           "width": 480,
           "height": 360,
           "bytes": 59142,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-shishigahana-hero.42410b28f36f.480.webp"
+          "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 174478,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-shishigahana-hero.42410b28f36f.960.webp"
+          "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 296460,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-shishigahana-hero.42410b28f36f.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-todo-hero": {
-      "credit": "Wc018",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Todo_Valley_202010.jpg",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "variants": [
-        {
-          "width": 480,
-          "height": 320,
-          "bytes": 46546,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-todo-hero.40c2dc94e38a.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 640,
-          "bytes": 184044,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-todo-hero.40c2dc94e38a.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 960,
-          "bytes": 288814,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-todo-hero.40c2dc94e38a.1440.webp"
-        }
-      ]
-    },
-    "japan-destinations-uryunuma-hero": {
-      "credit": "Made based on National Land Image Information (Color Aerial Photographs), Ministry of Land, Infrastructure, Transport and Tourism of Japan",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uryunuma_Wetland_Aerial_photograph.1977.jpg",
-      "license": "MLIT attribution-only reuse permission",
-      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Japan_National_Land_Image_Information",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 51106,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/japan-destinations-uryunuma-hero.507211574cec.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 174884,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-uryunuma-hero.507211574cec.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 288836,
-          "targetSized": true,
-          "url": "/good-shit-public/assets/images/japan-destinations-uryunuma-hero.507211574cec.1440.webp"
+          "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.1440.webp"
         }
       ]
     },
@@ -563,22 +235,19 @@
           "width": 480,
           "height": 300,
           "bytes": 1956,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.480.webp"
+          "path": "assets/images/jp-chiburijima-hero.5710824dab58.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 4326,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.960.webp"
+          "path": "assets/images/jp-chiburijima-hero.5710824dab58.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 7176,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-chiburijima-hero.5710824dab58.1440.webp"
+          "path": "assets/images/jp-chiburijima-hero.5710824dab58.1440.webp"
         }
       ]
     },
@@ -592,22 +261,19 @@
           "width": 480,
           "height": 300,
           "bytes": 1556,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.480.webp"
+          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 3340,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.960.webp"
+          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 5690,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-ikeshima-hero.e81a0dcde892.1440.webp"
+          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.1440.webp"
         }
       ]
     },
@@ -621,22 +287,19 @@
           "width": 480,
           "height": 300,
           "bytes": 1908,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.480.webp"
+          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 4340,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.960.webp"
+          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 7316,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.1440.webp"
+          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.1440.webp"
         }
       ]
     },
@@ -650,22 +313,19 @@
           "width": 480,
           "height": 300,
           "bytes": 2152,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.480.webp"
+          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 4736,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.960.webp"
+          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 7826,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kitayamazaki-hero.1d515a88ed5e.1440.webp"
+          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.1440.webp"
         }
       ]
     },
@@ -679,22 +339,19 @@
           "width": 480,
           "height": 300,
           "bytes": 2578,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.480.webp"
+          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 5810,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.960.webp"
+          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 9878,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-koshikishima-hero.1e43fd540165.1440.webp"
+          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.1440.webp"
         }
       ]
     },
@@ -708,22 +365,19 @@
           "width": 480,
           "height": 300,
           "bytes": 1708,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.480.webp"
+          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 3992,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.960.webp"
+          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 6536,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kuniga-coast-hero.9d637a529347.1440.webp"
+          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.1440.webp"
         }
       ]
     },
@@ -737,22 +391,19 @@
           "width": 480,
           "height": 300,
           "bytes": 2138,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.480.webp"
+          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 4562,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.960.webp"
+          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 7710,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.1440.webp"
+          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.1440.webp"
         }
       ]
     },
@@ -766,22 +417,19 @@
           "width": 480,
           "height": 300,
           "bytes": 2490,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.480.webp"
+          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 5592,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.960.webp"
+          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 9102,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-miune-ridge-hero.e67ad6cd07cf.1440.webp"
+          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.1440.webp"
         }
       ]
     },
@@ -795,22 +443,19 @@
           "width": 480,
           "height": 300,
           "bytes": 3408,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.480.webp"
+          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 7236,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.960.webp"
+          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 11832,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-mount-tenjo-hero.bb7d3729028b.1440.webp"
+          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.1440.webp"
         }
       ]
     },
@@ -824,22 +469,19 @@
           "width": 480,
           "height": 300,
           "bytes": 3434,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.480.webp"
+          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 7252,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.960.webp"
+          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 11584,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.1440.webp"
+          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.1440.webp"
         }
       ]
     },
@@ -853,22 +495,19 @@
           "width": 480,
           "height": 300,
           "bytes": 4170,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.480.webp"
+          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 8652,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.960.webp"
+          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 13686,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-todo-akamizu-hero.89e7aeef9038.1440.webp"
+          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.1440.webp"
         }
       ]
     },
@@ -882,22 +521,187 @@
           "width": 480,
           "height": 300,
           "bytes": 2988,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.480.webp"
+          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.480.webp"
         },
         {
           "width": 960,
           "height": 600,
           "bytes": 6412,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.960.webp"
+          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.960.webp"
         },
         {
           "width": 1440,
           "height": 900,
           "bytes": 10206,
-          "quality": 78,
-          "url": "/good-shit-public/assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.1440.webp"
+          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.1440.webp"
+        }
+      ]
+    },
+    "pcf-cz-0001-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2233,
+          "path": "assets/images/pcf-cz-0001-hero.3f825ffb25ea.svg"
+        }
+      ]
+    },
+    "pcf-cz-0002-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2202,
+          "path": "assets/images/pcf-cz-0002-hero.b97e67ddaa4d.svg"
+        }
+      ]
+    },
+    "pcf-cz-0003-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2205,
+          "path": "assets/images/pcf-cz-0003-hero.ea1a95821f5f.svg"
+        }
+      ]
+    },
+    "pcf-cz-0004-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2219,
+          "path": "assets/images/pcf-cz-0004-hero.08c06a1b8c2a.svg"
+        }
+      ]
+    },
+    "pcf-cz-0005-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2219,
+          "path": "assets/images/pcf-cz-0005-hero.a9f5ff840817.svg"
+        }
+      ]
+    },
+    "pcf-cz-0006-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2256,
+          "path": "assets/images/pcf-cz-0006-hero.bc29e4cdde0d.svg"
+        }
+      ]
+    },
+    "pcf-cz-0007-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2150,
+          "path": "assets/images/pcf-cz-0007-hero.12401fcb3829.svg"
+        }
+      ]
+    },
+    "pcf-cz-0008-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2227,
+          "path": "assets/images/pcf-cz-0008-hero.faf6e46d8a5d.svg"
+        }
+      ]
+    },
+    "pcf-cz-0009-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2255,
+          "path": "assets/images/pcf-cz-0009-hero.8c668f466479.svg"
+        }
+      ]
+    },
+    "pcf-cz-0010-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2151,
+          "path": "assets/images/pcf-cz-0010-hero.c1b98748f172.svg"
+        }
+      ]
+    },
+    "pcf-cz-0011-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2074,
+          "path": "assets/images/pcf-cz-0011-hero.6282e56cf6ec.svg"
+        }
+      ]
+    },
+    "pcf-cz-0012-hero": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2220,
+          "path": "assets/images/pcf-cz-0012-hero.0eeed3dfdbdb.svg"
         }
       ]
     },
@@ -911,7 +715,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2293,
-          "url": "/good-shit-public/assets/images/pfd-cz-0001-hero.73b78ba448b3.svg"
+          "path": "assets/images/pfd-cz-0001-hero.73b78ba448b3.svg"
         }
       ]
     },
@@ -925,7 +729,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2350,
-          "url": "/good-shit-public/assets/images/pfd-cz-0001-ordering.8a69b5946fe9.svg"
+          "path": "assets/images/pfd-cz-0001-ordering.8a69b5946fe9.svg"
         }
       ]
     },
@@ -939,7 +743,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2199,
-          "url": "/good-shit-public/assets/images/pfd-cz-0002-hero.dd8253c9a3ad.svg"
+          "path": "assets/images/pfd-cz-0002-hero.dd8253c9a3ad.svg"
         }
       ]
     },
@@ -953,7 +757,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2157,
-          "url": "/good-shit-public/assets/images/pfd-cz-0003-hero.e4a26125f356.svg"
+          "path": "assets/images/pfd-cz-0003-hero.e4a26125f356.svg"
         }
       ]
     },
@@ -967,7 +771,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2234,
-          "url": "/good-shit-public/assets/images/pfd-cz-0004-hero.62e818a57195.svg"
+          "path": "assets/images/pfd-cz-0004-hero.62e818a57195.svg"
         }
       ]
     },
@@ -981,7 +785,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2149,
-          "url": "/good-shit-public/assets/images/pfd-cz-0005-hero.204a26f3d94a.svg"
+          "path": "assets/images/pfd-cz-0005-hero.204a26f3d94a.svg"
         }
       ]
     },
@@ -995,7 +799,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2203,
-          "url": "/good-shit-public/assets/images/pfd-cz-0006-hero.f09f6f02367d.svg"
+          "path": "assets/images/pfd-cz-0006-hero.f09f6f02367d.svg"
         }
       ]
     },
@@ -1009,7 +813,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2212,
-          "url": "/good-shit-public/assets/images/pfd-cz-0007-hero.6d72f7187928.svg"
+          "path": "assets/images/pfd-cz-0007-hero.6d72f7187928.svg"
         }
       ]
     },
@@ -1023,7 +827,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2157,
-          "url": "/good-shit-public/assets/images/pfd-cz-0008-hero.5acba9c77754.svg"
+          "path": "assets/images/pfd-cz-0008-hero.5acba9c77754.svg"
         }
       ]
     },
@@ -1037,7 +841,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2296,
-          "url": "/good-shit-public/assets/images/pfd-cz-0008-ordering.7ba4960e3ee4.svg"
+          "path": "assets/images/pfd-cz-0008-ordering.7ba4960e3ee4.svg"
         }
       ]
     },
@@ -1051,7 +855,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2296,
-          "url": "/good-shit-public/assets/images/pfd-cz-0009-hero.ed7700d62073.svg"
+          "path": "assets/images/pfd-cz-0009-hero.ed7700d62073.svg"
         }
       ]
     },
@@ -1065,7 +869,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2249,
-          "url": "/good-shit-public/assets/images/pfd-cz-0010-hero.712186b3e69c.svg"
+          "path": "assets/images/pfd-cz-0010-hero.712186b3e69c.svg"
         }
       ]
     },
@@ -1079,7 +883,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2344,
-          "url": "/good-shit-public/assets/images/pfd-cz-0010-ordering.e4f624b2437c.svg"
+          "path": "assets/images/pfd-cz-0010-ordering.e4f624b2437c.svg"
         }
       ]
     },
@@ -1093,7 +897,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2219,
-          "url": "/good-shit-public/assets/images/pfd-cz-0011-hero.37c0aca5a3d1.svg"
+          "path": "assets/images/pfd-cz-0011-hero.37c0aca5a3d1.svg"
         }
       ]
     },
@@ -1107,7 +911,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2433,
-          "url": "/good-shit-public/assets/images/pfd-cz-0011-ordering.d8ecb3c0a4b2.svg"
+          "path": "assets/images/pfd-cz-0011-ordering.d8ecb3c0a4b2.svg"
         }
       ]
     },
@@ -1121,7 +925,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2267,
-          "url": "/good-shit-public/assets/images/pfd-cz-0012-hero.6ca6eefd7766.svg"
+          "path": "assets/images/pfd-cz-0012-hero.6ca6eefd7766.svg"
         }
       ]
     },
@@ -1135,7 +939,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2079,
-          "url": "/good-shit-public/assets/images/pfd-cz-0013-hero.ddc24acdb01f.svg"
+          "path": "assets/images/pfd-cz-0013-hero.ddc24acdb01f.svg"
         }
       ]
     },
@@ -1149,7 +953,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2364,
-          "url": "/good-shit-public/assets/images/pfd-cz-0014-hero.431f1141f567.svg"
+          "path": "assets/images/pfd-cz-0014-hero.431f1141f567.svg"
         }
       ]
     },
@@ -1163,7 +967,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2207,
-          "url": "/good-shit-public/assets/images/pfd-cz-0015-hero.84b403c85448.svg"
+          "path": "assets/images/pfd-cz-0015-hero.84b403c85448.svg"
         }
       ]
     },
@@ -1177,7 +981,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2239,
-          "url": "/good-shit-public/assets/images/pfd-cz-0015-ordering.86d46cf26e96.svg"
+          "path": "assets/images/pfd-cz-0015-ordering.86d46cf26e96.svg"
         }
       ]
     },
@@ -1191,7 +995,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2328,
-          "url": "/good-shit-public/assets/images/pfd-cz-0016-hero.531d687d2ce4.svg"
+          "path": "assets/images/pfd-cz-0016-hero.531d687d2ce4.svg"
         }
       ]
     },
@@ -1205,7 +1009,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2373,
-          "url": "/good-shit-public/assets/images/pfd-cz-0017-hero.5b324b12f10d.svg"
+          "path": "assets/images/pfd-cz-0017-hero.5b324b12f10d.svg"
         }
       ]
     },
@@ -1219,7 +1023,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2282,
-          "url": "/good-shit-public/assets/images/pfd-cz-0018-hero.381fd7396a96.svg"
+          "path": "assets/images/pfd-cz-0018-hero.381fd7396a96.svg"
         }
       ]
     },
@@ -1233,7 +1037,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2319,
-          "url": "/good-shit-public/assets/images/pfd-cz-0019-hero.0baeced231d5.svg"
+          "path": "assets/images/pfd-cz-0019-hero.0baeced231d5.svg"
         }
       ]
     },
@@ -1247,7 +1051,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2325,
-          "url": "/good-shit-public/assets/images/pfd-cz-0020-hero.379f34885123.svg"
+          "path": "assets/images/pfd-cz-0020-hero.379f34885123.svg"
         }
       ]
     },
@@ -1261,7 +1065,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2049,
-          "url": "/good-shit-public/assets/images/pfd-cz-0021-hero.a94464de30a3.svg"
+          "path": "assets/images/pfd-cz-0021-hero.a94464de30a3.svg"
         }
       ]
     },
@@ -1275,7 +1079,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2207,
-          "url": "/good-shit-public/assets/images/pfd-cz-0022-hero.a6a58dfb2ce9.svg"
+          "path": "assets/images/pfd-cz-0022-hero.a6a58dfb2ce9.svg"
         }
       ]
     },
@@ -1289,7 +1093,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2168,
-          "url": "/good-shit-public/assets/images/pfd-cz-0023-hero.42c6f1cb3799.svg"
+          "path": "assets/images/pfd-cz-0023-hero.42c6f1cb3799.svg"
         }
       ]
     },
@@ -1303,7 +1107,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2202,
-          "url": "/good-shit-public/assets/images/pfd-cz-0024-hero.0f40a0b794b9.svg"
+          "path": "assets/images/pfd-cz-0024-hero.0f40a0b794b9.svg"
         }
       ]
     },
@@ -1317,7 +1121,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2357,
-          "url": "/good-shit-public/assets/images/pfd-cz-0024-ordering.7851b8f850ab.svg"
+          "path": "assets/images/pfd-cz-0024-ordering.7851b8f850ab.svg"
         }
       ]
     },
@@ -1331,7 +1135,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2119,
-          "url": "/good-shit-public/assets/images/pfd-cz-0025-hero.0997f961c5d4.svg"
+          "path": "assets/images/pfd-cz-0025-hero.0997f961c5d4.svg"
         }
       ]
     },
@@ -1345,7 +1149,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2277,
-          "url": "/good-shit-public/assets/images/pfd-cz-0026-hero.882cd6603f93.svg"
+          "path": "assets/images/pfd-cz-0026-hero.882cd6603f93.svg"
         }
       ]
     },
@@ -1359,7 +1163,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2367,
-          "url": "/good-shit-public/assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
+          "path": "assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
         }
       ]
     },
@@ -1373,7 +1177,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2219,
-          "url": "/good-shit-public/assets/images/pfd-cz-0027-hero.45ca96554e3b.svg"
+          "path": "assets/images/pfd-cz-0027-hero.45ca96554e3b.svg"
         }
       ]
     },
@@ -1387,7 +1191,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2369,
-          "url": "/good-shit-public/assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
+          "path": "assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
         }
       ]
     },
@@ -1401,7 +1205,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2118,
-          "url": "/good-shit-public/assets/images/pfd-cz-0028-hero.c2ca80717b1a.svg"
+          "path": "assets/images/pfd-cz-0028-hero.c2ca80717b1a.svg"
         }
       ]
     },
@@ -1415,21 +1219,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2114,
-          "url": "/good-shit-public/assets/images/pfd-cz-0029-hero.63c99546d2cf.svg"
-        }
-      ]
-    },
-    "pfd-cz-0030-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2144,
-          "url": "/good-shit-public/assets/images/pfd-cz-0030-hero.adb8194dd375.svg"
+          "path": "assets/images/pfd-cz-0029-hero.63c99546d2cf.svg"
         }
       ]
     },
@@ -1443,7 +1233,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2160,
-          "url": "/good-shit-public/assets/images/pfd-cz-0031-hero.5a2eda837a28.svg"
+          "path": "assets/images/pfd-cz-0031-hero.5a2eda837a28.svg"
         }
       ]
     },
@@ -1457,7 +1247,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2082,
-          "url": "/good-shit-public/assets/images/pfd-cz-0032-hero.d4ca52e3e834.svg"
+          "path": "assets/images/pfd-cz-0032-hero.d4ca52e3e834.svg"
         }
       ]
     },
@@ -1471,7 +1261,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2066,
-          "url": "/good-shit-public/assets/images/pfd-cz-0033-hero.16134a602545.svg"
+          "path": "assets/images/pfd-cz-0033-hero.16134a602545.svg"
         }
       ]
     },
@@ -1485,7 +1275,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2158,
-          "url": "/good-shit-public/assets/images/pfd-cz-0034-hero.34bab46171de.svg"
+          "path": "assets/images/pfd-cz-0034-hero.34bab46171de.svg"
         }
       ]
     },
@@ -1499,7 +1289,7 @@
           "width": 1600,
           "height": 1067,
           "bytes": 2105,
-          "url": "/good-shit-public/assets/images/pfd-cz-0035-hero.28295457a227.svg"
+          "path": "assets/images/pfd-cz-0035-hero.28295457a227.svg"
         }
       ]
     }
