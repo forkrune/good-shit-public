@@ -358,14 +358,14 @@
         },
         "ascentM": {
           "type": "integer",
-          "required": true,
+          "required": false,
           "min": 0,
           "max": 20000,
           "label": "Ascent (m)"
         },
         "descentM": {
           "type": "integer",
-          "required": true,
+          "required": false,
           "min": 0,
           "max": 20000,
           "label": "Descent (m)"
@@ -377,6 +377,12 @@
           "max": 100000,
           "label": "Duration"
         },
+        "durationDays": {
+          "type": "string",
+          "searchable": true,
+          "label": "Duration (days)",
+          "section": "Route"
+        },
         "difficulty": {
           "type": "enum",
           "required": true,
@@ -387,7 +393,7 @@
             "expert"
           ],
           "facet": true,
-          "label": "Difficulty"
+          "label": "Physical difficulty"
         },
         "surface": {
           "type": "string-array",
@@ -428,6 +434,91 @@
           ],
           "facet": true,
           "label": "Waymarking"
+        },
+        "technicality": {
+          "type": "string",
+          "searchable": true,
+          "label": "Technicality",
+          "section": "Safety"
+        },
+        "exposure": {
+          "type": "string",
+          "searchable": true,
+          "label": "Exposure",
+          "section": "Safety"
+        },
+        "specialHazards": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Special hazards",
+          "section": "Safety"
+        },
+        "recommendedVariant": {
+          "type": "string",
+          "searchable": true,
+          "label": "Recommended variant",
+          "section": "Route"
+        },
+        "bestSeason": {
+          "type": "string",
+          "searchable": true,
+          "label": "Best season / conditions",
+          "section": "Conditions"
+        },
+        "crowding": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Crowding",
+          "section": "Experience"
+        },
+        "fameLevel": {
+          "type": "enum",
+          "values": [
+            "international",
+            "national",
+            "regional",
+            "obscure"
+          ],
+          "facet": true,
+          "label": "Recognition",
+          "section": "Experience"
+        },
+        "destinationWorthiness": {
+          "type": "string",
+          "searchable": true,
+          "facet": true,
+          "label": "Destination worthiness",
+          "section": "Experience"
+        },
+        "nearestBase": {
+          "type": "string",
+          "searchable": true,
+          "label": "Nearest useful base",
+          "section": "Getting there"
+        },
+        "verificationConfidence": {
+          "type": "enum",
+          "values": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "facet": true,
+          "label": "Verification confidence",
+          "section": "Research notes"
+        },
+        "trailheadCoordinatePrecision": {
+          "type": "string",
+          "searchable": true,
+          "label": "Trailhead coordinate precision",
+          "section": "Research notes"
+        },
+        "accessPointNote": {
+          "type": "string",
+          "searchable": true,
+          "label": "Access point note",
+          "section": "Getting there"
         }
       }
     },
