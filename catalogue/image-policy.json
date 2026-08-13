@@ -22,5 +22,9 @@
     "minQuality": 48
   },
   "entity": {"maxImages":8,"maxCoverImages":1},
-  "food": {"maxImages":12,"maxImagesPerTarget":3}
+  "food": {"maxImages":12,"maxImagesPerTarget":3},
+  "hero": {
+    "enforceForPublishedAtOrAfter": "2026-08-12T00:00:00.000Z",
+    "approvedRepresentations": ["documentary-photo"]
+  }
 }
