@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/relations.schema.json",
+  "title": "Good Shit canonical relations",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["type", "targetEntityId"],
+    "properties": {
+      "type": { "enum": ["route-stop", "access-for", "part-of"] },
+      "targetEntityId": { "type": "string", "format": "uuid" },
+      "role": { "enum": ["viewpoint", "natural", "cultural", "food", "onsen", "trailhead", "parking", "station", "port"] }
+    }
+  }
+}

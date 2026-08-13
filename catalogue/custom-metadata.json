@@ -1458,6 +1458,10 @@
           "section": "Research notes"
         }
       }
+    },
+    "route": {
+      "label": "Journey route",
+      "fields": {}
     }
   }
 }

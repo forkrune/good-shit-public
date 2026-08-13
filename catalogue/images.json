@@ -6,6 +6,83 @@
       "credit": "Good Shit editorial illustration"
     },
     {
+      "id": "japan-attractions-awa-odori-kaikan-hero",
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "japan-attractions-edo-wonderland-hero",
+      "credit": "Abasaa / あばさー",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edo_Wonderland_Nikko_Edomura_01.JPG",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self"
+    },
+    {
+      "id": "japan-attractions-hawaiians-hero",
+      "credit": "Sakaori",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spa_Resort_Hawaiians_Water_Park._C.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "japan-attractions-koiwai-farm-hero",
+      "credit": "掬茶",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_the_Koiwai_Farm.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-attractions-misawa-hero",
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:151101_Misawa_Aviation_%26_Science_Museum%2C_Aomori_Japan56s3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "japan-attractions-namahage-hero",
+      "credit": "Douglas P Perkins",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Straw_namahage.1.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "japan-attractions-shiroi-koibito-hero",
+      "credit": "t-konno",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%B1%8B%E8%A3%BD%E8%8F%93%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC_%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF%EF%BC%88Ishiya_Chocolate_Factory_SHIROI_KOIBITO_PARK_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "japan-attractions-tottori-kodomonokuni-hero",
+      "credit": "三菱善次郎",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%B3%A5%E5%8F%96%E7%A0%82%E4%B8%98%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E5%9B%BD%E3%82%B2%E3%83%BC%E3%83%88.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-attractions-yanmar-hero",
+      "credit": "先従隗始",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yanmar_Museum_20210224_08.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "japan-attractions-yoshinogari-hero",
+      "credit": "そらみみ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Northern_Inner_City_in_Yoshinogari_Historical_Park_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-attractions-yunokuni-hero",
+      "credit": "Lynn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yunokuni_no_mori_echizen_no_yakata.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
       "id": "japan-destinations-iwami-hero",
       "credit": "jkyZjdjNjN",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tatami-ga-ura_02.jpg",
@@ -324,6 +401,13 @@
     {
       "id": "pfd-cz-0035-hero",
       "credit": "Good Shit editorial illustration"
+    },
+    {
+      "id": "swiss-three-passes-furka-hero",
+      "credit": "Adrian Michael · cropped/optimized by Good Shit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Furkapass_Westseite.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     }
   ]
 }

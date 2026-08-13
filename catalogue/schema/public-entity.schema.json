@@ -13,11 +13,26 @@
     "tier":{"enum":["S","A","B","C"]},
     "editorial":{"type":"object","additionalProperties":false,"required":["status","publishedAt","lastReviewedAt","replacedById"],"properties":{"status":{"const":"published"},"publishedAt":{"type":"string","format":"date-time"},"lastReviewedAt":{"type":"string","format":"date-time"},"replacedById":{"type":["string","null"],"format":"uuid"}}},
     "geometry":{"$ref":"entity.schema.json#/$defs/geometry"},"links":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/link"}},"externalRatings":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/externalRating"}},
-    "research":{"type":"object","additionalProperties":false,"required":["firstResearchedAt","lastVerifiedAt","confidence","sources"],"properties":{"firstResearchedAt":{"type":"string","format":"date-time"},"lastVerifiedAt":{"type":"string","format":"date-time"},"confidence":{"enum":["low","medium","high"]},"sources":{"type":"array","minItems":1,"items":{"$ref":"entity.schema.json#/$defs/researchSource"}}}},
-    "custom":{"$ref":"entity.schema.json#/$defs/customEnvelope"},"food":{"$ref":"food-content.schema.json"},"hiking":{"$ref":"public-hiking.schema.json"},"images":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/imageReference"}},"demo":{"type":"boolean"}
+    "research":{"type":"object","additionalProperties":false,"required":["firstResearchedAt","lastVerifiedAt","confidence","sources"],"properties":{"firstResearchedAt":{"type":"string","format":"date-time"},"lastVerifiedAt":{"type":"string","format":"date-time"},"confidence":{"enum":["low","medium","high"]},"sources":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/publicResearchSource"}}}},
+    "custom":{"$ref":"entity.schema.json#/$defs/customEnvelope"},"audience":{"$ref":"entity.schema.json#/$defs/audience"},"food":{"$ref":"food-content.schema.json"},"hiking":{"$ref":"public-hiking.schema.json"},"route":{"$ref":"public-route.schema.json"},"relations":{"$ref":"relations.schema.json"},"images":{"type":"array","items":{"$ref":"entity.schema.json#/$defs/imageReference"}},"demo":{"type":"boolean"}
   },
   "allOf":[
     {"if":{"required":["food"]},"then":{"properties":{"entityType":{"const":"food"}}}},
-    {"if":{"required":["hiking"]},"then":{"properties":{"entityType":{"const":"hiking-route"}}}}
-  ]
+    {"if":{"required":["hiking"]},"then":{"properties":{"entityType":{"const":"hiking-route"}}}},
+    {"if":{"required":["route"]},"then":{"properties":{"entityType":{"const":"route"}}}}
+  ],
+  "$defs": {
+    "publicResearchSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "accessedAt"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "minLength": 1 },
+        "accessedAt": { "type": "string", "format": "date-time" },
+        "note": { "type": "string" },
+        "attribution": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
 }

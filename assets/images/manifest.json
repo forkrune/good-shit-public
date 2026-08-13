@@ -17,6 +17,325 @@
         }
       ]
     },
+    "japan-attractions-awa-odori-kaikan-hero": {
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 19646,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 57130,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 964,
+          "bytes": 103370,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-edo-wonderland-hero": {
+      "credit": "Abasaa / あばさー",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edo_Wonderland_Nikko_Edomura_01.JPG",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 28136,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 88806,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 161668,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-hawaiians-hero": {
+      "credit": "Sakaori",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spa_Resort_Hawaiians_Water_Park._C.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 46798,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 151912,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 290958,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-koiwai-farm-hero": {
+      "credit": "掬茶",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_the_Koiwai_Farm.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 21254,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 73382,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 148062,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-misawa-hero": {
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:151101_Misawa_Aviation_%26_Science_Museum%2C_Aomori_Japan56s3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 24446,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 66758,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 119380,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-namahage-hero": {
+      "credit": "Douglas P Perkins",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Straw_namahage.1.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 23066,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 75242,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 143094,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-shiroi-koibito-hero": {
+      "credit": "t-konno",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%9F%B3%E5%B1%8B%E8%A3%BD%E8%8F%93%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC_%E7%99%BD%E3%81%84%E6%81%8B%E4%BA%BA%E3%83%91%E3%83%BC%E3%82%AF%EF%BC%88Ishiya_Chocolate_Factory_SHIROI_KOIBITO_PARK_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 29764,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 83072,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 139464,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-tottori-kodomonokuni-hero": {
+      "credit": "三菱善次郎",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%B3%A5%E5%8F%96%E7%A0%82%E4%B8%98%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E5%9B%BD%E3%82%B2%E3%83%BC%E3%83%88.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 34020,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 139660,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 307156,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-yanmar-hero": {
+      "credit": "先従隗始",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yanmar_Museum_20210224_08.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 28100,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 71416,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 122832,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-yoshinogari-hero": {
+      "credit": "そらみみ",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gate_of_Northern_Inner_City_in_Yoshinogari_Historical_Park_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 18918,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 68410,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 141576,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.1440.webp"
+        }
+      ]
+    },
+    "japan-attractions-yunokuni-hero": {
+      "credit": "Lynn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yunokuni_no_mori_echizen_no_yakata.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 35886,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 141110,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.960.webp"
+        },
+        {
+          "width": 1024,
+          "height": 680,
+          "bytes": 168636,
+          "quality": 78,
+          "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.1440.webp"
+        }
+      ]
+    },
     "japan-destinations-iwami-hero": {
       "credit": "jkyZjdjNjN",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tatami-ga-ura_02.jpg",
@@ -1290,6 +1609,35 @@
           "height": 1067,
           "bytes": 2105,
           "path": "assets/images/pfd-cz-0035-hero.28295457a227.svg"
+        }
+      ]
+    },
+    "swiss-three-passes-furka-hero": {
+      "credit": "Adrian Michael · cropped/optimized by Good Shit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Furkapass_Westseite.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 37358,
+          "quality": 78,
+          "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 153524,
+          "quality": 78,
+          "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288922,
+          "targetSized": true,
+          "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.1440.webp"
         }
       ]
     }
