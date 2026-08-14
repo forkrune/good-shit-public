@@ -2,6 +2,13 @@
   "schemaVersion": 1,
   "assets": [
     {
+      "id": "bealach-na-ba-hero",
+      "credit": "Jooniur · cropped/optimized by Good Shit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bealach_na_ba.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
       "id": "europe-attraction-austria-familypark-hero",
       "credit": "C.Stadler/Bwag",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Margarethen_-_Familypark.JPG",
@@ -632,6 +639,13 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
     },
     {
+      "id": "grossglockner-high-alpine-road-hero",
+      "credit": "Dimitry Anikin / Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fglockner-Hochalpenstra%C3%9Fe_1.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
       "id": "japan-attractions-awa-odori-kaikan-hero",
       "credit": "663highland",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
@@ -761,6 +775,20 @@
       "id": "japan-destinations-shishigahana-hero",
       "credit": "8-Forest",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shishigahana_Wetland.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "nockalm-road-hero",
+      "credit": "Miroz · cropped/optimized by Good Shit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nockalmstrasse.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "stelvio-pass-road-hero",
+      "credit": "kallerna · cropped/optimized by Good Shit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
