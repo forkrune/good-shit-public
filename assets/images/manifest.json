@@ -3,20 +3,6 @@
   "format": "webp",
   "pathResolution": "relative-to-contract-static-root",
   "assets": {
-    "bcf-es-0001-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2240,
-          "path": "assets/images/bcf-es-0001-hero.41f738d234f8.svg"
-        }
-      ]
-    },
     "japan-attractions-awa-odori-kaikan-hero": {
       "credit": "663highland",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
@@ -27,18 +13,21 @@
           "width": 480,
           "height": 321,
           "bytes": 19646,
+          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.480.webp"
         },
         {
           "width": 960,
           "height": 643,
           "bytes": 57130,
+          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.960.webp"
         },
         {
           "width": 1440,
           "height": 964,
           "bytes": 103370,
+          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.1440.webp"
         }
       ]
@@ -53,18 +42,21 @@
           "width": 480,
           "height": 360,
           "bytes": 28136,
+          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 88806,
+          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 161668,
+          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.1440.webp"
         }
       ]
@@ -79,18 +71,21 @@
           "width": 480,
           "height": 360,
           "bytes": 46798,
+          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 151912,
+          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 290958,
+          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.1440.webp"
         }
       ]
@@ -105,18 +100,21 @@
           "width": 480,
           "height": 360,
           "bytes": 21254,
+          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 73382,
+          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 148062,
+          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.1440.webp"
         }
       ]
@@ -131,18 +129,21 @@
           "width": 480,
           "height": 320,
           "bytes": 24446,
+          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 66758,
+          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 119380,
+          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.1440.webp"
         }
       ]
@@ -157,18 +158,21 @@
           "width": 360,
           "height": 480,
           "bytes": 23066,
+          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.480.webp"
         },
         {
           "width": 720,
           "height": 960,
           "bytes": 75242,
+          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.960.webp"
         },
         {
           "width": 1080,
           "height": 1440,
           "bytes": 143094,
+          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.1440.webp"
         }
       ]
@@ -183,18 +187,21 @@
           "width": 480,
           "height": 320,
           "bytes": 29764,
+          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 83072,
+          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 139464,
+          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.1440.webp"
         }
       ]
@@ -209,18 +216,21 @@
           "width": 480,
           "height": 360,
           "bytes": 34020,
+          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 139660,
+          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 307156,
+          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.1440.webp"
         }
       ]
@@ -235,18 +245,21 @@
           "width": 480,
           "height": 360,
           "bytes": 28100,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 71416,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 122832,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.1440.webp"
         }
       ]
@@ -261,18 +274,21 @@
           "width": 480,
           "height": 360,
           "bytes": 18918,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 68410,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 141576,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.1440.webp"
         }
       ]
@@ -287,18 +303,21 @@
           "width": 480,
           "height": 319,
           "bytes": 35886,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.480.webp"
         },
         {
           "width": 960,
           "height": 638,
           "bytes": 141110,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.960.webp"
         },
         {
           "width": 1024,
           "height": 680,
           "bytes": 168636,
+          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.1440.webp"
         }
       ]
@@ -313,18 +332,21 @@
           "width": 480,
           "height": 360,
           "bytes": 27672,
+          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 111568,
+          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.960.webp"
         },
         {
           "width": 1024,
           "height": 768,
           "bytes": 135858,
+          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.1440.webp"
         }
       ]
@@ -339,18 +361,21 @@
           "width": 480,
           "height": 360,
           "bytes": 31666,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 126422,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 279044,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.1440.webp"
         }
       ]
@@ -365,18 +390,21 @@
           "width": 360,
           "height": 480,
           "bytes": 41982,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.480.webp"
         },
         {
           "width": 720,
           "height": 960,
           "bytes": 148422,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.960.webp"
         },
         {
           "width": 1080,
           "height": 1440,
           "bytes": 296408,
+          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.1440.webp"
         }
       ]
@@ -391,18 +419,21 @@
           "width": 480,
           "height": 360,
           "bytes": 13292,
+          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 38192,
+          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 67168,
+          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.1440.webp"
         }
       ]
@@ -417,18 +448,21 @@
           "width": 480,
           "height": 360,
           "bytes": 18778,
+          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 52068,
+          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 90530,
+          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.1440.webp"
         }
       ]
@@ -443,18 +477,21 @@
           "width": 480,
           "height": 319,
           "bytes": 31016,
+          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.480.webp"
         },
         {
           "width": 960,
           "height": 638,
           "bytes": 109106,
+          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.960.webp"
         },
         {
           "width": 1440,
           "height": 956,
           "bytes": 216494,
+          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.1440.webp"
         }
       ]
@@ -469,18 +506,21 @@
           "width": 480,
           "height": 360,
           "bytes": 27170,
+          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 89790,
+          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 172842,
+          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.1440.webp"
         }
       ]
@@ -495,1087 +535,22 @@
           "width": 480,
           "height": 360,
           "bytes": 59142,
+          "quality": 78,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 174478,
+          "targetSized": true,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 296460,
+          "targetSized": true,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.1440.webp"
-        }
-      ]
-    },
-    "jp-chiburijima-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 1956,
-          "path": "assets/images/jp-chiburijima-hero.5710824dab58.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 4326,
-          "path": "assets/images/jp-chiburijima-hero.5710824dab58.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 7176,
-          "path": "assets/images/jp-chiburijima-hero.5710824dab58.1440.webp"
-        }
-      ]
-    },
-    "jp-ikeshima-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 1556,
-          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 3340,
-          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 5690,
-          "path": "assets/images/jp-ikeshima-hero.e81a0dcde892.1440.webp"
-        }
-      ]
-    },
-    "jp-kaneda-shiratake-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 1908,
-          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 4340,
-          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 7316,
-          "path": "assets/images/jp-kaneda-shiratake-hero.1c5e370b9a1d.1440.webp"
-        }
-      ]
-    },
-    "jp-kitayamazaki-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 2152,
-          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 4736,
-          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 7826,
-          "path": "assets/images/jp-kitayamazaki-hero.1d515a88ed5e.1440.webp"
-        }
-      ]
-    },
-    "jp-koshikishima-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 2578,
-          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 5810,
-          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 9878,
-          "path": "assets/images/jp-koshikishima-hero.1e43fd540165.1440.webp"
-        }
-      ]
-    },
-    "jp-kuniga-coast-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 1708,
-          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 3992,
-          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 6536,
-          "path": "assets/images/jp-kuniga-coast-hero.9d637a529347.1440.webp"
-        }
-      ]
-    },
-    "jp-kunisaki-minemichi-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 2138,
-          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 4562,
-          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 7710,
-          "path": "assets/images/jp-kunisaki-minemichi-hero.788fcc1e89c5.1440.webp"
-        }
-      ]
-    },
-    "jp-miune-ridge-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 2490,
-          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 5592,
-          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 9102,
-          "path": "assets/images/jp-miune-ridge-hero.e67ad6cd07cf.1440.webp"
-        }
-      ]
-    },
-    "jp-mount-tenjo-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 3408,
-          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 7236,
-          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 11832,
-          "path": "assets/images/jp-mount-tenjo-hero.bb7d3729028b.1440.webp"
-        }
-      ]
-    },
-    "jp-tadami-megumi-no-mori-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 3434,
-          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 7252,
-          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 11584,
-          "path": "assets/images/jp-tadami-megumi-no-mori-hero.6a56201f84eb.1440.webp"
-        }
-      ]
-    },
-    "jp-todo-akamizu-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 4170,
-          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 8652,
-          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 13686,
-          "path": "assets/images/jp-todo-akamizu-hero.89e7aeef9038.1440.webp"
-        }
-      ]
-    },
-    "jp-uryunuma-wetland-hero": {
-      "credit": "OpenAI · editorial vector illustration generated from the 2026 Japan destination research brief",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 480,
-          "height": 300,
-          "bytes": 2988,
-          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 600,
-          "bytes": 6412,
-          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 900,
-          "bytes": 10206,
-          "path": "assets/images/jp-uryunuma-wetland-hero.bf4b765f63f8.1440.webp"
-        }
-      ]
-    },
-    "pcf-cz-0001-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2233,
-          "path": "assets/images/pcf-cz-0001-hero.3f825ffb25ea.svg"
-        }
-      ]
-    },
-    "pcf-cz-0002-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2202,
-          "path": "assets/images/pcf-cz-0002-hero.b97e67ddaa4d.svg"
-        }
-      ]
-    },
-    "pcf-cz-0003-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2205,
-          "path": "assets/images/pcf-cz-0003-hero.ea1a95821f5f.svg"
-        }
-      ]
-    },
-    "pcf-cz-0004-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2219,
-          "path": "assets/images/pcf-cz-0004-hero.08c06a1b8c2a.svg"
-        }
-      ]
-    },
-    "pcf-cz-0005-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2219,
-          "path": "assets/images/pcf-cz-0005-hero.a9f5ff840817.svg"
-        }
-      ]
-    },
-    "pcf-cz-0006-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2256,
-          "path": "assets/images/pcf-cz-0006-hero.bc29e4cdde0d.svg"
-        }
-      ]
-    },
-    "pcf-cz-0007-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2150,
-          "path": "assets/images/pcf-cz-0007-hero.12401fcb3829.svg"
-        }
-      ]
-    },
-    "pcf-cz-0008-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2227,
-          "path": "assets/images/pcf-cz-0008-hero.faf6e46d8a5d.svg"
-        }
-      ]
-    },
-    "pcf-cz-0009-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2255,
-          "path": "assets/images/pcf-cz-0009-hero.8c668f466479.svg"
-        }
-      ]
-    },
-    "pcf-cz-0010-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2151,
-          "path": "assets/images/pcf-cz-0010-hero.c1b98748f172.svg"
-        }
-      ]
-    },
-    "pcf-cz-0011-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2074,
-          "path": "assets/images/pcf-cz-0011-hero.6282e56cf6ec.svg"
-        }
-      ]
-    },
-    "pcf-cz-0012-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2220,
-          "path": "assets/images/pcf-cz-0012-hero.0eeed3dfdbdb.svg"
-        }
-      ]
-    },
-    "pfd-cz-0001-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2293,
-          "path": "assets/images/pfd-cz-0001-hero.73b78ba448b3.svg"
-        }
-      ]
-    },
-    "pfd-cz-0001-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2350,
-          "path": "assets/images/pfd-cz-0001-ordering.8a69b5946fe9.svg"
-        }
-      ]
-    },
-    "pfd-cz-0002-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2199,
-          "path": "assets/images/pfd-cz-0002-hero.dd8253c9a3ad.svg"
-        }
-      ]
-    },
-    "pfd-cz-0003-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2157,
-          "path": "assets/images/pfd-cz-0003-hero.e4a26125f356.svg"
-        }
-      ]
-    },
-    "pfd-cz-0004-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2234,
-          "path": "assets/images/pfd-cz-0004-hero.62e818a57195.svg"
-        }
-      ]
-    },
-    "pfd-cz-0005-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2149,
-          "path": "assets/images/pfd-cz-0005-hero.204a26f3d94a.svg"
-        }
-      ]
-    },
-    "pfd-cz-0006-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2203,
-          "path": "assets/images/pfd-cz-0006-hero.f09f6f02367d.svg"
-        }
-      ]
-    },
-    "pfd-cz-0007-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2212,
-          "path": "assets/images/pfd-cz-0007-hero.6d72f7187928.svg"
-        }
-      ]
-    },
-    "pfd-cz-0008-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2157,
-          "path": "assets/images/pfd-cz-0008-hero.5acba9c77754.svg"
-        }
-      ]
-    },
-    "pfd-cz-0008-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2296,
-          "path": "assets/images/pfd-cz-0008-ordering.7ba4960e3ee4.svg"
-        }
-      ]
-    },
-    "pfd-cz-0009-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2296,
-          "path": "assets/images/pfd-cz-0009-hero.ed7700d62073.svg"
-        }
-      ]
-    },
-    "pfd-cz-0010-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2249,
-          "path": "assets/images/pfd-cz-0010-hero.712186b3e69c.svg"
-        }
-      ]
-    },
-    "pfd-cz-0010-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2344,
-          "path": "assets/images/pfd-cz-0010-ordering.e4f624b2437c.svg"
-        }
-      ]
-    },
-    "pfd-cz-0011-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2219,
-          "path": "assets/images/pfd-cz-0011-hero.37c0aca5a3d1.svg"
-        }
-      ]
-    },
-    "pfd-cz-0011-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2433,
-          "path": "assets/images/pfd-cz-0011-ordering.d8ecb3c0a4b2.svg"
-        }
-      ]
-    },
-    "pfd-cz-0012-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2267,
-          "path": "assets/images/pfd-cz-0012-hero.6ca6eefd7766.svg"
-        }
-      ]
-    },
-    "pfd-cz-0013-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2079,
-          "path": "assets/images/pfd-cz-0013-hero.ddc24acdb01f.svg"
-        }
-      ]
-    },
-    "pfd-cz-0014-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2364,
-          "path": "assets/images/pfd-cz-0014-hero.431f1141f567.svg"
-        }
-      ]
-    },
-    "pfd-cz-0015-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2207,
-          "path": "assets/images/pfd-cz-0015-hero.84b403c85448.svg"
-        }
-      ]
-    },
-    "pfd-cz-0015-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2239,
-          "path": "assets/images/pfd-cz-0015-ordering.86d46cf26e96.svg"
-        }
-      ]
-    },
-    "pfd-cz-0016-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2328,
-          "path": "assets/images/pfd-cz-0016-hero.531d687d2ce4.svg"
-        }
-      ]
-    },
-    "pfd-cz-0017-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2373,
-          "path": "assets/images/pfd-cz-0017-hero.5b324b12f10d.svg"
-        }
-      ]
-    },
-    "pfd-cz-0018-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2282,
-          "path": "assets/images/pfd-cz-0018-hero.381fd7396a96.svg"
-        }
-      ]
-    },
-    "pfd-cz-0019-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2319,
-          "path": "assets/images/pfd-cz-0019-hero.0baeced231d5.svg"
-        }
-      ]
-    },
-    "pfd-cz-0020-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2325,
-          "path": "assets/images/pfd-cz-0020-hero.379f34885123.svg"
-        }
-      ]
-    },
-    "pfd-cz-0021-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2049,
-          "path": "assets/images/pfd-cz-0021-hero.a94464de30a3.svg"
-        }
-      ]
-    },
-    "pfd-cz-0022-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2207,
-          "path": "assets/images/pfd-cz-0022-hero.a6a58dfb2ce9.svg"
-        }
-      ]
-    },
-    "pfd-cz-0023-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2168,
-          "path": "assets/images/pfd-cz-0023-hero.42c6f1cb3799.svg"
-        }
-      ]
-    },
-    "pfd-cz-0024-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2202,
-          "path": "assets/images/pfd-cz-0024-hero.0f40a0b794b9.svg"
-        }
-      ]
-    },
-    "pfd-cz-0024-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2357,
-          "path": "assets/images/pfd-cz-0024-ordering.7851b8f850ab.svg"
-        }
-      ]
-    },
-    "pfd-cz-0025-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2119,
-          "path": "assets/images/pfd-cz-0025-hero.0997f961c5d4.svg"
-        }
-      ]
-    },
-    "pfd-cz-0026-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2277,
-          "path": "assets/images/pfd-cz-0026-hero.882cd6603f93.svg"
-        }
-      ]
-    },
-    "pfd-cz-0026-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2367,
-          "path": "assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
-        }
-      ]
-    },
-    "pfd-cz-0027-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2219,
-          "path": "assets/images/pfd-cz-0027-hero.45ca96554e3b.svg"
-        }
-      ]
-    },
-    "pfd-cz-0027-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2369,
-          "path": "assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
-        }
-      ]
-    },
-    "pfd-cz-0028-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2118,
-          "path": "assets/images/pfd-cz-0028-hero.c2ca80717b1a.svg"
-        }
-      ]
-    },
-    "pfd-cz-0029-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2114,
-          "path": "assets/images/pfd-cz-0029-hero.63c99546d2cf.svg"
-        }
-      ]
-    },
-    "pfd-cz-0031-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2160,
-          "path": "assets/images/pfd-cz-0031-hero.5a2eda837a28.svg"
-        }
-      ]
-    },
-    "pfd-cz-0032-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2082,
-          "path": "assets/images/pfd-cz-0032-hero.d4ca52e3e834.svg"
-        }
-      ]
-    },
-    "pfd-cz-0033-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2066,
-          "path": "assets/images/pfd-cz-0033-hero.16134a602545.svg"
-        }
-      ]
-    },
-    "pfd-cz-0034-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2158,
-          "path": "assets/images/pfd-cz-0034-hero.34bab46171de.svg"
-        }
-      ]
-    },
-    "pfd-cz-0035-hero": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2105,
-          "path": "assets/images/pfd-cz-0035-hero.28295457a227.svg"
         }
       ]
     },
@@ -1589,18 +564,21 @@
           "width": 480,
           "height": 360,
           "bytes": 37358,
+          "quality": 78,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 153524,
+          "quality": 78,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 288922,
+          "targetSized": true,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.1440.webp"
         }
       ]

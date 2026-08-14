@@ -15,16 +15,32 @@
     "format": "webp",
     "quality": 78,
     "variants": [
-      {"width":480,"maxBytes":92160},
-      {"width":960,"maxBytes":184320},
-      {"width":1440,"maxBytes":307200}
+      {
+        "width": 480,
+        "maxBytes": 92160
+      },
+      {
+        "width": 960,
+        "maxBytes": 184320
+      },
+      {
+        "width": 1440,
+        "maxBytes": 307200
+      }
     ],
     "minQuality": 48
   },
-  "entity": {"maxImages":8,"maxCoverImages":1},
-  "food": {"maxImages":12,"maxImagesPerTarget":3},
+  "entity": {
+    "maxImages": 8,
+    "maxCoverImages": 1
+  },
+  "food": {
+    "maxImages": 12,
+    "maxImagesPerTarget": 3
+  },
   "hero": {
-    "enforceForPublishedAtOrAfter": "2026-08-12T00:00:00.000Z",
-    "approvedRepresentations": ["documentary-photo"]
+    "approvedRepresentations": [
+      "documentary-photo"
+    ]
   }
 }
