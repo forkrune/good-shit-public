@@ -13,21 +13,18 @@
           "width": 480,
           "height": 360,
           "bytes": 27442,
-          "quality": 78,
           "path": "assets/images/bealach-na-ba-hero.a4e1dafc431f.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 110772,
-          "quality": 78,
           "path": "assets/images/bealach-na-ba-hero.a4e1dafc431f.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 242134,
-          "quality": 78,
           "path": "assets/images/bealach-na-ba-hero.a4e1dafc431f.1440.webp"
         }
       ]
@@ -2352,21 +2349,18 @@
           "width": 480,
           "height": 360,
           "bytes": 23878,
-          "quality": 78,
           "path": "assets/images/grossglockner-high-alpine-road-hero.3f1660398c42.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 86366,
-          "quality": 78,
           "path": "assets/images/grossglockner-high-alpine-road-hero.3f1660398c42.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 182160,
-          "quality": 78,
           "path": "assets/images/grossglockner-high-alpine-road-hero.3f1660398c42.1440.webp"
         }
       ]
@@ -2875,21 +2869,18 @@
           "width": 480,
           "height": 224,
           "bytes": 9378,
-          "quality": 78,
           "path": "assets/images/nockalm-road-hero.6253b084fa3e.480.webp"
         },
         {
           "width": 960,
           "height": 447,
           "bytes": 29214,
-          "quality": 78,
           "path": "assets/images/nockalm-road-hero.6253b084fa3e.960.webp"
         },
         {
           "width": 1440,
           "height": 671,
           "bytes": 57738,
-          "quality": 78,
           "path": "assets/images/nockalm-road-hero.6253b084fa3e.1440.webp"
         }
       ]
@@ -2904,21 +2895,18 @@
           "width": 480,
           "height": 289,
           "bytes": 35516,
-          "quality": 78,
           "path": "assets/images/stelvio-pass-road-hero.2635fa4165c6.480.webp"
         },
         {
           "width": 960,
           "height": 577,
           "bytes": 136480,
-          "quality": 78,
           "path": "assets/images/stelvio-pass-road-hero.2635fa4165c6.960.webp"
         },
         {
           "width": 1440,
           "height": 866,
           "bytes": 294438,
-          "targetSized": true,
           "path": "assets/images/stelvio-pass-road-hero.2635fa4165c6.1440.webp"
         }
       ]
