@@ -3,6 +3,2581 @@
   "format": "webp",
   "pathResolution": "relative-to-contract-static-root",
   "assets": {
+    "europe-attraction-austria-familypark-hero": {
+      "credit": "C.Stadler/Bwag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Margarethen_-_Familypark.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 244,
+          "bytes": 21292,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-familypark-hero.fabb0c90d6b4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 489,
+          "bytes": 83050,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-familypark-hero.fabb0c90d6b4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 733,
+          "bytes": 184564,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-familypark-hero.fabb0c90d6b4.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-austria-minimundus-hero": {
+      "credit": "Andreas E. Neuhold",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Overview_Minmundus.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 27104,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-minimundus-hero.04464eb98471.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 539,
+          "bytes": 109978,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-minimundus-hero.04464eb98471.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 809,
+          "bytes": 251708,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-minimundus-hero.04464eb98471.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-austria-swarovski-kristallwelten-hero": {
+      "credit": "Gegengoliath",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riese_sommer_by_Edgar_Moskopp.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 31388,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-swarovski-kristallwelten-hero.c4083f762df1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 138356,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-austria-swarovski-kristallwelten-hero.c4083f762df1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 291378,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-austria-swarovski-kristallwelten-hero.c4083f762df1.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-belgium-pairi-daiza-hero": {
+      "credit": "Daniel71953",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paradisio_Indo_2.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 29724,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-belgium-pairi-daiza-hero.1cba4c7e937b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 125330,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-belgium-pairi-daiza-hero.1cba4c7e937b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 280574,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-belgium-pairi-daiza-hero.1cba4c7e937b.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-belgium-plopsaland-de-panne-hero": {
+      "credit": "Jérémy-Günther-Heinz Jähnick",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plopsaland_De_Panne_-_De_Draak_(01).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 301,
+          "bytes": 42076,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-belgium-plopsaland-de-panne-hero.ff2e5d5e9841.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 602,
+          "bytes": 167228,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-belgium-plopsaland-de-panne-hero.ff2e5d5e9841.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 903,
+          "bytes": 290984,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-belgium-plopsaland-de-panne-hero.ff2e5d5e9841.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-bulgaria-aquapark-nessebar-hero": {
+      "credit": "aristidov",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquapark_Ravda_Nesebar_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 19112,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-bulgaria-aquapark-nessebar-hero.d45d35e8ed00.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 53876,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-bulgaria-aquapark-nessebar-hero.d45d35e8ed00.960.webp"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "bytes": 60478,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-bulgaria-aquapark-nessebar-hero.d45d35e8ed00.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-croatia-istralandia-hero": {
+      "credit": "Istralandia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istralandia_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 38954,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-croatia-istralandia-hero.db6854aa6bef.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 636,
+          "bytes": 137348,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-croatia-istralandia-hero.db6854aa6bef.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 954,
+          "bytes": 262554,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-croatia-istralandia-hero.db6854aa6bef.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-cyprus-waterworld-themed-waterpark-ayia-napa-hero": {
+      "credit": "karel291",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BA%D0%B2%D0%B0%D0%BF%D0%B0%D1%80%D0%BA_%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%80_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 15516,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-cyprus-waterworld-themed-waterpark-ayia-napa-hero.b034c5e05864.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 44582,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-cyprus-waterworld-themed-waterpark-ayia-napa-hero.b034c5e05864.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 76674,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-cyprus-waterworld-themed-waterpark-ayia-napa-hero.b034c5e05864.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-czechia-iqlandia-hero": {
+      "credit": "VitVit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liberec_IQLandia_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 289,
+          "bytes": 16886,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 578,
+          "bytes": 46382,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 867,
+          "bytes": 77312,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-czechia-mirakulum-hero": {
+      "credit": "Risajanda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Mirakulum.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 36072,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-mirakulum-hero.a5062a22c670.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 155188,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-mirakulum-hero.a5062a22c670.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 292862,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-czechia-mirakulum-hero.a5062a22c670.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-czechia-techmania-science-center-hero": {
+      "credit": "Techmaniak",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Are%C3%A1l_Techmania_Science_Center.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 138,
+          "bytes": 13344,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-techmania-science-center-hero.c5f7b04d3553.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 276,
+          "bytes": 46870,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-techmania-science-center-hero.c5f7b04d3553.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 414,
+          "bytes": 97990,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-techmania-science-center-hero.c5f7b04d3553.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-denmark-experimentarium-hero": {
+      "credit": "Johan Wessman / News Oresund",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20171005_Experimentarium_Hellerup_0062_(37729624156).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22304,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-experimentarium-hero.3410eedbd708.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 109618,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-experimentarium-hero.3410eedbd708.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 297338,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-experimentarium-hero.3410eedbd708.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-denmark-farup-sommerland-hero": {
+      "credit": "Peter Fiskerstrand",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A5rup_Sommerland.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 233,
+          "bytes": 28708,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-farup-sommerland-hero.d29d8d0bb677.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 467,
+          "bytes": 120548,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-farup-sommerland-hero.d29d8d0bb677.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 700,
+          "bytes": 275916,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-farup-sommerland-hero.d29d8d0bb677.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-denmark-legoland-billund-resort-hero": {
+      "credit": "Legoland Billund Resort",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Legoland_Billund_-_Flying_Eagle_2.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 444,
+          "height": 480,
+          "bytes": 38122,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-legoland-billund-resort-hero.424e5df4e1e0.480.webp"
+        },
+        {
+          "width": 888,
+          "height": 960,
+          "bytes": 112824,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-legoland-billund-resort-hero.424e5df4e1e0.960.webp"
+        },
+        {
+          "width": 1332,
+          "height": 1440,
+          "bytes": 196578,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-legoland-billund-resort-hero.424e5df4e1e0.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-denmark-tivoli-gardens-hero": {
+      "credit": "Jakub Hałun",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_in_Tivoli_Gardens,_Copenhagen,_20220618_1307_7156.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 343,
+          "bytes": 35600,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-tivoli-gardens-hero.019ebb4211e0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 685,
+          "bytes": 169632,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-denmark-tivoli-gardens-hero.019ebb4211e0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1028,
+          "bytes": 291388,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-denmark-tivoli-gardens-hero.019ebb4211e0.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-alton-towers-hero": {
+      "credit": "Dunderklumpen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alton_Towers_-_Ch%C3%A2teau.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 15940,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-alton-towers-hero.cbb42599e05c.480.webp"
+        },
+        {
+          "width": 800,
+          "height": 600,
+          "bytes": 43240,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-alton-towers-hero.cbb42599e05c.960.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-beamish-museum-hero": {
+      "credit": "Mjobling",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beamish_Museum_street_scene.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 37028,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-beamish-museum-hero.b0be04f5c294.480.webp"
+        },
+        {
+          "width": 800,
+          "height": 533,
+          "bytes": 84374,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-beamish-museum-hero.b0be04f5c294.960.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-black-country-living-museum-hero": {
+      "credit": "Jack1956",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackcountrystreet.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 17682,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-black-country-living-museum-hero.31deba98fd9e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 48140,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-black-country-living-museum-hero.31deba98fd9e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 84578,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-black-country-living-museum-hero.31deba98fd9e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-eden-project-hero": {
+      "credit": "Jürgen Matern",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eden_Project_geodesic_domes_panorama.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 150,
+          "bytes": 17238,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-eden-project-hero.77311c4cfd05.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 300,
+          "bytes": 65982,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-eden-project-hero.77311c4cfd05.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 449,
+          "bytes": 149866,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-eden-project-hero.77311c4cfd05.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-eureka-the-national-children-s-museum-hero": {
+      "credit": "Sospot",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eureka!_exterior.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 297,
+          "bytes": 28102,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-eureka-the-national-children-s-museum-hero.262a5de1ccf9.480.webp"
+        },
+        {
+          "width": 725,
+          "height": 448,
+          "bytes": 59116,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-eureka-the-national-children-s-museum-hero.262a5de1ccf9.960.webp"
+        }
+      ]
+    },
+    "europe-attraction-england-warner-bros-studio-tour-london-the-making-of-har-hero": {
+      "credit": "Karen Roe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harry_Potter_Leavesden_entrance.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 253,
+          "bytes": 11528,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-warner-bros-studio-tour-london-the-making-of-har-hero.8bf67b02cc73.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 506,
+          "bytes": 35218,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-warner-bros-studio-tour-london-the-making-of-har-hero.8bf67b02cc73.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 759,
+          "bytes": 64382,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-england-warner-bros-studio-tour-london-the-making-of-har-hero.8bf67b02cc73.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-estonia-ahhaa-science-centre-hero": {
+      "credit": "Märt Kose",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahhaa_Tartu_web-1002_02.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 17400,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 43270,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 71140,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-estonia-proto-invention-factory-hero": {
+      "credit": "Sinikka Halme",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Noblessner_proto_invention_factory_tallinn_interior_3_-_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 29600,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-proto-invention-factory-hero.c5912a969bf3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 91796,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-proto-invention-factory-hero.c5912a969bf3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 176346,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-proto-invention-factory-hero.c5912a969bf3.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-finland-heureka-hero": {
+      "credit": "Danila Talikov",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heureka.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 22924,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-heureka-hero.dd1276d631af.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 102196,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-heureka-hero.dd1276d631af.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 246768,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-heureka-hero.dd1276d631af.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-finland-moominworld-hero": {
+      "credit": "kallerna",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muumitalo_3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 320,
+          "height": 480,
+          "bytes": 17530,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.480.webp"
+        },
+        {
+          "width": 640,
+          "height": 960,
+          "bytes": 61146,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.960.webp"
+        },
+        {
+          "width": 960,
+          "height": 1440,
+          "bytes": 122704,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-finland-powerpark-hero": {
+      "credit": "Sasu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PowerPark.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 13682,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-powerpark-hero.9cc19b46b60e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 44718,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-powerpark-hero.9cc19b46b60e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 84346,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-powerpark-hero.9cc19b46b60e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-france-cite-de-l-espace-hero": {
+      "credit": "Celeda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radar_%C3%A0_la_Cit%C3%A9_de_l%27Espace.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 464,
+          "bytes": 31274,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-cite-de-l-espace-hero.7a1f81f50731.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 928,
+          "bytes": 128214,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-cite-de-l-espace-hero.7a1f81f50731.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1391,
+          "bytes": 282374,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-cite-de-l-espace-hero.7a1f81f50731.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-france-futuroscope-hero": {
+      "credit": "Koakoo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_parc_du_futuroscope.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 39810,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-futuroscope-hero.162ea3e36f71.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 138518,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-futuroscope-hero.162ea3e36f71.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 259582,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-futuroscope-hero.162ea3e36f71.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-france-nausicaa-centre-national-de-la-mer-hero": {
+      "credit": "W. Bulach",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_3102_Marine_aquarium_%22Nausica%C3%A4%22_in_Boulogne-sur-Mer,_France.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 320,
+          "height": 480,
+          "bytes": 16214,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-nausicaa-centre-national-de-la-mer-hero.92a2462b0d65.480.webp"
+        },
+        {
+          "width": 640,
+          "height": 960,
+          "bytes": 49968,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-nausicaa-centre-national-de-la-mer-hero.92a2462b0d65.960.webp"
+        },
+        {
+          "width": 960,
+          "height": 1440,
+          "bytes": 100606,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-nausicaa-centre-national-de-la-mer-hero.92a2462b0d65.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-france-parc-asterix-hero": {
+      "credit": "cnb",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goudurix.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 296,
+          "bytes": 18120,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-parc-asterix-hero.ea82c786e0c5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 593,
+          "bytes": 73466,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-parc-asterix-hero.ea82c786e0c5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 889,
+          "bytes": 156938,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-parc-asterix-hero.ea82c786e0c5.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-france-puy-du-fou-hero": {
+      "credit": "Benoit SANSON",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Secret_de_la_Lance.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 366,
+          "bytes": 33054,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-puy-du-fou-hero.4e1035e6ad2c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 732,
+          "bytes": 136430,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-france-puy-du-fou-hero.4e1035e6ad2c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1098,
+          "bytes": 290670,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-france-puy-du-fou-hero.4e1035e6ad2c.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-autostadt-hero": {
+      "credit": "Ralf Roletschek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:14-01-18-autostadt-wob-037.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 443,
+          "height": 480,
+          "bytes": 34112,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-autostadt-hero.e77ed1dbd3df.480.webp"
+        },
+        {
+          "width": 885,
+          "height": 960,
+          "bytes": 126202,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-autostadt-hero.e77ed1dbd3df.960.webp"
+        },
+        {
+          "width": 1328,
+          "height": 1440,
+          "bytes": 275644,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-autostadt-hero.e77ed1dbd3df.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-europa-park-hero": {
+      "credit": "Thomas Berwing",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2008-04-26-DSC_1978-c-Europapark.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 44308,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-europa-park-hero.94c86697e137.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 165078,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-europa-park-hero.94c86697e137.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 292108,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-germany-europa-park-hero.94c86697e137.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-miniatur-wunderland-hero": {
+      "credit": "Steven Lek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miniatur_Wunderland_Hamburg.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 20354,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-miniatur-wunderland-hero.d254313d1bc4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 636,
+          "bytes": 73610,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-miniatur-wunderland-hero.d254313d1bc4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 954,
+          "bytes": 168988,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-miniatur-wunderland-hero.d254313d1bc4.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-phantasialand-hero": {
+      "credit": "Wolkenkratzer",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phantasialand_Br%C3%BChl.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 271,
+          "bytes": 21698,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 541,
+          "bytes": 92180,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 812,
+          "bytes": 238734,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-playmobil-funpark-hero": {
+      "credit": "Almondox",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playmobil_FunPark,_Garage_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 21258,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-playmobil-funpark-hero.502faabd7278.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 541,
+          "bytes": 71520,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-playmobil-funpark-hero.502faabd7278.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 811,
+          "bytes": 135900,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-playmobil-funpark-hero.502faabd7278.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-rulantica-hero": {
+      "credit": "Simone Graffi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rulantica_v.2.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 40798,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-rulantica-hero.c7f03ca0964a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 121244,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-rulantica-hero.c7f03ca0964a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 210492,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-rulantica-hero.c7f03ca0964a.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-germany-tropical-islands-hero": {
+      "credit": "Ralf Roletschek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20-05-13-Tropical-Islands-0883_1-RalfR.jpg",
+      "license": "CC BY-SA 1.0 fi",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0/fi/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 33416,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-tropical-islands-hero.ab0c6a34b19e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 719,
+          "bytes": 110496,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-tropical-islands-hero.ab0c6a34b19e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1079,
+          "bytes": 224754,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-tropical-islands-hero.ab0c6a34b19e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-greece-watercity-waterpark-crete-hero": {
+      "credit": "Pkioupakis",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watercity_panorama.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 45838,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-greece-watercity-waterpark-crete-hero.6521878cee37.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 169562,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-greece-watercity-waterpark-crete-hero.6521878cee37.960.webp"
+        },
+        {
+          "width": 1000,
+          "height": 667,
+          "bytes": 192268,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-greece-watercity-waterpark-crete-hero.6521878cee37.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-hungary-csodak-palotaja-hero": {
+      "credit": "SZERVÁC Attila",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CsoPa-Kiss-Csaba-still-1.png",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 6808,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-hungary-csodak-palotaja-hero.24dbac619d47.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 15606,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-hungary-csodak-palotaja-hero.24dbac619d47.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 26706,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-hungary-csodak-palotaja-hero.24dbac619d47.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-iceland-perlan-hero": {
+      "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190623_Perlan_8841_(48469867211).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 24802,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-iceland-perlan-hero.01e4995d8141.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 111394,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-iceland-perlan-hero.01e4995d8141.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 254760,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-iceland-perlan-hero.01e4995d8141.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-ireland-bunratty-castle-and-folk-park-hero": {
+      "credit": "Joseph Mischyshyn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bunratty_Folk_Park_-_Site_%5E4_-_Castle_-_Cannon_-_geograph.org.uk_-_3041753.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 48792,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-bunratty-castle-and-folk-park-hero.d4b64b712a83.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 174332,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-ireland-bunratty-castle-and-folk-park-hero.d4b64b712a83.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 290530,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-ireland-bunratty-castle-and-folk-park-hero.d4b64b712a83.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-ireland-emerald-park-hero": {
+      "credit": "Deadstar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viking_Voyage,_Tayto_Park,_August_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 33722,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-emerald-park-hero.db793ecfc2a2.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 127272,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-emerald-park-hero.db793ecfc2a2.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 270886,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-emerald-park-hero.db793ecfc2a2.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-ireland-epic-the-irish-emigration-museum-hero": {
+      "credit": "William Murphy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EPIC_The_Irish_Emigration_Museum.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 340,
+          "bytes": 27064,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-epic-the-irish-emigration-museum-hero.105078835fc2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 680,
+          "bytes": 106476,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-epic-the-irish-emigration-museum-hero.105078835fc2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1019,
+          "bytes": 276126,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-ireland-epic-the-irish-emigration-museum-hero.105078835fc2.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-italy-gardaland-hero": {
+      "credit": "Emanuela Meme Giudic…",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gardaland_-_panoramio_-_Emanuela_Meme_Giudic%E2%80%A6.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 27372,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-gardaland-hero.11aa50d56aff.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 82938,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-gardaland-hero.11aa50d56aff.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 152648,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-gardaland-hero.11aa50d56aff.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-italy-italia-in-miniatura-hero": {
+      "credit": "Hic et nunc",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italia_in_miniatura_3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 32484,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-italia-in-miniatura-hero.90607cde3acf.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 103270,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-italia-in-miniatura-hero.90607cde3acf.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 191780,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-italia-in-miniatura-hero.90607cde3acf.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-italy-leolandia-hero": {
+      "credit": "Martin Lewison",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minitalia_Leolandia_Park.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 20766,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-leolandia-hero.366a772bb585.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 88824,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-leolandia-hero.366a772bb585.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 205152,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-italy-leolandia-hero.366a772bb585.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-latvia-livu-akvaparks-hero": {
+      "credit": "Raul Cortez999",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C4%ABvu_Akvaparks.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 28554,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-latvia-livu-akvaparks-hero.2b9b92401bbe.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 636,
+          "bytes": 94348,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-latvia-livu-akvaparks-hero.2b9b92401bbe.960.webp"
+        },
+        {
+          "width": 1181,
+          "height": 783,
+          "bytes": 141474,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-latvia-livu-akvaparks-hero.2b9b92401bbe.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-lithuania-energy-and-technology-museum-hero": {
+      "credit": "Rimantas Lazdynas",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technikosmuziejus1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 343,
+          "bytes": 20954,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-lithuania-energy-and-technology-museum-hero.6d292159f3bc.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 686,
+          "bytes": 62748,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-lithuania-energy-and-technology-museum-hero.6d292159f3bc.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1028,
+          "bytes": 112620,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-lithuania-energy-and-technology-museum-hero.6d292159f3bc.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-luxembourg-parc-merveilleux-hero": {
+      "credit": "MMFE",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eingang_Park_Bettembourg_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 29690,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-luxembourg-parc-merveilleux-hero.826b824abe09.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 637,
+          "bytes": 134698,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-luxembourg-parc-merveilleux-hero.826b824abe09.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 955,
+          "bytes": 291082,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-luxembourg-parc-merveilleux-hero.826b824abe09.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-malta-popeye-village-hero": {
+      "credit": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pueblo_de_Popeye,_Mellie%C4%A7a,_isla_de_Malta,_Malta,_2021-08-24,_DD_02-03_PAN.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 209,
+          "bytes": 21316,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-malta-popeye-village-hero.6f8d43611a74.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 418,
+          "bytes": 87204,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-malta-popeye-village-hero.6f8d43611a74.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 626,
+          "bytes": 203950,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-malta-popeye-village-hero.6f8d43611a74.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-netherlands-archeon-hero": {
+      "credit": "Ziko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-05-04_Archeon_ZvD_44.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 35782,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-archeon-hero.b3ab020f6e1e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 167800,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-archeon-hero.b3ab020f6e1e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 291958,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-netherlands-archeon-hero.b3ab020f6e1e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-netherlands-efteling-hero": {
+      "credit": "Rémih",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Efteling_The_House_of_the_Five_Senses.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30106,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-efteling-hero.a676853dba8a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 110370,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-efteling-hero.a676853dba8a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 241998,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-efteling-hero.a676853dba8a.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-netherlands-madurodam-hero": {
+      "credit": "Cqui",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madurodam_pays_bas.JPG",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 39250,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-madurodam-hero.05501bae136a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 142138,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-madurodam-hero.05501bae136a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 272832,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-madurodam-hero.05501bae136a.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-netherlands-nemo-science-museum-hero": {
+      "credit": "Gamekeeper at Dutch Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NEMO_(Amsterdam).jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 13032,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-nemo-science-museum-hero.f1d424fddc6e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 49140,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-nemo-science-museum-hero.f1d424fddc6e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 91696,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-nemo-science-museum-hero.f1d424fddc6e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-netherlands-toverland-hero": {
+      "credit": "Mw007",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toverland_hoofdentree.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 221,
+          "bytes": 16670,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-toverland-hero.0d3481564f42.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 443,
+          "bytes": 68446,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-toverland-hero.0d3481564f42.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 664,
+          "bytes": 144692,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-netherlands-toverland-hero.0d3481564f42.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-northern-ireland-titanic-belfast-hero": {
+      "credit": "Own work",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titanic_Belfast_side_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 355,
+          "bytes": 27562,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-titanic-belfast-hero.da1c32a03cb6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 709,
+          "bytes": 89164,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-titanic-belfast-hero.da1c32a03cb6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1064,
+          "bytes": 178384,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-titanic-belfast-hero.da1c32a03cb6.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-northern-ireland-w5-hero": {
+      "credit": "Ardfern",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odyssey_Pavilion,_Belfast,_June_2010_(03).JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 17280,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-w5-hero.20884b1b8e3a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 51660,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-w5-hero.20884b1b8e3a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 95476,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-northern-ireland-w5-hero.20884b1b8e3a.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-norway-kongeparken-hero": {
+      "credit": "Jarvin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongeparken2007.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 16836,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-norway-kongeparken-hero.a1eb8988732e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 50434,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-norway-kongeparken-hero.a1eb8988732e.960.webp"
+        },
+        {
+          "width": 1439,
+          "height": 959,
+          "bytes": 103670,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-norway-kongeparken-hero.a1eb8988732e.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-poland-copernicus-science-centre-hero": {
+      "credit": "Kapitel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warszawa_Centrum_Nauki_Kopernik_(dron).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 36658,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-copernicus-science-centre-hero.01663207d021.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 140212,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-copernicus-science-centre-hero.01663207d021.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 292456,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-poland-copernicus-science-centre-hero.01663207d021.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-poland-energylandia-hero": {
+      "credit": "Tom a",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Energylandia_-_Entrance_(2018).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 347,
+          "bytes": 18966,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 694,
+          "bytes": 66378,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1040,
+          "bytes": 138846,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-poland-hydropolis-hero": {
+      "credit": "Robert Niedźwiedzki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydropolis._Water_tank_rn1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 328,
+          "bytes": 25314,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-hydropolis-hero.9dff1bf28f08.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 656,
+          "bytes": 116134,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-hydropolis-hero.9dff1bf28f08.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 984,
+          "bytes": 276508,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-hydropolis-hero.9dff1bf28f08.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-poland-kolejkowo-hero": {
+      "credit": "Travelarz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1WK15_Wroc%C5%82aw_%C5%9Awiebodzki_Kolejkowo_(01).JPG",
+      "license": "CC BY-SA 3.0 pl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 383,
+          "bytes": 22372,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-kolejkowo-hero.dab90489d341.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 767,
+          "bytes": 76540,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-kolejkowo-hero.dab90489d341.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1150,
+          "bytes": 160858,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-kolejkowo-hero.dab90489d341.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-portugal-oceanario-de-lisboa-hero": {
+      "credit": "Alvesgaspar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lisboa_June_2014-8a.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 315,
+          "bytes": 18944,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-oceanario-de-lisboa-hero.f0105dae8e1f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 629,
+          "bytes": 72404,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-oceanario-de-lisboa-hero.f0105dae8e1f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 944,
+          "bytes": 169122,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-oceanario-de-lisboa-hero.f0105dae8e1f.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-portugal-world-of-discoveries-hero": {
+      "credit": "Joseolgon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_of_Discoveries_(1).JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 14274,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-world-of-discoveries-hero.261818bfaa14.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 41518,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-world-of-discoveries-hero.261818bfaa14.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 83266,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-portugal-world-of-discoveries-hero.261818bfaa14.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-romania-salina-turda-hero": {
+      "credit": "Rkoster",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rudolfmijn_Salina_Turda.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 38380,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-salina-turda-hero.91172b8260b1.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 119168,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-salina-turda-hero.91172b8260b1.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 227546,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-salina-turda-hero.91172b8260b1.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-romania-therme-bucuresti-hero": {
+      "credit": "Daniele Napolitano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ThermeBucuresti.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 24064,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-therme-bucuresti-hero.02724201dea5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 92280,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-therme-bucuresti-hero.02724201dea5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 215588,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-romania-therme-bucuresti-hero.02724201dea5.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-scotland-camera-obscura-world-of-illusions-hero": {
+      "credit": "Kim Traynor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outlook_Tower,_Castlehill,_Edinburgh.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 18236,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-camera-obscura-world-of-illusions-hero.b6aee9ab9106.480.webp"
+        },
+        {
+          "width": 721,
+          "height": 960,
+          "bytes": 54432,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-camera-obscura-world-of-illusions-hero.b6aee9ab9106.960.webp"
+        },
+        {
+          "width": 1081,
+          "height": 1440,
+          "bytes": 100546,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-camera-obscura-world-of-illusions-hero.b6aee9ab9106.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-scotland-dynamic-earth-hero": {
+      "credit": "Lewis Clarke",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edinburgh_,_Dynamic_Earth_-_geograph.org.uk_-_4960196.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 18366,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-dynamic-earth-hero.a9b755b483ea.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 69078,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-dynamic-earth-hero.a9b755b483ea.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 146620,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-scotland-dynamic-earth-hero.a9b755b483ea.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-slovakia-treetop-walk-bachledka-hero": {
+      "credit": "young shanahan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chodn%C3%ADk_Korunami_Stromov_(Treetop_walk)_(50359326307).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 316,
+          "bytes": 34268,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovakia-treetop-walk-bachledka-hero.7dbba666bb6a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 632,
+          "bytes": 131074,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovakia-treetop-walk-bachledka-hero.7dbba666bb6a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 948,
+          "bytes": 280248,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovakia-treetop-walk-bachledka-hero.7dbba666bb6a.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-slovenia-postojna-cave-hero": {
+      "credit": "Gord Webster from Victoria, Canada",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Postojna_Cave_entrance_(14014357048).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 31054,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovenia-postojna-cave-hero.f48817a13699.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 112820,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovenia-postojna-cave-hero.f48817a13699.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 245072,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-slovenia-postojna-cave-hero.f48817a13699.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-cosmocaixa-barcelona-hero": {
+      "credit": "Jirka Dl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CosmoCaixa_building.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 22616,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-cosmocaixa-barcelona-hero.f778274e7d31.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 76068,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-cosmocaixa-barcelona-hero.f778274e7d31.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 157152,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-cosmocaixa-barcelona-hero.f778274e7d31.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-dinopolis-hero": {
+      "credit": "fernand0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Din%C3%B3polis_Teruel.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 14382,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-dinopolis-hero.b85cb525da2c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 51288,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-dinopolis-hero.b85cb525da2c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 121078,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-dinopolis-hero.b85cb525da2c.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-parque-warner-madrid-hero": {
+      "credit": "Miguel303xm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Insignia_del_Parque_Warner,_Madrid,_Espa%C3%B1a.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 368,
+          "bytes": 9862,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-parque-warner-madrid-hero.3137d957fe0d.480.webp"
+        },
+        {
+          "width": 795,
+          "height": 610,
+          "bytes": 19158,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-parque-warner-madrid-hero.3137d957fe0d.960.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-portaventura-world-hero": {
+      "credit": "Olivier Bruchez",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_general_del_llac_de_la_Mediterr%C3%A0nia.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 23124,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-portaventura-world-hero.56c2761b67a3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 84198,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-portaventura-world-hero.56c2761b67a3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 184502,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-portaventura-world-hero.56c2761b67a3.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-puy-du-fou-espana-hero": {
+      "credit": "Arturo Francisco Barbero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puy_du_Fou_Espa%C3%B1a.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 362,
+          "bytes": 21094,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-puy-du-fou-espana-hero.4d7b99c425b9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 723,
+          "bytes": 93886,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-puy-du-fou-espana-hero.4d7b99c425b9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1085,
+          "bytes": 221756,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-puy-du-fou-espana-hero.4d7b99c425b9.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-spain-siam-park-hero": {
+      "credit": "Mataparda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siamparkentrada1.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 190,
+          "bytes": 15184,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-siam-park-hero.9716dd72ac35.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 379,
+          "bytes": 54068,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-siam-park-hero.9716dd72ac35.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 569,
+          "bytes": 112306,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-spain-siam-park-hero.9716dd72ac35.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-sweden-astrid-lindgren-s-world-hero": {
+      "credit": "Kigsz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astrid_Lindgrens_V%C3%A4rld_-_Entr%C3%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 266,
+          "bytes": 16148,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-astrid-lindgren-s-world-hero.99c17e98a98c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 532,
+          "bytes": 60208,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-astrid-lindgren-s-world-hero.99c17e98a98c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 798,
+          "bytes": 133146,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-astrid-lindgren-s-world-hero.99c17e98a98c.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-sweden-high-chaparral-hero": {
+      "credit": "Pieter Kuiper",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:High_Chaparral_Theme_Park.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 22414,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-high-chaparral-hero.c74720bafc5b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 83982,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-high-chaparral-hero.c74720bafc5b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 964,
+          "bytes": 187348,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-high-chaparral-hero.c74720bafc5b.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-sweden-junibacken-hero": {
+      "credit": "Holger Ellgaard",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Junibacken_2007.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 342,
+          "bytes": 22842,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-junibacken-hero.c4d3239d1664.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 684,
+          "bytes": 71696,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-junibacken-hero.c4d3239d1664.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1026,
+          "bytes": 129844,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-junibacken-hero.c4d3239d1664.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-sweden-liseberg-hero": {
+      "credit": "AleWi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liseberg,_20221223.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 362,
+          "bytes": 33518,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-liseberg-hero.14477e16cdd3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 723,
+          "bytes": 136098,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-liseberg-hero.14477e16cdd3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1085,
+          "bytes": 303318,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-liseberg-hero.14477e16cdd3.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-sweden-tom-tits-experiment-hero": {
+      "credit": "Holger.Ellgaard",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Tits_Experiment_2013_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 322,
+          "bytes": 21132,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-tom-tits-experiment-hero.432b28e6360c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 80258,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-tom-tits-experiment-hero.432b28e6360c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 965,
+          "bytes": 176724,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-sweden-tom-tits-experiment-hero.432b28e6360c.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-switzerland-cern-science-gateway-hero": {
+      "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Geneva_2024_207.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 376,
+          "bytes": 34756,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-cern-science-gateway-hero.59fbc6c4d134.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 752,
+          "bytes": 123676,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-cern-science-gateway-hero.59fbc6c4d134.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1127,
+          "bytes": 248860,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-cern-science-gateway-hero.59fbc6c4d134.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-switzerland-chaplin-s-world-hero": {
+      "credit": "Tahdrummond",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ManoirdeBan.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 317,
+          "bytes": 53830,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-chaplin-s-world-hero.88431ad95b9e.480.webp"
+        },
+        {
+          "width": 600,
+          "height": 396,
+          "bytes": 82676,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-chaplin-s-world-hero.88431ad95b9e.960.webp"
+        }
+      ]
+    },
+    "europe-attraction-switzerland-swiss-museum-of-transport-hero": {
+      "credit": "W. Bulach",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_9020_Luzern_(CH)_-_Verkehrshaus.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 16816,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-museum-of-transport-hero.e7ea2b8bf9fe.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 60722,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-museum-of-transport-hero.e7ea2b8bf9fe.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 144890,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-museum-of-transport-hero.e7ea2b8bf9fe.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-switzerland-swiss-science-center-technorama-hero": {
+      "credit": "Satmap",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technorama2007.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 216,
+          "bytes": 15002,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-science-center-technorama-hero.657c75c76d2c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 433,
+          "bytes": 50440,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-science-center-technorama-hero.657c75c76d2c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 649,
+          "bytes": 119338,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-science-center-technorama-hero.657c75c76d2c.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-switzerland-swiss-vapeur-parc-hero": {
+      "credit": "Waldemar L",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_Vapeur_Parc.Miniature_Train_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 40054,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-vapeur-parc-hero.cf432b33288d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 143428,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-vapeur-parc-hero.cf432b33288d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 297316,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-switzerland-swiss-vapeur-parc-hero.cf432b33288d.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-wales-folly-farm-adventure-park-and-zoo-hero": {
+      "credit": "Gareth James",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffe_at_Folly_Farm_-_geograph.org.uk_-_3468461.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 37488,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-folly-farm-adventure-park-and-zoo-hero.1a42c05cb18b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 168302,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-folly-farm-adventure-park-and-zoo-hero.1a42c05cb18b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 292430,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-wales-folly-farm-adventure-park-and-zoo-hero.1a42c05cb18b.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-wales-techniquest-hero": {
+      "credit": "Tiia Monto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cardiff_-_Techniquest.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 170,
+          "bytes": 11732,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-techniquest-hero.4cb5aac5a3fb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 340,
+          "bytes": 42216,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-techniquest-hero.4cb5aac5a3fb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 510,
+          "bytes": 92270,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-techniquest-hero.4cb5aac5a3fb.1440.webp"
+        }
+      ]
+    },
+    "europe-attraction-wales-zip-world-hero": {
+      "credit": "Lewis Clarke",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llandygai_,_Bethesda_-_Zip_World_Entrance_-_geograph.org.uk_-_7820642.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 37342,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-zip-world-hero.ed5f47a2abb9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 162636,
+          "quality": 78,
+          "path": "assets/images/europe-attraction-wales-zip-world-hero.ed5f47a2abb9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 292094,
+          "targetSized": true,
+          "path": "assets/images/europe-attraction-wales-zip-world-hero.ed5f47a2abb9.1440.webp"
+        }
+      ]
+    },
     "japan-attractions-awa-odori-kaikan-hero": {
       "credit": "663highland",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
@@ -13,21 +2588,18 @@
           "width": 480,
           "height": 321,
           "bytes": 19646,
-          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.480.webp"
         },
         {
           "width": 960,
           "height": 643,
           "bytes": 57130,
-          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.960.webp"
         },
         {
           "width": 1440,
           "height": 964,
           "bytes": 103370,
-          "quality": 78,
           "path": "assets/images/japan-attractions-awa-odori-kaikan-hero.287fd046f872.1440.webp"
         }
       ]
@@ -42,21 +2614,18 @@
           "width": 480,
           "height": 360,
           "bytes": 28136,
-          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 88806,
-          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 161668,
-          "quality": 78,
           "path": "assets/images/japan-attractions-edo-wonderland-hero.7ef8bf105886.1440.webp"
         }
       ]
@@ -71,21 +2640,18 @@
           "width": 480,
           "height": 360,
           "bytes": 46798,
-          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 151912,
-          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 290958,
-          "quality": 78,
           "path": "assets/images/japan-attractions-hawaiians-hero.bdcf2275a699.1440.webp"
         }
       ]
@@ -100,21 +2666,18 @@
           "width": 480,
           "height": 360,
           "bytes": 21254,
-          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 73382,
-          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 148062,
-          "quality": 78,
           "path": "assets/images/japan-attractions-koiwai-farm-hero.a9c117c9f105.1440.webp"
         }
       ]
@@ -129,21 +2692,18 @@
           "width": 480,
           "height": 320,
           "bytes": 24446,
-          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 66758,
-          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 119380,
-          "quality": 78,
           "path": "assets/images/japan-attractions-misawa-hero.8286e316b518.1440.webp"
         }
       ]
@@ -158,21 +2718,18 @@
           "width": 360,
           "height": 480,
           "bytes": 23066,
-          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.480.webp"
         },
         {
           "width": 720,
           "height": 960,
           "bytes": 75242,
-          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.960.webp"
         },
         {
           "width": 1080,
           "height": 1440,
           "bytes": 143094,
-          "quality": 78,
           "path": "assets/images/japan-attractions-namahage-hero.18b7644b1eeb.1440.webp"
         }
       ]
@@ -187,21 +2744,18 @@
           "width": 480,
           "height": 320,
           "bytes": 29764,
-          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 83072,
-          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 139464,
-          "quality": 78,
           "path": "assets/images/japan-attractions-shiroi-koibito-hero.95cee01dbe41.1440.webp"
         }
       ]
@@ -216,21 +2770,18 @@
           "width": 480,
           "height": 360,
           "bytes": 34020,
-          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 139660,
-          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 307156,
-          "quality": 78,
           "path": "assets/images/japan-attractions-tottori-kodomonokuni-hero.5bb0fbbaabe9.1440.webp"
         }
       ]
@@ -245,21 +2796,18 @@
           "width": 480,
           "height": 360,
           "bytes": 28100,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 71416,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 122832,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yanmar-hero.7543b7243984.1440.webp"
         }
       ]
@@ -274,21 +2822,18 @@
           "width": 480,
           "height": 360,
           "bytes": 18918,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 68410,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 141576,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yoshinogari-hero.07a2fe8da7a9.1440.webp"
         }
       ]
@@ -303,21 +2848,18 @@
           "width": 480,
           "height": 319,
           "bytes": 35886,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.480.webp"
         },
         {
           "width": 960,
           "height": 638,
           "bytes": 141110,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.960.webp"
         },
         {
           "width": 1024,
           "height": 680,
           "bytes": 168636,
-          "quality": 78,
           "path": "assets/images/japan-attractions-yunokuni-hero.9f397eebd002.1440.webp"
         }
       ]
@@ -332,21 +2874,18 @@
           "width": 480,
           "height": 360,
           "bytes": 27672,
-          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 111568,
-          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.960.webp"
         },
         {
           "width": 1024,
           "height": 768,
           "bytes": 135858,
-          "quality": 78,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.1440.webp"
         }
       ]
@@ -361,21 +2900,18 @@
           "width": 480,
           "height": 360,
           "bytes": 31666,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 126422,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 279044,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-hero.6b7d1a1cc41d.1440.webp"
         }
       ]
@@ -390,21 +2926,18 @@
           "width": 360,
           "height": 480,
           "bytes": 41982,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.480.webp"
         },
         {
           "width": 720,
           "height": 960,
           "bytes": 148422,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.960.webp"
         },
         {
           "width": 1080,
           "height": 1440,
           "bytes": 296408,
-          "quality": 78,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.1440.webp"
         }
       ]
@@ -419,21 +2952,18 @@
           "width": 480,
           "height": 360,
           "bytes": 13292,
-          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 38192,
-          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 67168,
-          "quality": 78,
           "path": "assets/images/japan-destinations-miyajimanuma-hero.200aad9d10d3.1440.webp"
         }
       ]
@@ -448,21 +2978,18 @@
           "width": 480,
           "height": 360,
           "bytes": 18778,
-          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 52068,
-          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 90530,
-          "quality": 78,
           "path": "assets/images/japan-destinations-moriyoshiyama-hero.084e06bf5c8c.1440.webp"
         }
       ]
@@ -477,21 +3004,18 @@
           "width": 480,
           "height": 319,
           "bytes": 31016,
-          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.480.webp"
         },
         {
           "width": 960,
           "height": 638,
           "bytes": 109106,
-          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.960.webp"
         },
         {
           "width": 1440,
           "height": 956,
           "bytes": 216494,
-          "quality": 78,
           "path": "assets/images/japan-destinations-nameratoko-hero.66b1433ccbb8.1440.webp"
         }
       ]
@@ -506,21 +3030,18 @@
           "width": 480,
           "height": 360,
           "bytes": 27170,
-          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 89790,
-          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 172842,
-          "quality": 78,
           "path": "assets/images/japan-destinations-okuizumo-hero.eaa85ca7f49b.1440.webp"
         }
       ]
@@ -535,21 +3056,18 @@
           "width": 480,
           "height": 360,
           "bytes": 59142,
-          "quality": 78,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 174478,
-          "targetSized": true,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 296460,
-          "targetSized": true,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.1440.webp"
         }
       ]
@@ -564,21 +3082,18 @@
           "width": 480,
           "height": 360,
           "bytes": 37358,
-          "quality": 78,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.480.webp"
         },
         {
           "width": 960,
           "height": 720,
           "bytes": 153524,
-          "quality": 78,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.960.webp"
         },
         {
           "width": 1440,
           "height": 1080,
           "bytes": 288922,
-          "targetSized": true,
           "path": "assets/images/swiss-three-passes-furka-hero.d12b4befc606.1440.webp"
         }
       ]

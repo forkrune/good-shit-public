@@ -2,6 +2,636 @@
   "schemaVersion": 1,
   "assets": [
     {
+      "id": "europe-attraction-austria-familypark-hero",
+      "credit": "C.Stadler/Bwag",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Margarethen_-_Familypark.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-austria-minimundus-hero",
+      "credit": "Andreas E. Neuhold",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Overview_Minmundus.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-austria-swarovski-kristallwelten-hero",
+      "credit": "Gegengoliath",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riese_sommer_by_Edgar_Moskopp.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-belgium-pairi-daiza-hero",
+      "credit": "Daniel71953",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paradisio_Indo_2.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-belgium-plopsaland-de-panne-hero",
+      "credit": "Jérémy-Günther-Heinz Jähnick",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plopsaland_De_Panne_-_De_Draak_(01).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-bulgaria-aquapark-nessebar-hero",
+      "credit": "aristidov",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquapark_Ravda_Nesebar_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-croatia-istralandia-hero",
+      "credit": "Istralandia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Istralandia_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-cyprus-waterworld-themed-waterpark-ayia-napa-hero",
+      "credit": "karel291",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BA%D0%B2%D0%B0%D0%BF%D0%B0%D1%80%D0%BA_%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%9C%D0%B8%D1%80_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-czechia-iqlandia-hero",
+      "credit": "VitVit",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liberec_IQLandia_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-czechia-mirakulum-hero",
+      "credit": "Risajanda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Mirakulum.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-czechia-techmania-science-center-hero",
+      "credit": "Techmaniak",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Are%C3%A1l_Techmania_Science_Center.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-denmark-experimentarium-hero",
+      "credit": "Johan Wessman / News Oresund",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20171005_Experimentarium_Hellerup_0062_(37729624156).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "id": "europe-attraction-denmark-farup-sommerland-hero",
+      "credit": "Peter Fiskerstrand",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A5rup_Sommerland.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-denmark-legoland-billund-resort-hero",
+      "credit": "Legoland Billund Resort",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Legoland_Billund_-_Flying_Eagle_2.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-denmark-tivoli-gardens-hero",
+      "credit": "Jakub Hałun",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_in_Tivoli_Gardens,_Copenhagen,_20220618_1307_7156.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-england-alton-towers-hero",
+      "credit": "Dunderklumpen",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alton_Towers_-_Ch%C3%A2teau.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-england-beamish-museum-hero",
+      "credit": "Mjobling",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beamish_Museum_street_scene.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-england-black-country-living-museum-hero",
+      "credit": "Jack1956",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackcountrystreet.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-england-eden-project-hero",
+      "credit": "Jürgen Matern",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eden_Project_geodesic_domes_panorama.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "id": "europe-attraction-england-eureka-the-national-children-s-museum-hero",
+      "credit": "Sospot",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eureka!_exterior.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-england-warner-bros-studio-tour-london-the-making-of-har-hero",
+      "credit": "Karen Roe",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harry_Potter_Leavesden_entrance.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-estonia-ahhaa-science-centre-hero",
+      "credit": "Märt Kose",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ahhaa_Tartu_web-1002_02.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "id": "europe-attraction-estonia-proto-invention-factory-hero",
+      "credit": "Sinikka Halme",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Noblessner_proto_invention_factory_tallinn_interior_3_-_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-finland-heureka-hero",
+      "credit": "Danila Talikov",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heureka.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-finland-moominworld-hero",
+      "credit": "kallerna",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muumitalo_3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-finland-powerpark-hero",
+      "credit": "Sasu",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PowerPark.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-france-cite-de-l-espace-hero",
+      "credit": "Celeda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Radar_%C3%A0_la_Cit%C3%A9_de_l%27Espace.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-france-futuroscope-hero",
+      "credit": "Koakoo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_parc_du_futuroscope.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-france-nausicaa-centre-national-de-la-mer-hero",
+      "credit": "W. Bulach",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_3102_Marine_aquarium_%22Nausica%C3%A4%22_in_Boulogne-sur-Mer,_France.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-france-parc-asterix-hero",
+      "credit": "cnb",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goudurix.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-france-puy-du-fou-hero",
+      "credit": "Benoit SANSON",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Secret_de_la_Lance.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-germany-autostadt-hero",
+      "credit": "Ralf Roletschek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:14-01-18-autostadt-wob-037.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-germany-europa-park-hero",
+      "credit": "Thomas Berwing",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2008-04-26-DSC_1978-c-Europapark.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-germany-miniatur-wunderland-hero",
+      "credit": "Steven Lek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miniatur_Wunderland_Hamburg.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-germany-phantasialand-hero",
+      "credit": "Wolkenkratzer",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phantasialand_Br%C3%BChl.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-germany-playmobil-funpark-hero",
+      "credit": "Almondox",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Playmobil_FunPark,_Garage_-_panoramio.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-germany-rulantica-hero",
+      "credit": "Simone Graffi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rulantica_v.2.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-germany-tropical-islands-hero",
+      "credit": "Ralf Roletschek",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20-05-13-Tropical-Islands-0883_1-RalfR.jpg",
+      "license": "CC BY-SA 1.0 fi",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0/fi/deed.en"
+    },
+    {
+      "id": "europe-attraction-greece-watercity-waterpark-crete-hero",
+      "credit": "Pkioupakis",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watercity_panorama.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-hungary-csodak-palotaja-hero",
+      "credit": "SZERVÁC Attila",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CsoPa-Kiss-Csaba-still-1.png",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-iceland-perlan-hero",
+      "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20190623_Perlan_8841_(48469867211).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-ireland-bunratty-castle-and-folk-park-hero",
+      "credit": "Joseph Mischyshyn",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bunratty_Folk_Park_-_Site_%5E4_-_Castle_-_Cannon_-_geograph.org.uk_-_3041753.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-ireland-emerald-park-hero",
+      "credit": "Deadstar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viking_Voyage,_Tayto_Park,_August_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-ireland-epic-the-irish-emigration-museum-hero",
+      "credit": "William Murphy",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EPIC_The_Irish_Emigration_Museum.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-italy-gardaland-hero",
+      "credit": "Emanuela Meme Giudic…",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gardaland_-_panoramio_-_Emanuela_Meme_Giudic%E2%80%A6.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "europe-attraction-italy-italia-in-miniatura-hero",
+      "credit": "Hic et nunc",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Italia_in_miniatura_3.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-italy-leolandia-hero",
+      "credit": "Martin Lewison",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minitalia_Leolandia_Park.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-latvia-livu-akvaparks-hero",
+      "credit": "Raul Cortez999",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C4%ABvu_Akvaparks.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-lithuania-energy-and-technology-museum-hero",
+      "credit": "Rimantas Lazdynas",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technikosmuziejus1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-luxembourg-parc-merveilleux-hero",
+      "credit": "MMFE",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eingang_Park_Bettembourg_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-malta-popeye-village-hero",
+      "credit": "Diego Delso",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pueblo_de_Popeye,_Mellie%C4%A7a,_isla_de_Malta,_Malta,_2021-08-24,_DD_02-03_PAN.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-netherlands-archeon-hero",
+      "credit": "Ziko",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2023-05-04_Archeon_ZvD_44.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-netherlands-efteling-hero",
+      "credit": "Rémih",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Efteling_The_House_of_the_Five_Senses.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-netherlands-madurodam-hero",
+      "credit": "Cqui",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madurodam_pays_bas.JPG",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "id": "europe-attraction-netherlands-nemo-science-museum-hero",
+      "credit": "Gamekeeper at Dutch Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NEMO_(Amsterdam).jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-netherlands-toverland-hero",
+      "credit": "Mw007",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toverland_hoofdentree.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-northern-ireland-titanic-belfast-hero",
+      "credit": "Own work",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titanic_Belfast_side_view.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-northern-ireland-w5-hero",
+      "credit": "Ardfern",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Odyssey_Pavilion,_Belfast,_June_2010_(03).JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-norway-kongeparken-hero",
+      "credit": "Jarvin",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kongeparken2007.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "id": "europe-attraction-poland-copernicus-science-centre-hero",
+      "credit": "Kapitel",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warszawa_Centrum_Nauki_Kopernik_(dron).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-poland-energylandia-hero",
+      "credit": "Tom a",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Energylandia_-_Entrance_(2018).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-poland-hydropolis-hero",
+      "credit": "Robert Niedźwiedzki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydropolis._Water_tank_rn1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-poland-kolejkowo-hero",
+      "credit": "Travelarz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1WK15_Wroc%C5%82aw_%C5%9Awiebodzki_Kolejkowo_(01).JPG",
+      "license": "CC BY-SA 3.0 pl",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en"
+    },
+    {
+      "id": "europe-attraction-portugal-oceanario-de-lisboa-hero",
+      "credit": "Alvesgaspar",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lisboa_June_2014-8a.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-portugal-world-of-discoveries-hero",
+      "credit": "Joseolgon",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_of_Discoveries_(1).JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-romania-salina-turda-hero",
+      "credit": "Rkoster",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rudolfmijn_Salina_Turda.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "id": "europe-attraction-romania-therme-bucuresti-hero",
+      "credit": "Daniele Napolitano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ThermeBucuresti.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-scotland-camera-obscura-world-of-illusions-hero",
+      "credit": "Kim Traynor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Outlook_Tower,_Castlehill,_Edinburgh.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-scotland-dynamic-earth-hero",
+      "credit": "Lewis Clarke",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edinburgh_,_Dynamic_Earth_-_geograph.org.uk_-_4960196.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-slovakia-treetop-walk-bachledka-hero",
+      "credit": "young shanahan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chodn%C3%ADk_Korunami_Stromov_(Treetop_walk)_(50359326307).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "europe-attraction-slovenia-postojna-cave-hero",
+      "credit": "Gord Webster from Victoria, Canada",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Postojna_Cave_entrance_(14014357048).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-spain-cosmocaixa-barcelona-hero",
+      "credit": "Jirka Dl",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CosmoCaixa_building.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-spain-dinopolis-hero",
+      "credit": "fernand0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Din%C3%B3polis_Teruel.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-spain-parque-warner-madrid-hero",
+      "credit": "Miguel303xm",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Insignia_del_Parque_Warner,_Madrid,_Espa%C3%B1a.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "id": "europe-attraction-spain-portaventura-world-hero",
+      "credit": "Olivier Bruchez",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_general_del_llac_de_la_Mediterr%C3%A0nia.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-spain-puy-du-fou-espana-hero",
+      "credit": "Arturo Francisco Barbero",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puy_du_Fou_Espa%C3%B1a.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-spain-siam-park-hero",
+      "credit": "Mataparda",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siamparkentrada1.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-sweden-astrid-lindgren-s-world-hero",
+      "credit": "Kigsz",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astrid_Lindgrens_V%C3%A4rld_-_Entr%C3%A9.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-sweden-high-chaparral-hero",
+      "credit": "Pieter Kuiper",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:High_Chaparral_Theme_Park.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "europe-attraction-sweden-junibacken-hero",
+      "credit": "Holger Ellgaard",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Junibacken_2007.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-sweden-liseberg-hero",
+      "credit": "AleWi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liseberg,_20221223.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-sweden-tom-tits-experiment-hero",
+      "credit": "Holger.Ellgaard",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom_Tits_Experiment_2013_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-switzerland-cern-science-gateway-hero",
+      "credit": "Photograph by Mike Peel ( www.mikepeel.net ).",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:At_Geneva_2024_207.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-switzerland-chaplin-s-world-hero",
+      "credit": "Tahdrummond",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ManoirdeBan.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-switzerland-swiss-museum-of-transport-hero",
+      "credit": "W. Bulach",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_9020_Luzern_(CH)_-_Verkehrshaus.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-switzerland-swiss-science-center-technorama-hero",
+      "credit": "Satmap",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technorama2007.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-switzerland-swiss-vapeur-parc-hero",
+      "credit": "Waldemar L",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_Vapeur_Parc.Miniature_Train_Park.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "europe-attraction-wales-folly-farm-adventure-park-and-zoo-hero",
+      "credit": "Gareth James",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffe_at_Folly_Farm_-_geograph.org.uk_-_3468461.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "europe-attraction-wales-techniquest-hero",
+      "credit": "Tiia Monto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cardiff_-_Techniquest.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "europe-attraction-wales-zip-world-hero",
+      "credit": "Lewis Clarke",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llandygai_,_Bethesda_-_Zip_World_Entrance_-_geograph.org.uk_-_7820642.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
       "id": "japan-attractions-awa-odori-kaikan-hero",
       "credit": "663highland",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
