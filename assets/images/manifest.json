@@ -2339,6 +2339,240 @@
         }
       ]
     },
+    "europe-immersive-gap-bochnia-salt-mine-hero": {
+      "credit": "Kj",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamber_in_Bochnia_Salt_Mine.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 18926,
+          "path": "assets/images/europe-immersive-gap-bochnia-salt-mine-hero.12ad7bccc7a8.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 69430,
+          "path": "assets/images/europe-immersive-gap-bochnia-salt-mine-hero.12ad7bccc7a8.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 147500,
+          "path": "assets/images/europe-immersive-gap-bochnia-salt-mine-hero.12ad7bccc7a8.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-chartres-en-lumieres-hero": {
+      "credit": "DebiPass",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cath%C3%A9drale_de_Chartres_en_Lumi%C3%A8re.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 35826,
+          "path": "assets/images/europe-immersive-gap-chartres-en-lumieres-hero.4000917cf736.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 86502,
+          "path": "assets/images/europe-immersive-gap-chartres-en-lumieres-hero.4000917cf736.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 144678,
+          "path": "assets/images/europe-immersive-gap-chartres-en-lumieres-hero.4000917cf736.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-delos-hero": {
+      "credit": "Andrant83",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delos_-_ancient.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 19354,
+          "path": "assets/images/europe-immersive-gap-delos-hero.a25f275cd0e1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 68150,
+          "path": "assets/images/europe-immersive-gap-delos-hero.a25f275cd0e1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 140122,
+          "path": "assets/images/europe-immersive-gap-delos-hero.a25f275cd0e1.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-fire-of-anatolia-hero": {
+      "credit": "Hassene nostra",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire_of_anatolia.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 378,
+          "bytes": 23546,
+          "path": "assets/images/europe-immersive-gap-fire-of-anatolia-hero.4614b1914fa7.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 755,
+          "bytes": 68600,
+          "path": "assets/images/europe-immersive-gap-fire-of-anatolia-hero.4614b1914fa7.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1133,
+          "bytes": 127844,
+          "path": "assets/images/europe-immersive-gap-fire-of-anatolia-hero.4614b1914fa7.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-guido-queen-louise-hero": {
+      "credit": "Andrzej Otrębski",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zabrze_kopalnia_Guido_03.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 20072,
+          "path": "assets/images/europe-immersive-gap-guido-queen-louise-hero.b9a41288279c.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 55404,
+          "path": "assets/images/europe-immersive-gap-guido-queen-louise-hero.b9a41288279c.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 92370,
+          "path": "assets/images/europe-immersive-gap-guido-queen-louise-hero.b9a41288279c.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-ostia-antica-hero": {
+      "credit": "Livioandronico2013",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ostia_Antica..JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30596,
+          "path": "assets/images/europe-immersive-gap-ostia-antica-hero.f40db6dad2d9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 115224,
+          "path": "assets/images/europe-immersive-gap-ostia-antica-hero.f40db6dad2d9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 249670,
+          "path": "assets/images/europe-immersive-gap-ostia-antica-hero.f40db6dad2d9.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-portuguese-equestrian-gala-hero": {
+      "credit": "Nancy Brown",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queluz_Palace_horses_approach_(9180978620).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 38392,
+          "path": "assets/images/europe-immersive-gap-portuguese-equestrian-gala-hero.fbf374a6f353.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 117108,
+          "path": "assets/images/europe-immersive-gap-portuguese-equestrian-gala-hero.fbf374a6f353.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 214458,
+          "path": "assets/images/europe-immersive-gap-portuguese-equestrian-gala-hero.fbf374a6f353.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-siida-hero": {
+      "credit": "MattiPaavola",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siida_museum_facade_Inari_Finland_2009-10-01.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 10838,
+          "path": "assets/images/europe-immersive-gap-siida-hero.1f2f6c400d05.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 36310,
+          "path": "assets/images/europe-immersive-gap-siida-hero.1f2f6c400d05.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 71044,
+          "path": "assets/images/europe-immersive-gap-siida-hero.1f2f6c400d05.1440.webp"
+        }
+      ]
+    },
+    "europe-immersive-gap-zollverein-hero": {
+      "credit": "U293926",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zollverein_coal_mine.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 274,
+          "bytes": 20260,
+          "path": "assets/images/europe-immersive-gap-zollverein-hero.e29241602821.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 548,
+          "bytes": 65222,
+          "path": "assets/images/europe-immersive-gap-zollverein-hero.e29241602821.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 821,
+          "bytes": 130194,
+          "path": "assets/images/europe-immersive-gap-zollverein-hero.e29241602821.1440.webp"
+        }
+      ]
+    },
     "grossglockner-high-alpine-road-hero": {
       "credit": "Dimitry Anikin / Wikimedia Commons",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fglockner-Hochalpenstra%C3%9Fe_1.jpg",

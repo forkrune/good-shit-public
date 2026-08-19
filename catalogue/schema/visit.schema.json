@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/visit.schema.json",
+  "title": "Good Shit visitor-decision facts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "timing": { "$ref": "#/$defs/timing" },
+    "language": { "$ref": "#/$defs/language" },
+    "booking": { "$ref": "#/$defs/booking" },
+    "duration": { "$ref": "#/$defs/duration" },
+    "mobility": { "$ref": "#/$defs/mobility" },
+    "notices": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/ruleId" },
+      "additionalProperties": { "$ref": "#/$defs/notice" }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["setting"],
+      "properties": {
+        "setting": { "enum": ["indoor", "outdoor", "mixed"] }
+      }
+    }
+  },
+  "$defs": {
+    "ruleId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "languageTag": { "type": "string", "minLength": 1 },
+    "languageTags": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/languageTag" }
+    },
+    "timeRange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": { "type": "string", "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d$" },
+        "end": { "type": "string", "pattern": "^(?:[01]\\d|2[0-3]):[0-5]\\d$" }
+      }
+    },
+    "window": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allYear": { "const": true },
+        "annualMonths": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "integer", "minimum": 1, "maximum": 12 }
+        },
+        "annualRange": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "string", "pattern": "^\\d{2}-\\d{2}$" },
+            "end": { "type": "string", "pattern": "^\\d{2}-\\d{2}$" }
+          }
+        },
+        "absoluteRange": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start"],
+          "properties": {
+            "start": { "type": "string", "format": "date" },
+            "end": { "type": "string", "format": "date" }
+          }
+        },
+        "weekdays": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "integer", "minimum": 1, "maximum": 7 }
+        },
+        "localTimeRanges": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/timeRange" }
+        }
+      },
+      "oneOf": [
+        { "required": ["allYear"] },
+        { "required": ["annualMonths"] },
+        { "required": ["annualRange"] },
+        { "required": ["absoluteRange"] }
+      ]
+    },
+    "availabilityRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "window"],
+      "properties": {
+        "status": { "enum": ["available", "restricted", "closed"] },
+        "window": { "$ref": "#/$defs/window" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "suitabilityRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "window"],
+      "properties": {
+        "rating": { "enum": ["ideal", "good", "poor", "avoid"] },
+        "window": { "$ref": "#/$defs/window" },
+        "reasons": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["weather", "surface-conditions", "natural-phenomenon", "crowds", "daylight", "access", "programming", "scenery", "other"] }
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "conditionRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["effect", "condition"],
+      "properties": {
+        "effect": { "enum": ["prepare", "restricted", "poor", "avoid"] },
+        "condition": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "timing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "timeZone": { "type": "string", "minLength": 1 },
+        "availability": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/ruleId" },
+          "additionalProperties": { "$ref": "#/$defs/availabilityRule" }
+        },
+        "suitability": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/ruleId" },
+          "additionalProperties": { "$ref": "#/$defs/suitabilityRule" }
+        },
+        "conditions": {
+          "type": "object",
+          "propertyNames": { "$ref": "#/$defs/ruleId" },
+          "additionalProperties": { "$ref": "#/$defs/conditionRule" }
+        },
+        "current": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status"],
+          "properties": {
+            "status": { "enum": ["operating", "restricted", "temporarily-closed", "uncertain"] },
+            "expectedUntil": { "type": "string", "format": "date" },
+            "note": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "languageRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level"],
+      "properties": {
+        "level": { "enum": ["not-applicable", "none", "low", "material", "essential"] },
+        "languages": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/languageTag" }
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "languageSupport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["languages"],
+      "properties": {
+        "languages": { "$ref": "#/$defs/languageTags" },
+        "extent": { "enum": ["full", "partial"] },
+        "availability": { "enum": ["regular", "scheduled", "on-request", "variable"] },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["viability"],
+      "properties": {
+        "viability": { "enum": ["effective", "workable", "limited", "not-realistic"] },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "requirements": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "coreExperience": { "$ref": "#/$defs/languageRequirement" },
+            "participation": { "$ref": "#/$defs/languageRequirement" },
+            "booking": { "$ref": "#/$defs/languageRequirement" },
+            "safety": { "$ref": "#/$defs/languageRequirement" }
+          }
+        },
+        "support": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "staff": { "$ref": "#/$defs/languageSupport" },
+            "signage": { "$ref": "#/$defs/languageSupport" },
+            "guidedTours": { "$ref": "#/$defs/languageSupport" },
+            "audio": { "$ref": "#/$defs/languageSupport" },
+            "digital": { "$ref": "#/$defs/languageSupport" },
+            "menu": { "$ref": "#/$defs/languageSupport" },
+            "instructions": { "$ref": "#/$defs/languageSupport" },
+            "booking": { "$ref": "#/$defs/languageSupport" }
+          }
+        },
+        "translation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "coreExperience": { "$ref": "#/$defs/translation" },
+            "participation": { "$ref": "#/$defs/translation" },
+            "booking": { "$ref": "#/$defs/translation" },
+            "safety": { "$ref": "#/$defs/translation" }
+          }
+        }
+      }
+    },
+    "booking": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requirement"],
+      "properties": {
+        "requirement": { "enum": ["not-applicable", "not-required", "recommended", "required", "conditional", "unclear"] },
+        "timedEntry": { "enum": ["not-used", "optional", "required"] },
+        "leadTime": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "minimumDays": { "type": "integer", "minimum": 0 },
+            "recommendedDays": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "duration": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "typicalMinutes": { "type": "integer", "minimum": 1 },
+        "minMinutes": { "type": "integer", "minimum": 1 },
+        "maxMinutes": { "type": "integer", "minimum": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      },
+      "anyOf": [
+        { "required": ["typicalMinutes"] },
+        { "required": ["minMinutes"] },
+        { "required": ["maxMinutes"] }
+      ]
+    },
+    "mobility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "stepFree": { "enum": ["full", "partial", "none"] },
+        "wheelchair": { "enum": ["independent", "assistance-needed", "partial", "not-practical"] },
+        "stroller": { "enum": ["practical", "partial", "not-practical"] },
+        "walkingDemand": { "enum": ["minimal", "light", "moderate", "substantial"] },
+        "barriers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "enum": ["stairs", "steep-grades", "uneven-surface", "unpaved", "narrow-passages", "soft-surface", "water-crossing"] }
+        },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "notice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "impact", "label"],
+      "properties": {
+        "kind": { "enum": ["equipment", "clothing", "sensory", "etiquette", "photography", "pets", "safety", "legal", "payment", "connectivity", "facilities", "other"] },
+        "impact": { "enum": ["prepare", "material", "blocking"] },
+        "label": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

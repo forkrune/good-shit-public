@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "package": "maplibre-gl",
+  "version": "6.2.0",
+  "integrity": "sha512-PaNYtxWmYgIdDHshXsnU3Pho+H9IPme9H6dTjZbFWNazi+Q5QgKgIlu2GiSGVtOZ77/Fz3n5/1/kGM6ETzu0Lg==",
+  "modulePath": "assets/vendor/maplibre/6.2.0/maplibre-gl.mjs",
+  "cssPath": "assets/vendor/maplibre/6.2.0/maplibre-gl.css",
+  "licensePath": "assets/vendor/maplibre/6.2.0/LICENSE.txt",
+  "files": [
+    "maplibre-gl-shared.mjs",
+    "maplibre-gl-shared.mjs.map",
+    "maplibre-gl.css",
+    "maplibre-gl.mjs",
+    "maplibre-gl.mjs.map"
+  ]
+}
