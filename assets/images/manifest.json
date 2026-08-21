@@ -2599,6 +2599,1046 @@
         }
       ]
     },
+    "hero-0113d95b-commons": {
+      "credit": "Huhulenik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Certovo%20jezero%20(3).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 337,
+          "bytes": 21098,
+          "path": "assets/images/hero-0113d95b-commons.032a54c13c4f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 674,
+          "bytes": 76906,
+          "path": "assets/images/hero-0113d95b-commons.032a54c13c4f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1011,
+          "bytes": 160544,
+          "path": "assets/images/hero-0113d95b-commons.032a54c13c4f.1440.webp"
+        }
+      ]
+    },
+    "hero-0a3db85d-commons": {
+      "credit": "Mirek256",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lovo%C5%A1%20s%20d%C3%A1lnic%C3%AD.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 11064,
+          "path": "assets/images/hero-0a3db85d-commons.329cfb4af6e0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 44330,
+          "path": "assets/images/hero-0a3db85d-commons.329cfb4af6e0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 93830,
+          "path": "assets/images/hero-0a3db85d-commons.329cfb4af6e0.1440.webp"
+        }
+      ]
+    },
+    "hero-0e53e1e5-commons": {
+      "credit": "Huhulenik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tisk%C3%A9%20st%C4%9Bny%20(7).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 287,
+          "bytes": 26766,
+          "path": "assets/images/hero-0e53e1e5-commons.6979cf6d1fac.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 574,
+          "bytes": 104304,
+          "path": "assets/images/hero-0e53e1e5-commons.6979cf6d1fac.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 861,
+          "bytes": 214222,
+          "path": "assets/images/hero-0e53e1e5-commons.6979cf6d1fac.1440.webp"
+        }
+      ]
+    },
+    "hero-1d0d0dfd-commons": {
+      "credit": "Christoffer H. Støle",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melderskin%20fr%C3%A5%20Stussvikhovda.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 17630,
+          "path": "assets/images/hero-1d0d0dfd-commons.a678922ae504.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 56908,
+          "path": "assets/images/hero-1d0d0dfd-commons.a678922ae504.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 108356,
+          "path": "assets/images/hero-1d0d0dfd-commons.a678922ae504.1440.webp"
+        }
+      ]
+    },
+    "hero-21ca2e5a-commons": {
+      "credit": "John commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pust%C3%BD%20%C5%BEleb%2092%20%C4%8Certova%20branka.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pust%C3%BD%20%C5%BEleb%2092%20%C4%8Certova%20branka.jpg",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 39716,
+          "path": "assets/images/hero-21ca2e5a-commons.cd242591fdd9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 132136,
+          "path": "assets/images/hero-21ca2e5a-commons.cd242591fdd9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 254238,
+          "path": "assets/images/hero-21ca2e5a-commons.cd242591fdd9.1440.webp"
+        }
+      ]
+    },
+    "hero-2e6f0718-commons": {
+      "credit": "Urs.Schmid007",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Breccaschlund%2002.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 34430,
+          "path": "assets/images/hero-2e6f0718-commons.294411de283f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 124402,
+          "path": "assets/images/hero-2e6f0718-commons.294411de283f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 256286,
+          "path": "assets/images/hero-2e6f0718-commons.294411de283f.1440.webp"
+        }
+      ]
+    },
+    "hero-3e11e07d-commons": {
+      "credit": "Agnes Monkelbaan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergtocht%20van%20S-charl%20naar%20Alp%20Sesvenna.%2010-09-2019.%20(actm.)%2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 284,
+          "height": 480,
+          "bytes": 11480,
+          "path": "assets/images/hero-3e11e07d-commons.cab81a21ef34.480.webp"
+        },
+        {
+          "width": 569,
+          "height": 960,
+          "bytes": 41332,
+          "path": "assets/images/hero-3e11e07d-commons.cab81a21ef34.960.webp"
+        },
+        {
+          "width": 853,
+          "height": 1440,
+          "bytes": 89280,
+          "path": "assets/images/hero-3e11e07d-commons.cab81a21ef34.1440.webp"
+        }
+      ]
+    },
+    "hero-451f608d-commons": {
+      "credit": "ŠJů ( cs:ŠJů )",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milevsk%C3%A1%2C%20restaurace%20Peking.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 15718,
+          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 48288,
+          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 87946,
+          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.1440.webp"
+        }
+      ]
+    },
+    "hero-49c0c210-commons": {
+      "credit": "JAn Dudík",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BD%C5%99ov%20.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 34458,
+          "path": "assets/images/hero-49c0c210-commons.c5403737e2d3.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 144810,
+          "path": "assets/images/hero-49c0c210-commons.c5403737e2d3.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 290028,
+          "path": "assets/images/hero-49c0c210-commons.c5403737e2d3.1440.webp"
+        }
+      ]
+    },
+    "hero-49d508db-commons": {
+      "credit": "Siarhei Besarab",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalk%20cliffs%20of%20Jasmund%20National%20Park%20on%20R%C3%BCgen%20island%20in%20autumn%2003.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 14550,
+          "path": "assets/images/hero-49d508db-commons.30fc2a761631.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 57636,
+          "path": "assets/images/hero-49d508db-commons.30fc2a761631.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 127642,
+          "path": "assets/images/hero-49d508db-commons.30fc2a761631.1440.webp"
+        }
+      ]
+    },
+    "hero-4a631299-commons": {
+      "credit": "Marie Čcheidzeová",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kl%C3%AD%C4%8D%20I.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 17952,
+          "path": "assets/images/hero-4a631299-commons.6a4cecffae6c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 63104,
+          "path": "assets/images/hero-4a631299-commons.6a4cecffae6c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 128494,
+          "path": "assets/images/hero-4a631299-commons.6a4cecffae6c.1440.webp"
+        }
+      ]
+    },
+    "hero-4cbaaba8-commons": {
+      "credit": "江戸村のとくぞう",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nihonbashi%20Benmatsu-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 314,
+          "bytes": 21616,
+          "path": "assets/images/hero-4cbaaba8-commons.c96b7a8a374a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 628,
+          "bytes": 63452,
+          "path": "assets/images/hero-4cbaaba8-commons.c96b7a8a374a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 942,
+          "bytes": 115852,
+          "path": "assets/images/hero-4cbaaba8-commons.c96b7a8a374a.1440.webp"
+        }
+      ]
+    },
+    "hero-53501873-commons": {
+      "credit": "UCaetano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoht%C3%BCrli%20Pass.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 361,
+          "bytes": 34970,
+          "path": "assets/images/hero-53501873-commons.2486868b6cff.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 723,
+          "bytes": 154956,
+          "path": "assets/images/hero-53501873-commons.2486868b6cff.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1084,
+          "bytes": 290742,
+          "path": "assets/images/hero-53501873-commons.2486868b6cff.1440.webp"
+        }
+      ]
+    },
+    "hero-56362870-commons": {
+      "credit": "Prazak",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schrammsteine2.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 46158,
+          "path": "assets/images/hero-56362870-commons.600dccf40d3c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 635,
+          "bytes": 174636,
+          "path": "assets/images/hero-56362870-commons.600dccf40d3c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 953,
+          "bytes": 292270,
+          "path": "assets/images/hero-56362870-commons.600dccf40d3c.1440.webp"
+        }
+      ]
+    },
+    "hero-56a15256-commons": {
+      "credit": "Markri~cswiki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jizerskohorsk%C3%A9-bu%C4%8Diny.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 43800,
+          "path": "assets/images/hero-56a15256-commons.8b139d26716b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 174474,
+          "path": "assets/images/hero-56a15256-commons.8b139d26716b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 292714,
+          "path": "assets/images/hero-56a15256-commons.8b139d26716b.1440.webp"
+        }
+      ]
+    },
+    "hero-62bf66ee-commons": {
+      "credit": "Tristan Schmurr from Luxembourg, Luxembourg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torghatten%20Mountain%2C%20with%20the%20hole.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 9756,
+          "path": "assets/images/hero-62bf66ee-commons.e0982c52c512.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 38918,
+          "path": "assets/images/hero-62bf66ee-commons.e0982c52c512.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 82534,
+          "path": "assets/images/hero-62bf66ee-commons.e0982c52c512.1440.webp"
+        }
+      ]
+    },
+    "hero-687b2268-commons": {
+      "credit": "Takmocsekretovanej!",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzn%C3%BD%20-%20Sommerweg%20D.JPG",
+      "license": "CC0",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luzn%C3%BD%20-%20Sommerweg%20D.JPG",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 31804,
+          "path": "assets/images/hero-687b2268-commons.86e6b7f29db7.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 120880,
+          "path": "assets/images/hero-687b2268-commons.86e6b7f29db7.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 248640,
+          "path": "assets/images/hero-687b2268-commons.86e6b7f29db7.1440.webp"
+        }
+      ]
+    },
+    "hero-76a1bded-commons": {
+      "credit": "松岡明芳",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8%E7%AB%9C%E6%B2%BCP7020083.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8%E7%AB%9C%E6%B2%BCP7020083.JPG",
+      "variants": [
+        {
+          "width": 480,
+          "height": 359,
+          "bytes": 19066,
+          "path": "assets/images/hero-76a1bded-commons.cabc7ff233dd.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 718,
+          "bytes": 83882,
+          "path": "assets/images/hero-76a1bded-commons.cabc7ff233dd.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1077,
+          "bytes": 189940,
+          "path": "assets/images/hero-76a1bded-commons.cabc7ff233dd.1440.webp"
+        }
+      ]
+    },
+    "hero-772c7493-commons": {
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hakodate%20Asaichi%20Hokkaido%20Japan05bs5.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 28336,
+          "path": "assets/images/hero-772c7493-commons.fc038ad981a4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 90364,
+          "path": "assets/images/hero-772c7493-commons.fc038ad981a4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 957,
+          "bytes": 177116,
+          "path": "assets/images/hero-772c7493-commons.fc038ad981a4.1440.webp"
+        }
+      ]
+    },
+    "hero-7a68ac06-commons": {
+      "credit": "Petr Kinšt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%9Aho%C5%A1%C5%A5any%20-%20%C3%9Aho%C5%A1%C5%A5.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 27348,
+          "path": "assets/images/hero-7a68ac06-commons.691664a5060e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 110726,
+          "path": "assets/images/hero-7a68ac06-commons.691664a5060e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 244976,
+          "path": "assets/images/hero-7a68ac06-commons.691664a5060e.1440.webp"
+        }
+      ]
+    },
+    "hero-7d4e611d-commons": {
+      "credit": "Andrva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sk%C3%A5rasalen.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 14774,
+          "path": "assets/images/hero-7d4e611d-commons.225f8f5b977b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 46560,
+          "path": "assets/images/hero-7d4e611d-commons.225f8f5b977b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 89036,
+          "path": "assets/images/hero-7d4e611d-commons.225f8f5b977b.1440.webp"
+        }
+      ]
+    },
+    "hero-8157fe0a-commons": {
+      "credit": "Ernst Vikne",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mardalsfossen.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 319,
+          "height": 480,
+          "bytes": 19580,
+          "path": "assets/images/hero-8157fe0a-commons.7194c1002fd5.480.webp"
+        },
+        {
+          "width": 638,
+          "height": 960,
+          "bytes": 65078,
+          "path": "assets/images/hero-8157fe0a-commons.7194c1002fd5.960.webp"
+        },
+        {
+          "width": 956,
+          "height": 1440,
+          "bytes": 126338,
+          "path": "assets/images/hero-8157fe0a-commons.7194c1002fd5.1440.webp"
+        }
+      ]
+    },
+    "hero-93779b10-commons": {
+      "credit": "Frode Inge Helland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1960%20Aurlandsdalen%20Nesb%C3%B8galden%20retning%20%C3%98sterb%C3%B8.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 474,
+          "bytes": 44972,
+          "path": "assets/images/hero-93779b10-commons.b80856ed2118.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 947,
+          "bytes": 177828,
+          "path": "assets/images/hero-93779b10-commons.b80856ed2118.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1421,
+          "bytes": 288930,
+          "path": "assets/images/hero-93779b10-commons.b80856ed2118.1440.webp"
+        }
+      ]
+    },
+    "hero-991c5c6b-commons": {
+      "credit": "kallerna",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vettisfossen%202017.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 27708,
+          "path": "assets/images/hero-991c5c6b-commons.ca8bc1eebb34.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 92066,
+          "path": "assets/images/hero-991c5c6b-commons.ca8bc1eebb34.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 175892,
+          "path": "assets/images/hero-991c5c6b-commons.ca8bc1eebb34.1440.webp"
+        }
+      ]
+    },
+    "hero-993028af-commons": {
+      "credit": "Oilstreet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kikumasamune%20Kobe%20Japan01-r.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 18312,
+          "path": "assets/images/hero-993028af-commons.93962cb64219.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 65116,
+          "path": "assets/images/hero-993028af-commons.93962cb64219.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 140822,
+          "path": "assets/images/hero-993028af-commons.93962cb64219.1440.webp"
+        }
+      ]
+    },
+    "hero-9b4dc8fd-commons": {
+      "credit": "Hubert Kororo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poledn%C3%AD%20kameny%202021%2004.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 17668,
+          "path": "assets/images/hero-9b4dc8fd-commons.3fb9d53269ae.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 75410,
+          "path": "assets/images/hero-9b4dc8fd-commons.3fb9d53269ae.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 176336,
+          "path": "assets/images/hero-9b4dc8fd-commons.3fb9d53269ae.1440.webp"
+        }
+      ]
+    },
+    "hero-9e44a986-commons": {
+      "credit": "Franzfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodeschlucht%20bei%20Thale.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 377,
+          "height": 480,
+          "bytes": 51584,
+          "path": "assets/images/hero-9e44a986-commons.467c82fcc778.480.webp"
+        },
+        {
+          "width": 753,
+          "height": 960,
+          "bytes": 177286,
+          "path": "assets/images/hero-9e44a986-commons.467c82fcc778.960.webp"
+        },
+        {
+          "width": 1130,
+          "height": 1440,
+          "bytes": 296316,
+          "path": "assets/images/hero-9e44a986-commons.467c82fcc778.1440.webp"
+        }
+      ]
+    },
+    "hero-a40d4ae9-commons": {
+      "credit": "Janter at Dutch Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B8d%C3%B8yl%C3%B8va.jpg",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B8d%C3%B8yl%C3%B8va.jpg",
+      "variants": [
+        {
+          "width": 480,
+          "height": 244,
+          "bytes": 12858,
+          "path": "assets/images/hero-a40d4ae9-commons.ee0b201104a0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 488,
+          "bytes": 44244,
+          "path": "assets/images/hero-a40d4ae9-commons.ee0b201104a0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 732,
+          "bytes": 87312,
+          "path": "assets/images/hero-a40d4ae9-commons.ee0b201104a0.1440.webp"
+        }
+      ]
+    },
+    "hero-bc54ea71-commons": {
+      "credit": "Quillaja",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chibu%20seen%20from%20akahage-yama.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chibu%20seen%20from%20akahage-yama.jpg",
+      "variants": [
+        {
+          "width": 480,
+          "height": 210,
+          "bytes": 5404,
+          "path": "assets/images/hero-bc54ea71-commons.ad26df756532.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 419,
+          "bytes": 18670,
+          "path": "assets/images/hero-bc54ea71-commons.ad26df756532.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 629,
+          "bytes": 40764,
+          "path": "assets/images/hero-bc54ea71-commons.ad26df756532.1440.webp"
+        }
+      ]
+    },
+    "hero-c344c692-commons": {
+      "credit": "Ben Skála, Benfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krkono%C5%A1e-Labsk%C3%A1-bouda-Viol%C3%ADk-a-Wawel2009.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 28208,
+          "path": "assets/images/hero-c344c692-commons.804dbdda221e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 107244,
+          "path": "assets/images/hero-c344c692-commons.804dbdda221e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 224210,
+          "path": "assets/images/hero-c344c692-commons.804dbdda221e.1440.webp"
+        }
+      ]
+    },
+    "hero-cc7697f3-commons": {
+      "credit": "Christian Nawroth",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoellentalschluss.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 35596,
+          "path": "assets/images/hero-cc7697f3-commons.cd9afb82fa51.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 135110,
+          "path": "assets/images/hero-cc7697f3-commons.cd9afb82fa51.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 290372,
+          "path": "assets/images/hero-cc7697f3-commons.cd9afb82fa51.1440.webp"
+        }
+      ]
+    },
+    "hero-cd12d5e4-commons": {
+      "credit": "Hansueli Krapf This file was uploaded with Commonist .",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2012-08-12%2009-48-16%20Switzerland%20Canton%20de%20Vaud%20Saint%20Saphorin.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 319,
+          "height": 480,
+          "bytes": 34584,
+          "path": "assets/images/hero-cd12d5e4-commons.136d25e1cc9f.480.webp"
+        },
+        {
+          "width": 638,
+          "height": 960,
+          "bytes": 115868,
+          "path": "assets/images/hero-cd12d5e4-commons.136d25e1cc9f.960.webp"
+        },
+        {
+          "width": 956,
+          "height": 1440,
+          "bytes": 219336,
+          "path": "assets/images/hero-cd12d5e4-commons.136d25e1cc9f.1440.webp"
+        }
+      ]
+    },
+    "hero-cdbc2973-commons": {
+      "credit": "G.Lanting",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1000821Gaustatoppen.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 21910,
+          "path": "assets/images/hero-cdbc2973-commons.ac766b9eb807.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 89816,
+          "path": "assets/images/hero-cdbc2973-commons.ac766b9eb807.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 193708,
+          "path": "assets/images/hero-cdbc2973-commons.ac766b9eb807.1440.webp"
+        }
+      ]
+    },
+    "hero-d5e8dd95-commons": {
+      "credit": "Diriye Amey",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfall%20at%20Foroglio.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 319,
+          "height": 480,
+          "bytes": 36796,
+          "path": "assets/images/hero-d5e8dd95-commons.82ec4f74e4b7.480.webp"
+        },
+        {
+          "width": 638,
+          "height": 960,
+          "bytes": 113868,
+          "path": "assets/images/hero-d5e8dd95-commons.82ec4f74e4b7.960.webp"
+        },
+        {
+          "width": 956,
+          "height": 1440,
+          "bytes": 202396,
+          "path": "assets/images/hero-d5e8dd95-commons.82ec4f74e4b7.1440.webp"
+        }
+      ]
+    },
+    "hero-d98bb16d-commons": {
+      "credit": "Lukas Beck",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A6r%C3%B8y%20H%C3%A5en%20lub%202025-07-23%20img02.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 14842,
+          "path": "assets/images/hero-d98bb16d-commons.3ff3e8a490b4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 62010,
+          "path": "assets/images/hero-d98bb16d-commons.3ff3e8a490b4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 148378,
+          "path": "assets/images/hero-d98bb16d-commons.3ff3e8a490b4.1440.webp"
+        }
+      ]
+    },
+    "hero-f10edded-commons": {
+      "credit": "Jörg Braukmann",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick%20vom%20Feldstein%20nach%20Nordosten.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 16166,
+          "path": "assets/images/hero-f10edded-commons.f1a3edb258bc.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 65510,
+          "path": "assets/images/hero-f10edded-commons.f1a3edb258bc.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 153230,
+          "path": "assets/images/hero-f10edded-commons.f1a3edb258bc.1440.webp"
+        }
+      ]
+    },
+    "hero-f1ff1d3f-commons": {
+      "credit": "Pudelek (Marcin Szala)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osta%C5%A1%20-%20sandstone%20formation%20in%20the%20Czech%20Republic%2002.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 32152,
+          "path": "assets/images/hero-f1ff1d3f-commons.dc0db2ac1703.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 105810,
+          "path": "assets/images/hero-f1ff1d3f-commons.dc0db2ac1703.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 212954,
+          "path": "assets/images/hero-f1ff1d3f-commons.dc0db2ac1703.1440.webp"
+        }
+      ]
+    },
+    "hero-f26a48a1-commons": {
+      "credit": "Marcin Dąbrowski",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snieznik%20Klodzki%20mountain%20(southern%20side).jpeg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 304,
+          "bytes": 16726,
+          "path": "assets/images/hero-f26a48a1-commons.590d76dce73c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 607,
+          "bytes": 69180,
+          "path": "assets/images/hero-f26a48a1-commons.590d76dce73c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 911,
+          "bytes": 163934,
+          "path": "assets/images/hero-f26a48a1-commons.590d76dce73c.1440.webp"
+        }
+      ]
+    },
+    "hero-f51ad97d-commons": {
+      "credit": "Hoher Kasten Drehrestaurant und Seilbahn AG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoher%20Kasten%20Gipfel.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 17066,
+          "path": "assets/images/hero-f51ad97d-commons.c2009ac678d0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 55432,
+          "path": "assets/images/hero-f51ad97d-commons.c2009ac678d0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 964,
+          "bytes": 110070,
+          "path": "assets/images/hero-f51ad97d-commons.c2009ac678d0.1440.webp"
+        }
+      ]
+    },
+    "hero-f7931e51-commons": {
+      "credit": "Stefan Krause, Germany",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preikestolen%20Norge.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Preikestolen%20Norge.jpg",
+      "variants": [
+        {
+          "width": 343,
+          "height": 480,
+          "bytes": 24676,
+          "path": "assets/images/hero-f7931e51-commons.0fee6b976fbc.480.webp"
+        },
+        {
+          "width": 686,
+          "height": 960,
+          "bytes": 84554,
+          "path": "assets/images/hero-f7931e51-commons.0fee6b976fbc.960.webp"
+        },
+        {
+          "width": 1029,
+          "height": 1440,
+          "bytes": 172800,
+          "path": "assets/images/hero-f7931e51-commons.0fee6b976fbc.1440.webp"
+        }
+      ]
+    },
     "japan-attractions-awa-odori-kaikan-hero": {
       "credit": "663highland",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awa-dance_memorial_hall04s3872.jpg",
@@ -2885,6 +3925,84 @@
         }
       ]
     },
+    "japan-destinations-ikeshima-hero": {
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikeshima_island_of_Nagasaki.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 18880,
+          "path": "assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 79348,
+          "path": "assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 179440,
+          "path": "assets/images/japan-destinations-ikeshima-hero.35fad1fd8f28.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-ikeshima-mine": {
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_the_Ikeshima_Coal_Mine.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 22306,
+          "path": "assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 66498,
+          "path": "assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 151128,
+          "path": "assets/images/japan-destinations-ikeshima-mine.eb333682a5e6.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-ikeshima-trolley": {
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battery_car_at_Ikeshima_Coal_Mine.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 28472,
+          "path": "assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 541,
+          "bytes": 101090,
+          "path": "assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 811,
+          "bytes": 204410,
+          "path": "assets/images/japan-destinations-ikeshima-trolley.4e899faca89b.1440.webp"
+        }
+      ]
+    },
     "japan-destinations-iwami-hero": {
       "credit": "jkyZjdjNjN",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tatami-ga-ura_02.jpg",
@@ -2908,6 +4026,84 @@
           "height": 768,
           "bytes": 135858,
           "path": "assets/images/japan-destinations-iwami-hero.3e8cdb771613.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-kaneda-hero": {
+      "credit": "Saigen Jiro",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanata_Castle,_nansei-sekirui.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 45900,
+          "path": "assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 166546,
+          "path": "assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 957,
+          "bytes": 291384,
+          "path": "assets/images/japan-destinations-kaneda-hero.5afc3f02cae5.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-kitayamazaki-hero": {
+      "credit": "くろふね (Jranar)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%B1%B1%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%B1%95%E6%9C%9B%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%8C%97%E5%B1%B1%E5%B4%8E.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 31170,
+          "path": "assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 120656,
+          "path": "assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 278676,
+          "path": "assets/images/japan-destinations-kitayamazaki-hero.a2a20d1b0dd7.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-koshiki-hero": {
+      "credit": "At by At",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamikoshiki_Island_Nagame-no-hama_2013-08B.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 19160,
+          "path": "assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 68052,
+          "path": "assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 957,
+          "bytes": 136046,
+          "path": "assets/images/japan-destinations-koshiki-hero.d2eebb01a43d.1440.webp"
         }
       ]
     },
@@ -2960,6 +4156,58 @@
           "height": 1440,
           "bytes": 296408,
           "path": "assets/images/japan-destinations-kozagawa-takinohai.e1d4cfbd2bc8.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-kunisaki-hero": {
+      "credit": "Hajime NAKANO",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainichi-nyorai_of_Kumano_magaibutsu_(48461033207).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 51624,
+          "path": "assets/images/japan-destinations-kunisaki-hero.964f01bbbece.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 175384,
+          "path": "assets/images/japan-destinations-kunisaki-hero.964f01bbbece.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291208,
+          "path": "assets/images/japan-destinations-kunisaki-hero.964f01bbbece.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-miune-hero": {
+      "credit": "As6673",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 19320,
+          "path": "assets/images/japan-destinations-miune-hero.743ad670e23d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 71494,
+          "path": "assets/images/japan-destinations-miune-hero.743ad670e23d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 142382,
+          "path": "assets/images/japan-destinations-miune-hero.743ad670e23d.1440.webp"
         }
       ]
     },
@@ -3090,6 +4338,32 @@
           "height": 1080,
           "bytes": 296460,
           "path": "assets/images/japan-destinations-shishigahana-hero.42410b28f36f.1440.webp"
+        }
+      ]
+    },
+    "japan-destinations-todo-hero": {
+      "credit": "Wc018",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Todo_Valley_202010.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 46546,
+          "path": "assets/images/japan-destinations-todo-hero.40c2dc94e38a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 184044,
+          "path": "assets/images/japan-destinations-todo-hero.40c2dc94e38a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 288814,
+          "path": "assets/images/japan-destinations-todo-hero.40c2dc94e38a.1440.webp"
         }
       ]
     },

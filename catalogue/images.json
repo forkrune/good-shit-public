@@ -2,6 +2,286 @@
   "schemaVersion": 1,
   "assets": [
     {
+      "id": "hero-0113d95b-commons",
+      "credit": "Huhulenik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C4%8Certovo%20jezero%20(3).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "hero-0a3db85d-commons",
+      "credit": "Mirek256",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lovo%C5%A1%20s%20d%C3%A1lnic%C3%AD.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-0e53e1e5-commons",
+      "credit": "Huhulenik",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tisk%C3%A9%20st%C4%9Bny%20(7).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "hero-1d0d0dfd-commons",
+      "credit": "Christoffer H. Støle",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melderskin%20fr%C3%A5%20Stussvikhovda.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-21ca2e5a-commons",
+      "credit": "John commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pust%C3%BD%20%C5%BEleb%2092%20%C4%8Certova%20branka.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Pust%C3%BD%20%C5%BEleb%2092%20%C4%8Certova%20branka.jpg"
+    },
+    {
+      "id": "hero-2e6f0718-commons",
+      "credit": "Urs.Schmid007",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Breccaschlund%2002.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-3e11e07d-commons",
+      "credit": "Agnes Monkelbaan",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bergtocht%20van%20S-charl%20naar%20Alp%20Sesvenna.%2010-09-2019.%20(actm.)%2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-451f608d-commons",
+      "credit": "ŠJů ( cs:ŠJů )",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milevsk%C3%A1%2C%20restaurace%20Peking.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-49c0c210-commons",
+      "credit": "JAn Dudík",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BD%C5%99ov%20.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-49d508db-commons",
+      "credit": "Siarhei Besarab",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalk%20cliffs%20of%20Jasmund%20National%20Park%20on%20R%C3%BCgen%20island%20in%20autumn%2003.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "hero-4a631299-commons",
+      "credit": "Marie Čcheidzeová",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kl%C3%AD%C4%8D%20I.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-4cbaaba8-commons",
+      "credit": "江戸村のとくぞう",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nihonbashi%20Benmatsu-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-53501873-commons",
+      "credit": "UCaetano",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoht%C3%BCrli%20Pass.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-56362870-commons",
+      "credit": "Prazak",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schrammsteine2.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "id": "hero-56a15256-commons",
+      "credit": "Markri~cswiki",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jizerskohorsk%C3%A9-bu%C4%8Diny.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "hero-62bf66ee-commons",
+      "credit": "Tristan Schmurr from Luxembourg, Luxembourg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Torghatten%20Mountain%2C%20with%20the%20hole.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "id": "hero-687b2268-commons",
+      "credit": "Takmocsekretovanej!",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzn%C3%BD%20-%20Sommerweg%20D.JPG",
+      "license": "CC0",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Luzn%C3%BD%20-%20Sommerweg%20D.JPG"
+    },
+    {
+      "id": "hero-76a1bded-commons",
+      "credit": "松岡明芳",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8%E7%AB%9C%E6%B2%BCP7020083.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:%E9%9B%A8%E7%AB%9C%E6%B2%BCP7020083.JPG"
+    },
+    {
+      "id": "hero-772c7493-commons",
+      "credit": "663highland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hakodate%20Asaichi%20Hokkaido%20Japan05bs5.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "id": "hero-7a68ac06-commons",
+      "credit": "Petr Kinšt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%9Aho%C5%A1%C5%A5any%20-%20%C3%9Aho%C5%A1%C5%A5.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-7d4e611d-commons",
+      "credit": "Andrva",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sk%C3%A5rasalen.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "id": "hero-8157fe0a-commons",
+      "credit": "Ernst Vikne",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mardalsfossen.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "id": "hero-93779b10-commons",
+      "credit": "Frode Inge Helland",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1960%20Aurlandsdalen%20Nesb%C3%B8galden%20retning%20%C3%98sterb%C3%B8.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "id": "hero-991c5c6b-commons",
+      "credit": "kallerna",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vettisfossen%202017.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-993028af-commons",
+      "credit": "Oilstreet",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kikumasamune%20Kobe%20Japan01-r.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+    },
+    {
+      "id": "hero-9b4dc8fd-commons",
+      "credit": "Hubert Kororo",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poledn%C3%AD%20kameny%202021%2004.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-9e44a986-commons",
+      "credit": "Franzfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodeschlucht%20bei%20Thale.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-a40d4ae9-commons",
+      "credit": "Janter at Dutch Wikipedia",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B8d%C3%B8yl%C3%B8va.jpg",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:R%C3%B8d%C3%B8yl%C3%B8va.jpg"
+    },
+    {
+      "id": "hero-bc54ea71-commons",
+      "credit": "Quillaja",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chibu%20seen%20from%20akahage-yama.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chibu%20seen%20from%20akahage-yama.jpg"
+    },
+    {
+      "id": "hero-c344c692-commons",
+      "credit": "Ben Skála, Benfoto",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krkono%C5%A1e-Labsk%C3%A1-bouda-Viol%C3%ADk-a-Wawel2009.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-cc7697f3-commons",
+      "credit": "Christian Nawroth",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoellentalschluss.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-cd12d5e4-commons",
+      "credit": "Hansueli Krapf This file was uploaded with Commonist .",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2012-08-12%2009-48-16%20Switzerland%20Canton%20de%20Vaud%20Saint%20Saphorin.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-cdbc2973-commons",
+      "credit": "G.Lanting",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1000821Gaustatoppen.JPG",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "id": "hero-d5e8dd95-commons",
+      "credit": "Diriye Amey",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfall%20at%20Foroglio.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "id": "hero-d98bb16d-commons",
+      "credit": "Lukas Beck",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A6r%C3%B8y%20H%C3%A5en%20lub%202025-07-23%20img02.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "id": "hero-f10edded-commons",
+      "credit": "Jörg Braukmann",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick%20vom%20Feldstein%20nach%20Nordosten.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "hero-f1ff1d3f-commons",
+      "credit": "Pudelek (Marcin Szala)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osta%C5%A1%20-%20sandstone%20formation%20in%20the%20Czech%20Republic%2002.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-f26a48a1-commons",
+      "credit": "Marcin Dąbrowski",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snieznik%20Klodzki%20mountain%20(southern%20side).jpeg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+    },
+    {
+      "id": "hero-f51ad97d-commons",
+      "credit": "Hoher Kasten Drehrestaurant und Seilbahn AG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoher%20Kasten%20Gipfel.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "hero-f7931e51-commons",
+      "credit": "Stefan Krause, Germany",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preikestolen%20Norge.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Preikestolen%20Norge.jpg"
+    },
+    {
       "id": "bealach-na-ba-hero",
       "credit": "Jooniur · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bealach_na_ba.jpg",
@@ -786,11 +1066,53 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
     },
     {
+      "id": "japan-destinations-ikeshima-hero",
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ikeshima_island_of_Nagasaki.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-destinations-ikeshima-mine",
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inside_the_Ikeshima_Coal_Mine.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-destinations-ikeshima-trolley",
+      "credit": "ブルーノ・プラス",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battery_car_at_Ikeshima_Coal_Mine.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
       "id": "japan-destinations-iwami-hero",
       "credit": "jkyZjdjNjN",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tatami-ga-ura_02.jpg",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "japan-destinations-kaneda-hero",
+      "credit": "Saigen Jiro",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanata_Castle,_nansei-sekirui.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "japan-destinations-kitayamazaki-hero",
+      "credit": "くろふね (Jranar)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E5%B1%B1%E5%B4%8E%E7%AC%AC%E4%B8%80%E5%B1%95%E6%9C%9B%E5%8F%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%8C%97%E5%B1%B1%E5%B4%8E.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-destinations-koshiki-hero",
+      "credit": "At by At",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamikoshiki_Island_Nagame-no-hama_2013-08B.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
     },
     {
       "id": "japan-destinations-kozagawa-hero",
@@ -805,6 +1127,20 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takinohai01.JPG",
       "license": "CC BY 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "id": "japan-destinations-kunisaki-hero",
+      "credit": "Hajime NAKANO",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dainichi-nyorai_of_Kumano_magaibutsu_(48461033207).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "japan-destinations-miune-hero",
+      "credit": "As6673",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg",
+      "license": "Public domain (author dedication)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Miune.jpg"
     },
     {
       "id": "japan-destinations-miyajimanuma-hero",
@@ -838,6 +1174,13 @@
       "id": "japan-destinations-shishigahana-hero",
       "credit": "8-Forest",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shishigahana_Wetland.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-destinations-todo-hero",
+      "credit": "Wc018",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Todo_Valley_202010.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
