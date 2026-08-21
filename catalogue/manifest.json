@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-08-21T06:15:05.000Z",
+  "generatedAt": "2026-08-21T06:15:56.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -30,282 +30,282 @@
   "packages": {
     "entities": [
       {
-        "path": "catalogue/packages/entities-at.02ed643ccef3.json",
+        "path": "catalogue/packages/entities-at.1a877c3c122f.json",
         "bytes": 23664,
-        "gzipBytes": 6408,
-        "sha256": "02ed643ccef348dbc66469033a0e39ad18b5673dc21ec41eb6bb88eb8f48e483",
+        "gzipBytes": 6406,
+        "sha256": "1a877c3c122f5998c5ff029bef1e49a3ef7d7ac37416ba3278c00cdb94591b74",
         "countryCode": "AT",
         "entityCount": 5
       },
       {
-        "path": "catalogue/packages/entities-be.bd997121409e.json",
+        "path": "catalogue/packages/entities-be.b88c66b534c7.json",
         "bytes": 10472,
-        "gzipBytes": 3039,
-        "sha256": "bd997121409e73f18fa8dbf6c998eea02a58fe657dd5271d5a5fda9571a28226",
+        "gzipBytes": 3038,
+        "sha256": "b88c66b534c7e179fb6604a0dd23e85e7bb4ba0f88fc8f8a1d9353b3f6955e86",
         "countryCode": "BE",
         "entityCount": 2
       },
       {
-        "path": "catalogue/packages/entities-bg.c2e9ea102454.json",
+        "path": "catalogue/packages/entities-bg.7068f28a7acd.json",
         "bytes": 4337,
-        "gzipBytes": 1825,
-        "sha256": "c2e9ea10245464225e2757edabf9b41a453bbb7524a2db05062769084a42b995",
+        "gzipBytes": 1824,
+        "sha256": "7068f28a7acde05c11ada420372f0a0bacbc52fe90f2c750ef73805d8655dc50",
         "countryCode": "BG",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-ch.d6d1d9f25c76.json",
+        "path": "catalogue/packages/entities-ch.20a8da0a5ef5.json",
         "bytes": 24301,
-        "gzipBytes": 5544,
-        "sha256": "d6d1d9f25c768cc04a5c9aec8c7a979db6d788b1c100efb2313f9216966c6b68",
+        "gzipBytes": 5542,
+        "sha256": "20a8da0a5ef515715859e085438a8f287674916f19e3137641d4d2fc265b0299",
         "countryCode": "CH",
         "entityCount": 6
       },
       {
-        "path": "catalogue/packages/entities-cy.6f19c1adede5.json",
+        "path": "catalogue/packages/entities-cy.bd1059fbb7f9.json",
         "bytes": 5163,
         "gzipBytes": 2021,
-        "sha256": "6f19c1adede549adcaaecded1b01b4ee6ce71aa6512381ac82eb3ff6d5c2583e",
+        "sha256": "bd1059fbb7f9b059c5ff38bb5941edf3921bd3c6b389e0db7b77216c22d59bcc",
         "countryCode": "CY",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-cz.bd581391c493.json",
+        "path": "catalogue/packages/entities-cz.0ed4c70bb8b6.json",
         "bytes": 14842,
-        "gzipBytes": 3362,
-        "sha256": "bd581391c493eb1bffec5d073e98436c9e4cd466277e30531c302fd0880cd852",
+        "gzipBytes": 3361,
+        "sha256": "0ed4c70bb8b6711db21311cf33acd12871e6e2c2faba0ff6db1834e8865c06ee",
         "countryCode": "CZ",
         "entityCount": 3
       },
       {
-        "path": "catalogue/packages/entities-de.a1a09087b74f.json",
+        "path": "catalogue/packages/entities-de.30c7989295ec.json",
         "bytes": 37979,
-        "gzipBytes": 7315,
-        "sha256": "a1a09087b74f9fcf6a42c1392fa2a9ffe9c363979d1530ed89bbb9c64912e81f",
+        "gzipBytes": 7314,
+        "sha256": "30c7989295ec2392d43c827a1abe889d78b3847ded587296f113f49da1f4f99c",
         "countryCode": "DE",
         "entityCount": 8
       },
       {
-        "path": "catalogue/packages/entities-dk.371a589b853c.json",
+        "path": "catalogue/packages/entities-dk.a1927e3d51a3.json",
         "bytes": 18691,
-        "gzipBytes": 3980,
-        "sha256": "371a589b853c23dd2f018fbf49e8cac60a2e5366302a6f949fbf71bf7d942e82",
+        "gzipBytes": 3979,
+        "sha256": "a1927e3d51a3579ee912a24a4c88b128b84f87264021d54d37f9635987619c9b",
         "countryCode": "DK",
         "entityCount": 4
       },
       {
-        "path": "catalogue/packages/entities-ee.58d3e9d50d04.json",
+        "path": "catalogue/packages/entities-ee.d436d89f183d.json",
         "bytes": 8900,
-        "gzipBytes": 2562,
-        "sha256": "58d3e9d50d04293e74ca8a37fcbdc12457d20812c63d05241b36f5d0aafe428a",
+        "gzipBytes": 2561,
+        "sha256": "d436d89f183d4b961c3c642cadb8dbc2d387ef1ebb7727fce91ba259fa19ac66",
         "countryCode": "EE",
         "entityCount": 2
       },
       {
-        "path": "catalogue/packages/entities-es.656a609e4948.json",
+        "path": "catalogue/packages/entities-es.f3bcb818e24c.json",
         "bytes": 22466,
-        "gzipBytes": 4131,
-        "sha256": "656a609e4948b2b5692616563321c034cb67bbcf69c8d625f8d548af9e24ea6f",
+        "gzipBytes": 4130,
+        "sha256": "f3bcb818e24cf6a5e184f4738052f244cce5f3b6c96044184d26d16a2130da24",
         "countryCode": "ES",
         "entityCount": 6
       },
       {
-        "path": "catalogue/packages/entities-fi.8adb633f5076.json",
+        "path": "catalogue/packages/entities-fi.524e4bd177a7.json",
         "bytes": 17759,
-        "gzipBytes": 4363,
-        "sha256": "8adb633f5076e9ded1b4fe0f955d7ba1e690c8aaab07eee7a06ebf095c2d4927",
+        "gzipBytes": 4362,
+        "sha256": "524e4bd177a7e2c58f8b50b9a4b9fafc2f8509cf70dc8176e13fe9b61bc755ed",
         "countryCode": "FI",
         "entityCount": 4
       },
       {
-        "path": "catalogue/packages/entities-fr.d871f4eea51d.json",
+        "path": "catalogue/packages/entities-fr.a24763c99d94.json",
         "bytes": 27564,
-        "gzipBytes": 5903,
-        "sha256": "d871f4eea51d2aee6c00c31641798483f8beb27a53637c815b0ffed3283ff32c",
+        "gzipBytes": 5902,
+        "sha256": "a24763c99d94d324659d274cbce2e63317561837191274a27fb57b80d91a058b",
         "countryCode": "FR",
         "entityCount": 6
       },
       {
-        "path": "catalogue/packages/entities-gb.32c2c89374a5.json",
+        "path": "catalogue/packages/entities-gb.8b7328ce4e6c.json",
         "bytes": 55803,
-        "gzipBytes": 8807,
-        "sha256": "32c2c89374a5f998aae04b5c0fb8e0f800b5b5857aad2077f0bade8b848cf32b",
+        "gzipBytes": 8806,
+        "sha256": "8b7328ce4e6c3dc09a91a5af61192fc46a0fb99ae8625103d45fd27602a8f613",
         "countryCode": "GB",
         "entityCount": 14
       },
       {
-        "path": "catalogue/packages/entities-gr.841294e36751.json",
+        "path": "catalogue/packages/entities-gr.6ab9df36555a.json",
         "bytes": 8771,
         "gzipBytes": 3284,
-        "sha256": "841294e36751ca1d511d6ed6449a19ae24209c358f7bd138dfc94f17723781f0",
+        "sha256": "6ab9df36555a42be52a87af67e8b62ef66e09a46b82d45602fd43e7092fe8237",
         "countryCode": "GR",
         "entityCount": 2
       },
       {
-        "path": "catalogue/packages/entities-hr.b8b604301083.json",
+        "path": "catalogue/packages/entities-hr.c73bb133eec7.json",
         "bytes": 4380,
-        "gzipBytes": 1822,
-        "sha256": "b8b6043010834fe53af8e0b3d361c730b7596bf32186adaba8509706351148cf",
+        "gzipBytes": 1821,
+        "sha256": "c73bb133eec70add217e4d85171c8f292a89e16395bfca91d534cff3b485d1bd",
         "countryCode": "HR",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-hu.42743e3324b7.json",
+        "path": "catalogue/packages/entities-hu.ce46fef15450.json",
         "bytes": 4682,
-        "gzipBytes": 2042,
-        "sha256": "42743e3324b7b8a5240ff8d57020e557e68ae7da848fff81049dd86279ecf46e",
+        "gzipBytes": 2041,
+        "sha256": "ce46fef154506db441a58a134e495198669f23077321251746354e7079b66232",
         "countryCode": "HU",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-ie.39deaca2d041.json",
+        "path": "catalogue/packages/entities-ie.0b737350057c.json",
         "bytes": 13765,
-        "gzipBytes": 3285,
-        "sha256": "39deaca2d041f7cab37500767c9890c28e107f4c5e266f9c8be5f8efa9739510",
+        "gzipBytes": 3284,
+        "sha256": "0b737350057c8f3a65e44bb62368dcde01592439b93761523a4d559b8cad6c7d",
         "countryCode": "IE",
         "entityCount": 3
       },
       {
-        "path": "catalogue/packages/entities-is.d63905b34104.json",
+        "path": "catalogue/packages/entities-is.3dd092f57c50.json",
         "bytes": 3446,
-        "gzipBytes": 1586,
-        "sha256": "d63905b34104170e470bd61445a240b5fc88e0879bc1c711a13da764c2f517a5",
+        "gzipBytes": 1585,
+        "sha256": "3dd092f57c50ab77032bd58829a1aed5aae0a2d0ca8bffe933b08f65f511435b",
         "countryCode": "IS",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-it.2e5c50a30635.json",
+        "path": "catalogue/packages/entities-it.4f7db8b60383.json",
         "bytes": 23197,
-        "gzipBytes": 6374,
-        "sha256": "2e5c50a3063545aa335ce0cb42a5c696acf3ae9ee46cfa8c172b7120b7cce1b5",
+        "gzipBytes": 6373,
+        "sha256": "4f7db8b60383ac69e4658b20cc5761b321e30d1d89072fe4decdca5f157d401b",
         "countryCode": "IT",
         "entityCount": 5
       },
       {
-        "path": "catalogue/packages/entities-jp.423177f80900.json",
+        "path": "catalogue/packages/entities-jp.ec68b1af5294.json",
         "bytes": 66030,
         "gzipBytes": 16409,
-        "sha256": "423177f809005a867461a3ae8f58776ffe2bd92b08cfc6e5a2240009d1b7a2ac",
+        "sha256": "ec68b1af529454d35138b187c4451f492a075224561ed18f584ef244c32aac4b",
         "countryCode": "JP",
         "entityCount": 18
       },
       {
-        "path": "catalogue/packages/entities-lt.583d9bf4d515.json",
+        "path": "catalogue/packages/entities-lt.3ab259400b98.json",
         "bytes": 4535,
-        "gzipBytes": 1881,
-        "sha256": "583d9bf4d5152651ca910c8b471377bc766ee17cda3660c94e1b79e94f5ab653",
+        "gzipBytes": 1880,
+        "sha256": "3ab259400b98be0c39d52f34182ba2d541960ca2108e51d92b1507897407a53f",
         "countryCode": "LT",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-lu.bf7ff56c4930.json",
+        "path": "catalogue/packages/entities-lu.2db914ba2f37.json",
         "bytes": 5075,
-        "gzipBytes": 2095,
-        "sha256": "bf7ff56c49300ef603d7edd6af2fde99f4f407cce7e67d09a00fd8a232bc33f3",
+        "gzipBytes": 2094,
+        "sha256": "2db914ba2f377d18ee9de5a88b20ffbbce6fe60ca83a21d5b9f78a6226a3b334",
         "countryCode": "LU",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-lv.45ff456e6f9c.json",
+        "path": "catalogue/packages/entities-lv.e156dcfc1937.json",
         "bytes": 4586,
-        "gzipBytes": 1936,
-        "sha256": "45ff456e6f9c444c82d64aee35f46023fcf2f6f3bba5735f7ae4671d6bac5b03",
+        "gzipBytes": 1935,
+        "sha256": "e156dcfc193713326cd70ab5602d55aba68dd0737cf7a14e8cc0b35032213999",
         "countryCode": "LV",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-mt.4ffc564b8955.json",
+        "path": "catalogue/packages/entities-mt.2a5607b8d9e5.json",
         "bytes": 4468,
         "gzipBytes": 1899,
-        "sha256": "4ffc564b89553c9776e0d2c9ceeb9cc7a4c04d8f61cae5ea5d55bfe52887ff16",
+        "sha256": "2a5607b8d9e565ecc6b421ea834a5c2d925a80f383b2f985a57972ed2f7dde27",
         "countryCode": "MT",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-nl.e6d7e49526df.json",
+        "path": "catalogue/packages/entities-nl.6da58b8b4137.json",
         "bytes": 19799,
-        "gzipBytes": 3843,
-        "sha256": "e6d7e49526df39fa94a01da33447c947d1cae69379a4f16695fd6cbe23e39769",
+        "gzipBytes": 3842,
+        "sha256": "6da58b8b4137d4cf0733e84fc0c83d47933a783c138c7741cbaf1e710cb7aeba",
         "countryCode": "NL",
         "entityCount": 5
       },
       {
-        "path": "catalogue/packages/entities-no.357d53c6328f.json",
+        "path": "catalogue/packages/entities-no.1d99996f8c53.json",
         "bytes": 3318,
-        "gzipBytes": 1521,
-        "sha256": "357d53c6328fd0f1006dfea15599d5a35dc7f304c536ee0e60328336770c213f",
+        "gzipBytes": 1520,
+        "sha256": "1d99996f8c53ea94328507fcf50cdd82336bd4ee14b807a67bfa76c7d1cbd9e0",
         "countryCode": "NO",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-pl.0097b38cc0d6.json",
+        "path": "catalogue/packages/entities-pl.3df1341061a1.json",
         "bytes": 23193,
         "gzipBytes": 5136,
-        "sha256": "0097b38cc0d6bb9c046747967b68f0ec63d85fb90a18cf0e772b379e0d1beab8",
+        "sha256": "3df1341061a174316d8de7597011ab58478def4bc2207e32e487d8bad0fceda1",
         "countryCode": "PL",
         "entityCount": 6
       },
       {
-        "path": "catalogue/packages/entities-pt.8ffd4e07a7f8.json",
+        "path": "catalogue/packages/entities-pt.c96e08e7d69b.json",
         "bytes": 10995,
-        "gzipBytes": 3159,
-        "sha256": "8ffd4e07a7f88d3aa39db568d07994935dc63c12bfbb33ba0997e795caee7339",
+        "gzipBytes": 3158,
+        "sha256": "c96e08e7d69b1de875de0ac05587d377c2fcdfc8cfaebc147852294c35eadeec",
         "countryCode": "PT",
         "entityCount": 3
       },
       {
-        "path": "catalogue/packages/entities-ro.72101aa25488.json",
+        "path": "catalogue/packages/entities-ro.a2bcb41c2ca8.json",
         "bytes": 6745,
-        "gzipBytes": 1853,
-        "sha256": "72101aa25488054b36d2a19e0d73d5197f6d8da698bbf87d3003fe1838e779c3",
+        "gzipBytes": 1852,
+        "sha256": "a2bcb41c2ca8bb93b6c5e8d73a9938cd06e839666c88806152c47b31dfe95184",
         "countryCode": "RO",
         "entityCount": 2
       },
       {
-        "path": "catalogue/packages/entities-se.ce937852343e.json",
+        "path": "catalogue/packages/entities-se.6340d973f02e.json",
         "bytes": 16646,
-        "gzipBytes": 2836,
-        "sha256": "ce937852343e07a7cd0203a0e0a252cae2c62bab34befd1fbebd528d1b4623a1",
+        "gzipBytes": 2835,
+        "sha256": "6340d973f02ee0abf3927d722d969a298a5cbc1f37918929441e8ed5be98b3ec",
         "countryCode": "SE",
         "entityCount": 5
       },
       {
-        "path": "catalogue/packages/entities-si.8c24b01fe421.json",
+        "path": "catalogue/packages/entities-si.916eadf906e8.json",
         "bytes": 3524,
-        "gzipBytes": 1579,
-        "sha256": "8c24b01fe4218d3af5d010bf4a77651c76ce3e415e65b40c4570faac064535f0",
+        "gzipBytes": 1578,
+        "sha256": "916eadf906e83032202c27db5198a6b36492369906c0c8c8bdc5866a3391d197",
         "countryCode": "SI",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-sk.6dd2716affb3.json",
+        "path": "catalogue/packages/entities-sk.7218d78d0159.json",
         "bytes": 4844,
         "gzipBytes": 2190,
-        "sha256": "6dd2716affb36d5f41e07518f06af2626f4754cb857d1d7701d9961ece2c0710",
+        "sha256": "7218d78d01598c7abbfeb57d8343aec0d24f82170c2006eb5f023412eb140a36",
         "countryCode": "SK",
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-tr.63120544e830.json",
+        "path": "catalogue/packages/entities-tr.6e6de44fefcf.json",
         "bytes": 4311,
         "gzipBytes": 1853,
-        "sha256": "63120544e830fd3314cb85633643f76f5679978ef747e02e42fae45633015068",
+        "sha256": "6e6de44fefcf069dc37ac1ebb686b9450260a1cc6eaa7b19f872dd5f56c9beb3",
         "countryCode": "TR",
         "entityCount": 1
       }
     ],
     "search": {
-      "path": "data/search/manifest.e05a72014652.json",
+      "path": "data/search/manifest.18a0fb37ad37.json",
       "bytes": 11307,
-      "gzipBytes": 3636,
-      "sha256": "e05a7201465297e0db4def15256d1640a176497584d3c8fe3599c940d9da4147",
+      "gzipBytes": 3632,
+      "sha256": "18a0fb37ad375694e636711ca2cb80fdda7ee09704f96c6ec539877817a0a0c6",
       "documentCount": 122
     },
     "map": {
-      "path": "data/map/manifest.19ceb41a400a.json",
+      "path": "data/map/manifest.504bc9956d28.json",
       "bytes": 33705,
-      "gzipBytes": 10649,
-      "sha256": "19ceb41a400af41839d7120773c48ed1201ce694eb593a221827b33820272285",
+      "gzipBytes": 10661,
+      "sha256": "504bc9956d28a700e420bbf83901c47ab756c0083e839dd171fd04bcc03503af",
       "shardCount": 23
     },
     "redirects": {
@@ -338,10 +338,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.c3021d069527.json",
+      "path": "data/tier-list/manifest.c122cd5b8378.json",
       "bytes": 11681,
-      "gzipBytes": 3634,
-      "sha256": "c3021d0695270f09d96c49a7fba1fbe96a6ee23474c6ea62165d4165b4516b54",
+      "gzipBytes": 3633,
+      "sha256": "c122cd5b83789ff15853472406b407f3265a98c5aa398a0b63b3dd018d9e11fa",
       "documentCount": 122,
       "countryShardCount": 33,
       "typeShardCount": 3
