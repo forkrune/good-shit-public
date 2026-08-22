@@ -27,7 +27,7 @@
       "additionalProperties": false,
       "required": ["kind", "url", "label"],
       "properties": {
-        "kind": {"enum":["website","map","directions","route","menu","reservation","tickets","ordering","schedule","pricing","visitor-info","social","other"]},
+        "kind": {"enum":["website","wikipedia","map","directions","route","menu","reservation","tickets","ordering","schedule","pricing","visitor-info","social","other"]},
         "url": {"type":"string","format":"uri","pattern":"^[Hh][Tt][Tt][Pp][Ss]?://","minLength":1,"maxLength":2048},
         "label": {"type":"string","minLength":1,"maxLength":80,"pattern":"\\S"},
         "provider": {"type":"string","maxLength":64,"pattern":"^[a-z0-9][a-z0-9._-]*$"},
