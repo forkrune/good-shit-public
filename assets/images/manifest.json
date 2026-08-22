@@ -4393,6 +4393,118 @@
         }
       ]
     },
+    "pfd-cz-0001-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2350,
+          "path": "assets/images/pfd-cz-0001-ordering.8a69b5946fe9.svg"
+        }
+      ]
+    },
+    "pfd-cz-0008-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2296,
+          "path": "assets/images/pfd-cz-0008-ordering.7ba4960e3ee4.svg"
+        }
+      ]
+    },
+    "pfd-cz-0010-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2344,
+          "path": "assets/images/pfd-cz-0010-ordering.e4f624b2437c.svg"
+        }
+      ]
+    },
+    "pfd-cz-0011-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2433,
+          "path": "assets/images/pfd-cz-0011-ordering.d8ecb3c0a4b2.svg"
+        }
+      ]
+    },
+    "pfd-cz-0015-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2239,
+          "path": "assets/images/pfd-cz-0015-ordering.86d46cf26e96.svg"
+        }
+      ]
+    },
+    "pfd-cz-0024-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2357,
+          "path": "assets/images/pfd-cz-0024-ordering.7851b8f850ab.svg"
+        }
+      ]
+    },
+    "pfd-cz-0026-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2367,
+          "path": "assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
+        }
+      ]
+    },
+    "pfd-cz-0027-ordering": {
+      "credit": "Good Shit editorial illustration",
+      "sourceUrl": null,
+      "license": null,
+      "licenseUrl": null,
+      "variants": [
+        {
+          "width": 1600,
+          "height": 1067,
+          "bytes": 2369,
+          "path": "assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
