@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-08-22T18:54:46.000Z",
+  "generatedAt": "2026-08-22T21:06:37.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -295,17 +295,17 @@
       }
     ],
     "search": {
-      "path": "data/search/manifest.c0fd382ba81d.json",
+      "path": "data/search/manifest.091cd78dd0f0.json",
       "bytes": 37615,
       "gzipBytes": 9488,
-      "sha256": "c0fd382ba81dcfad5a0b2b341597780d74a2e872d84b9061b2bb870d325c806e",
+      "sha256": "091cd78dd0f0aa5f6f3a6f026fd65746e99ad6877f3a99b178b3500555d1e420",
       "documentCount": 528
     },
     "map": {
-      "path": "data/map/manifest.87800e4c5543.json",
+      "path": "data/map/manifest.eccb2792e395.json",
       "bytes": 130064,
       "gzipBytes": 40914,
-      "sha256": "87800e4c554332a3f1ba3658a189aeb0e8bd48528ebbca6fde0aedae37d6449a",
+      "sha256": "eccb2792e395a451af6d78b8a261edc44573564d9fe7dfc1e9ece86e3af83b5f",
       "shardCount": 28
     },
     "redirects": {
@@ -338,10 +338,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.112575300cbc.json",
+      "path": "data/tier-list/manifest.b8b9aea24077.json",
       "bytes": 18087,
       "gzipBytes": 5113,
-      "sha256": "112575300cbc48e0ac980b044662b79c2cee0f848abacad79bcdcc940bacccc6",
+      "sha256": "b8b9aea24077b1b01b9be167f39bb3c857415437911ab7dca6a154e4a66b4116",
       "documentCount": 528,
       "countryShardCount": 33,
       "typeShardCount": 6
