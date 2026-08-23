@@ -3,10 +3,124 @@
   "redirects": [],
   "tombstones": [
     {
+      "id": "01861af3-a3a8-5dbb-8040-a4f175524f68",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "08b10cfa-b39a-548f-9fa0-a0fbd594f223",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T16:38:00.000Z",
+      "reason": "Prague curation policy: the current B-tier reassessment does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "2ee66ff9-aa16-577c-bc33-c47abc622ae9",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "42aa2612-5e4d-59ee-aa1b-7e195c883927",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "451f608d-0b0e-5e98-b3fe-3adc8fb8b1ab",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "49112dd9-ab4d-519e-8838-bef1fd0eed32",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "4fc0d994-0d6b-5648-ad34-0b3ccc583bb7",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "540706de-5c4f-53d1-9133-d084cc2a335f",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "5586cafa-ef5b-5ee3-aaad-e4e6b91926a4",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "93d01964-eea8-557f-94e9-a5cefd2ad45e",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this C-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "96502bb0-8a0c-5732-bd98-cf3f2b32b825",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "96592ea0-68f7-5730-ad16-0f15fbe86448",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "a6d1fd71-6df5-5e6b-8bb7-73ab2595fa29",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "a858aaa3-28dc-5fd6-81ff-ada1f4541a89",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "be0045e2-a5cd-5e89-a72d-3620690b584d",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "cdeb3735-d151-5933-9723-34935c046110",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "d5cd9771-01b1-58e4-9585-34a6acadd68d",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T16:38:00.000Z",
+      "reason": "Prague curation policy: the current B-tier reassessment does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
       "id": "e1498c27-5408-5bbe-b774-7febe108dc65",
       "status": "rejected",
       "effectiveAt": "2026-08-11T09:30:00.000Z",
       "reason": "No longer meets the catalogue quality bar after curator reassessment."
+    },
+    {
+      "id": "e556a7c2-a6b4-52bd-aae5-84c13806533d",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
+    },
+    {
+      "id": "fcb6c24f-5250-58c1-a75e-6a4b64475235",
+      "status": "rejected",
+      "effectiveAt": "2026-08-23T09:58:00.000Z",
+      "reason": "Prague curation policy: this B-tier recommendation does not meet the A/S meaningful-detour threshold; retain the research record but remove it from catalogue publication."
     }
   ]
 }

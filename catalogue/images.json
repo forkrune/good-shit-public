@@ -51,13 +51,6 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
     },
     {
-      "id": "hero-451f608d-commons",
-      "credit": "ŠJů ( cs:ŠJů )",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milevsk%C3%A1%2C%20restaurace%20Peking.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
-    },
-    {
       "id": "hero-49c0c210-commons",
       "credit": "JAn Dudík",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BD%C5%99ov%20.JPG",
@@ -1185,6 +1178,83 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
+      "id": "japan-entertainment-akashi-bridgeworld-hero",
+      "credit": "Manish Prabhune",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_World_Akashi_Walkway.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "japan-entertainment-bizen-osafune-hero",
+      "credit": "Ebiebi2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bizen_Osafune_Japanese_sword_Museum_1.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "japan-entertainment-fukui-dinosaur-hero",
+      "credit": "Totti",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fukui_Prefectural_Dinosaur_Museum_20231217.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-entertainment-gaikaku-hero",
+      "credit": "Kunitaka NIIDATE",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Area_Outer_Underground_Discharge_Channel_(10885970325).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    {
+      "id": "japan-entertainment-mikado-hero",
+      "credit": "Asanagi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takadanobaba_Game_Center_Mikado_ground_floor_2019-02-24.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "japan-entertainment-railway-museum-hero",
+      "credit": "ajari",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%89%84%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_Railway_museum_16.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "japan-entertainment-scmaglev-hero",
+      "credit": "Bariston",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SCMaglev_and_Railway_Park_in_Aichi_Prefecture.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-entertainment-takenaka-hero",
+      "credit": "Bov.Smith",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P.Moore_takenaka_carpentry_tools_museum.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-entertainment-toyota-industry-hero",
+      "credit": "Tokumeigakarinoaoshima",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_Commemorative_Museum_of_Industry_and_Technology.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-entertainment-usui-hero",
+      "credit": "快速踊り子",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usui-Pass_EF63_24.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "japan-entertainment-yokote-manga-hero",
+      "credit": "掬茶",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yokote-Masuda_Manga_Museum_20130828.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
       "id": "nockalm-road-hero",
       "credit": "Miroz · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nockalmstrasse.jpg",
@@ -1217,10 +1287,6 @@
     },
     {
       "id": "pfd-cz-0026-ordering",
-      "credit": "Good Shit editorial illustration"
-    },
-    {
-      "id": "pfd-cz-0027-ordering",
       "credit": "Good Shit editorial illustration"
     },
     {

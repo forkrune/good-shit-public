@@ -2781,32 +2781,6 @@
         }
       ]
     },
-    "hero-451f608d-commons": {
-      "credit": "ŠJů ( cs:ŠJů )",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milevsk%C3%A1%2C%20restaurace%20Peking.jpg",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "variants": [
-        {
-          "width": 480,
-          "height": 360,
-          "bytes": 15718,
-          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.480.webp"
-        },
-        {
-          "width": 960,
-          "height": 720,
-          "bytes": 48288,
-          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.960.webp"
-        },
-        {
-          "width": 1440,
-          "height": 1080,
-          "bytes": 87946,
-          "path": "assets/images/hero-451f608d-commons.dca3d9ef76aa.1440.webp"
-        }
-      ]
-    },
     "hero-49c0c210-commons": {
       "credit": "JAn Dudík",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:T%C3%BD%C5%99ov%20.JPG",
@@ -4367,6 +4341,325 @@
         }
       ]
     },
+    "japan-entertainment-akashi-bridgeworld-hero": {
+      "credit": "Manish Prabhune",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_World_Akashi_Walkway.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 33192,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-akashi-bridgeworld-hero.c804d90f701a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 98222,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-akashi-bridgeworld-hero.c804d90f701a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 182686,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-akashi-bridgeworld-hero.c804d90f701a.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-bizen-osafune-hero": {
+      "credit": "Ebiebi2",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bizen_Osafune_Japanese_sword_Museum_1.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 357,
+          "bytes": 15284,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-bizen-osafune-hero.29ad2d6e5c7b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 715,
+          "bytes": 46836,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-bizen-osafune-hero.29ad2d6e5c7b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1072,
+          "bytes": 87464,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-bizen-osafune-hero.29ad2d6e5c7b.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-fukui-dinosaur-hero": {
+      "credit": "Totti",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fukui_Prefectural_Dinosaur_Museum_20231217.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 14196,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-fukui-dinosaur-hero.ec8364e77dd9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 58126,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-fukui-dinosaur-hero.ec8364e77dd9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 127714,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-fukui-dinosaur-hero.ec8364e77dd9.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-gaikaku-hero": {
+      "credit": "Kunitaka NIIDATE",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metropolitan_Area_Outer_Underground_Discharge_Channel_(10885970325).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 2790,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-gaikaku-hero.528ade1ce64f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 7662,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-gaikaku-hero.528ade1ce64f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 14062,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-gaikaku-hero.528ade1ce64f.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-mikado-hero": {
+      "credit": "Asanagi",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Takadanobaba_Game_Center_Mikado_ground_floor_2019-02-24.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 28328,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-mikado-hero.49464e5a4112.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 79392,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-mikado-hero.49464e5a4112.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 138718,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-mikado-hero.49464e5a4112.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-railway-museum-hero": {
+      "credit": "ajari",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%89%84%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8_Railway_museum_16.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 24750,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-railway-museum-hero.f88bdff4a717.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 69462,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-railway-museum-hero.f88bdff4a717.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 124700,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-railway-museum-hero.f88bdff4a717.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-scmaglev-hero": {
+      "credit": "Bariston",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SCMaglev_and_Railway_Park_in_Aichi_Prefecture.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 15894,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-scmaglev-hero.efc10ea41701.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 64574,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-scmaglev-hero.efc10ea41701.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 156980,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-scmaglev-hero.efc10ea41701.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-takenaka-hero": {
+      "credit": "Bov.Smith",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P.Moore_takenaka_carpentry_tools_museum.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 23840,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-takenaka-hero.335ab5a6fd6b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 71230,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-takenaka-hero.335ab5a6fd6b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 134020,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-takenaka-hero.335ab5a6fd6b.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-toyota-industry-hero": {
+      "credit": "Tokumeigakarinoaoshima",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_Commemorative_Museum_of_Industry_and_Technology.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 25254,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-toyota-industry-hero.79b256588a69.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 114460,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-toyota-industry-hero.79b256588a69.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 252946,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-toyota-industry-hero.79b256588a69.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-usui-hero": {
+      "credit": "快速踊り子",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Usui-Pass_EF63_24.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 37136,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-usui-hero.6b34c558132d.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 121202,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-usui-hero.6b34c558132d.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 230254,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-usui-hero.6b34c558132d.1440.webp"
+        }
+      ]
+    },
+    "japan-entertainment-yokote-manga-hero": {
+      "credit": "掬茶",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yokote-Masuda_Manga_Museum_20130828.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 12862,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-yokote-manga-hero.fcff3857782a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 42418,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-yokote-manga-hero.fcff3857782a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 83260,
+          "quality": 78,
+          "path": "assets/images/japan-entertainment-yokote-manga-hero.fcff3857782a.1440.webp"
+        }
+      ]
+    },
     "nockalm-road-hero": {
       "credit": "Miroz · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nockalmstrasse.jpg",
@@ -4488,20 +4781,6 @@
           "height": 1067,
           "bytes": 2367,
           "path": "assets/images/pfd-cz-0026-ordering.e1e8eb2236e7.svg"
-        }
-      ]
-    },
-    "pfd-cz-0027-ordering": {
-      "credit": "Good Shit editorial illustration",
-      "sourceUrl": null,
-      "license": null,
-      "licenseUrl": null,
-      "variants": [
-        {
-          "width": 1600,
-          "height": 1067,
-          "bytes": 2369,
-          "path": "assets/images/pfd-cz-0027-ordering.3d74114bd959.svg"
         }
       ]
     },
