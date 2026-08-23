@@ -247,19 +247,22 @@
           "width": 480,
           "height": 289,
           "bytes": 16886,
-          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.480.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.c40a5c4cfea1.480.webp"
         },
         {
           "width": 960,
           "height": 578,
           "bytes": 46382,
-          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.960.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.c40a5c4cfea1.960.webp"
         },
         {
           "width": 1440,
           "height": 867,
           "bytes": 77312,
-          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.351d4ac3b252.1440.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-czechia-iqlandia-hero.c40a5c4cfea1.1440.webp"
         }
       ]
     },
