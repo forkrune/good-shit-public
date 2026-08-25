@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T11:09:35.000Z",
+  "generatedAt": "2026-08-25T11:15:05.000Z",
   "catalogue": {
     "total": 572,
     "public": 572,
@@ -38,14 +38,14 @@
     "searchShardCount": 33,
     "mapShardCount": 28,
     "tierListShardCount": 39,
-    "hikingRouteAssetCount": 6,
+    "hikingRouteAssetCount": 7,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1273880,
-      "gzipBytes": 281163
+      "bytes": 1274349,
+      "gzipBytes": 281306
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -53,8 +53,8 @@
       "gzipBytes": 165550
     },
     "mapOverview": {
-      "bytes": 1868378,
-      "gzipBytes": 329872
+      "bytes": 1868597,
+      "gzipBytes": 329982
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,12 +62,12 @@
       "gzipBytes": 121916
     },
     "entityReference": {
-      "bytes": 1669439,
-      "gzipBytes": 287581
+      "bytes": 1669641,
+      "gzipBytes": 287687
     },
     "hikingRouteAssetsTotal": {
-      "bytes": 121205,
-      "gzipBytes": 33274
+      "bytes": 145622,
+      "gzipBytes": 40569
     },
     "largestHikingRouteAsset": {
       "key": "131aba42-8acf-530d-b02b-b5d98669f390:official-svoboda-rychory-sklenarovice-mlade-buky",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 2413,
-      "gzipBytes": 1528
+      "gzipBytes": 1527
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-08-25T11:09:35.000Z",
+    "generatedAt": "2026-08-25T11:15:05.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -169,10 +169,10 @@
           "entityCount": 1
         },
         {
-          "path": "catalogue/packages/entities-cz.6736b2b9f682.json",
-          "bytes": 416460,
-          "gzipBytes": 94151,
-          "sha256": "6736b2b9f6828b133d0ff280cfba9457be4e6bc595c155579875a7a240ba6626",
+          "path": "catalogue/packages/entities-cz.33f2abb06568.json",
+          "bytes": 424023,
+          "gzipBytes": 97443,
+          "sha256": "33f2abb065688a795afd9bb33ba621798453e1202c4409d188778197033d594b",
           "countryCode": "CZ",
           "entityCount": 77
         },
@@ -394,17 +394,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.84a3d4e6f33a.json",
+        "path": "data/search/manifest.4ac2113706a8.json",
         "bytes": 40854,
-        "gzipBytes": 10052,
-        "sha256": "84a3d4e6f33a2e6d3bda6b41a869fa673c420566fbf3c6994cf4ae5f674fb947",
+        "gzipBytes": 10053,
+        "sha256": "4ac2113706a8ab2bd5d349311eea4a934a85aa3253d94f78e62c5170e0ef2047",
         "documentCount": 572
       },
       "map": {
-        "path": "data/map/manifest.4ffa64b9eac6.json",
-        "bytes": 139851,
-        "gzipBytes": 43885,
-        "sha256": "4ffa64b9eac698e53be4831fc2702fa7177d980dc155058eade17c883f8803fa",
+        "path": "data/map/manifest.b7f396aeac99.json",
+        "bytes": 139876,
+        "gzipBytes": 43907,
+        "sha256": "b7f396aeac99b1f9d01b924ab544999a0728abaae90afba2548704913580377b",
         "shardCount": 28
       },
       "redirects": {
@@ -429,7 +429,7 @@
       },
       "hiking": {
         "manifest": "data/hiking/manifest.json",
-        "routeCount": 6
+        "routeCount": 7
       },
       "routes": {
         "manifest": "data/routes/manifest.json",
@@ -437,10 +437,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.37130ad82a3b.json",
+        "path": "data/tier-list/manifest.fd9674edb8d3.json",
         "bytes": 26244,
         "gzipBytes": 6740,
-        "sha256": "37130ad82a3bf86eb13a9f4f21c9efb45fcf4d3ca4a272ad8b2125ecddb07c2a",
+        "sha256": "fd9674edb8d3210c1400366cb0b1dbe4cf8d9e2375573157eb3bfab08681da60",
         "documentCount": 572,
         "countryShardCount": 33,
         "typeShardCount": 6
