@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-08-25T10:38:19.000Z",
+  "generatedAt": "2026-08-25T10:46:14.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -70,10 +70,10 @@
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-cz.b1ede03a8d4c.json",
-        "bytes": 406785,
-        "gzipBytes": 91315,
-        "sha256": "b1ede03a8d4c61e7b18b3182006f35557bee1941449e5f087f4bba509c866282",
+        "path": "catalogue/packages/entities-cz.cec974038dfd.json",
+        "bytes": 410749,
+        "gzipBytes": 92527,
+        "sha256": "cec974038dfd01d3409ee10d7716db21cd8dd76ae45d92e97571e21911908468",
         "countryCode": "CZ",
         "entityCount": 77
       },
@@ -295,17 +295,17 @@
       }
     ],
     "search": {
-      "path": "data/search/manifest.663ed9e5e194.json",
+      "path": "data/search/manifest.587532a8ab39.json",
       "bytes": 40854,
-      "gzipBytes": 10053,
-      "sha256": "663ed9e5e194b3fc2c994d13c812757ba5afafe0df70a1eb6740d460e6a8e014",
+      "gzipBytes": 10051,
+      "sha256": "587532a8ab39cc7cb447e6f382619bd11921781498b502a134cd1f53111d9f4e",
       "documentCount": 572
     },
     "map": {
-      "path": "data/map/manifest.7b7935d6aa58.json",
-      "bytes": 139812,
+      "path": "data/map/manifest.c11fb7c56f84.json",
+      "bytes": 139814,
       "gzipBytes": 43857,
-      "sha256": "7b7935d6aa58c21d8c720ff67ef467e3ecd3d60a019b6f2c1e65eec7e3026c09",
+      "sha256": "c11fb7c56f84bdaeb490ffd01f2f5dd0b1df4b97b4d7cde7c059e7c45779424c",
       "shardCount": 28
     },
     "redirects": {
@@ -330,7 +330,7 @@
     },
     "hiking": {
       "manifest": "data/hiking/manifest.json",
-      "routeCount": 4
+      "routeCount": 5
     },
     "routes": {
       "manifest": "data/routes/manifest.json",
@@ -338,10 +338,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.eb5e121f4e1d.json",
+      "path": "data/tier-list/manifest.81efd3dc02df.json",
       "bytes": 26244,
       "gzipBytes": 6740,
-      "sha256": "eb5e121f4e1d8e53d5f359b5fee3f613876803269a938808e035d8c337574d32",
+      "sha256": "81efd3dc02df0eacf2bbdae083904cb54b1964c0750323daab41e9b6a32d2002",
       "documentCount": 572,
       "countryShardCount": 33,
       "typeShardCount": 6
