@@ -567,19 +567,22 @@
           "width": 480,
           "height": 320,
           "bytes": 17400,
-          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.480.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 43270,
-          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.960.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 71140,
-          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.27950d25d28f.1440.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.1440.webp"
         }
       ]
     },
@@ -645,19 +648,22 @@
           "width": 320,
           "height": 480,
           "bytes": 17530,
-          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.480.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.480.webp"
         },
         {
           "width": 640,
           "height": 960,
           "bytes": 61146,
-          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.960.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.960.webp"
         },
         {
           "width": 960,
           "height": 1440,
           "bytes": 122704,
-          "path": "assets/images/europe-attraction-finland-moominworld-hero.cfc3a45ec100.1440.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.1440.webp"
         }
       ]
     },
