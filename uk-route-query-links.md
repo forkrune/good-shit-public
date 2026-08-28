@@ -1,0 +1,6 @@
+# Temporary route query links
+
+- [National Trails route index](https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Trails_England/FeatureServer/0/query?f=pjson&outFields=OBJECTID_1%2CName%2CStart%2CEnd_%2CLength_Km&returnGeometry=false&where=1%3D1)
+- [South Downs Way geometry](https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Trails_England/FeatureServer/0/query?f=geojson&geometryPrecision=6&maxAllowableOffset=0.00005&outFields=OBJECTID_1%2CName%2CStart%2CEnd_%2CLength_Km&outSR=4326&returnGeometry=true&returnM=false&returnZ=false&where=Name%3D%27South%20Downs%20Way%27)
+- [Hadrian's Wall Path geometry](https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Trails_England/FeatureServer/0/query?f=geojson&geometryPrecision=6&maxAllowableOffset=0.00005&outFields=OBJECTID_1%2CName%2CStart%2CEnd_%2CLength_Km&outSR=4326&returnGeometry=true&returnM=false&returnZ=false&where=Name%3D%27Hadrian%27%27s%20Wall%20Path%27)
+- [South West Coast Path geometry](https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Trails_England/FeatureServer/0/query?f=geojson&geometryPrecision=6&maxAllowableOffset=0.00005&outFields=OBJECTID_1%2CName%2CStart%2CEnd_%2CLength_Km&outSR=4326&returnGeometry=true&returnM=false&returnZ=false&where=Name%3D%27South%20West%20Coast%20Path%27)
