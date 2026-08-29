@@ -1,0 +1,144 @@
+name: Sweden route acquisition
+
+on:
+  push:
+    branches:
+      - research/sweden-route-acquisition-2026-08
+    paths:
+      - .github/workflows/sweden-route-acquisition.yml
+
+permissions:
+  contents: read
+
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Fetch OSM relation and official GPX snapshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/sweden-routes/search /tmp/sweden-routes/relations /tmp/sweden-routes/official
+          python - <<'PY'
+          import hashlib
+          import json
+          import pathlib
+          import re
+          import time
+          import urllib.parse
+          import urllib.request
+
+          out = pathlib.Path('/tmp/sweden-routes')
+          user_agent = 'GoodShit Sweden hiking research/1.0 (+https://github.com/forkrune/good-shit)'
+
+          queries = [
+              'Skierffe', 'Skierfe', 'Kärkevagge', 'Karkevagge',
+              'Kungsleden Etapp', 'Padjelantaleden', 'Jämtlandstriangeln',
+              'Jämtland Triangle', 'Helags', 'Sonfjället', 'Fulufjället',
+              'Muttosbálges', 'Muddus', 'Skuleskogen', 'Slåttdalsskrevan',
+              'Balesudden', 'Ramsvikslandet Runt', 'Ramsvik runt',
+              'Klintkustleden', 'Kullaleden', 'Mölle Arild', 'Hovs Hallar',
+              'Härmanöhuvud', 'Norra Sytertoppen', 'Syterskalet',
+              'Atoklimpen', 'Trollkyrkorundan', 'Skurugata', 'Omberg',
+              'Blå Jungfrun runt', 'Hamraleden', 'Kebnekaise', 'Tarfala'
+          ]
+
+          def slug(value: str) -> str:
+              value = value.lower().replace('å','a').replace('ä','a').replace('ö','o')
+              return re.sub(r'[^a-z0-9]+', '-', value).strip('-')
+
+          def get(url: str) -> bytes:
+              req = urllib.request.Request(url, headers={
+                  'User-Agent': user_agent,
+                  'Accept': 'application/json, application/gpx+xml, application/xml, */*'
+              })
+              with urllib.request.urlopen(req, timeout=90) as response:
+                  return response.read()
+
+          relation_ids = {897726, 17085817, 18869117, 19096558,
+                          19111628, 19111627, 6261464, 6261463,
+                          19111626, 19111625, 19059738}
+          search_index = []
+          for query in queries:
+              url = 'https://api.trailsplits.com/trails/v1/search?' + urllib.parse.urlencode({
+                  'q': query, 'limit': 100, 'type': 'hiking'
+              })
+              name = slug(query)
+              try:
+                  body = get(url)
+                  (out / 'search' / f'{name}.json').write_bytes(body)
+                  payload = json.loads(body)
+                  for feature in payload.get('features', []):
+                      props = feature.get('properties', {})
+                      rid = props.get('osm_relation_id')
+                      if isinstance(rid, int):
+                          relation_ids.add(rid)
+                          search_index.append({
+                              'query': query,
+                              'relationId': rid,
+                              'name': props.get('name'),
+                              'distanceKm': props.get('distance_km'),
+                              'bbox': props.get('bbox')
+                          })
+              except Exception as exc:
+                  (out / 'search' / f'{name}.error.txt').write_text(f'{type(exc).__name__}: {exc}\n', encoding='utf-8')
+              time.sleep(0.15)
+
+          relation_index = []
+          for rid in sorted(relation_ids):
+              url = f'https://api.trailsplits.com/trails/v1/relation/{rid}'
+              try:
+                  body = get(url)
+                  (out / 'relations' / f'{rid}.json').write_bytes(body)
+                  payload = json.loads(body)
+                  props = payload.get('properties', {})
+                  geometry = payload.get('geometry', {})
+                  relation_index.append({
+                      'relationId': rid,
+                      'name': props.get('name'),
+                      'distanceKm': props.get('distance_km'),
+                      'ascentM': props.get('ascent_m'),
+                      'descentM': props.get('descent_m'),
+                      'bbox': props.get('bbox'),
+                      'geometryType': geometry.get('type'),
+                      'sha256': hashlib.sha256(body).hexdigest(),
+                      'url': url
+                  })
+              except Exception as exc:
+                  (out / 'relations' / f'{rid}.error.txt').write_text(f'{type(exc).__name__}: {exc}\n', encoding='utf-8')
+              time.sleep(0.15)
+
+          official_gpx = {
+              'klintkustleden': 'https://www.naturkartan.se/sv/gotlands-lan/klintkustleden.gpx',
+              'ramsvikslandet-runt': 'https://www.naturkartan.se/sv/vastra-gotalands-lan/ramsvikslandet-runt-kuststigen-etapp-22.gpx',
+              'bla-jungfrun-runt': 'https://www.naturkartan.se/sv/kalmar-lan/sommarled-blaa-jungfrun.gpx',
+              'hamraleden': 'https://www.naturkartan.se/sv/gavleborgs-lan/sommarled-hamra-5.gpx',
+              'ellen-keys-led': 'https://www.naturkartan.se/sv/ostergotlands-lan/ellen-keys-led.gpx',
+              'hoga-kusten-leden': 'https://trailsplits.com/trails-gpx/hoga-kusten-leden.gpx',
+              'padjelantaleden': 'https://trailsplits.com/trails-gpx/padjelantaleden.gpx',
+              'jamtland-triangle': 'https://trailsplits.com/trails-gpx/jamtland-triangle.gpx'
+          }
+          official_index = []
+          for name, url in official_gpx.items():
+              try:
+                  body = get(url)
+                  (out / 'official' / f'{name}.gpx').write_bytes(body)
+                  official_index.append({'name': name, 'sha256': hashlib.sha256(body).hexdigest(), 'url': url, 'bytes': len(body)})
+              except Exception as exc:
+                  (out / 'official' / f'{name}.error.txt').write_text(f'{type(exc).__name__}: {exc}\n', encoding='utf-8')
+
+          (out / 'index.json').write_text(json.dumps({
+              'searched': search_index,
+              'relations': relation_index,
+              'officialTracks': official_index
+          }, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+          find /tmp/sweden-routes -maxdepth 3 -type f -print | sort
+      - name: Upload route snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: sweden-route-snapshots
+          path: /tmp/sweden-routes
+          if-no-files-found: error
+          retention-days: 7
