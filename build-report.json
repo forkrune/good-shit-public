@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T20:49:14.000Z",
+  "generatedAt": "2026-08-30T21:05:24.000Z",
   "catalogue": {
     "total": 616,
     "public": 616,
@@ -38,14 +38,14 @@
     "searchShardCount": 33,
     "mapShardCount": 28,
     "tierListShardCount": 39,
-    "hikingRouteAssetCount": 10,
+    "hikingRouteAssetCount": 11,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1369343,
-      "gzipBytes": 308614
+      "bytes": 1370301,
+      "gzipBytes": 308963
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -53,8 +53,8 @@
       "gzipBytes": 182085
     },
     "mapOverview": {
-      "bytes": 2001587,
-      "gzipBytes": 357130
+      "bytes": 2001979,
+      "gzipBytes": 357458
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,12 +62,12 @@
       "gzipBytes": 137939
     },
     "entityReference": {
-      "bytes": 1786844,
-      "gzipBytes": 311814
+      "bytes": 1787217,
+      "gzipBytes": 312144
     },
     "hikingRouteAssetsTotal": {
-      "bytes": 189547,
-      "gzipBytes": 51523
+      "bytes": 219064,
+      "gzipBytes": 58128
     },
     "largestHikingRouteAsset": {
       "key": "131aba42-8acf-530d-b02b-b5d98669f390:official-svoboda-rychory-sklenarovice-mlade-buky",
@@ -76,7 +76,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11012
+      "gzipBytes": 11011
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 2413,
-      "gzipBytes": 1529
+      "gzipBytes": 1528
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -94,13 +94,13 @@
     },
     "tierListManifest": {
       "bytes": 27575,
-      "gzipBytes": 7006
+      "gzipBytes": 7009
     }
   },
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-08-30T20:49:14.000Z",
+    "generatedAt": "2026-08-30T21:05:24.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -329,10 +329,10 @@
           "entityCount": 5
         },
         {
-          "path": "catalogue/packages/entities-no.d76ef2b3ca66.json",
-          "bytes": 234965,
-          "gzipBytes": 38341,
-          "sha256": "d76ef2b3ca66b402975207942f16e69704914cf231a9030e1fc5fde4d2e186e6",
+          "path": "catalogue/packages/entities-no.c7ab9a7e93c5.json",
+          "bytes": 242219,
+          "gzipBytes": 40566,
+          "sha256": "c7ab9a7e93c5a44d4de46a9a94a853d17e33a749f7bea317e12bf5d575e08921",
           "countryCode": "NO",
           "entityCount": 49
         },
@@ -394,17 +394,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.c3b3626e5c94.json",
+        "path": "data/search/manifest.b0f7a9435cc2.json",
         "bytes": 44132,
-        "gzipBytes": 10821,
-        "sha256": "c3b3626e5c9476f792d614482a295a92194a3d59362bbb7afae80b28d5e33e23",
+        "gzipBytes": 10814,
+        "sha256": "b0f7a9435cc232e8532475060f9ffded13bb2d72668cf8f1cb903d445b1ee1d3",
         "documentCount": 616
       },
       "map": {
-        "path": "data/map/manifest.54a03e07eb15.json",
-        "bytes": 150640,
-        "gzipBytes": 47381,
-        "sha256": "54a03e07eb152b48bfa35e7ea888355a53fb75c6d12634c8b03b20b59adc72c8",
+        "path": "data/map/manifest.3c74cc549d21.json",
+        "bytes": 150672,
+        "gzipBytes": 47413,
+        "sha256": "3c74cc549d21651f0985519aaf145ee0ce7d1a932eed7a4605631c76fad11333",
         "shardCount": 28
       },
       "redirects": {
@@ -429,7 +429,7 @@
       },
       "hiking": {
         "manifest": "data/hiking/manifest.json",
-        "routeCount": 10
+        "routeCount": 11
       },
       "routes": {
         "manifest": "data/routes/manifest.json",
@@ -437,10 +437,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.3a48ceae681e.json",
+        "path": "data/tier-list/manifest.029d2fa6d60b.json",
         "bytes": 27575,
-        "gzipBytes": 7006,
-        "sha256": "3a48ceae681e42ad9a65fb5017fa0176b4813c2df335928832df19d0f5510a5e",
+        "gzipBytes": 7009,
+        "sha256": "029d2fa6d60b03a7c75fa302d0483fcebdadaf677413910d8e79fcafdfbb370d",
         "documentCount": 616,
         "countryShardCount": 33,
         "typeShardCount": 6
