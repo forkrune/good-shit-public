@@ -34,7 +34,9 @@
           "descentM",
           "durationMinutes",
           "difficulty",
-          "routeAsset"
+          "routeAsset",
+          "gpxAsset",
+          "gpxUse"
         ],
         "properties": {
           "id": {
@@ -150,6 +152,16 @@
           "gpxAsset": {
             "type": "string"
           },
+          "gpxUse": {
+            "enum": [
+              "route",
+              "planning-only"
+            ]
+          },
+          "gpxWarning": {
+            "type": "string",
+            "minLength": 1
+          },
           "exposure": {
             "enum": [
               "none",
@@ -165,7 +177,26 @@
               "required"
             ]
           }
-        }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "gpxUse": {
+                  "const": "planning-only"
+                }
+              },
+              "required": [
+                "gpxUse"
+              ]
+            },
+            "then": {
+              "required": [
+                "gpxWarning"
+              ]
+            }
+          }
+        ]
       }
     },
     "waypointCount": {
