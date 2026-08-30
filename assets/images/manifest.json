@@ -567,21 +567,18 @@
           "width": 480,
           "height": 320,
           "bytes": 17400,
-          "quality": 78,
           "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 43270,
-          "quality": 78,
           "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 71140,
-          "quality": 78,
           "path": "assets/images/europe-attraction-estonia-ahhaa-science-centre-hero.e32a648364da.1440.webp"
         }
       ]
@@ -648,21 +645,18 @@
           "width": 320,
           "height": 480,
           "bytes": 17530,
-          "quality": 78,
           "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.480.webp"
         },
         {
           "width": 640,
           "height": 960,
           "bytes": 61146,
-          "quality": 78,
           "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.960.webp"
         },
         {
           "width": 960,
           "height": 1440,
           "bytes": 122704,
-          "quality": 78,
           "path": "assets/images/europe-attraction-finland-moominworld-hero.8c66820ea0a0.1440.webp"
         }
       ]
@@ -911,19 +905,22 @@
           "width": 480,
           "height": 271,
           "bytes": 21698,
-          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.480.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.06a3bdc869af.480.webp"
         },
         {
           "width": 960,
           "height": 541,
           "bytes": 92180,
-          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.960.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.06a3bdc869af.960.webp"
         },
         {
           "width": 1440,
           "height": 812,
           "bytes": 238734,
-          "path": "assets/images/europe-attraction-germany-phantasialand-hero.a78a69e74558.1440.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-germany-phantasialand-hero.06a3bdc869af.1440.webp"
         }
       ]
     },
@@ -1587,19 +1584,22 @@
           "width": 480,
           "height": 347,
           "bytes": 18966,
-          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.480.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.00055d20119d.480.webp"
         },
         {
           "width": 960,
           "height": 694,
           "bytes": 66378,
-          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.960.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.00055d20119d.960.webp"
         },
         {
           "width": 1440,
           "height": 1040,
           "bytes": 138846,
-          "path": "assets/images/europe-attraction-poland-energylandia-hero.55cd3e22f227.1440.webp"
+          "quality": 78,
+          "path": "assets/images/europe-attraction-poland-energylandia-hero.00055d20119d.1440.webp"
         }
       ]
     },
