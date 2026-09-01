@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:24:29.000Z",
+  "generatedAt": "2026-09-01T15:55:42.000Z",
   "catalogue": {
     "total": 619,
     "public": 619,
@@ -38,14 +38,14 @@
     "searchShardCount": 33,
     "mapShardCount": 28,
     "tierListShardCount": 39,
-    "hikingRouteAssetCount": 18,
+    "hikingRouteAssetCount": 19,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1384998,
-      "gzipBytes": 313293
+      "bytes": 1385792,
+      "gzipBytes": 313518
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -53,8 +53,8 @@
       "gzipBytes": 182085
     },
     "mapOverview": {
-      "bytes": 2014548,
-      "gzipBytes": 360856
+      "bytes": 2015037,
+      "gzipBytes": 361112
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,12 +62,12 @@
       "gzipBytes": 137939
     },
     "entityReference": {
-      "bytes": 1798586,
-      "gzipBytes": 315296
+      "bytes": 1799054,
+      "gzipBytes": 315526
     },
     "hikingRouteAssetsTotal": {
-      "bytes": 341168,
-      "gzipBytes": 94847
+      "bytes": 364209,
+      "gzipBytes": 102031
     },
     "largestHikingRouteAsset": {
       "key": "131aba42-8acf-530d-b02b-b5d98669f390:official-svoboda-rychory-sklenarovice-mlade-buky",
@@ -85,12 +85,12 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 2413,
-      "gzipBytes": 1527
+      "gzipBytes": 1528
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
       "bytes": 765,
-      "gzipBytes": 382
+      "gzipBytes": 381
     },
     "tierListManifest": {
       "bytes": 27576,
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-09-01T15:24:29.000Z",
+    "generatedAt": "2026-09-01T15:55:42.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -169,10 +169,10 @@
           "entityCount": 1
         },
         {
-          "path": "catalogue/packages/entities-cz.2680791c617f.json",
-          "bytes": 447446,
-          "gzipBytes": 104085,
-          "sha256": "2680791c617fa1b4291efa8e509b63765c15fb5ff0c90871f20ee08b8ead2440",
+          "path": "catalogue/packages/entities-cz.38381fb54785.json",
+          "bytes": 454802,
+          "gzipBytes": 106378,
+          "sha256": "38381fb54785d237da85ee1980cf97487add55346770fc5d374aa1ebb1aa34aa",
           "countryCode": "CZ",
           "entityCount": 79
         },
@@ -394,17 +394,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.54cf62c25456.json",
+        "path": "data/search/manifest.b6e2ad6170fb.json",
         "bytes": 44394,
-        "gzipBytes": 10905,
-        "sha256": "54cf62c25456419387af50db6c155268d4075ba0fa8eaa38313e1a5985fccb8f",
+        "gzipBytes": 10906,
+        "sha256": "b6e2ad6170fbef24fb040e3d9eb904a5cb00ba01109fafe2b58e0b332f8c36b1",
         "documentCount": 619
       },
       "map": {
-        "path": "data/map/manifest.85b9d98ea41c.json",
-        "bytes": 151709,
-        "gzipBytes": 47901,
-        "sha256": "85b9d98ea41cc69249174c6f24c9748f8ae6b5d5a32f2ed5b2396734695b1902",
+        "path": "data/map/manifest.7e2913b267b5.json",
+        "bytes": 151745,
+        "gzipBytes": 47937,
+        "sha256": "7e2913b267b5175e3f067891a758e52ec2e55056c884f2c2c63f37db1511fc14",
         "shardCount": 28
       },
       "redirects": {
@@ -429,7 +429,7 @@
       },
       "hiking": {
         "manifest": "data/hiking/manifest.json",
-        "routeCount": 18
+        "routeCount": 19
       },
       "routes": {
         "manifest": "data/routes/manifest.json",
@@ -437,10 +437,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.eb5f49fe01eb.json",
+        "path": "data/tier-list/manifest.64cec782e163.json",
         "bytes": 27576,
         "gzipBytes": 7010,
-        "sha256": "eb5f49fe01eb906c7b3d2ac035c54c4819094bf867d65e772c9faddcc42645ea",
+        "sha256": "64cec782e16350d4fffe3a3bbec3091a7fb270f2b2e361e2c7e1e0fc3857535b",
         "documentCount": 619,
         "countryShardCount": 33,
         "typeShardCount": 6
