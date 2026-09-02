@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:08:52.000Z",
+  "generatedAt": "2026-09-02T09:41:38.000Z",
   "catalogue": {
     "total": 661,
     "public": 661,
@@ -76,7 +76,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11011
+      "gzipBytes": 11012
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 2413,
-      "gzipBytes": 1525
+      "gzipBytes": 1529
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-09-02T09:08:52.000Z",
+    "generatedAt": "2026-09-02T09:41:38.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -394,17 +394,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.23b83e11186e.json",
+        "path": "data/search/manifest.f027ef4baf4b.json",
         "bytes": 49581,
         "gzipBytes": 12252,
-        "sha256": "23b83e11186e74d3147906d7ab191687bd6d2ec4bd0507645d7324470d85aace",
+        "sha256": "f027ef4baf4baea3b6add973f2fdafaac6c0a735b61cd8c647792f3a79822e68",
         "documentCount": 661
       },
       "map": {
-        "path": "data/map/manifest.e302f0096e7f.json",
+        "path": "data/map/manifest.dcf57787690d.json",
         "bytes": 163390,
         "gzipBytes": 52929,
-        "sha256": "e302f0096e7f287b932d1f565f5fb5aee0ccd26a67d17481c1fa2df79a786dfa",
+        "sha256": "dcf57787690de5370981c0a1cc70fa3d33cd4b7a6c5fe0636108611b88df1b44",
         "shardCount": 28
       },
       "redirects": {
@@ -437,10 +437,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.5b72cec19545.json",
+        "path": "data/tier-list/manifest.d2a6b28526b9.json",
         "bytes": 28607,
         "gzipBytes": 7215,
-        "sha256": "5b72cec19545a043aad81a509a99a0fd0b982cbf9c3581ff7241f6d5f58d4692",
+        "sha256": "d2a6b28526b904d044c423286cea18847082f91031acd81b0dbd53d8214ef299",
         "documentCount": 661,
         "countryShardCount": 33,
         "typeShardCount": 7
