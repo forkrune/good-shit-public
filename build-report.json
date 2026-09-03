@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:42:59.000Z",
+  "generatedAt": "2026-09-03T08:52:49.000Z",
   "catalogue": {
     "total": 708,
     "public": 708,
@@ -58,8 +58,8 @@
     },
     "largestMapShard": {
       "key": "5/28/12",
-      "bytes": 753746,
-      "gzipBytes": 149161
+      "bytes": 752033,
+      "gzipBytes": 148638
     },
     "entityReference": {
       "bytes": 2050298,
@@ -67,7 +67,7 @@
     },
     "hikingRouteAssetsTotal": {
       "bytes": 1458908,
-      "gzipBytes": 421722
+      "gzipBytes": 421726
     },
     "largestHikingRouteAsset": {
       "key": "131aba42-8acf-530d-b02b-b5d98669f390:official-svoboda-rychory-sklenarovice-mlade-buky",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1707
+      "gzipBytes": 1705
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-09-02T16:42:59.000Z",
+    "generatedAt": "2026-09-03T08:52:49.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -394,17 +394,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.536c8db544ab.json",
+        "path": "data/search/manifest.227ab7910cb4.json",
         "bytes": 53609,
         "gzipBytes": 13102,
-        "sha256": "536c8db544abacfbde646c46f05f0d1fb77d04e8e6011689a509a1eaca46a5b5",
+        "sha256": "227ab7910cb461ad91d842eda6537f9fada142fa693776af6fe1ff7445158d92",
         "documentCount": 708
       },
       "map": {
-        "path": "data/map/manifest.bea886872cdd.json",
-        "bytes": 173546,
-        "gzipBytes": 55936,
-        "sha256": "bea886872cddc8773704db7b236ddc9172d3d8185c557bf9eef415515781b8cd",
+        "path": "data/map/manifest.07dca9e64517.json",
+        "bytes": 173746,
+        "gzipBytes": 56029,
+        "sha256": "07dca9e64517e7b29fc64ea274de1108be89f437370bacccbbc31c52dddf5a39",
         "shardCount": 28
       },
       "redirects": {
@@ -437,10 +437,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.d7595fc431ee.json",
+        "path": "data/tier-list/manifest.219320533e1c.json",
         "bytes": 31305,
         "gzipBytes": 7749,
-        "sha256": "d7595fc431ee0cfd0adf2f1eec923227990f6fe65eecaabd300fe21e542f515c",
+        "sha256": "219320533e1ca27a7fdb20122e969bcae64653b59caa80d88200bdad5bdb438e",
         "documentCount": 708,
         "countryShardCount": 33,
         "typeShardCount": 10
