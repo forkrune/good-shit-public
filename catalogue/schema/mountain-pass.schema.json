@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/mountain-pass.schema.json",
+  "title": "Good Shit mountain-pass identity extension",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "kind", "accessModes"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "kind": { "enum": ["geographic-pass", "road-crossing", "foot-crossing", "mixed-crossing", "managed-alpine-road", "multi-pass-route"] },
+    "accessModes": { "$ref": "#/$defs/accessModes" },
+    "elevationMeters": { "type": "integer", "minimum": 0, "maximum": 9000 },
+    "corridor": { "$ref": "#/$defs/corridor" },
+    "toll": { "enum": ["required", "none", "varies"] },
+    "components": { "type": "array", "items": { "$ref": "#/$defs/component" } },
+    "statusBindings": { "type": "array", "items": { "$ref": "#/$defs/statusBinding" } }
+  },
+  "$defs": {
+    "accessModes": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["drive", "cycle", "walk"] } },
+    "corridor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": { "name": { "type": "string", "minLength": 1 }, "reference": { "type": "string", "minLength": 1 } },
+      "anyOf": [{ "required": ["name"] }, { "required": ["reference"] }]
+    },
+    "component": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "kind", "accessModes"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "name": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["geographic-pass", "road-crossing", "foot-crossing", "mixed-crossing", "managed-alpine-road"] },
+        "accessModes": { "$ref": "#/$defs/accessModes" },
+        "elevationMeters": { "type": "integer", "minimum": 0, "maximum": 9000 },
+        "corridor": { "$ref": "#/$defs/corridor" },
+        "relatedEntityId": { "type": "string", "format": "uuid" }
+      }
+    },
+    "statusBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["providerId", "resourceId", "modes"],
+      "properties": {
+        "providerId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "resourceId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "modes": { "$ref": "#/$defs/accessModes" },
+        "componentId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" }
+      }
+    }
+  }
+}

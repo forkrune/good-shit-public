@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-09-03T09:58:46.000Z",
+  "generatedAt": "2026-09-04T08:07:57.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -295,17 +295,17 @@
       }
     ],
     "search": {
-      "path": "data/search/manifest.61feb612de86.json",
+      "path": "data/search/manifest.f02d66d70bd3.json",
       "bytes": 53609,
       "gzipBytes": 13104,
-      "sha256": "61feb612de86a4f669e1d8f36afd3617c6b346f96c0f27b368383ad2c3587fd4",
+      "sha256": "f02d66d70bd3ee9efe4a03db34835def93818089c93c08e63df000562de982b2",
       "documentCount": 708
     },
     "map": {
-      "path": "data/map/manifest.de9be8c6733a.json",
+      "path": "data/map/manifest.dfd6483ef78c.json",
       "bytes": 174172,
       "gzipBytes": 56417,
-      "sha256": "de9be8c6733a1ce44598a478b5a654d40fd521aa6405278b387e42e75635438f",
+      "sha256": "dfd6483ef78cf88ea91b73366a51ffa065762ab345b83b624f8d0ecf64ed85fb",
       "shardCount": 28
     },
     "redirects": {
@@ -313,6 +313,9 @@
     },
     "customMetadata": {
       "path": "catalogue/custom-metadata.json"
+    },
+    "mountainPassStatusProviders": {
+      "path": "catalogue/mountain-pass-status-providers.json"
     },
     "images": {
       "registry": "catalogue/images.json",
@@ -325,6 +328,8 @@
       "foodContent": "catalogue/schema/food-content.schema.json",
       "personalState": "catalogue/schema/personal-state.schema.json",
       "route": "catalogue/schema/public-route.schema.json",
+      "mountainPass": "catalogue/schema/mountain-pass.schema.json",
+      "mountainPassStatusProviders": "catalogue/schema/mountain-pass-status-providers.schema.json",
       "relations": "catalogue/schema/relations.schema.json",
       "hiking": "catalogue/schema/public-hiking.schema.json"
     },
@@ -338,10 +343,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.748caff910dd.json",
+      "path": "data/tier-list/manifest.48189fa44864.json",
       "bytes": 31305,
       "gzipBytes": 7749,
-      "sha256": "748caff910dd008c6bcd08bf3626959e47586b6857794644e8c4c71e62394628",
+      "sha256": "48189fa44864369878798d62010c3e0b8a7049c1280d46585f495b83d46d6fbd",
       "documentCount": 708,
       "countryShardCount": 33,
       "typeShardCount": 10

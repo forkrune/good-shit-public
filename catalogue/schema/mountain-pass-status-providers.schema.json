@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://good-shit.local/schema/mountain-pass-status-providers.schema.json",
+  "title": "Good Shit public-safe mountain-pass status providers",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "providers"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "providers": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "additionalProperties": { "$ref": "#/$defs/provider" }
+    }
+  },
+  "$defs": {
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "authority", "attribution", "license", "documentationUrl", "adapter", "authorityPriority", "allowedOrigins", "allowedPathPrefixes", "channels", "resources"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "authority": { "type": "string", "minLength": 1 },
+        "attribution": { "type": "string", "minLength": 1 },
+        "license": { "type": "string", "minLength": 1 },
+        "documentationUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "adapter": { "enum": ["south-tyrol-wfs-geojson-v1", "resource-json-status-v1", "external-verification-only-v1"] },
+        "authorityPriority": { "type": "integer", "minimum": 0, "maximum": 1000 },
+        "freshForSeconds": { "type": "integer", "minimum": 60, "maximum": 86400 },
+        "staleAfterSeconds": { "type": "integer", "minimum": 61, "maximum": 604800 },
+        "timeoutMs": { "type": "integer", "minimum": 1000, "maximum": 15000 },
+        "maxResponseBytes": { "type": "integer", "minimum": 1024, "maximum": 1048576 },
+        "allowedOrigins": { "type": "array", "uniqueItems": true, "items": { "type": "string", "format": "uri", "pattern": "^https://[^/]+/?$" } },
+        "allowedPathPrefixes": { "type": "array", "uniqueItems": true, "items": { "type": "string", "pattern": "^/" } },
+        "channels": { "type": "array", "items": { "$ref": "#/$defs/channel" } },
+        "resources": { "type": "object", "minProperties": 1 }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "adapter": { "const": "external-verification-only-v1" } },
+            "required": ["adapter"]
+          },
+          "then": {
+            "properties": {
+              "allowedOrigins": { "maxItems": 0 },
+              "allowedPathPrefixes": { "maxItems": 0 },
+              "channels": { "maxItems": 0 },
+              "resources": {
+                "additionalProperties": { "$ref": "#/$defs/verificationResource" }
+              }
+            }
+          },
+          "else": {
+            "required": ["freshForSeconds", "staleAfterSeconds", "timeoutMs", "maxResponseBytes"],
+            "properties": {
+              "allowedOrigins": { "minItems": 1 },
+              "allowedPathPrefixes": { "minItems": 1 },
+              "channels": { "minItems": 1 },
+              "resources": {
+                "additionalProperties": { "$ref": "#/$defs/resource" }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "url", "contentTypes", "networkWide"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "contentTypes": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "networkWide": { "type": "boolean" }
+      }
+    },
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "channelId", "supportedModes", "verificationUrl"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "channelId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "supportedModes": { "$ref": "#/$defs/supportedModes" },
+        "matchTerms": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "roadReferences": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "verificationUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "scopeLabel": { "type": "string", "minLength": 1 },
+        "localJson": { "$ref": "#/$defs/localJson" }
+      }
+    },
+    "verificationResource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "supportedModes", "verificationUrl"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "supportedModes": { "$ref": "#/$defs/supportedModes" },
+        "verificationUrl": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "scopeLabel": { "type": "string", "minLength": 1 }
+      }
+    },
+    "supportedModes": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "enum": ["drive", "cycle", "walk"] } },
+    "localJson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["statusPath", "statusValues"],
+      "properties": {
+        "statusPath": { "$ref": "#/$defs/jsonPath" },
+        "updatedAtPath": { "$ref": "#/$defs/jsonPath" },
+        "reasonPath": { "$ref": "#/$defs/jsonPath" },
+        "statusValues": {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "open": { "$ref": "#/$defs/statusValueList" },
+            "restricted": { "$ref": "#/$defs/statusValueList" },
+            "closed": { "$ref": "#/$defs/statusValueList" },
+            "unknown": { "$ref": "#/$defs/statusValueList" }
+          }
+        }
+      }
+    },
+    "jsonPath": { "type": "string", "pattern": "^[A-Za-z0-9_-]+(?:\\.[A-Za-z0-9_-]+)*$" },
+    "statusValueList": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": ["string", "number", "boolean"] } }
+  }
+}
