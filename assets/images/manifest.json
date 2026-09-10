@@ -3467,21 +3467,18 @@
           "width": 480,
           "height": 320,
           "bytes": 14842,
-          "quality": 78,
           "path": "assets/images/hero-d98bb16d-commons.259c536e1bac.480.webp"
         },
         {
           "width": 960,
           "height": 640,
           "bytes": 62010,
-          "quality": 78,
           "path": "assets/images/hero-d98bb16d-commons.259c536e1bac.960.webp"
         },
         {
           "width": 1440,
           "height": 960,
           "bytes": 148378,
-          "quality": 78,
           "path": "assets/images/hero-d98bb16d-commons.259c536e1bac.1440.webp"
         }
       ]
