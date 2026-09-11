@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-11T07:56:50.000Z",
+  "generatedAt": "2026-09-11T13:13:21.000Z",
   "catalogue": {
-    "total": 809,
-    "public": 809,
+    "total": 811,
+    "public": 811,
     "statuses": {
-      "published": 809
+      "published": 811
     },
     "tiers": {
       "S": 47,
       "A": 468,
       "B": 231,
-      "C": 63
+      "C": 65
     },
     "geometryVertices": 0
   },
   "publication": {
-    "canonicalTotal": 1034,
-    "publicTotal": 809,
+    "canonicalTotal": 1036,
+    "publicTotal": 811,
     "excludedTotal": 225,
     "excludedStatuses": {
       "needs-review": 186,
@@ -25,16 +25,16 @@
     },
     "legacyMediaHolds": 407,
     "hero": {
-      "totalPublished": 809,
+      "totalPublished": 811,
       "approved": 184,
-      "missing": 598,
+      "missing": 600,
       "rejected": 27,
       "violations": 0,
       "heldForHero": 0
     }
   },
   "build": {
-    "pageCount": 1262,
+    "pageCount": 1265,
     "searchShardCount": 35,
     "mapShardCount": 38,
     "tierListShardCount": 47,
@@ -44,26 +44,26 @@
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1815066,
-      "gzipBytes": 431870
+      "bytes": 1817935,
+      "gzipBytes": 432757
     },
     "largestCountrySearchShard": {
       "key": "jp",
-      "bytes": 1035843,
-      "gzipBytes": 194854
+      "bytes": 1040007,
+      "gzipBytes": 195709
     },
     "mapOverview": {
-      "bytes": 2601131,
-      "gzipBytes": 483976
+      "bytes": 2605988,
+      "gzipBytes": 484943
     },
     "largestMapShard": {
       "key": "5/28/12",
-      "bytes": 752346,
-      "gzipBytes": 148739
+      "bytes": 757205,
+      "gzipBytes": 149835
     },
     "entityReference": {
-      "bytes": 2319711,
-      "gzipBytes": 423666
+      "bytes": 2323875,
+      "gzipBytes": 424469
     },
     "hikingRouteAssetsTotal": {
       "bytes": 1739896,
@@ -76,7 +76,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11011
+      "gzipBytes": 11012
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1705
+      "gzipBytes": 1701
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -93,14 +93,14 @@
       "gzipBytes": 559
     },
     "tierListManifest": {
-      "bytes": 36814,
-      "gzipBytes": 8767
+      "bytes": 36870,
+      "gzipBytes": 8773
     }
   },
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-09-11T07:56:50.000Z",
+    "generatedAt": "2026-09-11T13:13:21.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -113,16 +113,16 @@
       ]
     },
     "counts": {
-      "total": 809,
-      "public": 809,
+      "total": 811,
+      "public": 811,
       "statuses": {
-        "published": 809
+        "published": 811
       },
       "tiers": {
         "S": 47,
         "A": 468,
         "B": 231,
-        "C": 63
+        "C": 65
       },
       "geometryVertices": 0
     },
@@ -289,12 +289,12 @@
           "entityCount": 5
         },
         {
-          "path": "catalogue/packages/entities-jp.cf2ce48b1f98.json",
-          "bytes": 1975166,
-          "gzipBytes": 416124,
-          "sha256": "cf2ce48b1f989e407bf8d6ef93e6c26b41638889a9b217546efda765daa2d165",
+          "path": "catalogue/packages/entities-jp.81ecf1969d7f.json",
+          "bytes": 1983497,
+          "gzipBytes": 418084,
+          "sha256": "81ecf1969d7f390348cd14f5f96bf1352cbbc5ff40beb8bca8f3237838507960",
           "countryCode": "JP",
-          "entityCount": 320
+          "entityCount": 322
         },
         {
           "path": "catalogue/packages/entities-lt.2f6927eeb913.json",
@@ -410,17 +410,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.407669f07d10.json",
-        "bytes": 64040,
-        "gzipBytes": 15210,
-        "sha256": "407669f07d102c0855e258fdca0fd4b54bbf001d25663005d9baa2d708d591c0",
-        "documentCount": 809
+        "path": "data/search/manifest.d80dbb1e925d.json",
+        "bytes": 64076,
+        "gzipBytes": 15206,
+        "sha256": "d80dbb1e925d8e2e5b93fcc760f9c1a3836b04f293111275451f0a24c2d7289a",
+        "documentCount": 811
       },
       "map": {
-        "path": "data/map/manifest.0f6ef4b03310.json",
-        "bytes": 199328,
-        "gzipBytes": 63995,
-        "sha256": "0f6ef4b033103cfb49d82709667f4458600b52a6f9345afa269b75b24cfa71ca",
+        "path": "data/map/manifest.bf6ff781047e.json",
+        "bytes": 199785,
+        "gzipBytes": 64128,
+        "sha256": "bf6ff781047e0273eaa328779df64532df2184f471e98a6baac4359d735ee522",
         "shardCount": 38
       },
       "redirects": {
@@ -458,11 +458,11 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.794cdcbc0a3f.json",
-        "bytes": 36814,
-        "gzipBytes": 8767,
-        "sha256": "794cdcbc0a3f6da45d16b5a86acb2802626da3572e9f7835f2b8352004127e3f",
-        "documentCount": 809,
+        "path": "data/tier-list/manifest.a3ddd10b4216.json",
+        "bytes": 36870,
+        "gzipBytes": 8773,
+        "sha256": "a3ddd10b421688ed860f12b2d28f47a670c6aa61dbd5de4915046d4e1433ea6d",
+        "documentCount": 811,
         "countryShardCount": 35,
         "typeShardCount": 12
       }
