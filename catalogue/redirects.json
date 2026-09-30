@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
-  "redirects": [],
+  "redirects": [
+    {
+      "fromId": "d4d16476-f670-81d5-90af-eb7a907c8fc3",
+      "disposition": "merged",
+      "toId": "c4ef66df-3034-83ac-9433-6d436874e846",
+      "effectiveAt": "2026-09-30T06:31:01.000Z",
+      "reason": "Both observations identify the permanent PokéPark Kanto (ポケパーク カントー) inside Yomiuriland, Inagi, and describe the same Pokémon Forest plus Sedge Town visitor experience using the same operator. Neither is Yomiuriland itself or a separate Forest/Town identity. Retain the earlier canonical UUID and unsuffixed public route. Adopt the later embodied-worlds structured assessment’s B recommendation, which accounts for price, physical eligibility, weather exposure and limited long-term evidence, rather than selecting the higher tier.",
+      "fromSlugs": [
+        "pokepark-kanto-d4d16476"
+      ]
+    },
+    {
+      "fromId": "f06d0158-6e83-8a15-a481-754b08f71a70",
+      "disposition": "merged",
+      "toId": "47e34fb1-e189-8fc5-9460-8383fde7a913",
+      "effectiveAt": "2026-09-30T06:31:01.000Z",
+      "reason": "Both observations identify JR Central’s SCMAGLEV and Railway Park (リニア・鉄道館) at 3-2-2 Kinjofuto, Nagoya and cite the same museum operator. They describe the complete railway museum, not a separate simulator or sub-place. Retain the UUID already used by the reviewed documentary cover and unsuffixed public route; preserve both independent research passes and redirect the duplicate identity. Both structured assessments support A.",
+      "fromSlugs": [
+        "scmaglev-and-railway-park-f06d0158"
+      ]
+    }
+  ],
   "tombstones": [
     {
       "id": "01861af3-a3a8-5dbb-8040-a4f175524f68",
