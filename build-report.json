@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T12:38:35.000Z",
+  "generatedAt": "2026-09-30T12:56:23.000Z",
   "catalogue": {
     "total": 868,
     "public": 868,
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1706
+      "gzipBytes": 1709
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-09-30T12:38:35.000Z",
+    "generatedAt": "2026-09-30T12:56:23.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -410,17 +410,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.45246d51b9f7.json",
+        "path": "data/search/manifest.8df44fc26c61.json",
         "bytes": 66632,
         "gzipBytes": 15795,
-        "sha256": "45246d51b9f7c03d9f34c77e4c940bce48540c35c60ad3382cea4545db9119eb",
+        "sha256": "8df44fc26c61f8d2ba7071888359222244af738aa75a7c680e8c4c30c2335fab",
         "documentCount": 868
       },
       "map": {
-        "path": "data/map/manifest.e3aed3325b73.json",
+        "path": "data/map/manifest.81fd33da0044.json",
         "bytes": 212995,
-        "gzipBytes": 68141,
-        "sha256": "e3aed3325b732d8134ac3b3a039e7e6f181cf8e0c3a2cc4e0c4ffd34ddc417f0",
+        "gzipBytes": 68142,
+        "sha256": "81fd33da0044d5600f025f9b86c56dfa980685165a06938f23a70648efd911bb",
         "shardCount": 41
       },
       "redirects": {
@@ -458,10 +458,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.50492e6a25e3.json",
+        "path": "data/tier-list/manifest.7c9cc21aee01.json",
         "bytes": 36358,
         "gzipBytes": 8746,
-        "sha256": "50492e6a25e3308347a43cd45900b73695bf7fb806c7304d48c9fcf6c2595c60",
+        "sha256": "7c9cc21aee01bacc5fb95ec3febfd2015f8e0c8cab791e8c280a800bbd36ebf2",
         "documentCount": 868,
         "countryShardCount": 35,
         "typeShardCount": 12
