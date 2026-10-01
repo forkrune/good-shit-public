@@ -1395,6 +1395,20 @@
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
     },
     {
+      "id": "photo-gap-16-ash-cave-hero",
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/caves/HockingHills.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "photo-gap-16-watkins-glen-hero",
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/gorges/Watkins.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
       "id": "stelvio-pass-road-hero",
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",

@@ -5123,6 +5123,58 @@
         }
       ]
     },
+    "photo-gap-16-ash-cave-hero": {
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/caves/HockingHills.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 320,
+          "height": 480,
+          "bytes": 37532,
+          "path": "assets/images/photo-gap-16-ash-cave-hero.9948ee752ff4.480.webp"
+        },
+        {
+          "width": 640,
+          "height": 960,
+          "bytes": 156520,
+          "path": "assets/images/photo-gap-16-ash-cave-hero.9948ee752ff4.960.webp"
+        },
+        {
+          "width": 853,
+          "height": 1280,
+          "bytes": 277558,
+          "path": "assets/images/photo-gap-16-ash-cave-hero.9948ee752ff4.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-16-watkins-glen-hero": {
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/gorges/Watkins.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 24542,
+          "path": "assets/images/photo-gap-16-watkins-glen-hero.fe35d496b4db.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 90492,
+          "path": "assets/images/photo-gap-16-watkins-glen-hero.fe35d496b4db.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 181388,
+          "path": "assets/images/photo-gap-16-watkins-glen-hero.fe35d496b4db.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
