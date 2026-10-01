@@ -5201,6 +5201,58 @@
         }
       ]
     },
+    "photo-gap-23-tokyo-skytree-hero": {
+      "credit": "asilly / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://find47.jp/ja/i/E7TS9",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 9890,
+          "path": "assets/images/photo-gap-23-tokyo-skytree-hero.9a0f6340f5fa.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 28878,
+          "path": "assets/images/photo-gap-23-tokyo-skytree-hero.9a0f6340f5fa.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 55450,
+          "path": "assets/images/photo-gap-23-tokyo-skytree-hero.9a0f6340f5fa.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-23-tokyo-tower-hero": {
+      "credit": "T-KIMURA / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://find47.jp/ja/i/lZGMd",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 26098,
+          "path": "assets/images/photo-gap-23-tokyo-tower-hero.4b9b808c4281.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 100156,
+          "path": "assets/images/photo-gap-23-tokyo-tower-hero.4b9b808c4281.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 204444,
+          "path": "assets/images/photo-gap-23-tokyo-tower-hero.4b9b808c4281.1440.webp"
+        }
+      ]
+    },
     "photo-gap-27-doai-station-hero": {
       "credit": "Yasuyuki_Kawano / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
       "sourceUrl": "https://find47.jp/ja/i/6UinK",
