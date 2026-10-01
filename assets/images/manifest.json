@@ -5071,6 +5071,32 @@
         }
       ]
     },
+    "photo-gap-10-haguro-pagoda-hero": {
+      "credit": "Makoto_Lab / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped, and display may crop the image.",
+      "sourceUrl": "https://find47.jp/en/i/8MWa8",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 31438,
+          "path": "assets/images/photo-gap-10-haguro-pagoda-hero.8240fd2202fb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 124326,
+          "path": "assets/images/photo-gap-10-haguro-pagoda-hero.8240fd2202fb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 277304,
+          "path": "assets/images/photo-gap-10-haguro-pagoda-hero.8240fd2202fb.1440.webp"
+        }
+      ]
+    },
     "photo-gap-11-kuniga-coast-hero": {
       "credit": "STUDIO FACE / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped, and display may crop the image.",
       "sourceUrl": "https://find47.jp/en/i/ThJs8",
