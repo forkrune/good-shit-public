@@ -5071,6 +5071,32 @@
         }
       ]
     },
+    "photo-gap-11-kuniga-coast-hero": {
+      "credit": "STUDIO FACE / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped, and display may crop the image.",
+      "sourceUrl": "https://find47.jp/en/i/ThJs8",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 18466,
+          "path": "assets/images/photo-gap-11-kuniga-coast-hero.cae12f68d51b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 77876,
+          "path": "assets/images/photo-gap-11-kuniga-coast-hero.cae12f68d51b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 177014,
+          "path": "assets/images/photo-gap-11-kuniga-coast-hero.cae12f68d51b.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
