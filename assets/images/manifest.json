@@ -5071,6 +5071,32 @@
         }
       ]
     },
+    "photo-gap-09-awaji-yumebutai-hero": {
+      "credit": "Yuto / FIND/47; CC BY 4.0. Archived 2022 photograph; responsive images are resized and metadata-stripped, and display may crop them.",
+      "sourceUrl": "https://find47.jp/en/i/lGDyO",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 34274,
+          "path": "assets/images/photo-gap-09-awaji-yumebutai-hero.6d5acd432bc5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 128686,
+          "path": "assets/images/photo-gap-09-awaji-yumebutai-hero.6d5acd432bc5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 253352,
+          "path": "assets/images/photo-gap-09-awaji-yumebutai-hero.6d5acd432bc5.1440.webp"
+        }
+      ]
+    },
     "photo-gap-10-haguro-pagoda-hero": {
       "credit": "Makoto_Lab / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped, and display may crop the image.",
       "sourceUrl": "https://find47.jp/en/i/8MWa8",
