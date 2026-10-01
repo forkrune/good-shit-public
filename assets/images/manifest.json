@@ -5175,6 +5175,32 @@
         }
       ]
     },
+    "photo-gap-17-washington-dc-lincoln-memorial-hero": {
+      "credit": "Brylie Christopher Oxley",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:US-WashingtonDC-LincolnMemorial-20140312_014138_HDR_v1.JPG",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 257,
+          "bytes": 13662,
+          "path": "assets/images/photo-gap-17-washington-dc-lincoln-memorial-hero.52eab4d110bd.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 514,
+          "bytes": 34200,
+          "path": "assets/images/photo-gap-17-washington-dc-lincoln-memorial-hero.52eab4d110bd.960.webp"
+        },
+        {
+          "width": 1024,
+          "height": 548,
+          "bytes": 36742,
+          "path": "assets/images/photo-gap-17-washington-dc-lincoln-memorial-hero.52eab4d110bd.1440.webp"
+        }
+      ]
+    },
     "photo-gap-27-doai-station-hero": {
       "credit": "Yasuyuki_Kawano / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
       "sourceUrl": "https://find47.jp/ja/i/6UinK",
