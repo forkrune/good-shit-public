@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-10-01T14:16:31.000Z",
+  "generatedAt": "2026-10-01T14:34:28.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -190,10 +190,10 @@
         "entityCount": 5
       },
       {
-        "path": "catalogue/packages/entities-jp.8fbff3b8d8d2.json",
-        "bytes": 1982216,
-        "gzipBytes": 418630,
-        "sha256": "8fbff3b8d8d2cca46b47e2882f8453fc92425481eb477788f6f2f31d4d4dbc91",
+        "path": "catalogue/packages/entities-jp.e4db67972817.json",
+        "bytes": 1985723,
+        "gzipBytes": 420071,
+        "sha256": "e4db67972817d081e365d0ea7e38fe73a8f9fa326ec294c569848d2056a9e5e5",
         "countryCode": "JP",
         "entityCount": 320
       },
@@ -311,17 +311,17 @@
       }
     ],
     "search": {
-      "path": "data/search/manifest.c5bbfd8cc557.json",
+      "path": "data/search/manifest.c9225fba36b8.json",
       "bytes": 66632,
-      "gzipBytes": 15793,
-      "sha256": "c5bbfd8cc557ec1b5a98a16a64aad9d791ea50fe820ab93c2a859741fffc95ec",
+      "gzipBytes": 15795,
+      "sha256": "c9225fba36b8384b1c793d1cdb7779fc65ffc856eb8c83913f3b7b6010d46a0c",
       "documentCount": 868
     },
     "map": {
-      "path": "data/map/manifest.6242f7dfa4d8.json",
+      "path": "data/map/manifest.65d820bea3ef.json",
       "bytes": 212995,
-      "gzipBytes": 68133,
-      "sha256": "6242f7dfa4d810b80aa5ff6680c46f702e0fa2cd7bf19dd443036635ea2a3a37",
+      "gzipBytes": 68136,
+      "sha256": "65d820bea3ef87977f71fc41ec109c06c4c090d35ad3dc2a228c5dbcc773b3ec",
       "shardCount": 41
     },
     "redirects": {
@@ -359,10 +359,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.599021da93df.json",
+      "path": "data/tier-list/manifest.a085e16965fe.json",
       "bytes": 36358,
-      "gzipBytes": 8743,
-      "sha256": "599021da93df821891b3ec0b0f8772f519d165232819e69c8108557fed4d45ee",
+      "gzipBytes": 8741,
+      "sha256": "a085e16965fe0e152ac5bced2ac8a336699d0e8d74a778d56289dd7d7cf15178",
       "documentCount": 868,
       "countryShardCount": 35,
       "typeShardCount": 12

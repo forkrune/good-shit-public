@@ -5097,6 +5097,32 @@
         }
       ]
     },
+    "photo-gap-13-oze-wetlands-hero": {
+      "credit": "suzuhiro / FIND/47; CC BY 4.0. Photograph taken 7 October 2018; archived JPEG. Responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://find47.jp/ja/i/3lPlJ",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 19584,
+          "path": "assets/images/photo-gap-13-oze-wetlands-hero.c8d021941cb4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 57564,
+          "path": "assets/images/photo-gap-13-oze-wetlands-hero.c8d021941cb4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 104160,
+          "path": "assets/images/photo-gap-13-oze-wetlands-hero.c8d021941cb4.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
