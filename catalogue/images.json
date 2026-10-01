@@ -1346,6 +1346,13 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
+      "id": "photo-gap-03-truemmelbach-hero",
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; exact-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/ch/gorges/Truemmelbach.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
       "id": "photo-gap-06-altschlossfelsen-hero",
       "credit": "Photographer unknown; Showcaves archive, declared public domain",
       "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/pd/Big/F278-003.jpg",
