@@ -4967,6 +4967,58 @@
         }
       ]
     },
+    "photo-gap-08-arc-de-triomphe-documentary": {
+      "credit": "Jiuguang Wang",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe,_Paris_21_October_2010.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 363,
+          "bytes": 19176,
+          "path": "assets/images/photo-gap-08-arc-de-triomphe-documentary.fb9d88a51f1b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 726,
+          "bytes": 70114,
+          "path": "assets/images/photo-gap-08-arc-de-triomphe-documentary.fb9d88a51f1b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1088,
+          "bytes": 148624,
+          "path": "assets/images/photo-gap-08-arc-de-triomphe-documentary.fb9d88a51f1b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-08-palais-garnier-documentary": {
+      "credit": "Alexander Hoernigk",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Palais_Garnier_2010-04-06_16.55.07.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 272,
+          "bytes": 24620,
+          "path": "assets/images/photo-gap-08-palais-garnier-documentary.3f8aa57673a6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 543,
+          "bytes": 91574,
+          "path": "assets/images/photo-gap-08-palais-garnier-documentary.3f8aa57673a6.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 724,
+          "bytes": 162278,
+          "path": "assets/images/photo-gap-08-palais-garnier-documentary.3f8aa57673a6.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
