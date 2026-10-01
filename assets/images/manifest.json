@@ -4947,6 +4947,26 @@
         }
       ]
     },
+    "photo-gap-07-neuschwanstein-hero": {
+      "credit": "Softeis; archived WebP adaptation by GCompris (resized/re-encoded for delivery)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Neuschwanstein.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 314,
+          "bytes": 27256,
+          "path": "assets/images/photo-gap-07-neuschwanstein-hero.b973a69611d3.480.webp"
+        },
+        {
+          "width": 680,
+          "height": 445,
+          "bytes": 57976,
+          "path": "assets/images/photo-gap-07-neuschwanstein-hero.b973a69611d3.960.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
