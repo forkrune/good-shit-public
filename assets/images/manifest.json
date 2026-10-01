@@ -4927,6 +4927,26 @@
         }
       ]
     },
+    "photo-gap-02-atomium-brussels-hero": {
+      "credit": "Horst J. Meuter / Wikimedia Commons, archived by Video Games Without Borders (Antura); CC BY-SA 4.0. Responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atomium,_Br%C3%BCssel_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 27828,
+          "path": "assets/images/photo-gap-02-atomium-brussels-hero.93e16ae62745.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 636,
+          "bytes": 110576,
+          "path": "assets/images/photo-gap-02-atomium-brussels-hero.93e16ae62745.960.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
