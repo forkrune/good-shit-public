@@ -4907,6 +4907,26 @@
         }
       ]
     },
+    "photo-gap-01-louvre-courtyard-hero": {
+      "credit": "Benh LIEU SONG; resized WebP version distributed by GCompris",
+      "sourceUrl": "https://github.com/gcompris/GCompris-qt/blob/78a4749814770054ba313bb3fb88bd7c5f2a8632/src/activities/details/resource/image/Louvre_2007_02_24_c_background.webp",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 190,
+          "bytes": 10772,
+          "path": "assets/images/photo-gap-01-louvre-courtyard-hero.cb88769524ed.480.webp"
+        },
+        {
+          "width": 700,
+          "height": 277,
+          "bytes": 22558,
+          "path": "assets/images/photo-gap-01-louvre-courtyard-hero.cb88769524ed.960.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
