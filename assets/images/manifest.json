@@ -5175,6 +5175,58 @@
         }
       ]
     },
+    "photo-gap-27-doai-station-hero": {
+      "credit": "Yasuyuki_Kawano / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://find47.jp/ja/i/6UinK",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 26556,
+          "path": "assets/images/photo-gap-27-doai-station-hero.2afaa32a6916.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 99018,
+          "path": "assets/images/photo-gap-27-doai-station-hero.2afaa32a6916.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 214328,
+          "path": "assets/images/photo-gap-27-doai-station-hero.2afaa32a6916.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-27-shibuya-scramble-crossing-hero": {
+      "credit": "tmano / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped.",
+      "sourceUrl": "https://find47.jp/ja/i/rW1V2",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 33268,
+          "path": "assets/images/photo-gap-27-shibuya-scramble-crossing-hero.963f026d9f73.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 115144,
+          "path": "assets/images/photo-gap-27-shibuya-scramble-crossing-hero.963f026d9f73.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 809,
+          "bytes": 227700,
+          "path": "assets/images/photo-gap-27-shibuya-scramble-crossing-hero.963f026d9f73.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
