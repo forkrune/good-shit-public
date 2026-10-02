@@ -4979,6 +4979,32 @@
         }
       ]
     },
+    "photo-gap-02-aareschlucht-showcaves-hero": {
+      "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
+      "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/ch/gorges/Aare.html",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 24378,
+          "path": "assets/images/photo-gap-02-aareschlucht-showcaves-hero.5ee0182dd33f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 85708,
+          "path": "assets/images/photo-gap-02-aareschlucht-showcaves-hero.5ee0182dd33f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 168718,
+          "path": "assets/images/photo-gap-02-aareschlucht-showcaves-hero.5ee0182dd33f.1440.webp"
+        }
+      ]
+    },
     "photo-gap-02-atomium-brussels-hero": {
       "credit": "Horst J. Meuter / Wikimedia Commons, archived by Video Games Without Borders (Antura); CC BY-SA 4.0. Responsive WebP variants are resized and metadata-stripped.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atomium,_Br%C3%BCssel_2.jpg",
