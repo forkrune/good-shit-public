@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:10:31.000Z",
+  "generatedAt": "2026-10-02T17:38:03.000Z",
   "catalogue": {
     "total": 868,
     "public": 868,
@@ -67,7 +67,7 @@
     },
     "hikingRouteAssetsTotal": {
       "bytes": 1739890,
-      "gzipBytes": 506653
+      "gzipBytes": 506654
     },
     "largestHikingRouteAsset": {
       "key": "131aba42-8acf-530d-b02b-b5d98669f390:official-svoboda-rychory-sklenarovice-mlade-buky",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1700
+      "gzipBytes": 1704
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-10-02T17:10:31.000Z",
+    "generatedAt": "2026-10-02T17:38:03.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -410,17 +410,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.1439b2dd5a69.json",
+        "path": "data/search/manifest.393b6e24ff33.json",
         "bytes": 66632,
         "gzipBytes": 15792,
-        "sha256": "1439b2dd5a69646eaf5c1d184ceb25c7013e65db34d48d43509503095d7e8bff",
+        "sha256": "393b6e24ff338db3cac7a8bee8fda530cd4df2e57b453cff0cc89b1c9c4231b5",
         "documentCount": 868
       },
       "map": {
-        "path": "data/map/manifest.ea198b297706.json",
+        "path": "data/map/manifest.a2710e62b663.json",
         "bytes": 212996,
         "gzipBytes": 68141,
-        "sha256": "ea198b297706fd719b08d189e4df42e91413f1c9f338fbf3fb09a9ee51d06040",
+        "sha256": "a2710e62b663c16f68d214870d953570b33f481a2d9321fb4d0a148b14c72f7e",
         "shardCount": 41
       },
       "redirects": {
@@ -458,10 +458,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.f1ee37aa1125.json",
+        "path": "data/tier-list/manifest.bc0c0fc9054e.json",
         "bytes": 36358,
         "gzipBytes": 8746,
-        "sha256": "f1ee37aa1125082a82f4d7e20c6c54f1802554a6fcf92137c8370d4e1e1ce58d",
+        "sha256": "bc0c0fc9054e72d09ec9c5f89625a3a75f0cdbe2cde61ed63134f8047cda9efb",
         "documentCount": 868,
         "countryShardCount": 35,
         "typeShardCount": 12
