@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-10-03T20:05:53.000Z",
+  "generatedAt": "2026-10-03T20:44:21.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -94,10 +94,10 @@
         "entityCount": 71
       },
       {
-        "path": "catalogue/packages/entities-dk.2c4fa06bdb06.json",
-        "bytes": 111653,
-        "gzipBytes": 27745,
-        "sha256": "2c4fa06bdb06e4a0af8d22767eadf49edda3f155f3138895eb365cd23a4a3edc",
+        "path": "catalogue/packages/entities-dk.60b247002130.json",
+        "bytes": 119281,
+        "gzipBytes": 31063,
+        "sha256": "60b247002130bdb4ae91d1bda572de7f38a15203cb3a70105b1b20a77da4a4cd",
         "countryCode": "DK",
         "entityCount": 18
       },
@@ -311,17 +311,17 @@
       }
     ],
     "search": {
-      "path": "data/search/manifest.da818d9f4453.json",
+      "path": "data/search/manifest.6e7ce200cd82.json",
       "bytes": 66673,
-      "gzipBytes": 15800,
-      "sha256": "da818d9f4453d954fa7c2e801026d01b2d4952207f210ed1554a66fe18e23fa1",
+      "gzipBytes": 15801,
+      "sha256": "6e7ce200cd827c3293e22aa3190d6ca7ebcdc7f6e97cae8a6ec2695cf60cd81b",
       "documentCount": 868
     },
     "map": {
-      "path": "data/map/manifest.324d9db23ede.json",
-      "bytes": 214153,
-      "gzipBytes": 69220,
-      "sha256": "324d9db23ede3cbf75f28e614e2c12b3f61a812193702ef5cbd257d6f683847f",
+      "path": "data/map/manifest.ccaefef828a1.json",
+      "bytes": 214180,
+      "gzipBytes": 69253,
+      "sha256": "ccaefef828a1beb02a774d01a2607a26632c09b55c1e0e8fc9ae3b07836891f0",
       "shardCount": 41
     },
     "redirects": {
@@ -351,7 +351,7 @@
     },
     "hiking": {
       "manifest": "data/hiking/manifest.json",
-      "routeCount": 115
+      "routeCount": 116
     },
     "routes": {
       "manifest": "data/routes/manifest.json",
@@ -359,10 +359,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.95db846d8034.json",
+      "path": "data/tier-list/manifest.580ea0a20472.json",
       "bytes": 36358,
       "gzipBytes": 8744,
-      "sha256": "95db846d8034b6d220b45e92197e68b00174eaa8d1ebc161ec9d629ae243ff67",
+      "sha256": "580ea0a204722695bc8a82faa0868ded00fb4b51a0b7453057e38654ccd8c376",
       "documentCount": 868,
       "countryShardCount": 35,
       "typeShardCount": 12
