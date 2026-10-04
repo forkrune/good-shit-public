@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T01:15:24.000Z",
+  "generatedAt": "2026-10-04T03:05:13.000Z",
   "catalogue": {
     "total": 868,
     "public": 868,
@@ -38,14 +38,14 @@
     "searchShardCount": 35,
     "mapShardCount": 41,
     "tierListShardCount": 47,
-    "hikingRouteAssetCount": 156,
+    "hikingRouteAssetCount": 158,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1943527,
-      "gzipBytes": 466729
+      "bytes": 1947213,
+      "gzipBytes": 467518
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -53,8 +53,8 @@
       "gzipBytes": 196237
     },
     "mapOverview": {
-      "bytes": 2794446,
-      "gzipBytes": 520146
+      "bytes": 2794968,
+      "gzipBytes": 520358
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,12 +62,12 @@
       "gzipBytes": 150336
     },
     "entityReference": {
-      "bytes": 2491743,
-      "gzipBytes": 454906
+      "bytes": 2492227,
+      "gzipBytes": 455110
     },
     "hikingRouteAssetsTotal": {
-      "bytes": 3620583,
-      "gzipBytes": 1023988
+      "bytes": 3692622,
+      "gzipBytes": 1047847
     },
     "largestHikingRouteAsset": {
       "key": "858fe915-4d77-847f-a524-4d07b853a9c2:tjugen-skala-return",
@@ -85,7 +85,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1709
+      "gzipBytes": 1707
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -100,7 +100,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-10-04T01:15:24.000Z",
+    "generatedAt": "2026-10-04T03:05:13.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -337,10 +337,10 @@
           "entityCount": 5
         },
         {
-          "path": "catalogue/packages/entities-no.fb4046ed0fb9.json",
-          "bytes": 399123,
-          "gzipBytes": 81751,
-          "sha256": "fb4046ed0fb98629f9e051a808cf149666bd8a8b62f430d3a12acd135fa22e72",
+          "path": "catalogue/packages/entities-no.61d3c9a4f867.json",
+          "bytes": 416883,
+          "gzipBytes": 87636,
+          "sha256": "61d3c9a4f867756b4d067e47f195b3cf12032706a24ccb9a6c36db1c6494db1e",
           "countryCode": "NO",
           "entityCount": 51
         },
@@ -410,17 +410,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.40118617ceca.json",
+        "path": "data/search/manifest.5881d3fb16fa.json",
         "bytes": 66842,
-        "gzipBytes": 15809,
-        "sha256": "40118617cecae4ccdc11e32fd9712fe6bdf4ef9de936e319751c66eae9ad955c",
+        "gzipBytes": 15813,
+        "sha256": "5881d3fb16fa75131e286414a7f04165891df4fbf680d2c8d64503a5880de5aa",
         "documentCount": 868
       },
       "map": {
-        "path": "data/map/manifest.5d2b0d923650.json",
-        "bytes": 215604,
-        "gzipBytes": 70556,
-        "sha256": "5d2b0d9236506842fe5b0a725f0083e892e4cfca0f34a01db0bdb7e6e04e2be4",
+        "path": "data/map/manifest.2328b083e83d.json",
+        "bytes": 215726,
+        "gzipBytes": 70653,
+        "sha256": "2328b083e83d6738df9691a41bf716e1851f0b12d827490b511aaee7ab1a4189",
         "shardCount": 41
       },
       "redirects": {
@@ -450,7 +450,7 @@
       },
       "hiking": {
         "manifest": "data/hiking/manifest.json",
-        "routeCount": 156
+        "routeCount": 158
       },
       "routes": {
         "manifest": "data/routes/manifest.json",
@@ -458,10 +458,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.f216b7549389.json",
+        "path": "data/tier-list/manifest.d6488b496128.json",
         "bytes": 36358,
         "gzipBytes": 8744,
-        "sha256": "f216b754938964526a82731fb87d52ce90f2c0128001b2620052e7d516144281",
+        "sha256": "d6488b496128ebeabb8ec6eec8330f7670b4e4c15af481f6e1edd541b0ff4d40",
         "documentCount": 868,
         "countryShardCount": 35,
         "typeShardCount": 12
