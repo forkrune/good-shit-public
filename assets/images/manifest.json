@@ -5487,6 +5487,292 @@
         }
       ]
     },
+    "photo-gap-swiss-02-greina-crossing-terrihutte-hero": {
+      "credit": "Whgler; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greina_Terrih%C3%BCtte_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 40582,
+          "path": "assets/images/photo-gap-swiss-02-greina-crossing-terrihutte-hero.6b995e458b1c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 176888,
+          "path": "assets/images/photo-gap-swiss-02-greina-crossing-terrihutte-hero.6b995e458b1c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288468,
+          "path": "assets/images/photo-gap-swiss-02-greina-crossing-terrihutte-hero.6b995e458b1c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-lugano-hero": {
+      "credit": "Aconcagua; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lugano_from_Sighignola.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 32660,
+          "path": "assets/images/photo-gap-swiss-02-lugano-hero.f67a438b4590.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 131648,
+          "path": "assets/images/photo-gap-swiss-02-lugano-hero.f67a438b4590.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 297744,
+          "path": "assets/images/photo-gap-swiss-02-lugano-hero.f67a438b4590.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-monte-tamaro-monte-lema-hero": {
+      "credit": "Pimlico27; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monte_Tamaro_from_Monte_Tamaro_-_Monte_Lema_Trail.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 18078,
+          "path": "assets/images/photo-gap-swiss-02-monte-tamaro-monte-lema-hero.f1822d6ccec2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 88382,
+          "path": "assets/images/photo-gap-swiss-02-monte-tamaro-monte-lema-hero.f1822d6ccec2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 216668,
+          "path": "assets/images/photo-gap-swiss-02-monte-tamaro-monte-lema-hero.f1822d6ccec2.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-murgseen-loop-hero": {
+      "credit": "2stepper; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IMG_Murgsee_Panorama.JPG",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 19978,
+          "path": "assets/images/photo-gap-swiss-02-murgseen-loop-hero.41b7d0b25db3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 94474,
+          "path": "assets/images/photo-gap-swiss-02-murgseen-loop-hero.41b7d0b25db3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 231402,
+          "path": "assets/images/photo-gap-swiss-02-murgseen-loop-hero.41b7d0b25db3.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-pizol-five-lakes-hero": {
+      "credit": "Uwelino; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpiner_Wildsee_am_Pizol.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27294,
+          "path": "assets/images/photo-gap-swiss-02-pizol-five-lakes-hero.bf31f8e6bc06.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 116820,
+          "path": "assets/images/photo-gap-swiss-02-pizol-five-lakes-hero.bf31f8e6bc06.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 272984,
+          "path": "assets/images/photo-gap-swiss-02-pizol-five-lakes-hero.bf31f8e6bc06.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-rhine-falls-hero": {
+      "credit": "Christian David; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chutes_du_Rhin_-_Octobre_2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 24928,
+          "path": "assets/images/photo-gap-swiss-02-rhine-falls-hero.43c0dd9487c3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 100966,
+          "path": "assets/images/photo-gap-swiss-02-rhine-falls-hero.43c0dd9487c3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 240280,
+          "path": "assets/images/photo-gap-swiss-02-rhine-falls-hero.43c0dd9487c3.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-ritom-cadagno-tom-lakes-hero": {
+      "credit": "Irene Grassi; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_Cadagno_e_Lago_Ritom_(9585061076).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 13930,
+          "path": "assets/images/photo-gap-swiss-02-ritom-cadagno-tom-lakes-hero.68c07f828565.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 54918,
+          "path": "assets/images/photo-gap-swiss-02-ritom-cadagno-tom-lakes-hero.68c07f828565.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 122684,
+          "path": "assets/images/photo-gap-swiss-02-ritom-cadagno-tom-lakes-hero.68c07f828565.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-silberen-karst-loop-hero": {
+      "credit": "Uwelino; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auf_dem_Gipfelplateau_Silberen-Tw%C3%A4renen_(2319_m.%C3%BC.M.).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27630,
+          "path": "assets/images/photo-gap-swiss-02-silberen-karst-loop-hero.fd92647c7c86.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 107708,
+          "path": "assets/images/photo-gap-swiss-02-silberen-karst-loop-hero.fd92647c7c86.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 236746,
+          "path": "assets/images/photo-gap-swiss-02-silberen-karst-loop-hero.fd92647c7c86.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-st-beatus-caves-hero": {
+      "credit": "Daniel Reust; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ausgang_St._Beatus-H%C3%B6hlen.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 20942,
+          "path": "assets/images/photo-gap-swiss-02-st-beatus-caves-hero.104ca8e82cfe.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 87072,
+          "path": "assets/images/photo-gap-swiss-02-st-beatus-caves-hero.104ca8e82cfe.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 200268,
+          "path": "assets/images/photo-gap-swiss-02-st-beatus-caves-hero.104ca8e82cfe.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-stoos-klingenstock-fronalpstock-ridge-hero": {
+      "credit": "Corvus; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hike_Trail_from_Klingenstock_to_Fronalpstock.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 30732,
+          "path": "assets/images/photo-gap-swiss-02-stoos-klingenstock-fronalpstock-ridge-hero.5f7d9f7f5728.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 127672,
+          "path": "assets/images/photo-gap-swiss-02-stoos-klingenstock-fronalpstock-ridge-hero.5f7d9f7f5728.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 289096,
+          "path": "assets/images/photo-gap-swiss-02-stoos-klingenstock-fronalpstock-ridge-hero.5f7d9f7f5728.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-swiss-national-museum-hero": {
+      "credit": "1904.CC; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landesmuseum_Z%C3%BCrich_courtyard_01.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 26282,
+          "path": "assets/images/photo-gap-swiss-02-swiss-national-museum-hero.95ef2a70b896.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 112630,
+          "path": "assets/images/photo-gap-swiss-02-swiss-national-museum-hero.95ef2a70b896.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 265994,
+          "path": "assets/images/photo-gap-swiss-02-swiss-national-museum-hero.95ef2a70b896.1440.webp"
+        }
+      ]
+    },
     "stelvio-pass-road-hero": {
       "credit": "kallerna · cropped/optimized by Good Shit",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stelvio_Pass_Bormio_side_1.jpg",
