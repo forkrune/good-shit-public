@@ -5851,6 +5851,318 @@
         }
       ]
     },
+    "photo-gap-czech-04-cervenohorske-sedlo-keprnik-serak-ramzova-hero": {
+      "credit": "Vavrik / Wikimedia Commons; Public domain. Source original; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keprnik-vrchol.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 27518,
+          "path": "assets/images/photo-gap-czech-04-cervenohorske-sedlo-keprnik-serak-ramzova-hero.a36535fc1d40.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 109796,
+          "path": "assets/images/photo-gap-czech-04-cervenohorske-sedlo-keprnik-serak-ramzova-hero.a36535fc1d40.960.webp"
+        },
+        {
+          "width": 1024,
+          "height": 768,
+          "bytes": 130936,
+          "path": "assets/images/photo-gap-czech-04-cervenohorske-sedlo-keprnik-serak-ramzova-hero.a36535fc1d40.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-cinibulkova-stezka-circuit-hero": {
+      "credit": "ŠJů / Wikimedia Commons; CC BY-SA 3.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cinibulkova_stezka,_Vyhl%C3%ADdky_(01).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 62074,
+          "path": "assets/images/photo-gap-czech-04-cinibulkova-stezka-circuit-hero.514378385b34.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 172148,
+          "path": "assets/images/photo-gap-czech-04-cinibulkova-stezka-circuit-hero.514378385b34.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291394,
+          "path": "assets/images/photo-gap-czech-04-cinibulkova-stezka-circuit-hero.514378385b34.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-cizov-hardegg-dyje-circuit-hero": {
+      "credit": "RomanM82 / Wikimedia Commons; CC BY-SA 4.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hardegg_-_view_from_Hardegger_Warte_obr1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 339,
+          "bytes": 51576,
+          "path": "assets/images/photo-gap-czech-04-cizov-hardegg-dyje-circuit-hero.1692d0261760.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 679,
+          "bytes": 175414,
+          "path": "assets/images/photo-gap-czech-04-cizov-hardegg-dyje-circuit-hero.1692d0261760.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1018,
+          "bytes": 288930,
+          "path": "assets/images/photo-gap-czech-04-cizov-hardegg-dyje-circuit-hero.1692d0261760.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-devet-skal-lisovska-malinska-skala-circuit-hero": {
+      "credit": "Prazak / Wikimedia Commons; CC BY 2.5. Source original; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dev%C4%9Bt_skal_-_vrcholov%C3%A1_vyhl%C3%ADdka.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27280,
+          "path": "assets/images/photo-gap-czech-04-devet-skal-lisovska-malinska-skala-circuit-hero.2bd946b6b325.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 122390,
+          "path": "assets/images/photo-gap-czech-04-devet-skal-lisovska-malinska-skala-circuit-hero.2bd946b6b325.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 272952,
+          "path": "assets/images/photo-gap-czech-04-devet-skal-lisovska-malinska-skala-circuit-hero.2bd946b6b325.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-drbakov-albertovy-skaly-cliff-loop-hero": {
+      "credit": "Huhulenik / Wikimedia Commons; CC BY 3.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drb%C3%A1kov-Albertovy_sk%C3%A1ly_(33).jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 313,
+          "bytes": 28502,
+          "path": "assets/images/photo-gap-czech-04-drbakov-albertovy-skaly-cliff-loop-hero.2dcc352c2365.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 627,
+          "bytes": 135414,
+          "path": "assets/images/photo-gap-czech-04-drbakov-albertovy-skaly-cliff-loop-hero.2dcc352c2365.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 940,
+          "bytes": 291130,
+          "path": "assets/images/photo-gap-czech-04-drbakov-albertovy-skaly-cliff-loop-hero.2dcc352c2365.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-grafenried-lucina-vanished-village-loop-hero": {
+      "credit": "Allexkoch / Wikimedia Commons; CC BY-SA 4.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GrafenriedLucina_047.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 355,
+          "bytes": 52710,
+          "path": "assets/images/photo-gap-czech-04-grafenried-lucina-vanished-village-loop-hero.7a50daaaa5ef.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 710,
+          "bytes": 175094,
+          "path": "assets/images/photo-gap-czech-04-grafenried-lucina-vanished-village-loop-hero.7a50daaaa5ef.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1065,
+          "bytes": 300490,
+          "path": "assets/images/photo-gap-czech-04-grafenried-lucina-vanished-village-loop-hero.7a50daaaa5ef.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-horni-blatna-vlci-jamy-circuit-hero": {
+      "credit": "Tuten / Wikimedia Commons; CC BY-SA 2.5. Source original; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vlci_jama2.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 31810,
+          "path": "assets/images/photo-gap-czech-04-horni-blatna-vlci-jamy-circuit-hero.c9685698c6bd.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 110652,
+          "path": "assets/images/photo-gap-czech-04-horni-blatna-vlci-jamy-circuit-hero.c9685698c6bd.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 207762,
+          "path": "assets/images/photo-gap-czech-04-horni-blatna-vlci-jamy-circuit-hero.c9685698c6bd.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-hradcanske-steny-psi-kostel-rock-gate-loop-hero": {
+      "credit": "Anny32 / Wikimedia Commons; CC BY-SA 4.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ps%C3%AD_kostel.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 39102,
+          "path": "assets/images/photo-gap-czech-04-hradcanske-steny-psi-kostel-rock-gate-loop-hero.68912b6541ae.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 175124,
+          "path": "assets/images/photo-gap-czech-04-hradcanske-steny-psi-kostel-rock-gate-loop-hero.68912b6541ae.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291122,
+          "path": "assets/images/photo-gap-czech-04-hradcanske-steny-psi-kostel-rock-gate-loop-hero.68912b6541ae.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-hruboskalsko-ridge-under-cliff-circuit-hero": {
+      "credit": "ŠJů / Wikimedia Commons; CC BY-SA 3.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rozhled_z_vyhl%C3%ADdky_U_Lv%C3%AD%C4%8Dka_(13).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 44888,
+          "path": "assets/images/photo-gap-czech-04-hruboskalsko-ridge-under-cliff-circuit-hero.a8d3ddd1151f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 183834,
+          "path": "assets/images/photo-gap-czech-04-hruboskalsko-ridge-under-cliff-circuit-hero.a8d3ddd1151f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 290588,
+          "path": "assets/images/photo-gap-czech-04-hruboskalsko-ridge-under-cliff-circuit-hero.a8d3ddd1151f.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-jeskyne-na-spicaku-hero": {
+      "credit": "BíláVrána / Wikimedia Commons; CC BY-SA 4.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeskyn%C4%9B_na_%C5%A0pi%C4%8D%C3%A1ku-3.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 21078,
+          "path": "assets/images/photo-gap-czech-04-jeskyne-na-spicaku-hero.daccae07f6d2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 66132,
+          "path": "assets/images/photo-gap-czech-04-jeskyne-na-spicaku-hero.daccae07f6d2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 124354,
+          "path": "assets/images/photo-gap-czech-04-jeskyne-na-spicaku-hero.daccae07f6d2.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-jetrichovicke-vyhlidky-circuit-hero": {
+      "credit": "Jerzy Strzelecki / Wikimedia Commons; CC BY-SA 3.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mariina_sk%C3%A1la_01(js).jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 263,
+          "bytes": 13234,
+          "path": "assets/images/photo-gap-czech-04-jetrichovicke-vyhlidky-circuit-hero.0caa31b38808.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 526,
+          "bytes": 49430,
+          "path": "assets/images/photo-gap-czech-04-jetrichovicke-vyhlidky-circuit-hero.0caa31b38808.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 788,
+          "bytes": 111790,
+          "path": "assets/images/photo-gap-czech-04-jetrichovicke-vyhlidky-circuit-hero.0caa31b38808.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-czech-04-klokocske-skaly-kozakov-rotstejn-loop-hero": {
+      "credit": "Petr1888 / Wikimedia Commons; CC BY-SA 3.0. Source Commons1920px derivative; responsive derivatives resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kloko%C4%8Dsk%C3%A9_sk%C3%A1ly_42.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 25362,
+          "path": "assets/images/photo-gap-czech-04-klokocske-skaly-kozakov-rotstejn-loop-hero.2e815ae82097.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 128314,
+          "path": "assets/images/photo-gap-czech-04-klokocske-skaly-kozakov-rotstejn-loop-hero.2e815ae82097.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 291244,
+          "path": "assets/images/photo-gap-czech-04-klokocske-skaly-kozakov-rotstejn-loop-hero.2e815ae82097.1440.webp"
+        }
+      ]
+    },
     "photo-gap-existing-03-bila-opava-praded-waterfall-circuit-hero": {
       "credit": "Oleksandr Dede / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfalls_B%C3%ADl%C3%A1_Opava.jpg",
