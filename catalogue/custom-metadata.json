@@ -4,13 +4,6 @@
     "food": {
       "label": "Food & drink",
       "fields": {
-        "researchId": {
-          "type": "string",
-          "required": true,
-          "searchable": true,
-          "label": "Research ID",
-          "section": "Identity & foodway"
-        },
         "primaryCategory": {
           "type": "string",
           "required": true,
@@ -135,24 +128,11 @@
           "label": "Current / recent price evidence",
           "section": "Visit planning"
         },
-        "foodConfidence": {
-          "type": "string",
-          "searchable": true,
-          "facet": true,
-          "label": "Food confidence",
-          "section": "Research notes"
-        },
         "destinationWorthiness": {
           "type": "string",
           "searchable": true,
           "facet": true,
           "label": "Destination worthiness",
-          "section": "Research notes"
-        },
-        "coordinatePrecision": {
-          "type": "string",
-          "searchable": true,
-          "label": "Coordinate precision",
           "section": "Research notes"
         },
         "value": {
@@ -278,71 +258,6 @@
           "searchable": true,
           "label": "Public transport",
           "section": "Getting there"
-        },
-        "localRecognition": {
-          "type": "enum",
-          "values": [
-            "High",
-            "Medium",
-            "Low",
-            "Unknown"
-          ],
-          "facet": true,
-          "label": "Local recognition",
-          "section": "Recognition"
-        },
-        "japaneseSpecialistRecognition": {
-          "type": "enum",
-          "values": [
-            "High",
-            "Medium",
-            "Low to medium",
-            "Low",
-            "Unknown"
-          ],
-          "facet": true,
-          "label": "Japanese specialist recognition",
-          "section": "Recognition"
-        },
-        "internationalRecognition": {
-          "type": "enum",
-          "values": [
-            "High",
-            "Medium",
-            "Low",
-            "Unknown"
-          ],
-          "facet": true,
-          "label": "International recognition",
-          "section": "Recognition"
-        },
-        "locationConfidence": {
-          "type": "enum",
-          "values": [
-            "High",
-            "Medium",
-            "Low"
-          ],
-          "label": "Location confidence",
-          "section": "Research notes"
-        },
-        "nearbyRelationships": {
-          "type": "string",
-          "searchable": true,
-          "label": "Nearby catalogue relationships",
-          "section": "Research notes"
-        },
-        "disconfirmingEvidence": {
-          "type": "string",
-          "searchable": true,
-          "label": "Disconfirming evidence",
-          "section": "Research notes"
-        },
-        "unresolvedQuestions": {
-          "type": "string",
-          "searchable": true,
-          "label": "Unresolved questions / notes",
-          "section": "Research notes"
         }
       }
     },
@@ -496,23 +411,6 @@
           "searchable": true,
           "label": "Nearest useful base",
           "section": "Getting there"
-        },
-        "verificationConfidence": {
-          "type": "enum",
-          "values": [
-            "high",
-            "medium",
-            "low"
-          ],
-          "facet": true,
-          "label": "Verification confidence",
-          "section": "Research notes"
-        },
-        "trailheadCoordinatePrecision": {
-          "type": "string",
-          "searchable": true,
-          "label": "Trailhead coordinate precision",
-          "section": "Research notes"
         },
         "accessPointNote": {
           "type": "string",
@@ -714,13 +612,6 @@
     "japan-discovery": {
       "label": "Japan destination discovery",
       "fields": {
-        "researchId": {
-          "type": "string",
-          "required": true,
-          "searchable": true,
-          "label": "Research ID",
-          "section": "Identity & classification"
-        },
         "primaryCategory": {
           "type": "string",
           "required": true,
@@ -756,18 +647,6 @@
             "order": 20,
             "prefix": "English "
           }
-        },
-        "recognitionEstimate": {
-          "type": "string",
-          "searchable": true,
-          "label": "Recognition estimate",
-          "section": "Recognition"
-        },
-        "locationConfidence": {
-          "type": "string",
-          "searchable": true,
-          "label": "Location confidence",
-          "section": "Research notes"
         },
         "bestVisitorExperience": {
           "type": "string",
@@ -846,68 +725,12 @@
           "searchable": true,
           "label": "Best season / time",
           "section": "Visit planning"
-        },
-        "nearbyRelationships": {
-          "type": "string",
-          "searchable": true,
-          "label": "Nearby catalogue relationships",
-          "section": "Research notes"
-        },
-        "discoverySource": {
-          "type": "string",
-          "searchable": true,
-          "label": "Discovery evidence",
-          "section": "Research notes"
-        },
-        "verificationSources": {
-          "type": "string",
-          "searchable": true,
-          "label": "Verification evidence",
-          "section": "Research notes"
-        },
-        "firstHandExperientialEvidence": {
-          "type": "string",
-          "searchable": true,
-          "label": "First-hand / experiential evidence",
-          "section": "Research notes"
-        },
-        "sourceVerificationDate": {
-          "type": "string",
-          "label": "Source verification date",
-          "section": "Research notes"
-        },
-        "confidenceLevel": {
-          "type": "string",
-          "label": "Research confidence",
-          "section": "Research notes"
-        },
-        "unresolvedQuestions": {
-          "type": "string",
-          "searchable": true,
-          "label": "Unresolved questions",
-          "section": "Research notes"
         }
       }
     },
     "destination": {
       "label": "Destination discovery",
       "fields": {
-        "researchId": {
-          "type": "string",
-          "required": true,
-          "searchable": true,
-          "label": "Research ID",
-          "section": "Discovery signal"
-        },
-        "discoveryMethods": {
-          "type": "string-array",
-          "required": true,
-          "minItems": 1,
-          "searchable": true,
-          "facet": true,
-          "label": "Discovery methods",
-          "section": "Discovery signal"
-        },
         "worthTheTrip": {
           "type": "enum",
           "required": true,
@@ -945,13 +768,6 @@
           "label": "Best conditions",
           "section": "Access & effort"
         },
-        "recognitionPattern": {
-          "type": "string",
-          "required": true,
-          "searchable": true,
-          "label": "Recognition pattern",
-          "section": "Discovery signal"
-        },
         "limitations": {
           "type": "string",
           "required": true,
@@ -959,23 +775,10 @@
           "label": "Limitations",
           "section": "Challenge evidence"
         },
-        "negativeEvidence": {
-          "type": "string",
-          "required": true,
-          "searchable": true,
-          "label": "Evidence against visiting",
-          "section": "Challenge evidence"
-        },
         "operationalNotes": {
           "type": "string",
           "searchable": true,
           "label": "Current operational notes",
-          "section": "Access & effort"
-        },
-        "mapGeometryNote": {
-          "type": "string",
-          "searchable": true,
-          "label": "Map geometry note",
           "section": "Access & effort"
         }
       }
