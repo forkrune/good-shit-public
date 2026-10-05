@@ -1332,11 +1332,102 @@
       "credit": "Good Shit editorial illustration"
     },
     {
+      "id": "photo-gap-01-aletsch-glacier-trail-hero",
+      "credit": "JoachimKohler-HB / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick_vom_Mor%C3%A4nenweg_auf_Alteschgletscher_und_-wald_(2017).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-areuse-gorge-noiraigue-boudry-hero",
+      "credit": "Jag9889 / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saut_de_Brot-Br%C3%BCcke_%C3%BCber_die_Areuse,_Brot-Dessous_NE_%E2%80%93_Boudry_NE_20220823-jag9889.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-atlantikwall-raversyde-hero",
+      "credit": "FrDr / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raversyde_Atlantikwall_29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-batoni-waterfall-arena-hero",
+      "credit": "PantaRhei / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wasserfall-Arena_Bat%C3%B6ni_SG_-_Wasserf%C3%A4lle.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-bb-gaestehaus-roessli-schwellbrunn-hero",
+      "credit": "Paebi / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwellbrunn_R%C3%B6ssli.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-bellinzona-hero",
+      "credit": "H005 / Wikimedia Commons; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castelgrande_Bellinzona.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "id": "photo-gap-01-chapel-bridge-hero",
+      "credit": "Ikiwaner / Wikimedia Commons; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "photo-gap-01-cn-tower-hero",
+      "credit": "Scott Webb / Wikimedia Commons; CC0 1.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CN_Tower,_Toronto,_Canada_(Unsplash_DJ_kOgH5u0o).jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": "photo-gap-01-gelmerbahn-hero",
+      "credit": "Gzzz / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gelmerbahn_tracks.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "id": "photo-gap-01-grand-place-brussels-hero",
+      "credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons; CC BY 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Place_1-7_during_civil_twilight,_Brussels_(DSCF1982).jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
       "id": "photo-gap-01-louvre-courtyard-hero",
       "credit": "Benh LIEU SONG; resized WebP version distributed by GCompris",
       "sourceUrl": "https://github.com/gcompris/GCompris-qt/blob/78a4749814770054ba313bb3fb88bd7c5f2a8632/src/activities/details/resource/image/Louvre_2007_02_24_c_background.webp",
       "license": "CC BY-SA 3.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "photo-gap-01-majors-hill-park-hero",
+      "credit": "SimonP / Wikimedia Commons; CC BY-SA 3.0. Original photograph retained unchanged; responsive WebP images resized, converted and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Major%27s_Hill_Park.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "photo-gap-01-niagara-falls-hero",
+      "credit": "Helen Filatova / freefoto.ca; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://freefoto.ca/",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "photo-gap-01-niagara-parks-power-station-the-tunnel-hero",
+      "credit": "Cornflower123 / Wikimedia Commons; CC0 1.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Parks_Power_Station_tailrace_tunnel_interior.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
     {
       "id": "photo-gap-01-revisit-adrspach-hero",
@@ -1351,6 +1442,13 @@
       "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/fr/gorges/Verdon.html",
       "license": "Public domain",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    },
+    {
+      "id": "photo-gap-01-saint-josephs-oratory-of-mount-royal-hero",
+      "credit": "Alain Carpentier / Wikimedia Commons; CC BY 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oratoire_Saint-Joseph_du_Mont-Royal_3.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
     },
     {
       "id": "photo-gap-02-aareschlucht-showcaves-hero",

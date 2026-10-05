@@ -4907,6 +4907,266 @@
         }
       ]
     },
+    "photo-gap-01-aletsch-glacier-trail-hero": {
+      "credit": "JoachimKohler-HB / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick_vom_Mor%C3%A4nenweg_auf_Alteschgletscher_und_-wald_(2017).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27636,
+          "path": "assets/images/photo-gap-01-aletsch-glacier-trail-hero.b15389212275.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 126572,
+          "path": "assets/images/photo-gap-01-aletsch-glacier-trail-hero.b15389212275.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 292802,
+          "path": "assets/images/photo-gap-01-aletsch-glacier-trail-hero.b15389212275.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-areuse-gorge-noiraigue-boudry-hero": {
+      "credit": "Jag9889 / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saut_de_Brot-Br%C3%BCcke_%C3%BCber_die_Areuse,_Brot-Dessous_NE_%E2%80%93_Boudry_NE_20220823-jag9889.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 57258,
+          "path": "assets/images/photo-gap-01-areuse-gorge-noiraigue-boudry-hero.5b3d460af82e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 179168,
+          "path": "assets/images/photo-gap-01-areuse-gorge-noiraigue-boudry-hero.5b3d460af82e.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 290734,
+          "path": "assets/images/photo-gap-01-areuse-gorge-noiraigue-boudry-hero.5b3d460af82e.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-atlantikwall-raversyde-hero": {
+      "credit": "FrDr / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raversyde_Atlantikwall_29.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 32828,
+          "path": "assets/images/photo-gap-01-atlantikwall-raversyde-hero.05748872a05d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 160806,
+          "path": "assets/images/photo-gap-01-atlantikwall-raversyde-hero.05748872a05d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 285342,
+          "path": "assets/images/photo-gap-01-atlantikwall-raversyde-hero.05748872a05d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-batoni-waterfall-arena-hero": {
+      "credit": "PantaRhei / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wasserfall-Arena_Bat%C3%B6ni_SG_-_Wasserf%C3%A4lle.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 37940,
+          "path": "assets/images/photo-gap-01-batoni-waterfall-arena-hero.43b8e5f3e937.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 172326,
+          "path": "assets/images/photo-gap-01-batoni-waterfall-arena-hero.43b8e5f3e937.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 284080,
+          "path": "assets/images/photo-gap-01-batoni-waterfall-arena-hero.43b8e5f3e937.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-bb-gaestehaus-roessli-schwellbrunn-hero": {
+      "credit": "Paebi / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schwellbrunn_R%C3%B6ssli.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 29274,
+          "path": "assets/images/photo-gap-01-bb-gaestehaus-roessli-schwellbrunn-hero.f7108ac85e4a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 124814,
+          "path": "assets/images/photo-gap-01-bb-gaestehaus-roessli-schwellbrunn-hero.f7108ac85e4a.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 236444,
+          "path": "assets/images/photo-gap-01-bb-gaestehaus-roessli-schwellbrunn-hero.f7108ac85e4a.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-bellinzona-hero": {
+      "credit": "H005 / Wikimedia Commons; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castelgrande_Bellinzona.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 243,
+          "bytes": 28824,
+          "path": "assets/images/photo-gap-01-bellinzona-hero.50993db04f55.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 485,
+          "bytes": 95738,
+          "path": "assets/images/photo-gap-01-bellinzona-hero.50993db04f55.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 728,
+          "bytes": 178336,
+          "path": "assets/images/photo-gap-01-bellinzona-hero.50993db04f55.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-chapel-bridge-hero": {
+      "credit": "Ikiwaner / Wikimedia Commons; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 19408,
+          "path": "assets/images/photo-gap-01-chapel-bridge-hero.a187eecbf4a2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 79460,
+          "path": "assets/images/photo-gap-01-chapel-bridge-hero.a187eecbf4a2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 175150,
+          "path": "assets/images/photo-gap-01-chapel-bridge-hero.a187eecbf4a2.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-cn-tower-hero": {
+      "credit": "Scott Webb / Wikimedia Commons; CC0 1.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CN_Tower,_Toronto,_Canada_(Unsplash_DJ_kOgH5u0o).jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 17462,
+          "path": "assets/images/photo-gap-01-cn-tower-hero.6e49f5d1bf28.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 51828,
+          "path": "assets/images/photo-gap-01-cn-tower-hero.6e49f5d1bf28.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 100220,
+          "path": "assets/images/photo-gap-01-cn-tower-hero.6e49f5d1bf28.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-gelmerbahn-hero": {
+      "credit": "Gzzz / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gelmerbahn_tracks.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 32394,
+          "path": "assets/images/photo-gap-01-gelmerbahn-hero.b94d4633c440.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 139782,
+          "path": "assets/images/photo-gap-01-gelmerbahn-hero.b94d4633c440.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 291080,
+          "path": "assets/images/photo-gap-01-gelmerbahn-hero.b94d4633c440.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-grand-place-brussels-hero": {
+      "credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons; CC BY 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Place_1-7_during_civil_twilight,_Brussels_(DSCF1982).jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 357,
+          "bytes": 30610,
+          "path": "assets/images/photo-gap-01-grand-place-brussels-hero.261c9a86c4c7.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 715,
+          "bytes": 113910,
+          "path": "assets/images/photo-gap-01-grand-place-brussels-hero.261c9a86c4c7.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1072,
+          "bytes": 245540,
+          "path": "assets/images/photo-gap-01-grand-place-brussels-hero.261c9a86c4c7.1440.webp"
+        }
+      ]
+    },
     "photo-gap-01-louvre-courtyard-hero": {
       "credit": "Benh LIEU SONG; resized WebP version distributed by GCompris",
       "sourceUrl": "https://github.com/gcompris/GCompris-qt/blob/78a4749814770054ba313bb3fb88bd7c5f2a8632/src/activities/details/resource/image/Louvre_2007_02_24_c_background.webp",
@@ -4924,6 +5184,84 @@
           "height": 277,
           "bytes": 22558,
           "path": "assets/images/photo-gap-01-louvre-courtyard-hero.cb88769524ed.960.webp"
+        }
+      ]
+    },
+    "photo-gap-01-majors-hill-park-hero": {
+      "credit": "SimonP / Wikimedia Commons; CC BY-SA 3.0. Original photograph retained unchanged; responsive WebP images resized, converted and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Major%27s_Hill_Park.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 311,
+          "bytes": 31302,
+          "path": "assets/images/photo-gap-01-majors-hill-park-hero.b814188df5f8.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 621,
+          "bytes": 116666,
+          "path": "assets/images/photo-gap-01-majors-hill-park-hero.b814188df5f8.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 932,
+          "bytes": 221892,
+          "path": "assets/images/photo-gap-01-majors-hill-park-hero.b814188df5f8.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-niagara-falls-hero": {
+      "credit": "Helen Filatova / freefoto.ca; CC BY-SA 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 3.0.",
+      "sourceUrl": "https://freefoto.ca/",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 379,
+          "bytes": 21898,
+          "path": "assets/images/photo-gap-01-niagara-falls-hero.3ff83391cb3d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 758,
+          "bytes": 75096,
+          "path": "assets/images/photo-gap-01-niagara-falls-hero.3ff83391cb3d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1137,
+          "bytes": 152608,
+          "path": "assets/images/photo-gap-01-niagara-falls-hero.3ff83391cb3d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-niagara-parks-power-station-the-tunnel-hero": {
+      "credit": "Cornflower123 / Wikimedia Commons; CC0 1.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Parks_Power_Station_tailrace_tunnel_interior.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 20304,
+          "path": "assets/images/photo-gap-01-niagara-parks-power-station-the-tunnel-hero.4aba4c85e697.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 68738,
+          "path": "assets/images/photo-gap-01-niagara-parks-power-station-the-tunnel-hero.4aba4c85e697.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 128166,
+          "path": "assets/images/photo-gap-01-niagara-parks-power-station-the-tunnel-hero.4aba4c85e697.1440.webp"
         }
       ]
     },
@@ -4976,6 +5314,32 @@
           "height": 960,
           "bytes": 293550,
           "path": "assets/images/photo-gap-01-revisit-blanc-martel-hero.66558142a967.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-01-saint-josephs-oratory-of-mount-royal-hero": {
+      "credit": "Alain Carpentier / Wikimedia Commons; CC BY 3.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oratoire_Saint-Joseph_du_Mont-Royal_3.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 352,
+          "bytes": 11200,
+          "path": "assets/images/photo-gap-01-saint-josephs-oratory-of-mount-royal-hero.99083bea79a0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 703,
+          "bytes": 38274,
+          "path": "assets/images/photo-gap-01-saint-josephs-oratory-of-mount-royal-hero.99083bea79a0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1055,
+          "bytes": 78992,
+          "path": "assets/images/photo-gap-01-saint-josephs-oratory-of-mount-royal-hero.99083bea79a0.1440.webp"
         }
       ]
     },
