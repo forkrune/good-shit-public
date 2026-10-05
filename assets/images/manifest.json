@@ -5727,6 +5727,188 @@
         }
       ]
     },
+    "photo-gap-06-pulcinske-skaly-circuit-hero": {
+      "credit": "MartinVeselka / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NPR_Pul%C4%8D%C3%ADn_-_Hradisko_-_Pul%C4%8D%C3%ADnsk%C3%A9_sk%C3%A1ly_a_hrad_(%C3%BAnor_2023)_(23).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 58532,
+          "path": "assets/images/photo-gap-06-pulcinske-skaly-circuit-hero.4c05266c6d4c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 122590,
+          "path": "assets/images/photo-gap-06-pulcinske-skaly-circuit-hero.4c05266c6d4c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 286052,
+          "path": "assets/images/photo-gap-06-pulcinske-skaly-circuit-hero.4c05266c6d4c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-rabstejn-nad-strelou-historical-landscape-loop-hero": {
+      "credit": "Aleš Dvořák / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamenn%C3%BD_most_v_Rab%C5%A1tejn%C4%9B_nad_St%C5%99elou.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 41860,
+          "path": "assets/images/photo-gap-06-rabstejn-nad-strelou-historical-landscape-loop-hero.64bd4ece3871.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 182304,
+          "path": "assets/images/photo-gap-06-rabstejn-nad-strelou-historical-landscape-loop-hero.64bd4ece3871.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 289464,
+          "path": "assets/images/photo-gap-06-rabstejn-nad-strelou-historical-landscape-loop-hero.64bd4ece3871.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-ralsko-vranovske-skaly-loop-hero": {
+      "credit": "Palickap / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PP_Vranovsk%C3%A9_sk%C3%A1ly,_pod_Juliinou_vyhl%C3%ADdkou.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 360,
+          "height": 480,
+          "bytes": 42374,
+          "path": "assets/images/photo-gap-06-ralsko-vranovske-skaly-loop-hero.94a96bb2d871.480.webp"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "bytes": 171336,
+          "path": "assets/images/photo-gap-06-ralsko-vranovske-skaly-loop-hero.94a96bb2d871.960.webp"
+        },
+        {
+          "width": 1080,
+          "height": 1440,
+          "bytes": 289768,
+          "path": "assets/images/photo-gap-06-ralsko-vranovske-skaly-loop-hero.94a96bb2d871.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-restaurace-dacicky-hero": {
+      "credit": "Hadonos / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Restaurace_Da%C4%8Dick%C3%BD_KH.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 21342,
+          "path": "assets/images/photo-gap-06-restaurace-dacicky-hero.0e763ddcef04.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 66390,
+          "path": "assets/images/photo-gap-06-restaurace-dacicky-hero.0e763ddcef04.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 125276,
+          "path": "assets/images/photo-gap-06-restaurace-dacicky-hero.0e763ddcef04.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-senorady-oslava-canyon-velka-skala-circuit-hero": {
+      "credit": "RomanM82 / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senorady_-_%C3%BAdol%C3%AD_Oslavy_z_Velk%C3%A9_Sk%C3%A1ly_obr03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27334,
+          "path": "assets/images/photo-gap-06-senorady-oslava-canyon-velka-skala-circuit-hero.5033ad750645.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 121404,
+          "path": "assets/images/photo-gap-06-senorady-oslava-canyon-velka-skala-circuit-hero.5033ad750645.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 282850,
+          "path": "assets/images/photo-gap-06-senorady-oslava-canyon-velka-skala-circuit-hero.5033ad750645.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-statni-hrad-trosky-hero": {
+      "credit": "Scotch Mist / Wikimedia Commons; CC BY-SA 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trosky_Castle_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 10862,
+          "path": "assets/images/photo-gap-06-statni-hrad-trosky-hero.8fcec176ff65.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 37138,
+          "path": "assets/images/photo-gap-06-statni-hrad-trosky-hero.8fcec176ff65.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 78900,
+          "path": "assets/images/photo-gap-06-statni-hrad-trosky-hero.8fcec176ff65.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-06-turistka-kutna-hora-hero": {
+      "credit": "ŠJů, Wikimedia Commons; CC BY 4.0. Derived images are resized, center-cropped and metadata-stripped without upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kutn%C3%A1_Hora,_Barborsk%C3%A1_22,_kav%C3%A1rna_Turistka.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 349,
+          "bytes": 28934,
+          "path": "assets/images/photo-gap-06-turistka-kutna-hora-hero.8dc7b151cd32.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 698,
+          "bytes": 106830,
+          "path": "assets/images/photo-gap-06-turistka-kutna-hora-hero.8dc7b151cd32.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1047,
+          "bytes": 224148,
+          "path": "assets/images/photo-gap-06-turistka-kutna-hora-hero.8dc7b151cd32.1440.webp"
+        }
+      ]
+    },
     "photo-gap-07-neuschwanstein-hero": {
       "credit": "Softeis; archived WebP adaptation by GCompris (resized/re-encoded for delivery)",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Castle_Neuschwanstein.jpg",
