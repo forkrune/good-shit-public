@@ -5851,6 +5851,396 @@
         }
       ]
     },
+    "photo-gap-existing-03-bila-opava-praded-waterfall-circuit-hero": {
+      "credit": "Oleksandr Dede / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfalls_B%C3%ADl%C3%A1_Opava.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 21802,
+          "path": "assets/images/photo-gap-existing-03-bila-opava-praded-waterfall-circuit-hero.2378891664c5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 83542,
+          "path": "assets/images/photo-gap-existing-03-bila-opava-praded-waterfall-circuit-hero.2378891664c5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 180904,
+          "path": "assets/images/photo-gap-existing-03-bila-opava-praded-waterfall-circuit-hero.2378891664c5.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-boren-volcanic-rock-loop-hero": {
+      "credit": "Tadeáš Gregor / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bo%C5%99e%C5%88_south_side.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 26992,
+          "path": "assets/images/photo-gap-existing-03-boren-volcanic-rock-loop-hero.427b4d875c3e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 131980,
+          "path": "assets/images/photo-gap-existing-03-boren-volcanic-rock-loop-hero.427b4d875c3e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291818,
+          "path": "assets/images/photo-gap-existing-03-boren-volcanic-rock-loop-hero.427b4d875c3e.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-certoryje-orchid-meadow-loop-hero": {
+      "credit": "Palickap / Wikimedia Commons; CC BY 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NPR_%C4%8Certoryje_(6).jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 31502,
+          "path": "assets/images/photo-gap-existing-03-certoryje-orchid-meadow-loop-hero.d3490df042df.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 129342,
+          "path": "assets/images/photo-gap-existing-03-certoryje-orchid-meadow-loop-hero.d3490df042df.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288756,
+          "path": "assets/images/photo-gap-existing-03-certoryje-orchid-meadow-loop-hero.d3490df042df.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-tour-des-gastlosen-hero": {
+      "credit": "Barbara Steinemann / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Die_Gastlosen-Bergkette_bei_Jaun.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 35550,
+          "path": "assets/images/photo-gap-existing-03-tour-des-gastlosen-hero.01488d0fa77f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 154096,
+          "path": "assets/images/photo-gap-existing-03-tour-des-gastlosen-hero.01488d0fa77f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 291910,
+          "path": "assets/images/photo-gap-existing-03-tour-des-gastlosen-hero.01488d0fa77f.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-uetliberg-lookout-tower-hero": {
+      "credit": "Roland Fischer / Roland zh / Wikimedia Commons; CC BY-SA 3.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aussichtsturm_auf_dem_Uetliberg_2011-11-19_16-20-06.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 13048,
+          "path": "assets/images/photo-gap-existing-03-uetliberg-lookout-tower-hero.51a56faca3b0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 35116,
+          "path": "assets/images/photo-gap-existing-03-uetliberg-lookout-tower-hero.51a56faca3b0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 956,
+          "bytes": 61806,
+          "path": "assets/images/photo-gap-existing-03-uetliberg-lookout-tower-hero.51a56faca3b0.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-val-frisal-brigels-hero": {
+      "credit": "Whgler / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oberers_Val_Frisal_2019b.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 21554,
+          "path": "assets/images/photo-gap-existing-03-val-frisal-brigels-hero.89139fdb947b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 92828,
+          "path": "assets/images/photo-gap-existing-03-val-frisal-brigels-hero.89139fdb947b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 234280,
+          "path": "assets/images/photo-gap-existing-03-val-frisal-brigels-hero.89139fdb947b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-val-trupchun-loop-hero": {
+      "credit": "Earth explorer / Wikimedia Commons; Public domain. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val_Trupchun.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 329,
+          "bytes": 25272,
+          "path": "assets/images/photo-gap-existing-03-val-trupchun-loop-hero.656e38757f2f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 658,
+          "bytes": 99114,
+          "path": "assets/images/photo-gap-existing-03-val-trupchun-loop-hero.656e38757f2f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 987,
+          "bytes": 229474,
+          "path": "assets/images/photo-gap-existing-03-val-trupchun-loop-hero.656e38757f2f.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-valle-di-lodano-unesco-loop-hero": {
+      "credit": "Marco Volken / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valle_di_Lodano_e_faggeta_sito_UNESCO.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 351,
+          "bytes": 63268,
+          "path": "assets/images/photo-gap-existing-03-valle-di-lodano-unesco-loop-hero.488ece131b56.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 702,
+          "bytes": 173320,
+          "path": "assets/images/photo-gap-existing-03-valle-di-lodano-unesco-loop-hero.488ece131b56.960.webp"
+        },
+        {
+          "width": 1200,
+          "height": 878,
+          "bytes": 290366,
+          "path": "assets/images/photo-gap-existing-03-valle-di-lodano-unesco-loop-hero.488ece131b56.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-verticalp-emosson-hero": {
+      "credit": "CC-BY-SA-4.0 Markus Giger (commons.wikimedia.org). Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emosson_20190828E187.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 31552,
+          "path": "assets/images/photo-gap-existing-03-verticalp-emosson-hero.96b437598ee6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 113146,
+          "path": "assets/images/photo-gap-existing-03-verticalp-emosson-hero.96b437598ee6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 225794,
+          "path": "assets/images/photo-gap-existing-03-verticalp-emosson-hero.96b437598ee6.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-viastockalper-simplon-dorf-gondo-hero": {
+      "credit": "Hp.Baumeler / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stockalperweg_Gondoschlucht_Schweiz.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 57772,
+          "path": "assets/images/photo-gap-existing-03-viastockalper-simplon-dorf-gondo-hero.bad1b7c3359c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 173446,
+          "path": "assets/images/photo-gap-existing-03-viastockalper-simplon-dorf-gondo-hero.bad1b7c3359c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288124,
+          "path": "assets/images/photo-gap-existing-03-viastockalper-simplon-dorf-gondo-hero.bad1b7c3359c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-vieux-emosson-geological-loop-hero": {
+      "credit": "Rémih / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barrage_du_Vieux_%C3%89mosson_@_Veudale_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 45328,
+          "path": "assets/images/photo-gap-existing-03-vieux-emosson-geological-loop-hero.af741a6d7a9b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 173814,
+          "path": "assets/images/photo-gap-existing-03-vieux-emosson-geological-loop-hero.af741a6d7a9b.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 287080,
+          "path": "assets/images/photo-gap-existing-03-vieux-emosson-geological-loop-hero.af741a6d7a9b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-walenpfad-brunni-bannalp-hero": {
+      "credit": "Supakon Mohr / Wikimedia Commons; CC BY-SA 3.0 DE. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walenpfad.jpg",
+      "license": "CC BY-SA 3.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 26482,
+          "path": "assets/images/photo-gap-existing-03-walenpfad-brunni-bannalp-hero.2cfd738b5b45.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 96140,
+          "path": "assets/images/photo-gap-existing-03-walenpfad-brunni-bannalp-hero.2cfd738b5b45.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 195514,
+          "path": "assets/images/photo-gap-existing-03-walenpfad-brunni-bannalp-hero.2cfd738b5b45.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-zoo-zurich-hero": {
+      "credit": "Albinfo / Wikimedia Commons; CC0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MasoalaHalle_TurmView.jpg",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 37362,
+          "path": "assets/images/photo-gap-existing-03-zoo-zurich-hero.9d86c1f7d5e8.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 127690,
+          "path": "assets/images/photo-gap-existing-03-zoo-zurich-hero.9d86c1f7d5e8.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 959,
+          "bytes": 253886,
+          "path": "assets/images/photo-gap-existing-03-zoo-zurich-hero.9d86c1f7d5e8.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-zurich-district-1-hero": {
+      "credit": "JoachimKohler-HB / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Limmatquai_mit_Grossm%C3%BCnstert%C3%BCrmen_Z%C3%BCrich.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 28752,
+          "path": "assets/images/photo-gap-existing-03-zurich-district-1-hero.9669fd84f2b4.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 109052,
+          "path": "assets/images/photo-gap-existing-03-zurich-district-1-hero.9669fd84f2b4.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 248954,
+          "path": "assets/images/photo-gap-existing-03-zurich-district-1-hero.9669fd84f2b4.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-03-zurich-opera-house-hero": {
+      "credit": "Ank Kumar / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Opera_House_-_Opernhaus_Ank_Kumar_Infosys_Limited_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 480,
+          "bytes": 32752,
+          "path": "assets/images/photo-gap-existing-03-zurich-opera-house-hero.0a0d31356e87.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 960,
+          "bytes": 152350,
+          "path": "assets/images/photo-gap-existing-03-zurich-opera-house-hero.0a0d31356e87.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1440,
+          "bytes": 289766,
+          "path": "assets/images/photo-gap-existing-03-zurich-opera-house-hero.0a0d31356e87.1440.webp"
+        }
+      ]
+    },
     "photo-gap-swiss-02-greina-crossing-terrihutte-hero": {
       "credit": "Whgler; resized and converted from the original photograph.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greina_Terrih%C3%BCtte_2019.jpg",
