@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T07:16:37.000Z",
+  "generatedAt": "2026-10-05T09:47:22.000Z",
   "catalogue": {
     "total": 868,
     "public": 868,
@@ -38,14 +38,14 @@
     "searchShardCount": 35,
     "mapShardCount": 41,
     "tierListShardCount": 47,
-    "hikingRouteAssetCount": 201,
+    "hikingRouteAssetCount": 204,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 2017384,
-      "gzipBytes": 484542
+      "bytes": 2020408,
+      "gzipBytes": 485280
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -53,8 +53,8 @@
       "gzipBytes": 196237
     },
     "mapOverview": {
-      "bytes": 2813697,
-      "gzipBytes": 527200
+      "bytes": 2814423,
+      "gzipBytes": 527460
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -62,12 +62,12 @@
       "gzipBytes": 150336
     },
     "entityReference": {
-      "bytes": 2510140,
-      "gzipBytes": 461590
+      "bytes": 2510812,
+      "gzipBytes": 461792
     },
     "hikingRouteAssetsTotal": {
-      "bytes": 4646185,
-      "gzipBytes": 1351795
+      "bytes": 4683225,
+      "gzipBytes": 1362252
     },
     "largestHikingRouteAsset": {
       "key": "7011c066-8bd4-8a96-b0a3-ae2c6919edaa:full-gaularfjellet-eldal-river-main",
@@ -94,13 +94,13 @@
     },
     "tierListManifest": {
       "bytes": 36358,
-      "gzipBytes": 8748
+      "gzipBytes": 8752
     }
   },
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-10-05T07:16:37.000Z",
+    "generatedAt": "2026-10-05T09:47:22.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -177,18 +177,18 @@
           "entityCount": 1
         },
         {
-          "path": "catalogue/packages/entities-cz.4e8a562fee04.json",
-          "bytes": 1008991,
-          "gzipBytes": 254556,
-          "sha256": "4e8a562fee046e5b58321f9ec8b17fd25cba98b1631c8ac18361633650999efc",
+          "path": "catalogue/packages/entities-cz.50c4925a6a0c.json",
+          "bytes": 1015287,
+          "gzipBytes": 256445,
+          "sha256": "50c4925a6a0c61b6c1e7131ec9bb120f64de978e66e9b8b74eb50ff67e61ffd3",
           "countryCode": "CZ",
           "entityCount": 113
         },
         {
-          "path": "catalogue/packages/entities-de.84aa7425ec3c.json",
-          "bytes": 601023,
-          "gzipBytes": 147956,
-          "sha256": "84aa7425ec3c7544c100c1a1c31edefc662249d1ad21bfcd6458d35399288be1",
+          "path": "catalogue/packages/entities-de.898ad13b8ce9.json",
+          "bytes": 610372,
+          "gzipBytes": 150406,
+          "sha256": "898ad13b8ce9c92b7d7808b0f51cdf0e1b994e7f0cb6b6742da3843b9224daba",
           "countryCode": "DE",
           "entityCount": 71
         },
@@ -337,10 +337,10 @@
           "entityCount": 5
         },
         {
-          "path": "catalogue/packages/entities-no.ca1e984d297a.json",
-          "bytes": 638160,
-          "gzipBytes": 136209,
-          "sha256": "ca1e984d297aa5985a690e5ab041d99de4c6350f362b01f70f3b7e62b587fabe",
+          "path": "catalogue/packages/entities-no.5df4ea144ea7.json",
+          "bytes": 647899,
+          "gzipBytes": 138440,
+          "sha256": "5df4ea144ea71d4047d3ffa2650a0f81c4a39af8b9e47af9aaaa092858fdb50b",
           "countryCode": "NO",
           "entityCount": 51
         },
@@ -410,17 +410,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.afed982637d2.json",
-        "bytes": 67058,
-        "gzipBytes": 15887,
-        "sha256": "afed982637d2b60f020fd67166edc53fa9b0235531cb1555ae1daf1fd6c585d2",
+        "path": "data/search/manifest.86d2cd04c688.json",
+        "bytes": 67018,
+        "gzipBytes": 15882,
+        "sha256": "86d2cd04c688432c379cb018afc87f46ee0f3d432ab1806cc7d94458f9631594",
         "documentCount": 868
       },
       "map": {
-        "path": "data/map/manifest.027c423cc435.json",
-        "bytes": 217394,
-        "gzipBytes": 72087,
-        "sha256": "027c423cc43517d8450a7d72523bfc4f64da3cdc0b2621c719c366abb160a17b",
+        "path": "data/map/manifest.251a953fb555.json",
+        "bytes": 217483,
+        "gzipBytes": 72171,
+        "sha256": "251a953fb5555d1daa321578d8b3dbd31a343bcb2b61318ea66efe48699d6bb5",
         "shardCount": 41
       },
       "redirects": {
@@ -450,7 +450,7 @@
       },
       "hiking": {
         "manifest": "data/hiking/manifest.json",
-        "routeCount": 201
+        "routeCount": 204
       },
       "routes": {
         "manifest": "data/routes/manifest.json",
@@ -458,10 +458,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.96bd4231608e.json",
+        "path": "data/tier-list/manifest.f5ec15a9773e.json",
         "bytes": 36358,
-        "gzipBytes": 8748,
-        "sha256": "96bd4231608e85c35ce8450eb6da2a2c5807886773e65aaf9e6b0bf61d2d5172",
+        "gzipBytes": 8752,
+        "sha256": "f5ec15a9773ef7a60f066c0d102d1a0242c4301c407306dcab65d89028a6cce6",
         "documentCount": 868,
         "countryShardCount": 35,
         "typeShardCount": 12
