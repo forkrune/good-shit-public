@@ -6033,6 +6033,136 @@
         }
       ]
     },
+    "photo-gap-11-aji-no-sapporo-onishi-hero": {
+      "credit": "くろふね (User:Jranar) / Wikimedia Commons; CC BY-SA 4.0. Work: 味噌カレー牛乳ラーメン（味の札幌大西）.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:%E5%91%B3%E5%99%8C%E3%82%AB%E3%83%AC%E3%83%BC%E7%89%9B%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%EF%BC%88%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%EF%BC%89.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%91%B3%E5%99%8C%E3%82%AB%E3%83%AC%E3%83%BC%E7%89%9B%E4%B9%B3%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%EF%BC%88%E5%91%B3%E3%81%AE%E6%9C%AD%E5%B9%8C%E5%A4%A7%E8%A5%BF%EF%BC%89.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 17218,
+          "path": "assets/images/photo-gap-11-aji-no-sapporo-onishi-hero.e30e8805c668.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 642,
+          "bytes": 53412,
+          "path": "assets/images/photo-gap-11-aji-no-sapporo-onishi-hero.e30e8805c668.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 962,
+          "bytes": 129058,
+          "path": "assets/images/photo-gap-11-aji-no-sapporo-onishi-hero.e30e8805c668.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-akkeshi-gourmet-park-conchiglie-hero": {
+      "credit": "Ozizo / Wikimedia Commons; Public domain (PD-self). Work: Roadside Station Akkeshi Gourmet Park.jpg. Licence: https://commons.wikimedia.org/wiki/Template:PD-self. Source: https://commons.wikimedia.org/wiki/File:Roadside_Station_Akkeshi_Gourmet_Park.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roadside_Station_Akkeshi_Gourmet_Park.jpg",
+      "license": "Public domain (PD-self)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 11074,
+          "path": "assets/images/photo-gap-11-akkeshi-gourmet-park-conchiglie-hero.2e6c7799fbd2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 35996,
+          "path": "assets/images/photo-gap-11-akkeshi-gourmet-park-conchiglie-hero.2e6c7799fbd2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 75262,
+          "path": "assets/images/photo-gap-11-akkeshi-gourmet-park-conchiglie-hero.2e6c7799fbd2.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-amazake-chaya-hero": {
+      "credit": "Aimaimyi / Wikimedia Commons; CC BY-SA 3.0. Work: Amazake-cyaya 01.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Amazake-cyaya_01.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazake-cyaya_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 40758,
+          "path": "assets/images/photo-gap-11-amazake-chaya-hero.3d6887bf32ac.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 161930,
+          "path": "assets/images/photo-gap-11-amazake-chaya-hero.3d6887bf32ac.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291914,
+          "path": "assets/images/photo-gap-11-amazake-chaya-hero.3d6887bf32ac.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-antarctic-research-ship-fuji-hero": {
+      "credit": "Tomio344456 / Wikimedia Commons; CC BY-SA 4.0. Work: Fuji Antarctic Museum, Minato-machi Minato Ward Nagoya 2022.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Fuji_Antarctic_Museum,_Minato-machi_Minato_Ward_Nagoya_2022.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fuji_Antarctic_Museum,_Minato-machi_Minato_Ward_Nagoya_2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 16354,
+          "path": "assets/images/photo-gap-11-antarctic-research-ship-fuji-hero.2dd4eea57f81.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 57928,
+          "path": "assets/images/photo-gap-11-antarctic-research-ship-fuji-hero.2dd4eea57f81.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 123422,
+          "path": "assets/images/photo-gap-11-antarctic-research-ship-fuji-hero.2dd4eea57f81.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-bruarfoss-hero": {
+      "credit": "dyonis / Wikimedia Commons; CC BY 2.0. Work: Brùarfoss waterfall - Iceland - Flickr - dyonis.jpg. Licence: https://creativecommons.org/licenses/by/2.0. Source: https://commons.wikimedia.org/wiki/File:Br%C3%B9arfoss_waterfall_-_Iceland_-_Flickr_-_dyonis.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Br%C3%B9arfoss_waterfall_-_Iceland_-_Flickr_-_dyonis.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27010,
+          "path": "assets/images/photo-gap-11-bruarfoss-hero.46fdd752d9a0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 81834,
+          "path": "assets/images/photo-gap-11-bruarfoss-hero.46fdd752d9a0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 156702,
+          "path": "assets/images/photo-gap-11-bruarfoss-hero.46fdd752d9a0.1440.webp"
+        }
+      ]
+    },
     "photo-gap-11-kuniga-coast-hero": {
       "credit": "STUDIO FACE / FIND/47; CC BY 4.0. Archived JPEG; responsive WebP variants are resized and metadata-stripped, and display may crop the image.",
       "sourceUrl": "https://find47.jp/en/i/ThJs8",
@@ -6056,6 +6186,188 @@
           "height": 810,
           "bytes": 177014,
           "path": "assets/images/photo-gap-11-kuniga-coast-hero.cae12f68d51b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-svartifoss-hero": {
+      "credit": "Arian Zwegers / Wikimedia Commons; CC BY 2.0. Work: Skaftafell National Park, Svartifoss (6817603945).jpg. Licence: https://creativecommons.org/licenses/by/2.0. Source: https://commons.wikimedia.org/wiki/File:Skaftafell_National_Park,_Svartifoss_(6817603945).jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skaftafell_National_Park,_Svartifoss_(6817603945).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 33056,
+          "path": "assets/images/photo-gap-11-svartifoss-hero.e42316e270d0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 117304,
+          "path": "assets/images/photo-gap-11-svartifoss-hero.e42316e270d0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 235384,
+          "path": "assets/images/photo-gap-11-svartifoss-hero.e42316e270d0.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-11-the-cave-vidgelmir-hero": {
+      "credit": "Speleo / Wikimedia Commons; CC BY-SA 2.0 Germany. Work: IS cave vidgelmir.jpeg. Licence: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en. Source: https://commons.wikimedia.org/wiki/File:IS_cave_vidgelmir.jpeg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IS_cave_vidgelmir.jpeg",
+      "license": "CC BY-SA 2.0 Germany",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 28738,
+          "path": "assets/images/photo-gap-11-the-cave-vidgelmir-hero.dbea7d66591e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 97900,
+          "path": "assets/images/photo-gap-11-the-cave-vidgelmir-hero.dbea7d66591e.960.webp"
+        },
+        {
+          "width": 1136,
+          "height": 852,
+          "bytes": 119764,
+          "path": "assets/images/photo-gap-11-the-cave-vidgelmir-hero.dbea7d66591e.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-12-ashikaga-flower-park-peak-wisteria-hero": {
+      "credit": "SLIMHANNYA / Wikimedia Commons; CC BY-SA 4.0. Work: Japanese wisteria, Ashikaga Flower Park 1.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Japanese_wisteria,_Ashikaga_Flower_Park_1.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_wisteria,_Ashikaga_Flower_Park_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 52594,
+          "path": "assets/images/photo-gap-12-ashikaga-flower-park-peak-wisteria-hero.bdab85668dd6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 173784,
+          "path": "assets/images/photo-gap-12-ashikaga-flower-park-peak-wisteria-hero.bdab85668dd6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 957,
+          "bytes": 290404,
+          "path": "assets/images/photo-gap-12-ashikaga-flower-park-peak-wisteria-hero.bdab85668dd6.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-12-atsuta-horaiken-honten-hero": {
+      "credit": "Gnsin / Wikimedia Commons; CC BY-SA 3.0. Work: Atuta Houraiken Honten.JPG. Licence: https://creativecommons.org/licenses/by-sa/3.0/. Source: https://commons.wikimedia.org/wiki/File:Atuta_Houraiken_Honten.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atuta_Houraiken_Honten.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 26320,
+          "path": "assets/images/photo-gap-12-atsuta-horaiken-honten-hero.1827266506c3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 110518,
+          "path": "assets/images/photo-gap-12-atsuta-horaiken-honten-hero.1827266506c3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 258760,
+          "path": "assets/images/photo-gap-12-atsuta-horaiken-honten-hero.1827266506c3.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-12-banei-tokachi-hero": {
+      "credit": "tan90deg (User:Tan90deg) / Wikimedia Commons; CC BY-SA 3.0. Work: Ban-ei obihiro070716 08r.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0/. Source: https://commons.wikimedia.org/wiki/File:Ban-ei_obihiro070716_08r.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ban-ei_obihiro070716_08r.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 22094,
+          "path": "assets/images/photo-gap-12-banei-tokachi-hero.14ab89cbb1b1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 78978,
+          "path": "assets/images/photo-gap-12-banei-tokachi-hero.14ab89cbb1b1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 147736,
+          "path": "assets/images/photo-gap-12-banei-tokachi-hero.14ab89cbb1b1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-12-bannai-shokudo-hero": {
+      "credit": "くろふね (User:Jranar) / Wikimedia Commons; CC BY-SA 4.0. Work: 肉そば（坂内食堂）.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:%E8%82%89%E3%81%9D%E3%81%B0%EF%BC%88%E5%9D%82%E5%86%85%E9%A3%9F%E5%A0%82%EF%BC%89.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%82%89%E3%81%9D%E3%81%B0%EF%BC%88%E5%9D%82%E5%86%85%E9%A3%9F%E5%A0%82%EF%BC%89.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 16948,
+          "path": "assets/images/photo-gap-12-bannai-shokudo-hero.35efd8306396.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 41172,
+          "path": "assets/images/photo-gap-12-bannai-shokudo-hero.35efd8306396.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 68188,
+          "path": "assets/images/photo-gap-12-bannai-shokudo-hero.35efd8306396.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-12-banya-hota-fishing-cooperative-hero": {
+      "credit": "Sun Taro (Flickr sun_summer) / Wikimedia Commons; CC BY-SA 2.0. Work: Aji Fry (Banya).jpg. Licence: https://creativecommons.org/licenses/by-sa/2.0. Source: https://commons.wikimedia.org/wiki/File:Aji_Fry_(Banya).jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aji_Fry_(Banya).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 13502,
+          "path": "assets/images/photo-gap-12-banya-hota-fishing-cooperative-hero.7afb2cf78b78.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 32978,
+          "path": "assets/images/photo-gap-12-banya-hota-fishing-cooperative-hero.7afb2cf78b78.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 55198,
+          "path": "assets/images/photo-gap-12-banya-hota-fishing-cooperative-hero.7afb2cf78b78.1440.webp"
         }
       ]
     },
@@ -6992,6 +7304,344 @@
           "height": 1440,
           "bytes": 289766,
           "path": "assets/images/photo-gap-existing-03-zurich-opera-house-hero.0a0d31356e87.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-frederiksborg-castle-hero": {
+      "credit": "Frederiksborg Slot i sol.jpg — Kresten Hartvig Klit / Wikimedia Commons; CC BY SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5/); source https://commons.wikimedia.org/wiki/File%3AFrederiksborg%20Slot%20i%20sol.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrederiksborg%20Slot%20i%20sol.jpg",
+      "license": "CC BY SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 260,
+          "bytes": 16268,
+          "path": "assets/images/photo-gap-existing-09-frederiksborg-castle-hero.a40bd07c2677.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 521,
+          "bytes": 61682,
+          "path": "assets/images/photo-gap-existing-09-frederiksborg-castle-hero.a40bd07c2677.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 781,
+          "bytes": 135194,
+          "path": "assets/images/photo-gap-existing-09-frederiksborg-castle-hero.a40bd07c2677.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-gravlev-aadal-ruten-hero": {
+      "credit": "Lindenborg Å.jpg — Mikkel Houmøller / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3ALindenborg%20%C3%85.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALindenborg%20%C3%85.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 23600,
+          "path": "assets/images/photo-gap-existing-09-gravlev-aadal-ruten-hero.7f8f53d75f46.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 111612,
+          "path": "assets/images/photo-gap-existing-09-gravlev-aadal-ruten-hero.7f8f53d75f46.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 266536,
+          "path": "assets/images/photo-gap-existing-09-gravlev-aadal-ruten-hero.7f8f53d75f46.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-gudhjem-helligdomsklipperne-baadsted-havn-hero": {
+      "credit": "Heligdomsklipperne, Bornholm (2012-07-11), by Klugschnacker in Wikipedia (13).JPG — Klugschnacker / Wikimedia Commons; CC BY SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/); source https://commons.wikimedia.org/wiki/File%3AHeligdomsklipperne%2C%20Bornholm%20%282012-07-11%29%2C%20by%20Klugschnacker%20in%20Wikipedia%20%2813%29.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHeligdomsklipperne%2C%20Bornholm%20%282012-07-11%29%2C%20by%20Klugschnacker%20in%20Wikipedia%20%2813%29.JPG",
+      "license": "CC BY SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 27402,
+          "path": "assets/images/photo-gap-existing-09-gudhjem-helligdomsklipperne-baadsted-havn-hero.05f38591be3b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 112626,
+          "path": "assets/images/photo-gap-existing-09-gudhjem-helligdomsklipperne-baadsted-havn-hero.05f38591be3b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 255836,
+          "path": "assets/images/photo-gap-existing-09-gudhjem-helligdomsklipperne-baadsted-havn-hero.05f38591be3b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-hammerknuden-rundt-hero": {
+      "credit": "Hammershus - view of Hammeren.jpg — Ole Andersen / Wikimedia Commons; CC BY SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/); source https://commons.wikimedia.org/wiki/File%3AHammershus%20-%20view%20of%20Hammeren.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHammershus%20-%20view%20of%20Hammeren.jpg",
+      "license": "CC BY SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 358,
+          "bytes": 22580,
+          "path": "assets/images/photo-gap-existing-09-hammerknuden-rundt-hero.9a5a32dd258d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 716,
+          "bytes": 84696,
+          "path": "assets/images/photo-gap-existing-09-hammerknuden-rundt-hero.9a5a32dd258d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1074,
+          "bytes": 180458,
+          "path": "assets/images/photo-gap-existing-09-hammerknuden-rundt-hero.9a5a32dd258d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-klintekongens-rige-hero": {
+      "credit": "Møns Klint.1.JPG — Erik Christensen / Wikimedia Commons; CC BY SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/); source https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns%20Klint.1.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AM%C3%B8ns%20Klint.1.JPG",
+      "license": "CC BY SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 19690,
+          "path": "assets/images/photo-gap-existing-09-klintekongens-rige-hero.f4c18ac55680.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 85058,
+          "path": "assets/images/photo-gap-existing-09-klintekongens-rige-hero.f4c18ac55680.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 964,
+          "bytes": 196708,
+          "path": "assets/images/photo-gap-existing-09-klintekongens-rige-hero.f4c18ac55680.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-partnachklamm-bockhutte-reintal-loop-hero": {
+      "credit": "20230608 Partnachklamm 08.jpg — Flocci Nivis / Wikimedia Commons; CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); source https://commons.wikimedia.org/wiki/File%3A20230608%20Partnachklamm%2008.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A20230608%20Partnachklamm%2008.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 48780,
+          "path": "assets/images/photo-gap-existing-09-partnachklamm-bockhutte-reintal-loop-hero.92a1b9139158.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 173798,
+          "path": "assets/images/photo-gap-existing-09-partnachklamm-bockhutte-reintal-loop-hero.92a1b9139158.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 962,
+          "bytes": 288134,
+          "path": "assets/images/photo-gap-existing-09-partnachklamm-bockhutte-reintal-loop-hero.92a1b9139158.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-risslochfalle-grosser-arber-ascent-hero": {
+      "credit": "Riesloch.jpg — Rosa-Maria Rinkl / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3ARiesloch.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARiesloch.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 56140,
+          "path": "assets/images/photo-gap-existing-09-risslochfalle-grosser-arber-ascent-hero.14d2d384b37b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 174538,
+          "path": "assets/images/photo-gap-existing-09-risslochfalle-grosser-arber-ascent-hero.14d2d384b37b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 293158,
+          "path": "assets/images/photo-gap-existing-09-risslochfalle-grosser-arber-ascent-hero.14d2d384b37b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-schlaubetal-wanderweg-mullrose-wirchensee-hero": {
+      "credit": "Autumn day in the Schlaube Valley nature reserve.jpg — WsBerlin / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3AAutumn%20day%20in%20the%20Schlaube%20Valley%20nature%20reserve.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AAutumn%20day%20in%20the%20Schlaube%20Valley%20nature%20reserve.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 48200,
+          "path": "assets/images/photo-gap-existing-09-schlaubetal-wanderweg-mullrose-wirchensee-hero.ec48174c69dc.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 174750,
+          "path": "assets/images/photo-gap-existing-09-schlaubetal-wanderweg-mullrose-wirchensee-hero.ec48174c69dc.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 290362,
+          "path": "assets/images/photo-gap-existing-09-schlaubetal-wanderweg-mullrose-wirchensee-hero.ec48174c69dc.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-schrecksee-from-auele-hero": {
+      "credit": "Schrecksee.jpg — Anonymer Taschenrechner / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3ASchrecksee.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASchrecksee.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30906,
+          "path": "assets/images/photo-gap-existing-09-schrecksee-from-auele-hero.eff651be8201.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 126908,
+          "path": "assets/images/photo-gap-existing-09-schrecksee-from-auele-hero.eff651be8201.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 298860,
+          "path": "assets/images/photo-gap-existing-09-schrecksee-from-auele-hero.eff651be8201.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-traumpalast-leonberg-hero": {
+      "credit": "Traumpalast Leonberg IMAX am 25.02.2024.jpg — Janjonas / Wikimedia Commons; CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/); source https://commons.wikimedia.org/wiki/File%3ATraumpalast%20Leonberg%20IMAX%20am%2025.02.2024.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATraumpalast%20Leonberg%20IMAX%20am%2025.02.2024.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 23146,
+          "path": "assets/images/photo-gap-existing-09-traumpalast-leonberg-hero.ca4e21696623.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 72982,
+          "path": "assets/images/photo-gap-existing-09-traumpalast-leonberg-hero.ca4e21696623.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 147816,
+          "path": "assets/images/photo-gap-existing-09-traumpalast-leonberg-hero.ca4e21696623.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-wartburg-hero": {
+      "credit": "Outside view of Wartburg Castle (4).jpg — Krzysztof Golik / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3AOutside%20view%20of%20Wartburg%20Castle%20%284%29.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOutside%20view%20of%20Wartburg%20Castle%20%284%29.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 272,
+          "bytes": 20312,
+          "path": "assets/images/photo-gap-existing-09-wartburg-hero.1393c42b97f1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 544,
+          "bytes": 84928,
+          "path": "assets/images/photo-gap-existing-09-wartburg-hero.1393c42b97f1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 815,
+          "bytes": 206194,
+          "path": "assets/images/photo-gap-existing-09-wartburg-hero.1393c42b97f1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-wilseder-berg-totengrund-heath-loop-hero": {
+      "credit": "Totengrund in Lüneburg Heath Nature Park.jpg — Christiane W.E.G. / Wikimedia Commons; CC BY SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/); source https://commons.wikimedia.org/wiki/File%3ATotengrund%20in%20L%C3%BCneburg%20Heath%20Nature%20Park.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATotengrund%20in%20L%C3%BCneburg%20Heath%20Nature%20Park.jpg",
+      "license": "CC BY SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 17446,
+          "path": "assets/images/photo-gap-existing-09-wilseder-berg-totengrund-heath-loop-hero.0ead250b886d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 66788,
+          "path": "assets/images/photo-gap-existing-09-wilseder-berg-totengrund-heath-loop-hero.0ead250b886d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 150206,
+          "path": "assets/images/photo-gap-existing-09-wilseder-berg-totengrund-heath-loop-hero.0ead250b886d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-09-wimbachklamm-wimbachgrieshutte-hero": {
+      "credit": "In der Wimbachklamm (26).JPG — Mkummerer / Wikimedia Commons; CC BY SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/); source https://commons.wikimedia.org/wiki/File%3AIn%20der%20Wimbachklamm%20%2826%29.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AIn%20der%20Wimbachklamm%20%2826%29.JPG",
+      "license": "CC BY SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 46120,
+          "path": "assets/images/photo-gap-existing-09-wimbachklamm-wimbachgrieshutte-hero.e3823d62363e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 174156,
+          "path": "assets/images/photo-gap-existing-09-wimbachklamm-wimbachgrieshutte-hero.e3823d62363e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 298536,
+          "path": "assets/images/photo-gap-existing-09-wimbachklamm-wimbachgrieshutte-hero.e3823d62363e.1440.webp"
         }
       ]
     },
