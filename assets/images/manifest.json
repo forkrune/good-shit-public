@@ -9615,6 +9615,650 @@
         }
       ]
     },
+    "photo-gap-30-anhinga-trail-hero": {
+      "credit": "Daniel Kraft / Wikimedia Commons; CC BY-SA 3.0. Work: Everglades Anhinga Trail Pond.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=84416352&oldid=927084800. Licence: https://creativecommons.org/licenses/by-sa/3.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=84416352&oldid=927084800",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 288,
+          "bytes": 27822,
+          "path": "assets/images/photo-gap-30-anhinga-trail-hero.e79c530b3168.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 576,
+          "bytes": 104088,
+          "path": "assets/images/photo-gap-30-anhinga-trail-hero.e79c530b3168.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 864,
+          "bytes": 224822,
+          "path": "assets/images/photo-gap-30-anhinga-trail-hero.e79c530b3168.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-30-fossestien-gaularfjellet-hero": {
+      "credit": "Ximonic (Simo Räsänen) / Wikimedia Commons; CC BY-SA 4.0. Work: Likholefossen of Gaula river, Sunnfjord, Vestland, Norway, 2025 June - 2.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=195592677&oldid=1254039505. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0. Bridge design: Nordplan AS – Arild Waage.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=195592677&oldid=1254039505",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 29684,
+          "path": "assets/images/photo-gap-30-fossestien-gaularfjellet-hero.ac9df580b7e2.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 110940,
+          "path": "assets/images/photo-gap-30-fossestien-gaularfjellet-hero.ac9df580b7e2.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 248190,
+          "path": "assets/images/photo-gap-30-fossestien-gaularfjellet-hero.ac9df580b7e2.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-30-newport-rhode-island-hero": {
+      "credit": "EgorovaSvetlana / Wikimedia Commons; CC BY-SA 4.0. Work: Gooseberry Island View Cliff Walk Newport Rhode Island.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=146065855&oldid=1275449875. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=146065855&oldid=1275449875",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30880,
+          "path": "assets/images/photo-gap-30-newport-rhode-island-hero.39670930ced8.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 100278,
+          "path": "assets/images/photo-gap-30-newport-rhode-island-hero.39670930ced8.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 170266,
+          "path": "assets/images/photo-gap-30-newport-rhode-island-hero.39670930ced8.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-30-saltstraumen-hero": {
+      "credit": "Frankemann / Wikimedia Commons; CC BY-SA 4.0. Work: Apparent whirlpools of Saltstraumen seen from the air.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=51090409&oldid=1056412198. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0. Bridge design: Dr ing. A. Aas-Jakobsen AS.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=51090409&oldid=1056412198",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 357,
+          "bytes": 13900,
+          "path": "assets/images/photo-gap-30-saltstraumen-hero.e6cdddd458fb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 714,
+          "bytes": 49838,
+          "path": "assets/images/photo-gap-30-saltstraumen-hero.e6cdddd458fb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1070,
+          "bytes": 105722,
+          "path": "assets/images/photo-gap-30-saltstraumen-hero.e6cdddd458fb.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-30-savannah-georgia-hero": {
+      "credit": "Michael Stokes / Wikimedia Commons; CC BY 2.0. Work: Savannah 10 16 19 (6) (48911601302).jpg. Source: https://commons.wikimedia.org/w/index.php?curid=113538951&oldid=1094161954. Licence: https://creativecommons.org/licenses/by/2.0. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=113538951&oldid=1094161954",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 37096,
+          "path": "assets/images/photo-gap-30-savannah-georgia-hero.3026d8d2e8b1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 160092,
+          "path": "assets/images/photo-gap-30-savannah-georgia-hero.3026d8d2e8b1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 958,
+          "bytes": 291544,
+          "path": "assets/images/photo-gap-30-savannah-georgia-hero.3026d8d2e8b1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-31-brooklyn-bridge-park-hero": {
+      "credit": "Tdorante10 / Wikimedia Commons; CC BY-SA 4.0. Work: Brooklyn Bridge Park td (2023-04-17) 165 - Pier 2 Lawn.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=131021590&oldid=835138508. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=131021590&oldid=835138508",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 44296,
+          "path": "assets/images/photo-gap-31-brooklyn-bridge-park-hero.1e135be81ff5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 176018,
+          "path": "assets/images/photo-gap-31-brooklyn-bridge-park-hero.1e135be81ff5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 287950,
+          "path": "assets/images/photo-gap-31-brooklyn-bridge-park-hero.1e135be81ff5.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-31-chojiya-hero": {
+      "credit": "田附宏秀 / Wikimedia Commons; CC BY 3.0. Work: 丁子屋（丸子） - panoramio.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=54985120&oldid=1230939057. Licence: https://creativecommons.org/licenses/by/3.0. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=54985120&oldid=1230939057",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 47368,
+          "path": "assets/images/photo-gap-31-chojiya-hero.07ed146aa9e3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 167870,
+          "path": "assets/images/photo-gap-31-chojiya-hero.07ed146aa9e3.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 960,
+          "bytes": 278400,
+          "path": "assets/images/photo-gap-31-chojiya-hero.07ed146aa9e3.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-31-misawaya-hero": {
+      "credit": "IMUTANIROH / Wikimedia Commons; CC BY-SA 4.0. Work: Ouchijyuku-takatousoba.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=70563457&oldid=1255361531. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=70563457&oldid=1255361531",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 358,
+          "height": 480,
+          "bytes": 20066,
+          "path": "assets/images/photo-gap-31-misawaya-hero.6380b4a5dc20.480.webp"
+        },
+        {
+          "width": 717,
+          "height": 960,
+          "bytes": 54734,
+          "path": "assets/images/photo-gap-31-misawaya-hero.6380b4a5dc20.960.webp"
+        },
+        {
+          "width": 1075,
+          "height": 1440,
+          "bytes": 95854,
+          "path": "assets/images/photo-gap-31-misawaya-hero.6380b4a5dc20.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-31-yamagoe-udon-hero": {
+      "credit": "米田賢一 / Wikimedia Commons; CC BY 3.0. Work: 山越 - panoramio.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=49815314&oldid=1194257957. Licence: https://creativecommons.org/licenses/by/3.0. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=49815314&oldid=1194257957",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 20408,
+          "path": "assets/images/photo-gap-31-yamagoe-udon-hero.8a9be761547a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 78238,
+          "path": "assets/images/photo-gap-31-yamagoe-udon-hero.8a9be761547a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 161996,
+          "path": "assets/images/photo-gap-31-yamagoe-udon-hero.8a9be761547a.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-32-rozhledna-zlaty-chlum-hero": {
+      "credit": "Marzper / Wikimedia Commons; CC BY-SA 3.0. Work: Zlatý_chlum_-_panorama_1.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=8902175&oldid=1257467080. Licence: https://creativecommons.org/licenses/by-sa/3.0/. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=8902175&oldid=1257467080",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 186,
+          "bytes": 5274,
+          "path": "assets/images/photo-gap-32-rozhledna-zlaty-chlum-hero.2dc801b892e1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 372,
+          "bytes": 19220,
+          "path": "assets/images/photo-gap-32-rozhledna-zlaty-chlum-hero.2dc801b892e1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 558,
+          "bytes": 41814,
+          "path": "assets/images/photo-gap-32-rozhledna-zlaty-chlum-hero.2dc801b892e1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-33-aogashima-volcanic-island-hero": {
+      "credit": "Soica2001 / Wikimedia Commons; Public domain. Work: Aogasima maruyama.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=10468908&oldid=1261723014. Licence: https://commons.wikimedia.org/w/index.php?curid=10468908&oldid=1261723014. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=10468908&oldid=1261723014",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/w/index.php?curid=10468908&oldid=1261723014",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 19800,
+          "path": "assets/images/photo-gap-33-aogashima-volcanic-island-hero.7d4d74d25aac.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 63516,
+          "path": "assets/images/photo-gap-33-aogashima-volcanic-island-hero.7d4d74d25aac.960.webp"
+        },
+        {
+          "width": 1075,
+          "height": 806,
+          "bytes": 81508,
+          "path": "assets/images/photo-gap-33-aogashima-volcanic-island-hero.7d4d74d25aac.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-33-gygrestolen-hero": {
+      "credit": "Haakonst / Wikimedia Commons; CC0. Work: Gygrestolen southwest cliff.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=197202029&oldid=1261799071. Licence: https://creativecommons.org/publicdomain/zero/1.0/deed.en. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=197202029&oldid=1261799071",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 38700,
+          "path": "assets/images/photo-gap-33-gygrestolen-hero.ad3669b64adf.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 183182,
+          "path": "assets/images/photo-gap-33-gygrestolen-hero.ad3669b64adf.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 292458,
+          "path": "assets/images/photo-gap-33-gygrestolen-hero.ad3669b64adf.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-33-mount-washington-cog-railway-hero": {
+      "credit": "David Brossard / Wikimedia Commons; CC BY-SA 2.0. Work: Into the Clouds - Mount Washington Cog Railway.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=92135222&oldid=1189449187. Licence: https://creativecommons.org/licenses/by-sa/2.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 2.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=92135222&oldid=1189449187",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 302,
+          "bytes": 35844,
+          "path": "assets/images/photo-gap-33-mount-washington-cog-railway-hero.4fa79c8f61d1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 603,
+          "bytes": 160254,
+          "path": "assets/images/photo-gap-33-mount-washington-cog-railway-hero.4fa79c8f61d1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 905,
+          "bytes": 292616,
+          "path": "assets/images/photo-gap-33-mount-washington-cog-railway-hero.4fa79c8f61d1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-34-gangolfsberg-basalt-loop-hero": {
+      "credit": "Barbara Michalski / Wikimedia Commons; CC BY-SA 3.0. Work: Basaltprismenwand Gangolfsberg.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=33531633&oldid=1234006883. Licence: https://creativecommons.org/licenses/by-sa/3.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 3.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=33531633&oldid=1234006883",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 318,
+          "bytes": 51496,
+          "path": "assets/images/photo-gap-34-gangolfsberg-basalt-loop-hero.c70062866b3a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 636,
+          "bytes": 175094,
+          "path": "assets/images/photo-gap-34-gangolfsberg-basalt-loop-hero.c70062866b3a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 954,
+          "bytes": 290344,
+          "path": "assets/images/photo-gap-34-gangolfsberg-basalt-loop-hero.c70062866b3a.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-34-herzogstand-heimgarten-ridge-loop-hero": {
+      "credit": "Tesla Delacroix / Wikimedia Commons; CC BY-SA 4.0. Work: Heimgarten3.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=96377958&oldid=851495692. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=96377958&oldid=851495692",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 257,
+          "bytes": 21636,
+          "path": "assets/images/photo-gap-34-herzogstand-heimgarten-ridge-loop-hero.de71c052571a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 513,
+          "bytes": 81870,
+          "path": "assets/images/photo-gap-34-herzogstand-heimgarten-ridge-loop-hero.de71c052571a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 770,
+          "bytes": 180502,
+          "path": "assets/images/photo-gap-34-herzogstand-heimgarten-ridge-loop-hero.de71c052571a.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-34-lapis-de-zanfleuron-hero": {
+      "credit": "Jérémy Toma / Wikimedia Commons; CC BY-SA 4.0. Work: Glacier de Tsanfleuron.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=121352672&oldid=1280005665. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=121352672&oldid=1280005665",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22552,
+          "path": "assets/images/photo-gap-34-lapis-de-zanfleuron-hero.c6f632dd281c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 95120,
+          "path": "assets/images/photo-gap-34-lapis-de-zanfleuron-hero.c6f632dd281c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 225884,
+          "path": "assets/images/photo-gap-34-lapis-de-zanfleuron-hero.c6f632dd281c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-34-molen-coastal-geopark-route-hero": {
+      "credit": "Thor Fredrik Eie / Wikimedia Commons; CC BY-SA 4.0. Work: Mølen-hi-res.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=86621179&oldid=1107624921. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=86621179&oldid=1107624921",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 29838,
+          "path": "assets/images/photo-gap-34-molen-coastal-geopark-route-hero.95cef8d543e9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 116306,
+          "path": "assets/images/photo-gap-34-molen-coastal-geopark-route-hero.95cef8d543e9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 250622,
+          "path": "assets/images/photo-gap-34-molen-coastal-geopark-route-hero.95cef8d543e9.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-34-svartdalen-torfinnsbu-gjendebu-hero": {
+      "credit": "Geir Berset (Geirern) / Wikimedia Commons; CC BY-SA 2.5. Work: Torfinnsbu-20070616.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=2261440&oldid=1216997384. Licence: https://creativecommons.org/licenses/by-sa/2.5/. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 2.5.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=2261440&oldid=1216997384",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 199,
+          "bytes": 13210,
+          "path": "assets/images/photo-gap-34-svartdalen-torfinnsbu-gjendebu-hero.21bee3c3af4b.480.webp"
+        },
+        {
+          "width": 800,
+          "height": 331,
+          "bytes": 32648,
+          "path": "assets/images/photo-gap-34-svartdalen-torfinnsbu-gjendebu-hero.21bee3c3af4b.960.webp"
+        }
+      ]
+    },
+    "photo-gap-34-teufelsmauer-kammweg-loop-hero": {
+      "credit": "Romzig / Wikimedia Commons; CC0 1.0. Work: Hamburger Wappen (Mai 2023) 3.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=192929781&oldid=1251699664. Licence: https://creativecommons.org/publicdomain/zero/1.0/deed.en. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=192929781&oldid=1251699664",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 19916,
+          "path": "assets/images/photo-gap-34-teufelsmauer-kammweg-loop-hero.121caa0443c1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 85916,
+          "path": "assets/images/photo-gap-34-teufelsmauer-kammweg-loop-hero.121caa0443c1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 202594,
+          "path": "assets/images/photo-gap-34-teufelsmauer-kammweg-loop-hero.121caa0443c1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-everglades-national-park-hero": {
+      "credit": "Moni3 / Wikimedia Commons; CC BY 3.0. Work: Everglades Sawgrass Prairie Moni3.JPG. Source: https://commons.wikimedia.org/w/index.php?curid=4208516&oldid=1258819777. Licence: https://creativecommons.org/licenses/by/3.0. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=4208516&oldid=1258819777",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 337,
+          "bytes": 15324,
+          "path": "assets/images/photo-gap-35-everglades-national-park-hero.b5b906556c35.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 675,
+          "bytes": 65140,
+          "path": "assets/images/photo-gap-35-everglades-national-park-hero.b5b906556c35.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1012,
+          "bytes": 137662,
+          "path": "assets/images/photo-gap-35-everglades-national-park-hero.b5b906556c35.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-ikaho-toy-doll-and-car-museum-hero": {
+      "credit": "Qurren / Wikimedia Commons; CC BY-SA 4.0. Work: Ikaho Toy, Doll & Car Museum.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=109318432&oldid=1111961484. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=109318432&oldid=1111961484",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 358,
+          "bytes": 22208,
+          "path": "assets/images/photo-gap-35-ikaho-toy-doll-and-car-museum-hero.fd87f2338209.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 715,
+          "bytes": 76208,
+          "path": "assets/images/photo-gap-35-ikaho-toy-doll-and-car-museum-hero.fd87f2338209.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1073,
+          "bytes": 165698,
+          "path": "assets/images/photo-gap-35-ikaho-toy-doll-and-car-museum-hero.fd87f2338209.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-kamioka-science-mining-cluster-hero": {
+      "credit": "先従隗始 / Wikimedia Commons; CC0. Work: The bicycle used Gattan Go!! (24050516552).jpg. Source: https://commons.wikimedia.org/w/index.php?curid=195150905&oldid=1275252551. Licence: https://creativecommons.org/publicdomain/zero/1.0/deed.en. Resized and re-encoded; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=195150905&oldid=1275252551",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 36312,
+          "path": "assets/images/photo-gap-35-kamioka-science-mining-cluster-hero.c2998d51f0bf.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 110358,
+          "path": "assets/images/photo-gap-35-kamioka-science-mining-cluster-hero.c2998d51f0bf.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 202920,
+          "path": "assets/images/photo-gap-35-kamioka-science-mining-cluster-hero.c2998d51f0bf.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-reichenbach-falls-hero": {
+      "credit": "Falk2 / Wikimedia Commons; CC BY-SA 4.0. Work: X2.02 Reichenbachfall.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=92948542&oldid=1069779752. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=92948542&oldid=1069779752",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 325,
+          "height": 480,
+          "bytes": 24404,
+          "path": "assets/images/photo-gap-35-reichenbach-falls-hero.46f234fe53b5.480.webp"
+        },
+        {
+          "width": 651,
+          "height": 960,
+          "bytes": 88302,
+          "path": "assets/images/photo-gap-35-reichenbach-falls-hero.46f234fe53b5.960.webp"
+        },
+        {
+          "width": 976,
+          "height": 1440,
+          "bytes": 174476,
+          "path": "assets/images/photo-gap-35-reichenbach-falls-hero.46f234fe53b5.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-six-mile-cypress-slough-preserve-hero": {
+      "credit": "Barbara (WVS) / Wikimedia Commons; CC BY-SA 4.0. Work: Cypress buttresses.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=75825161&oldid=1156901708. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=75825161&oldid=1156901708",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 57132,
+          "path": "assets/images/photo-gap-35-six-mile-cypress-slough-preserve-hero.a06fbd048742.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 174602,
+          "path": "assets/images/photo-gap-35-six-mile-cypress-slough-preserve-hero.a06fbd048742.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288960,
+          "path": "assets/images/photo-gap-35-six-mile-cypress-slough-preserve-hero.a06fbd048742.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-35-yokkaichi-industrial-night-cruise-hero": {
+      "credit": "Nryate / Wikimedia Commons; CC BY-SA 4.0. Work: YokkaichiCity NightView from TarusakaPark.jpg. Source: https://commons.wikimedia.org/w/index.php?curid=77127590&oldid=635521360. Licence: https://creativecommons.org/licenses/by-sa/4.0. Resized and re-encoded; displayed crops are adaptations. Adaptations use CC BY-SA 4.0.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=77127590&oldid=635521360",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22698,
+          "path": "assets/images/photo-gap-35-yokkaichi-industrial-night-cruise-hero.a6823d15ba20.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 64624,
+          "path": "assets/images/photo-gap-35-yokkaichi-industrial-night-cruise-hero.a6823d15ba20.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 115008,
+          "path": "assets/images/photo-gap-35-yokkaichi-industrial-night-cruise-hero.a6823d15ba20.1440.webp"
+        }
+      ]
+    },
     "photo-gap-czech-04-cervenohorske-sedlo-keprnik-serak-ramzova-hero": {
       "credit": "Vavrik / Wikimedia Commons; Public domain. Source original; responsive derivatives resized, re-encoded and metadata-stripped.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keprnik-vrchol.jpg",
