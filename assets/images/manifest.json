@@ -6423,6 +6423,136 @@
         }
       ]
     },
+    "photo-gap-15-junglia-okinawa-hero": {
+      "credit": "Kugel~commonswiki / Wikimedia Commons; CC BY-SA 4.0. Work: Junglia Okinawa seen from Mount Katsuu 202607.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Junglia_Okinawa_seen_from_Mount_Katsuu_202607.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Junglia_Okinawa_seen_from_Mount_Katsuu_202607.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 36196,
+          "path": "assets/images/photo-gap-15-junglia-okinawa-hero.bda03b7c010d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 159248,
+          "path": "assets/images/photo-gap-15-junglia-okinawa-hero.bda03b7c010d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 290790,
+          "path": "assets/images/photo-gap-15-junglia-okinawa-hero.bda03b7c010d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-15-kakko-ya-flying-dango-hero": {
+      "credit": "Takahashi J / Wikimedia Commons; CC BY-SA 3.0. Work: Kakko Dango.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Kakko_Dango.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kakko_Dango.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 54534,
+          "path": "assets/images/photo-gap-15-kakko-ya-flying-dango-hero.8cdf3cb76040.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 174954,
+          "path": "assets/images/photo-gap-15-kakko-ya-flying-dango-hero.8cdf3cb76040.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 292196,
+          "path": "assets/images/photo-gap-15-kakko-ya-flying-dango-hero.8cdf3cb76040.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-15-kakukyu-hatcho-miso-no-sato-hero": {
+      "credit": "ITA-ATU / Wikimedia Commons; CC BY-SA 4.0. Work: Kaku-q Hacchomiso-no-sato 02.JPG. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Kaku-q_Hacchomiso-no-sato_02.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaku-q_Hacchomiso-no-sato_02.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 10248,
+          "path": "assets/images/photo-gap-15-kakukyu-hatcho-miso-no-sato-hero.14be7c7ab077.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 32412,
+          "path": "assets/images/photo-gap-15-kakukyu-hatcho-miso-no-sato-hero.14be7c7ab077.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 86504,
+          "path": "assets/images/photo-gap-15-kakukyu-hatcho-miso-no-sato-hero.14be7c7ab077.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-15-kamebishi-ya-hero": {
+      "credit": "663highland / Wikimedia Commons; CC BY 2.5. Work: Kamebishiya06n3200.jpg. Licence: https://creativecommons.org/licenses/by/2.5. Source: https://commons.wikimedia.org/wiki/File:Kamebishiya06n3200.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamebishiya06n3200.jpg",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 23376,
+          "path": "assets/images/photo-gap-15-kamebishi-ya-hero.5d2cb5fa3efa.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 643,
+          "bytes": 77484,
+          "path": "assets/images/photo-gap-15-kamebishi-ya-hero.5d2cb5fa3efa.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 964,
+          "bytes": 156330,
+          "path": "assets/images/photo-gap-15-kamebishi-ya-hero.5d2cb5fa3efa.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-15-kawatoyo-main-store-hero": {
+      "credit": "Miyuki Meinaka / Wikimedia Commons; CC BY-SA 4.0. Work: Unaju by Kawatoyo Honten.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Unaju_by_Kawatoyo_Honten.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unaju_by_Kawatoyo_Honten.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 26754,
+          "path": "assets/images/photo-gap-15-kawatoyo-main-store-hero.ec685cf39c71.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 92890,
+          "path": "assets/images/photo-gap-15-kawatoyo-main-store-hero.ec685cf39c71.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 195402,
+          "path": "assets/images/photo-gap-15-kawatoyo-main-store-hero.ec685cf39c71.1440.webp"
+        }
+      ]
+    },
     "photo-gap-16-ash-cave-hero": {
       "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
       "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/caves/HockingHills.html",
@@ -7307,6 +7437,266 @@
         }
       ]
     },
+    "photo-gap-existing-08-falladas-fridolinwanderung-hero": {
+      "credit": "Foto: Reinhard Kraasch, Lizenz: CC-BY-SA 4.0 DE. Original work: RK 0907 3619 Schmaler Luzin Fähre.jpg. Source: https://commons.wikimedia.org/wiki/File%3ARK_0907_3619_Schmaler_Luzin_F%C3%A4hre.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0/. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ARK_0907_3619_Schmaler_Luzin_F%C3%A4hre.jpg",
+      "license": "CC BY-SA 4.0 International",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 29822,
+          "path": "assets/images/photo-gap-existing-08-falladas-fridolinwanderung-hero.7fcf441a0015.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 111338,
+          "path": "assets/images/photo-gap-existing-08-falladas-fridolinwanderung-hero.7fcf441a0015.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 228350,
+          "path": "assets/images/photo-gap-existing-08-falladas-fridolinwanderung-hero.7fcf441a0015.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-feldbergsteig-hero": {
+      "credit": "Schoschi / Wikimedia Commons; CC BY 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFeldsee_bis_Feldberg-Parkhaus_%28vom_Seebuck_aus%29.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 178,
+          "bytes": 17892,
+          "path": "assets/images/photo-gap-existing-08-feldbergsteig-hero.206b8d25046e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 357,
+          "bytes": 82438,
+          "path": "assets/images/photo-gap-existing-08-feldbergsteig-hero.206b8d25046e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 535,
+          "bytes": 199498,
+          "path": "assets/images/photo-gap-existing-08-feldbergsteig-hero.206b8d25046e.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-gotzenalm-kaunersteig-feuerpalfen-kessel-hero": {
+      "credit": "Telemarco / Wikimedia Commons; CC BY-SA 3.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATiefblick_aus_1785m_H%C3%B6he_vom_Feuerpalfen_hinab_zum_K%C3%B6nigssee_mit_St._Bartholom%C3%A4_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 10332,
+          "path": "assets/images/photo-gap-existing-08-gotzenalm-kaunersteig-feuerpalfen-kessel-hero.45a230053145.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 35486,
+          "path": "assets/images/photo-gap-existing-08-gotzenalm-kaunersteig-feuerpalfen-kessel-hero.45a230053145.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 79452,
+          "path": "assets/images/photo-gap-existing-08-gotzenalm-kaunersteig-feuerpalfen-kessel-hero.45a230053145.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-hohenstein-cliff-loop-hero": {
+      "credit": "Touristikzentrum Westliches Weserbergland, Dr. Kurt Gilde; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://www.weserbergland-tourismus.de/de/tour/wanderung/ho7-hohenstein-route/809963731/",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 25712,
+          "path": "assets/images/photo-gap-existing-08-hohenstein-cliff-loop-hero.51edf96e413b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 99738,
+          "path": "assets/images/photo-gap-existing-08-hohenstein-cliff-loop-hero.51edf96e413b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 209242,
+          "path": "assets/images/photo-gap-existing-08-hohenstein-cliff-loop-hero.51edf96e413b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-hohenzollern-castle-hero": {
+      "credit": "A. Kniesel (User:-donald-) / Wikimedia Commons; CC BY-SA 2.0 DE. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABurg_Hohenzollern_ak.jpg",
+      "license": "CC BY-SA 2.0 DE",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22292,
+          "path": "assets/images/photo-gap-existing-08-hohenzollern-castle-hero.44e73237ab2d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 101420,
+          "path": "assets/images/photo-gap-existing-08-hohenzollern-castle-hero.44e73237ab2d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 244340,
+          "path": "assets/images/photo-gap-existing-08-hohenzollern-castle-hero.44e73237ab2d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-kleine-reibn-schneibstein-seeleinsee-hero": {
+      "credit": "CaCo789 / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASeeleinsee_Hagengebirge.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 33110,
+          "path": "assets/images/photo-gap-existing-08-kleine-reibn-schneibstein-seeleinsee-hero.e84fd65c0139.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 133798,
+          "path": "assets/images/photo-gap-existing-08-kleine-reibn-schneibstein-seeleinsee-hero.e84fd65c0139.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 290864,
+          "path": "assets/images/photo-gap-existing-08-kleine-reibn-schneibstein-seeleinsee-hero.e84fd65c0139.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-knorreichenstieg-asel-scheid-hero": {
+      "credit": "Heinrich Stürzl / Wikimedia Commons; CC BY-SA 3.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ANaturschutzgebiet_H%C3%BCnselburg_Edersee_Urwaldsteig_M%C3%A4rz_5.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 47712,
+          "path": "assets/images/photo-gap-existing-08-knorreichenstieg-asel-scheid-hero.09e1132a48fd.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 175172,
+          "path": "assets/images/photo-gap-existing-08-knorreichenstieg-asel-scheid-hero.09e1132a48fd.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 288520,
+          "path": "assets/images/photo-gap-existing-08-knorreichenstieg-asel-scheid-hero.09e1132a48fd.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-konigstein-fortress-hero": {
+      "credit": "Romzig / Wikimedia Commons; CC0 1.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFestung_K%C3%B6nigstein%2C_Georgenburg_%28Juni_2026%29.jpg",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22072,
+          "path": "assets/images/photo-gap-existing-08-konigstein-fortress-hero.c4ce38a825e5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 87346,
+          "path": "assets/images/photo-gap-existing-08-konigstein-fortress-hero.c4ce38a825e5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 205158,
+          "path": "assets/images/photo-gap-existing-08-konigstein-fortress-hero.c4ce38a825e5.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-lowenburg-kassel-hero": {
+      "credit": "H. Zell (User:Llez) / Wikimedia Commons; CC BY-SA 3.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AL%C3%B6wenburg_-_Bergpark_Wilhelmsh%C3%B6he_03.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 215,
+          "bytes": 18774,
+          "path": "assets/images/photo-gap-existing-08-lowenburg-kassel-hero.ff89f3ce497d.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 430,
+          "bytes": 80852,
+          "path": "assets/images/photo-gap-existing-08-lowenburg-kassel-hero.ff89f3ce497d.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 644,
+          "bytes": 196196,
+          "path": "assets/images/photo-gap-existing-08-lowenburg-kassel-hero.ff89f3ce497d.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-08-muggendorfer-geburg-cave-karst-loop-hero": {
+      "credit": "Reinhold Möller / Wikimedia Commons; CC BY-SA 4.0. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AOswaldh%C3%B6hle_2140210_HDR-2.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 39586,
+          "path": "assets/images/photo-gap-existing-08-muggendorfer-geburg-cave-karst-loop-hero.a38b64aa3cce.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 174916,
+          "path": "assets/images/photo-gap-existing-08-muggendorfer-geburg-cave-karst-loop-hero.a38b64aa3cce.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288658,
+          "path": "assets/images/photo-gap-existing-08-muggendorfer-geburg-cave-karst-loop-hero.a38b64aa3cce.1440.webp"
+        }
+      ]
+    },
     "photo-gap-existing-09-frederiksborg-castle-hero": {
       "credit": "Frederiksborg Slot i sol.jpg — Kresten Hartvig Klit / Wikimedia Commons; CC BY SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5/); source https://commons.wikimedia.org/wiki/File%3AFrederiksborg%20Slot%20i%20sol.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFrederiksborg%20Slot%20i%20sol.jpg",
@@ -7642,6 +8032,266 @@
           "height": 960,
           "bytes": 298536,
           "path": "assets/images/photo-gap-existing-09-wimbachklamm-wimbachgrieshutte-hero.e3823d62363e.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-dune-du-pilat-hero": {
+      "credit": "Jörg Braukmann / Wikimedia Commons; CC BY-SA 4.0. Work: Sommet de la Dune du Pilat.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Sommet_de_la_Dune_du_Pilat.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sommet_de_la_Dune_du_Pilat.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 9904,
+          "path": "assets/images/photo-gap-existing-10-dune-du-pilat-hero.a8465ec81fcb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 38624,
+          "path": "assets/images/photo-gap-existing-10-dune-du-pilat-hero.a8465ec81fcb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 87902,
+          "path": "assets/images/photo-gap-existing-10-dune-du-pilat-hero.a8465ec81fcb.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-gouffre-de-padirac-hero": {
+      "credit": "Dimimis / Wikimedia Commons; CC BY-SA 3.0. Work: Padirac, Le Gouffre.JPG. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Padirac,_Le_Gouffre.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padirac,_Le_Gouffre.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 47436,
+          "path": "assets/images/photo-gap-existing-10-gouffre-de-padirac-hero.679826e0a5f1.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 175892,
+          "path": "assets/images/photo-gap-existing-10-gouffre-de-padirac-hero.679826e0a5f1.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291398,
+          "path": "assets/images/photo-gap-existing-10-gouffre-de-padirac-hero.679826e0a5f1.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-hotel-des-invalides-hero": {
+      "credit": "© William Crochot / Wikimedia Commons; CC-BY-SA 4.0. Work: Hôtel des Invalides - 20150801 16h09 (10630).jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:H%C3%B4tel_des_Invalides_-_20150801_16h09_(10630).jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_des_Invalides_-_20150801_16h09_(10630).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 53604,
+          "path": "assets/images/photo-gap-existing-10-hotel-des-invalides-hero.68c4cd1e16e6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 176592,
+          "path": "assets/images/photo-gap-existing-10-hotel-des-invalides-hero.68c4cd1e16e6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 290682,
+          "path": "assets/images/photo-gap-existing-10-hotel-des-invalides-hero.68c4cd1e16e6.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-jardin-des-tuileries-hero": {
+      "credit": "Tangopaso / Wikimedia Commons; Public domain (PD-self). Work: Grande Roue de Paris - Louvre et Jardins des Tuileries.jpg. Licence: https://creativecommons.org/publicdomain/mark/1.0/. Source: https://commons.wikimedia.org/wiki/File:Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg",
+      "license": "Public domain (PD-self)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 22224,
+          "path": "assets/images/photo-gap-existing-10-jardin-des-tuileries-hero.f8c8510263d9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 87242,
+          "path": "assets/images/photo-gap-existing-10-jardin-des-tuileries-hero.f8c8510263d9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 196400,
+          "path": "assets/images/photo-gap-existing-10-jardin-des-tuileries-hero.f8c8510263d9.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-jardin-palais-royal-hero": {
+      "credit": "Beckstet / Wikimedia Commons; CC BY-SA 3.0. Work: PalaysRoyal Garten.JPG. Licence: https://creativecommons.org/licenses/by-sa/3.0/. Source: https://commons.wikimedia.org/wiki/File:PalaysRoyal_Garten.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PalaysRoyal_Garten.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 316,
+          "bytes": 31984,
+          "path": "assets/images/photo-gap-existing-10-jardin-palais-royal-hero.2caa5ff6a44c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 632,
+          "bytes": 100442,
+          "path": "assets/images/photo-gap-existing-10-jardin-palais-royal-hero.2caa5ff6a44c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 948,
+          "bytes": 177880,
+          "path": "assets/images/photo-gap-existing-10-jardin-palais-royal-hero.2caa5ff6a44c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-kevo-canyon-trail-hero": {
+      "credit": "Lakkahillo / Wikimedia Commons; CC BY-SA 3.0. Work: Location of Kevo.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Location_of_Kevo.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Location_of_Kevo.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30294,
+          "path": "assets/images/photo-gap-existing-10-kevo-canyon-trail-hero.b3d67ab90051.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 130394,
+          "path": "assets/images/photo-gap-existing-10-kevo-canyon-trail-hero.b3d67ab90051.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 306586,
+          "path": "assets/images/photo-gap-existing-10-kevo-canyon-trail-hero.b3d67ab90051.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-palace-of-versailles-hero": {
+      "credit": "ToucanWings / Wikimedia Commons; CC BY-SA 3.0. Work: Vue aérienne du domaine de Versailles par ToucanWings - Creative Commons By Sa 3.0 - 083.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_083.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_083.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 41556,
+          "path": "assets/images/photo-gap-existing-10-palace-of-versailles-hero.1bab32ef60b6.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 157410,
+          "path": "assets/images/photo-gap-existing-10-palace-of-versailles-hero.1bab32ef60b6.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 291620,
+          "path": "assets/images/photo-gap-existing-10-palace-of-versailles-hero.1bab32ef60b6.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-rebild-bakker-ruten-hero": {
+      "credit": "Mikkel Houmøller / Wikimedia Commons; CC BY-SA 4.0. Work: Rebild Bakker.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Rebild_Bakker.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rebild_Bakker.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 23936,
+          "path": "assets/images/photo-gap-existing-10-rebild-bakker-ruten-hero.249d3100fc65.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 100818,
+          "path": "assets/images/photo-gap-existing-10-rebild-bakker-ruten-hero.249d3100fc65.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 961,
+          "bytes": 228212,
+          "path": "assets/images/photo-gap-existing-10-rebild-bakker-ruten-hero.249d3100fc65.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-ruta-volcanes-el-pilar-los-canarios-hero": {
+      "credit": "H. Zell / Wikimedia Commons; CC BY-SA 3.0. Work: Ruta de los Volcanes - Montaña Quemada - Caldera de Taburiente - La Palma.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Ruta_de_los_Volcanes_-_Monta%C3%B1a_Quemada_-_Caldera_de_Taburiente_-_La_Palma.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruta_de_los_Volcanes_-_Monta%C3%B1a_Quemada_-_Caldera_de_Taburiente_-_La_Palma.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 28100,
+          "path": "assets/images/photo-gap-existing-10-ruta-volcanes-el-pilar-los-canarios-hero.20007d015b3c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 123610,
+          "path": "assets/images/photo-gap-existing-10-ruta-volcanes-el-pilar-los-canarios-hero.20007d015b3c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 295680,
+          "path": "assets/images/photo-gap-existing-10-ruta-volcanes-el-pilar-los-canarios-hero.20007d015b3c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-10-stevns-klint-trampesti-hero": {
+      "credit": "Niels Elgaard Larsen / Wikimedia Commons; CC BY-SA 3.0. Work: StevnsKlint.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:StevnsKlint.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped; displayed crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:StevnsKlint.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 184,
+          "bytes": 13138,
+          "path": "assets/images/photo-gap-existing-10-stevns-klint-trampesti-hero.d78d45dd9324.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 368,
+          "bytes": 48060,
+          "path": "assets/images/photo-gap-existing-10-stevns-klint-trampesti-hero.d78d45dd9324.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 551,
+          "bytes": 94182,
+          "path": "assets/images/photo-gap-existing-10-stevns-klint-trampesti-hero.d78d45dd9324.1440.webp"
         }
       ]
     },
