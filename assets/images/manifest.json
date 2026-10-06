@@ -5167,6 +5167,188 @@
         }
       ]
     },
+    "photo-existing-07-affensteine-wilde-holle-carolafelsen-idagrotte-hero": {
+      "credit": "Lukas Beck / Wikimedia Commons; CC BY 4.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nationalpark_S%C3%A4chsische_Schweiz_Idagrotte_lub_2023-10-23_img01.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 40976,
+          "path": "assets/images/photo-existing-07-affensteine-wilde-holle-carolafelsen-idagrotte-hero.c3f9f1f5f68b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 176352,
+          "path": "assets/images/photo-existing-07-affensteine-wilde-holle-carolafelsen-idagrotte-hero.c3f9f1f5f68b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 293914,
+          "path": "assets/images/photo-existing-07-affensteine-wilde-holle-carolafelsen-idagrotte-hero.c3f9f1f5f68b.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-darss-weststrand-darsser-ort-loop-hero": {
+      "credit": "Jörg Braukmann / Wikimedia Commons; CC BY-SA 4.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dar%C3%9F_2021_-_Weststrand_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 313,
+          "bytes": 33444,
+          "path": "assets/images/photo-existing-07-darss-weststrand-darsser-ort-loop-hero.0e1abb33350f.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 627,
+          "bytes": 146220,
+          "path": "assets/images/photo-existing-07-darss-weststrand-darsser-ort-loop-hero.0e1abb33350f.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 940,
+          "bytes": 290716,
+          "path": "assets/images/photo-existing-07-darss-weststrand-darsser-ort-loop-hero.0e1abb33350f.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-donauwelle-eichfelsen-panorama-hero": {
+      "credit": "Meyer.Ludwig / Wikimedia Commons; CC BY-SA 4.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonnenaufgang_im_oberen_Donautal.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 10762,
+          "path": "assets/images/photo-existing-07-donauwelle-eichfelsen-panorama-hero.8a1727fc800e.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 38494,
+          "path": "assets/images/photo-existing-07-donauwelle-eichfelsen-panorama-hero.8a1727fc800e.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 84838,
+          "path": "assets/images/photo-existing-07-donauwelle-eichfelsen-panorama-hero.8a1727fc800e.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-ehrbachklamm-loop-hero": {
+      "credit": "Güwy / Wikimedia Commons; CC BY-SA 3.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ehrbachklamm_(6).JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 52662,
+          "path": "assets/images/photo-existing-07-ehrbachklamm-loop-hero.cc217a07eef5.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 174462,
+          "path": "assets/images/photo-existing-07-ehrbachklamm-loop-hero.cc217a07eef5.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 290620,
+          "path": "assets/images/photo-existing-07-ehrbachklamm-loop-hero.cc217a07eef5.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-eisenach-landgrafenschlucht-drachenschlucht-loop-hero": {
+      "credit": "Lukas Beck / Wikimedia Commons; CC BY 4.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naturschutzgebiet_W%C3%A4lder_mit_Schluchten_zwischen_Wartburg_und_Hohe_Sonne_Drachenschlucht_lub_2025-04-16_img06.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 55534,
+          "path": "assets/images/photo-existing-07-eisenach-landgrafenschlucht-drachenschlucht-loop-hero.98a030466560.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 173432,
+          "path": "assets/images/photo-existing-07-eisenach-landgrafenschlucht-drachenschlucht-loop-hero.98a030466560.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 288282,
+          "path": "assets/images/photo-existing-07-eisenach-landgrafenschlucht-drachenschlucht-loop-hero.98a030466560.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-eistobel-riedholzer-kugel-loop-hero": {
+      "credit": "ANKAWÜ / Wikimedia Commons; CC BY-SA 3.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D-BY_-_Eistobel_074.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 43378,
+          "path": "assets/images/photo-existing-07-eistobel-riedholzer-kugel-loop-hero.60939c60c047.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 176572,
+          "path": "assets/images/photo-existing-07-eistobel-riedholzer-kugel-loop-hero.60939c60c047.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 292586,
+          "path": "assets/images/photo-existing-07-eistobel-riedholzer-kugel-loop-hero.60939c60c047.1440.webp"
+        }
+      ]
+    },
+    "photo-existing-07-voderadske-buciny-autumn-loop-hero": {
+      "credit": "Skot / Wikimedia Commons; CC BY-SA 4.0. Cropped, resized and metadata-stripped for display; no upscaling.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vod%C4%9Bradsk%C3%A9_bu%C4%8Diny_2019_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 59184,
+          "path": "assets/images/photo-existing-07-voderadske-buciny-autumn-loop-hero.4a1db2d1f574.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 173508,
+          "path": "assets/images/photo-existing-07-voderadske-buciny-autumn-loop-hero.4a1db2d1f574.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 285222,
+          "path": "assets/images/photo-existing-07-voderadske-buciny-autumn-loop-hero.4a1db2d1f574.1440.webp"
+        }
+      ]
+    },
     "photo-gap-01-aletsch-glacier-trail-hero": {
       "credit": "JoachimKohler-HB / Wikimedia Commons; CC BY-SA 4.0. Source photograph resized by Wikimedia Commons; responsive WebP images resized and metadata-stripped. Responsive derivatives remain under CC BY-SA 4.0.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blick_vom_Mor%C3%A4nenweg_auf_Alteschgletscher_und_-wald_(2017).jpg",
@@ -6423,6 +6605,162 @@
         }
       ]
     },
+    "photo-gap-14-hangzhou-hanten-hero": {
+      "credit": "Yasayu94 / Wikimedia Commons; CC BY-SA 4.0. Work: Tsubame Ramen, Koshu Hanten.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Tsubame_Ramen,_Koshu_Hanten.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsubame_Ramen,_Koshu_Hanten.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 18576,
+          "path": "assets/images/photo-gap-14-hangzhou-hanten-hero.1b5a718d6469.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 64676,
+          "path": "assets/images/photo-gap-14-hangzhou-hanten-hero.1b5a718d6469.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 135304,
+          "path": "assets/images/photo-gap-14-hangzhou-hanten-hero.1b5a718d6469.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-14-hasshoku-center-hero": {
+      "credit": "くろふね / Wikimedia Commons; CC BY-SA 4.0. Work: あんこうのともあえ（八食センター）.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%82%93%E3%81%93%E3%81%86%E3%81%AE%E3%81%A8%E3%82%82%E3%81%82%E3%81%88%EF%BC%88%E5%85%AB%E9%A3%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%EF%BC%89.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%82%93%E3%81%93%E3%81%86%E3%81%AE%E3%81%A8%E3%82%82%E3%81%82%E3%81%88%EF%BC%88%E5%85%AB%E9%A3%9F%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%EF%BC%89.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 23014,
+          "path": "assets/images/photo-gap-14-hasshoku-center-hero.2d9c9a3eeceb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 67038,
+          "path": "assets/images/photo-gap-14-hasshoku-center-hero.2d9c9a3eeceb.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 121550,
+          "path": "assets/images/photo-gap-14-hasshoku-center-hero.2d9c9a3eeceb.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-14-himi-fish-market-shokudo-hero": {
+      "credit": "くろふね / Wikimedia Commons; CC BY 4.0. Work: ブリ丼（氷見魚市場食堂）20240210-P1038574.jpg. Licence: https://creativecommons.org/licenses/by/4.0. Source: https://commons.wikimedia.org/wiki/File:%E3%83%96%E3%83%AA%E4%B8%BC%EF%BC%88%E6%B0%B7%E8%A6%8B%E9%AD%9A%E5%B8%82%E5%A0%B4%E9%A3%9F%E5%A0%82%EF%BC%8920240210-P1038574.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%96%E3%83%AA%E4%B8%BC%EF%BC%88%E6%B0%B7%E8%A6%8B%E9%AD%9A%E5%B8%82%E5%A0%B4%E9%A3%9F%E5%A0%82%EF%BC%8920240210-P1038574.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 15988,
+          "path": "assets/images/photo-gap-14-himi-fish-market-shokudo-hero.8dee255f4918.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 45654,
+          "path": "assets/images/photo-gap-14-himi-fish-market-shokudo-hero.8dee255f4918.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 85478,
+          "path": "assets/images/photo-gap-14-himi-fish-market-shokudo-hero.8dee255f4918.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-14-hotaruika-museum-and-panorama-restaurant-kosai-hero": {
+      "credit": "tail_furry / Wikimedia Commons; CC BY-SA 3.0. Work: Hotaruika Museum, Toyama, Japan.jpg. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Hotaruika_Museum,_Toyama,_Japan.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotaruika_Museum,_Toyama,_Japan.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 23896,
+          "path": "assets/images/photo-gap-14-hotaruika-museum-and-panorama-restaurant-kosai-hero.6cf4a9ac4ff3.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 126076,
+          "path": "assets/images/photo-gap-14-hotaruika-museum-and-panorama-restaurant-kosai-hero.6cf4a9ac4ff3.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 289620,
+          "path": "assets/images/photo-gap-14-hotaruika-museum-and-panorama-restaurant-kosai-hero.6cf4a9ac4ff3.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-14-ichimonjiya-wasuke-ichiwa-hero": {
+      "credit": "Hisagi / Wikimedia Commons; CC BY-SA 4.0. Work: Ichimonjiya Wasuke Aburi-mochi 20171119.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Ichimonjiya_Wasuke_Aburi-mochi_20171119.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ichimonjiya_Wasuke_Aburi-mochi_20171119.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 27164,
+          "path": "assets/images/photo-gap-14-ichimonjiya-wasuke-ichiwa-hero.43c0ce078f52.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 68268,
+          "path": "assets/images/photo-gap-14-ichimonjiya-wasuke-ichiwa-hero.43c0ce078f52.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 114360,
+          "path": "assets/images/photo-gap-14-ichimonjiya-wasuke-ichiwa-hero.43c0ce078f52.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-14-izumi-crane-migration-hero": {
+      "credit": "The Modern Polymath / Wikimedia Commons; CC BY-SA 4.0. Work: White-naped cranes.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:White-naped_cranes.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-naped_cranes.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "bytes": 14992,
+          "path": "assets/images/photo-gap-14-izumi-crane-migration-hero.95eaead86bdd.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 540,
+          "bytes": 58314,
+          "path": "assets/images/photo-gap-14-izumi-crane-migration-hero.95eaead86bdd.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 810,
+          "bytes": 126250,
+          "path": "assets/images/photo-gap-14-izumi-crane-migration-hero.95eaead86bdd.1440.webp"
+        }
+      ]
+    },
     "photo-gap-15-junglia-okinawa-hero": {
       "credit": "Kugel~commonswiki / Wikimedia Commons; CC BY-SA 4.0. Work: Junglia Okinawa seen from Mount Katsuu 202607.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Junglia_Okinawa_seen_from_Mount_Katsuu_202607.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Junglia_Okinawa_seen_from_Mount_Katsuu_202607.jpg",
@@ -6553,6 +6891,32 @@
         }
       ]
     },
+    "photo-gap-15-kikkawa-salmon-house-hero": {
+      "credit": "皓月旗 / Wikimedia Commons; CC BY-SA 4.0. Work: きっかわ・益甚酒店.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:%E3%81%8D%E3%81%A3%E3%81%8B%E3%82%8F%E3%83%BB%E7%9B%8A%E7%94%9A%E9%85%92%E5%BA%97.jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%8D%E3%81%A3%E3%81%8B%E3%82%8F%E3%83%BB%E7%9B%8A%E7%94%9A%E9%85%92%E5%BA%97.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 22514,
+          "path": "assets/images/photo-gap-15-kikkawa-salmon-house-hero.26004c1b5f9a.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 83614,
+          "path": "assets/images/photo-gap-15-kikkawa-salmon-house-hero.26004c1b5f9a.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 962,
+          "bytes": 183558,
+          "path": "assets/images/photo-gap-15-kikkawa-salmon-house-hero.26004c1b5f9a.1440.webp"
+        }
+      ]
+    },
     "photo-gap-16-ash-cave-hero": {
       "credit": "Photographer unknown; Showcaves / Jochen Duckeck (publisher; explicit per-file public-domain declaration)",
       "sourceUrl": "https://github.com/jduckeck/showcaves.com/blob/25ed4381e7187e9bf9428121a409ace2701e0aa2/english/usa/caves/HockingHills.html",
@@ -6576,6 +6940,84 @@
           "height": 1280,
           "bytes": 277558,
           "path": "assets/images/photo-gap-16-ash-cave-hero.9948ee752ff4.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-16-miike-coal-mine-system-hero": {
+      "credit": "水だらけのプール / Wikimedia Commons; CC BY-SA 4.0. Work: Miike Coal Mine Manda Pit.jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/w/index.php?curid=139292066&oldid=1016944312. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=139292066&oldid=1016944312",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "bytes": 16880,
+          "path": "assets/images/photo-gap-16-miike-coal-mine-system-hero.79bab9d3a303.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "bytes": 54184,
+          "path": "assets/images/photo-gap-16-miike-coal-mine-system-hero.79bab9d3a303.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "bytes": 95480,
+          "path": "assets/images/photo-gap-16-miike-coal-mine-system-hero.79bab9d3a303.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-16-miketsukuni-wakasa-obama-food-culture-museum-hero": {
+      "credit": "663highland / Wikimedia Commons; CC BY 2.5. Work: Mermaid Plaza01st3200.jpg. Licence: https://creativecommons.org/licenses/by/2.5. Source: https://commons.wikimedia.org/w/index.php?curid=5164576&oldid=1068031322. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=5164576&oldid=1068031322",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 11766,
+          "path": "assets/images/photo-gap-16-miketsukuni-wakasa-obama-food-culture-museum-hero.3cdc6db42879.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 53386,
+          "path": "assets/images/photo-gap-16-miketsukuni-wakasa-obama-food-culture-museum-hero.3cdc6db42879.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 959,
+          "bytes": 105410,
+          "path": "assets/images/photo-gap-16-miketsukuni-wakasa-obama-food-culture-museum-hero.3cdc6db42879.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-16-minato-shokudo-hero": {
+      "credit": "くろふね / Wikimedia Commons; CC BY 4.0. Work: みなと食堂（陸奥湊・八戸市）20221203-P1007311.jpg. Licence: https://creativecommons.org/licenses/by/4.0. Source: https://commons.wikimedia.org/w/index.php?curid=152903010&oldid=1216987105. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=152903010&oldid=1216987105",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 27708,
+          "path": "assets/images/photo-gap-16-minato-shokudo-hero.53de8856e471.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 91036,
+          "path": "assets/images/photo-gap-16-minato-shokudo-hero.53de8856e471.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 178788,
+          "path": "assets/images/photo-gap-16-minato-shokudo-hero.53de8856e471.1440.webp"
         }
       ]
     },
@@ -8292,6 +8734,214 @@
           "height": 551,
           "bytes": 94182,
           "path": "assets/images/photo-gap-existing-10-stevns-klint-trampesti-hero.d78d45dd9324.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-13-daisen-misen-hero": {
+      "credit": "Mass Ave 975 / Wikimedia Commons; CC BY-SA 3.0. Work: Daisen1.JPG. Licence: https://creativecommons.org/licenses/by-sa/3.0. Source: https://commons.wikimedia.org/wiki/File:Daisen1.JPG. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daisen1.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 18448,
+          "path": "assets/images/photo-gap-existing-13-daisen-misen-hero.02706a0fa3ef.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 78186,
+          "path": "assets/images/photo-gap-existing-13-daisen-misen-hero.02706a0fa3ef.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 186166,
+          "path": "assets/images/photo-gap-existing-13-daisen-misen-hero.02706a0fa3ef.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-existing-13-europe-ken-main-store-hero": {
+      "credit": "Asturio Cantabrio / Wikimedia Commons; CC BY-SA 4.0. Work: Yoroppaken ac (1).jpg. Licence: https://creativecommons.org/licenses/by-sa/4.0. Source: https://commons.wikimedia.org/wiki/File:Yoroppaken_ac_(1).jpg. Responsive derivatives are resized, re-encoded and metadata-stripped without upscaling; displayed centered crops are adaptations.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yoroppaken_ac_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 23574,
+          "path": "assets/images/photo-gap-existing-13-europe-ken-main-store-hero.0b47b6f0641c.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 640,
+          "bytes": 67006,
+          "path": "assets/images/photo-gap-existing-13-europe-ken-main-store-hero.0b47b6f0641c.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 960,
+          "bytes": 113188,
+          "path": "assets/images/photo-gap-existing-13-europe-ken-main-store-hero.0b47b6f0641c.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-grossmuenster-hero": {
+      "credit": "Jakub Hałun; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grossm%C3%BCnster_and_Limmat_River,_Zurich,_20250330_1239_7929.jpg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 321,
+          "bytes": 24722,
+          "path": "assets/images/photo-gap-swiss-02-deeper-grossmuenster-hero.3448aa52cb5b.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 641,
+          "bytes": 108414,
+          "path": "assets/images/photo-gap-swiss-02-deeper-grossmuenster-hero.3448aa52cb5b.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 962,
+          "bytes": 267910,
+          "path": "assets/images/photo-gap-swiss-02-deeper-grossmuenster-hero.3448aa52cb5b.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-jungfraujoch-top-of-europe-hero": {
+      "credit": "Xxlstier; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphinx_Observatory_Jungfraujoch_03.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 9918,
+          "path": "assets/images/photo-gap-swiss-02-deeper-jungfraujoch-top-of-europe-hero.9f81a53937f0.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 32114,
+          "path": "assets/images/photo-gap-swiss-02-deeper-jungfraujoch-top-of-europe-hero.9f81a53937f0.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 64254,
+          "path": "assets/images/photo-gap-swiss-02-deeper-jungfraujoch-top-of-europe-hero.9f81a53937f0.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-lai-da-rims-pra-da-vau-hero": {
+      "credit": "Speleo14; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lai_da_Rims.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 320,
+          "bytes": 9852,
+          "path": "assets/images/photo-gap-swiss-02-deeper-lai-da-rims-pra-da-vau-hero.ebc9e8c135cb.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 639,
+          "bytes": 29500,
+          "path": "assets/images/photo-gap-swiss-02-deeper-lai-da-rims-pra-da-vau-hero.ebc9e8c135cb.960.webp"
+        },
+        {
+          "width": 1280,
+          "height": 852,
+          "bytes": 47494,
+          "path": "assets/images/photo-gap-swiss-02-deeper-lai-da-rims-pra-da-vau-hero.ebc9e8c135cb.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-macun-zernez-munt-baselgia-lavin-hero": {
+      "credit": "Niculin Meyer, CH-7550 Scuol; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macun.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 30064,
+          "path": "assets/images/photo-gap-swiss-02-deeper-macun-zernez-munt-baselgia-lavin-hero.52c66cbd0d09.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 118908,
+          "path": "assets/images/photo-gap-swiss-02-deeper-macun-zernez-munt-baselgia-lavin-hero.52c66cbd0d09.960.webp"
+        },
+        {
+          "width": 1200,
+          "height": 900,
+          "bytes": 184906,
+          "path": "assets/images/photo-gap-swiss-02-deeper-macun-zernez-munt-baselgia-lavin-hero.52c66cbd0d09.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-schynige-platte-faulhorn-first-hero": {
+      "credit": "Andrew Bossi; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:5831_-_Schynige_Platte_-_Faulhorn.JPG",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "variants": [
+        {
+          "width": 480,
+          "height": 360,
+          "bytes": 16780,
+          "path": "assets/images/photo-gap-swiss-02-deeper-schynige-platte-faulhorn-first-hero.39eb08a6aac9.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 720,
+          "bytes": 65560,
+          "path": "assets/images/photo-gap-swiss-02-deeper-schynige-platte-faulhorn-first-hero.39eb08a6aac9.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 1080,
+          "bytes": 146904,
+          "path": "assets/images/photo-gap-swiss-02-deeper-schynige-platte-faulhorn-first-hero.39eb08a6aac9.1440.webp"
+        }
+      ]
+    },
+    "photo-gap-swiss-02-deeper-teufelsbruecke-schoellenen-hero": {
+      "credit": "Albinfo; resized and converted from the original photograph.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teufelsbr%C3%BCcke_aus_der_Bahn.JPG",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "variants": [
+        {
+          "width": 480,
+          "height": 319,
+          "bytes": 35778,
+          "path": "assets/images/photo-gap-swiss-02-deeper-teufelsbruecke-schoellenen-hero.7a397820dcaa.480.webp"
+        },
+        {
+          "width": 960,
+          "height": 638,
+          "bytes": 152888,
+          "path": "assets/images/photo-gap-swiss-02-deeper-teufelsbruecke-schoellenen-hero.7a397820dcaa.960.webp"
+        },
+        {
+          "width": 1440,
+          "height": 957,
+          "bytes": 291840,
+          "path": "assets/images/photo-gap-swiss-02-deeper-teufelsbruecke-schoellenen-hero.7a397820dcaa.1440.webp"
         }
       ]
     },
