@@ -1264,6 +1264,181 @@
     "route": {
       "label": "Journey route",
       "fields": {}
+    },
+    "ski-resort": {
+      "label": "Ski & snowboard resort",
+      "fields": {
+        "resortKind": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "ski-area",
+            "linked-domain"
+          ],
+          "label": "Resort scope",
+          "section": "Ski domain",
+          "public": true
+        },
+        "bestFor": {
+          "type": "enum-array",
+          "values": [
+            "beginners",
+            "intermediates",
+            "advanced",
+            "experts"
+          ],
+          "facet": true,
+          "searchable": true,
+          "label": "Best suited to",
+          "section": "Skiing & snowboarding",
+          "cardSignal": {
+            "order": 10,
+            "prefix": "Best for: "
+          },
+          "public": true
+        },
+        "abilityNotes": {
+          "type": "string",
+          "searchable": true,
+          "label": "Ability-level fit",
+          "section": "Skiing & snowboarding",
+          "public": true
+        },
+        "snowboardFit": {
+          "type": "enum",
+          "values": [
+            "well-suited",
+            "with-caveats",
+            "limited"
+          ],
+          "facet": true,
+          "label": "Snowboarding",
+          "section": "Skiing & snowboarding",
+          "cardSignal": {
+            "order": 15,
+            "prefix": "Snowboarding: "
+          },
+          "public": true
+        },
+        "snowboardNotes": {
+          "type": "string",
+          "searchable": true,
+          "label": "For snowboarders",
+          "section": "Skiing & snowboarding",
+          "public": true
+        },
+        "lowestLiftServedElevationM": {
+          "type": "integer",
+          "min": 0,
+          "max": 5000,
+          "label": "Lowest lift-served elevation (m)",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "highestLiftServedElevationM": {
+          "type": "integer",
+          "min": 0,
+          "max": 5000,
+          "label": "Highest lift-served elevation (m)",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "pisteKm": {
+          "type": "number",
+          "min": 0.1,
+          "max": 2000,
+          "label": "Marked downhill pistes (km)",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "liftCount": {
+          "type": "integer",
+          "min": 1,
+          "max": 1000,
+          "label": "Lifts",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "extentNotes": {
+          "type": "string",
+          "label": "Scope of the figures",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "typicalSeason": {
+          "type": "string",
+          "label": "Typical season — not current opening",
+          "section": "Season & conditions",
+          "public": true
+        },
+        "snowReliabilityNotes": {
+          "type": "string",
+          "label": "Snow reliability considerations",
+          "section": "Season & conditions",
+          "public": true
+        },
+        "terrainParks": {
+          "type": "boolean",
+          "facet": true,
+          "label": "Terrain parks",
+          "section": "Skiing & snowboarding",
+          "public": true
+        },
+        "glacierTerrain": {
+          "type": "boolean",
+          "label": "Glacier terrain",
+          "section": "Mountain facts",
+          "public": true
+        },
+        "strengths": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Why choose it",
+          "section": "The experience",
+          "public": true
+        },
+        "limitations": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Important limitations",
+          "section": "The experience",
+          "public": true
+        },
+        "sectors": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Constituent sectors",
+          "section": "Ski domain",
+          "public": true
+        },
+        "bases": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Useful villages and bases",
+          "section": "Ski domain",
+          "public": true
+        },
+        "connections": {
+          "type": "string",
+          "searchable": true,
+          "label": "Connections and navigation",
+          "section": "Ski domain",
+          "public": true
+        },
+        "passNetworks": {
+          "type": "string-array",
+          "searchable": true,
+          "label": "Pass networks — not necessarily connected",
+          "section": "Ski domain",
+          "public": true
+        },
+        "accessNotes": {
+          "type": "string",
+          "label": "Access and base choice",
+          "section": "Getting there",
+          "public": true
+        }
+      }
     }
   }
 }
