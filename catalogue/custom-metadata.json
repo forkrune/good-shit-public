@@ -474,7 +474,6 @@
           "required": true,
           "minItems": 1,
           "searchable": true,
-          "facet": true,
           "label": "Natural features"
         },
         "access": {
