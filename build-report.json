@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T06:34:24.000Z",
+  "generatedAt": "2026-10-08T06:53:14.000Z",
   "catalogue": {
     "total": 872,
     "public": 872,
@@ -77,7 +77,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11012
+      "gzipBytes": 11011
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -101,7 +101,7 @@
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-10-08T06:34:24.000Z",
+    "generatedAt": "2026-10-08T06:53:14.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -411,17 +411,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.cebc3c3b1634.json",
+        "path": "data/search/manifest.b192c7cd8a0f.json",
         "bytes": 61420,
         "gzipBytes": 14736,
-        "sha256": "cebc3c3b1634599eb8a68a8d136246566b51e5590fde6ab2efde2207a448d9a6",
+        "sha256": "b192c7cd8a0f75306da7870711b1201531840468baff8e583ab5f9ec55f1edb8",
         "documentCount": 872
       },
       "map": {
-        "path": "data/map/manifest.571244392789.json",
+        "path": "data/map/manifest.97845afbdd00.json",
         "bytes": 218849,
         "gzipBytes": 72660,
-        "sha256": "571244392789f2fb5181810c55f9e6484e98c0a85748fe59e55a0023d63d7be4",
+        "sha256": "97845afbdd009cfb6da17112e1ac907344fde399d8ba4bb65d15986fe63eaadf",
         "shardCount": 42
       },
       "redirects": {
@@ -459,10 +459,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.69815573f5f1.json",
+        "path": "data/tier-list/manifest.d7666b6d83bc.json",
         "bytes": 36363,
         "gzipBytes": 8733,
-        "sha256": "69815573f5f17a8ae1f520cdab5eeb667f4c0fe374de4e3b7aabd4de67d9f1fd",
+        "sha256": "d7666b6d83bcc20c8ffec79d397777973b360c432dac8af06be52ca9c0cad236",
         "documentCount": 872,
         "countryShardCount": 35,
         "typeShardCount": 12
