@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T22:18:17.000Z",
+  "generatedAt": "2026-10-08T06:34:24.000Z",
   "catalogue": {
     "total": 872,
     "public": 872,
@@ -55,7 +55,7 @@
     },
     "mapOverview": {
       "bytes": 2957436,
-      "gzipBytes": 542753
+      "gzipBytes": 542752
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -64,11 +64,11 @@
     },
     "entityReference": {
       "bytes": 2652268,
-      "gzipBytes": 476521
+      "gzipBytes": 476519
     },
     "hikingRouteAssetsTotal": {
       "bytes": 4764684,
-      "gzipBytes": 1386882
+      "gzipBytes": 1386877
     },
     "largestHikingRouteAsset": {
       "key": "7011c066-8bd4-8a96-b0a3-ae2c6919edaa:full-gaularfjellet-eldal-river-main",
@@ -77,7 +77,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11011
+      "gzipBytes": 11012
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -86,7 +86,7 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1709
+      "gzipBytes": 1711
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
@@ -95,13 +95,13 @@
     },
     "tierListManifest": {
       "bytes": 36363,
-      "gzipBytes": 8732
+      "gzipBytes": 8733
     }
   },
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-10-06T22:18:17.000Z",
+    "generatedAt": "2026-10-08T06:34:24.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -411,17 +411,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.cf3630d3a84f.json",
+        "path": "data/search/manifest.cebc3c3b1634.json",
         "bytes": 61420,
-        "gzipBytes": 14737,
-        "sha256": "cf3630d3a84fa02180363c2e5665d48acfea21134cfb95c9d1deaad7c5d0f1d7",
+        "gzipBytes": 14736,
+        "sha256": "cebc3c3b1634599eb8a68a8d136246566b51e5590fde6ab2efde2207a448d9a6",
         "documentCount": 872
       },
       "map": {
-        "path": "data/map/manifest.00e9f19f2ffb.json",
+        "path": "data/map/manifest.571244392789.json",
         "bytes": 218849,
-        "gzipBytes": 72661,
-        "sha256": "00e9f19f2ffb466d2012bc138e2f40fd3e79a00f6b226fac03dd008af2098f77",
+        "gzipBytes": 72660,
+        "sha256": "571244392789f2fb5181810c55f9e6484e98c0a85748fe59e55a0023d63d7be4",
         "shardCount": 42
       },
       "redirects": {
@@ -459,10 +459,10 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.dcceed4b3672.json",
+        "path": "data/tier-list/manifest.69815573f5f1.json",
         "bytes": 36363,
-        "gzipBytes": 8732,
-        "sha256": "dcceed4b36726af1d07d25a4735066b499b7b57d03fae0449821ef79b3a84809",
+        "gzipBytes": 8733,
+        "sha256": "69815573f5f17a8ae1f520cdab5eeb667f4c0fe374de4e3b7aabd4de67d9f1fd",
         "documentCount": 872,
         "countryShardCount": 35,
         "typeShardCount": 12
