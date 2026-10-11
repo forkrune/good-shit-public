@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "contentVersion": "2026.08-prague-food.1",
-  "generatedAt": "2026-10-08T09:35:51.000Z",
+  "generatedAt": "2026-10-11T10:03:02.000Z",
   "publicationPolicy": {
     "statuses": [
       "published"
@@ -78,10 +78,10 @@
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-cz.1556db36ec56.json",
-        "bytes": 1044059,
-        "gzipBytes": 277113,
-        "sha256": "1556db36ec56e32f92887513266877c3fb7be5a1bbe5131f036c2cac2898b06d",
+        "path": "catalogue/packages/entities-cz.b9a12b2e1c29.json",
+        "bytes": 1043707,
+        "gzipBytes": 277073,
+        "sha256": "b9a12b2e1c2967ce21ca6eec65dbfc7ac5498aa07db4caff2ba12bc56ca2dcb8",
         "countryCode": "CZ",
         "entityCount": 113
       },
@@ -110,10 +110,10 @@
         "entityCount": 3
       },
       {
-        "path": "catalogue/packages/entities-es.9feef86c038f.json",
-        "bytes": 65631,
-        "gzipBytes": 16033,
-        "sha256": "9feef86c038fa27db033536372f3527a7f55310a8acb31e08128126ef00bc256",
+        "path": "catalogue/packages/entities-es.e060f6ec2ed9.json",
+        "bytes": 65587,
+        "gzipBytes": 16020,
+        "sha256": "e060f6ec2ed9f9872b91d4deabea9f8ce0fc07ad22146e3642e0127f0dcf50b8",
         "countryCode": "ES",
         "entityCount": 11
       },
@@ -190,10 +190,10 @@
         "entityCount": 6
       },
       {
-        "path": "catalogue/packages/entities-jp.b9038d3b2ba9.json",
-        "bytes": 2246959,
-        "gzipBytes": 516452,
-        "sha256": "b9038d3b2ba98dd62ba88717fbbf8d24c47310906ea2a09db2d157f303987d66",
+        "path": "catalogue/packages/entities-jp.9f62f00a24e3.json",
+        "bytes": 2243735,
+        "gzipBytes": 516030,
+        "sha256": "9f62f00a24e36aa3e93018b4a57c8ec9985e33349784220e6413c0358ce52420",
         "countryCode": "JP",
         "entityCount": 322
       },
@@ -302,26 +302,26 @@
         "entityCount": 1
       },
       {
-        "path": "catalogue/packages/entities-us.8556361d9300.json",
-        "bytes": 470362,
-        "gzipBytes": 99663,
-        "sha256": "8556361d93007da305071ac33bc76c716381077fbf027ef35f8c6a4991bdec11",
+        "path": "catalogue/packages/entities-us.01a7c061a5a2.json",
+        "bytes": 470037,
+        "gzipBytes": 99560,
+        "sha256": "01a7c061a5a2fec6f9002f703ca27bf76c46309f969562139f08dfa4d8247db8",
         "countryCode": "US",
         "entityCount": 89
       }
     ],
     "search": {
-      "path": "data/search/manifest.1ff15f9be8e9.json",
+      "path": "data/search/manifest.add1fd3dc730.json",
       "bytes": 58708,
-      "gzipBytes": 14248,
-      "sha256": "1ff15f9be8e9de5e64a1f2b840e6c1861fb852c9089977f23019381f85a91da6",
+      "gzipBytes": 14251,
+      "sha256": "add1fd3dc730a4caf100901daa56755a0820f7acef5e9cf9cb63b9e0b07518f1",
       "documentCount": 879
     },
     "map": {
-      "path": "data/map/manifest.2e8ab406e437.json",
+      "path": "data/map/manifest.77958f49c1b6.json",
       "bytes": 235587,
-      "gzipBytes": 78322,
-      "sha256": "2e8ab406e43782072e490df33ef01f862edd485e2d2bce6233f802b4d1190bbe",
+      "gzipBytes": 78318,
+      "sha256": "77958f49c1b64ff5e586ead2552d6e1183807822229060eccd0de5643d30dcf4",
       "shardCount": 42
     },
     "redirects": {
@@ -359,10 +359,10 @@
       "nearbyCount": 5
     },
     "tierList": {
-      "path": "data/tier-list/manifest.517c28c1ac9b.json",
+      "path": "data/tier-list/manifest.41e3d23df6b3.json",
       "bytes": 36706,
-      "gzipBytes": 8837,
-      "sha256": "517c28c1ac9b5ebaa6f74ecdb7e889c2c133047233ab5e12f3dbd3fbe39b5f28",
+      "gzipBytes": 8834,
+      "sha256": "41e3d23df6b3d42de650a93086b8d1a6f78c7642594f266e48aa0ab6966561a7",
       "documentCount": 879,
       "countryShardCount": 35,
       "typeShardCount": 13
