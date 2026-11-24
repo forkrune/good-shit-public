@@ -1,52 +1,52 @@
 {
-  "generatedAt": "2026-11-24T11:21:22.000Z",
+  "generatedAt": "2026-11-24T14:05:39.000Z",
   "catalogue": {
-    "total": 894,
-    "public": 894,
+    "total": 1073,
+    "public": 1073,
     "statuses": {
-      "published": 894
+      "published": 1073
     },
     "tiers": {
-      "B": 269,
-      "A": 497,
-      "S": 52,
-      "C": 76
+      "B": 387,
+      "A": 538,
+      "C": 96,
+      "S": 52
     },
     "geometryVertices": 0
   },
   "publication": {
-    "canonicalTotal": 1126,
-    "publicTotal": 894,
-    "excludedTotal": 232,
+    "canonicalTotal": 1335,
+    "publicTotal": 1073,
+    "excludedTotal": 262,
     "excludedStatuses": {
-      "needs-review": 186,
+      "candidate": 50,
+      "needs-review": 187,
       "rejected": 24,
-      "candidate": 21,
       "deprecated": 1
     },
     "legacyMediaHolds": 407,
     "hero": {
-      "totalPublished": 894,
+      "totalPublished": 1073,
       "approved": 492,
-      "missing": 377,
+      "missing": 556,
       "rejected": 25,
       "violations": 0,
       "heldForHero": 0
     }
   },
   "build": {
-    "pageCount": 1363,
+    "pageCount": 1557,
     "searchShardCount": 35,
     "mapShardCount": 42,
-    "tierListShardCount": 48,
+    "tierListShardCount": 49,
     "hikingRouteAssetCount": 211,
     "genericRouteAssetCount": 5,
     "genericRouteNearbyAssetCount": 5
   },
   "payloads": {
     "globalSearchIndex": {
-      "bytes": 1971397,
-      "gzipBytes": 483614
+      "bytes": 2467527,
+      "gzipBytes": 629587
     },
     "largestCountrySearchShard": {
       "key": "jp",
@@ -54,8 +54,8 @@
       "gzipBytes": 202904
     },
     "mapOverview": {
-      "bytes": 3006475,
-      "gzipBytes": 618559
+      "bytes": 3620533,
+      "gzipBytes": 771719
     },
     "largestMapShard": {
       "key": "5/28/12",
@@ -63,8 +63,8 @@
       "gzipBytes": 151199
     },
     "entityReference": {
-      "bytes": 2693798,
-      "gzipBytes": 548691
+      "bytes": 3246463,
+      "gzipBytes": 688420
     },
     "hikingRouteAssetsTotal": {
       "bytes": 4789243,
@@ -77,7 +77,7 @@
     },
     "genericRouteAssetsTotal": {
       "bytes": 30958,
-      "gzipBytes": 11012
+      "gzipBytes": 11011
     },
     "largestGenericRouteAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e:classic-loop",
@@ -86,22 +86,22 @@
     },
     "genericRouteNearbyAssetsTotal": {
       "bytes": 3277,
-      "gzipBytes": 1706
+      "gzipBytes": 1713
     },
     "largestGenericRouteNearbyAsset": {
       "key": "f65c0682-21db-888d-ad90-810132c6642e",
       "bytes": 1628,
-      "gzipBytes": 564
+      "gzipBytes": 565
     },
     "tierListManifest": {
-      "bytes": 36774,
-      "gzipBytes": 8857
+      "bytes": 37869,
+      "gzipBytes": 9114
     }
   },
   "catalogueManifest": {
     "schemaVersion": 2,
     "contentVersion": "2026.08-prague-food.1",
-    "generatedAt": "2026-11-24T11:21:22.000Z",
+    "generatedAt": "2026-11-24T14:05:39.000Z",
     "publicationPolicy": {
       "statuses": [
         "published"
@@ -114,16 +114,16 @@
       ]
     },
     "counts": {
-      "total": 894,
-      "public": 894,
+      "total": 1073,
+      "public": 1073,
       "statuses": {
-        "published": 894
+        "published": 1073
       },
       "tiers": {
-        "B": 269,
-        "A": 497,
-        "S": 52,
-        "C": 76
+        "B": 387,
+        "A": 538,
+        "C": 96,
+        "S": 52
       },
       "geometryVertices": 0
     },
@@ -234,12 +234,12 @@
           "entityCount": 28
         },
         {
-          "path": "catalogue/packages/entities-gb.936d43d0fff6.json",
-          "bytes": 190196,
-          "gzipBytes": 42746,
-          "sha256": "936d43d0fff63621b9cf38cfa9aef41b4e46667e1b7c5c9a365abf5a4137c1fa",
+          "path": "catalogue/packages/entities-gb.8bd14bdd2c37.json",
+          "bytes": 1411296,
+          "gzipBytes": 346582,
+          "sha256": "8bd14bdd2c37ebbaa169945ed26896c0292347b48ad991a50a027c2ad507bd2a",
           "countryCode": "GB",
-          "entityCount": 36
+          "entityCount": 215
         },
         {
           "path": "catalogue/packages/entities-gr.4bf5de6b8f5d.json",
@@ -411,17 +411,17 @@
         }
       ],
       "search": {
-        "path": "data/search/manifest.f03c05e52763.json",
-        "bytes": 59145,
-        "gzipBytes": 14340,
-        "sha256": "f03c05e52763d7756b95323e377af21ed30ebc8c26612d9003f2686fbf387f95",
-        "documentCount": 894
+        "path": "data/search/manifest.8e24037e646c.json",
+        "bytes": 64849,
+        "gzipBytes": 15566,
+        "sha256": "8e24037e646c07e6a70920fac1588ae1ee8c6c66c2af0121d572dbc76d472346",
+        "documentCount": 1073
       },
       "map": {
-        "path": "data/map/manifest.78b99cf7c105.json",
-        "bytes": 239128,
-        "gzipBytes": 79538,
-        "sha256": "78b99cf7c105ab45bfd7a0604cb2ccb37b2ea09113625b56e89c4463e6e1bb40",
+        "path": "data/map/manifest.299b533c7f12.json",
+        "bytes": 280385,
+        "gzipBytes": 92390,
+        "sha256": "299b533c7f129ed117de157887ad7b79a6db8a0f635d2e4961688dc0c2f01274",
         "shardCount": 42
       },
       "redirects": {
@@ -459,13 +459,13 @@
         "nearbyCount": 5
       },
       "tierList": {
-        "path": "data/tier-list/manifest.7e887004feae.json",
-        "bytes": 36774,
-        "gzipBytes": 8857,
-        "sha256": "7e887004feaec7802cce3664a70cf30a2d117fcc2e698f521528e0171edb5bff",
-        "documentCount": 894,
+        "path": "data/tier-list/manifest.bb71c92fb365.json",
+        "bytes": 37869,
+        "gzipBytes": 9114,
+        "sha256": "bb71c92fb365513102e572585f4db7376381955816bb4af8fe5acb9d69cb661d",
+        "documentCount": 1073,
         "countryShardCount": 35,
-        "typeShardCount": 13
+        "typeShardCount": 14
       }
     },
     "pathResolution": "relative-to-contract-static-root",
